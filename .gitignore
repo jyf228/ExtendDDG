@@ -1,0 +1,6 @@
+.env
+venv/
+.venv/
+.DS_Store
+.ruff_cache/
+.pdm-build/

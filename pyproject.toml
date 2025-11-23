@@ -1,0 +1,56 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "extendddg"
+description = "Extended AutoDDG"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Derek Bian" },
+  { name = "Jasmine Falk" },
+  { name = "Rishik Gannavarapu" },
+  { name = "Rishik Kolli" },
+]
+
+dynamic = ["version"]
+
+dependencies = [
+  "autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@main",
+]
+
+[project.urls]
+Homepage = "https://github.com/jyf228/ExtendDDG"
+Repository = "https://github.com/jyf228/ExtendDDG"
+
+[tool.pdm.version]
+source = "file"
+path = "src/extendddg/__init__.py"
+
+[tool.pdm.build]
+packages = [{include = "extendddg", from = "src"}]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[dependency-groups]
+dev = [
+  "ruff==0.13.0",
+  "pre-commit>=3.7.0",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]

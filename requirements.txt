@@ -1,0 +1,2 @@
+# Pin to specific commit for reproducibility
+git+https://github.com/VIDA-NYU/AutoDDG@d705443
