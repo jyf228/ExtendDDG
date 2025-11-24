@@ -8,6 +8,13 @@ An extension of AutoDDG
 uv sync
 ```
 
+### Run
+Test using the example Python script.
+```bash
+cd examples
+uv run python quick_start.py
+```
+
 ### Code Quality
 ```bash
 uv run ruff check
