@@ -17,7 +17,9 @@ authors = [
 dynamic = ["version"]
 
 dependencies = [
-  "autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@main",
+  "autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@d705443",
+  "openai==1.61.0",
+  "pandas>=2.2.3",
 ]
 
 [project.urls]
