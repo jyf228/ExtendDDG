@@ -35,7 +35,7 @@ wheels = [
 [[package]]
 name = "autoddg"
 version = "0.1.0.dev0"
-source = { git = "https://github.com/VIDA-NYU/AutoDDG?rev=main#d70544301a6eba9463a759c7071c463efcba8e8e" }
+source = { git = "https://github.com/VIDA-NYU/AutoDDG?rev=d705443#d70544301a6eba9463a759c7071c463efcba8e8e" }
 dependencies = [
     { name = "beartype" },
     { name = "datamart-profiler" },
@@ -267,6 +267,8 @@ name = "extendddg"
 source = { editable = "." }
 dependencies = [
     { name = "autoddg" },
+    { name = "openai" },
+    { name = "pandas" },
 ]
 
 [package.dev-dependencies]
@@ -276,7 +278,11 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "autoddg", git = "https://github.com/VIDA-NYU/AutoDDG?rev=main" }]
+requires-dist = [
+    { name = "autoddg", git = "https://github.com/VIDA-NYU/AutoDDG?rev=d705443" },
+    { name = "openai", specifier = "==1.61.0" },
+    { name = "pandas", specifier = ">=2.2.3" },
+]
 
 [package.metadata.requires-dev]
 dev = [
