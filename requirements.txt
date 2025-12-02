@@ -5,6 +5,7 @@ annotated-types==0.7.0
 anyio==4.11.0
 autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@d70544301a6eba9463a759c7071c463efcba8e8e
 beartype==0.22.6
+bert_score
 certifi==2025.11.12
 cfgv==3.5.0
 charset-normalizer==3.4.4
@@ -58,6 +59,7 @@ pyyaml==6.0.2
 rank-bm25==0.2.2
 regex==2025.11.3
 requests==2.32.5
+rouge_score
 ruff==0.13.0
 scikit-learn==1.6.1
 scipy==1.15.3 ; python_full_version < '3.11'
