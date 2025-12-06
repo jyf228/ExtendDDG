@@ -8,8 +8,8 @@ description = "Extended AutoDDG"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-  { name = "Derek Bian" },
   { name = "Jasmine Falk" },
+  { name = "Derek Bian" },
   { name = "Rishik Gannavarapu" },
   { name = "Rishik Kolli" },
 ]
@@ -18,8 +18,12 @@ dynamic = ["version"]
 
 dependencies = [
   "autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@d705443",
+  "bert-score>=0.3.13",
+  "nltk>=3.9.1",
   "openai==1.61.0",
   "pandas>=2.2.3",
+  "rouge-score>=0.1.2",
+  "torch>=2.9.1",
 ]
 
 [project.urls]

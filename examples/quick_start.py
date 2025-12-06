@@ -6,7 +6,7 @@ from extendddg.parsing.codebook import CodebookParser
 from extendddg.utils import get_sample
 
 # Setup OpenAI client
-api_key = "your-api-key-here"
+api_key = "your-api-key"
 client = OpenAI(api_key=api_key)
 model_name = "gpt-4o-mini"
 
@@ -14,7 +14,7 @@ model_name = "gpt-4o-mini"
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
 # Load dataset
-# This is a subset of the full dataset (150 rows) to stay within GitHub's file size limit.
+# NOTE: This is a subset of the full dataset (150 rows) to stay within GitHub's file size limit.
 # You will probably want to test with the full dataset.
 csv_file = "datasets/rls_dataset_example.csv"
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
@@ -62,7 +62,6 @@ semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
 )
 print("\n**** Semantic Profile ****\n", semantic_profile)
-breakpoint()
 
 # Generate topic
 data_topic = extend_ddg.generate_topic(
@@ -73,12 +72,10 @@ data_topic = extend_ddg.generate_topic(
 
 print("\n**** Data Topic ****\n", data_topic)
 
-
 # TODO: Call DocParser if additional documentation is available
 
 # TODO: Generate documentation profile
 # print("\n**** Documentation Profile ****\n", documentation_profile)
-
 
 # General description
 prompt, description = extend_ddg.describe_dataset(
