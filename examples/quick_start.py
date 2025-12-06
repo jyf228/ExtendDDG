@@ -2,10 +2,11 @@ import pandas as pd
 from openai import OpenAI
 
 from extendddg import ExtendDDG, GPTEvaluator
+from extendddg.parsing.codebook import CodebookParser
 from extendddg.utils import get_sample
 
 # Setup OpenAI client
-api_key = "your-api-key"
+api_key = "your-api-key-here"
 client = OpenAI(api_key=api_key)
 model_name = "gpt-4o-mini"
 
@@ -13,30 +14,53 @@ model_name = "gpt-4o-mini"
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
 # Load dataset
-# TODO: Replace with our own example dataset
-csv_file = "clark_dataset.csv"
-title = "Renal Cell Carcinoma"
+csv_file = "datasets/rls_dataset.csv"
+title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
-    "This study reports a large-scale proteogenomic analysis of ccRCC to discern the functional impact "
-    "of genomic alterations and provides evidence for rational treatment selection stemming from ccRCC pathobiology"
+    "This Pew Research Center survey was conducted among a nationally representative sample of adults "
+    "to provide estimates of the U.S. population’s religious composition, beliefs and practices."
 )
 csv_df = pd.read_csv(csv_file)
 
-# Sample rows
-sample_df, dataset_sample = get_sample(csv_df, sample_size=100)
+# Create column weights
+col_weights = []
+for col in csv_df.columns:
+    if col.startswith('REPWT_'):
+        col_weights.append(0.01)  # Lower weight for replicate columns
+    else:
+        col_weights.append(1.0)  # Normal weight for other columns
 
-# TODO: Add handling for supplemental dataset information
+# Sample columns but use all rows for data profiling
+col_sample_df, col_dataset_sample = get_sample(
+    csv_df,
+    row_sample_size=36910,
+    col_sample_size=160,
+    col_weights=col_weights,
+)
 
-# Generate profiles
-basic_profile, structural_profile = extend_ddg.profile_dataframe(csv_df)
+# Generate data profiles
+basic_profile, structural_profile = extend_ddg.profile_dataframe(col_sample_df)
 print("**** Basic Profile ****\n", basic_profile)
 print("\n**** Structural Profile ****\n", structural_profile)
 
+# Sample rows for semantic profiling
+sample_df, dataset_sample = get_sample(
+    col_sample_df,
+    row_sample_size=100,
+)
+
+# TODO: Call CodebookParser if codebook or data dictionary is available
+# TODO: Maybe this should be in the ExtendDDG class
+codebook_parser = CodebookParser()
+codebook_parser.extract_variables("datasets/rls_codebook.csv")
+
+# Generate semantic profile
 semantic_profile_details = extend_ddg.analyze_semantics(sample_df)
 semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
 )
 print("\n**** Semantic Profile ****\n", semantic_profile)
+breakpoint()
 
 # Generate topic
 data_topic = extend_ddg.generate_topic(
@@ -47,6 +71,13 @@ data_topic = extend_ddg.generate_topic(
 
 print("\n**** Data Topic ****\n", data_topic)
 
+
+# TODO: Call DocParser if additional documentation is available
+
+# TODO: Generate documentation profile
+# print("\n**** Documentation Profile ****\n", documentation_profile)
+
+
 # General description
 prompt, description = extend_ddg.describe_dataset(
     dataset_sample=dataset_sample,
@@ -56,6 +87,8 @@ prompt, description = extend_ddg.describe_dataset(
     use_semantic_profile=True,
     data_topic=data_topic,
     use_topic=True,
+    # documentation_profile=documentation_profile,  # TODO
+    # use_documentation_profile=True,  # TODO
 )
 
 print("\n**** Description Prompt ****\n", prompt)

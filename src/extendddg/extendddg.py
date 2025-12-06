@@ -1,9 +1,13 @@
 from typing import Any, Tuple
 
 from autoddg import AutoDDG, GPTEvaluator
+from beartype import beartype
 from pandas import DataFrame
 
+from .profiling import SemanticProfiler
 
+
+@beartype
 class ExtendDDG:
     """ExtendDDG: Extended Version of AutoDDG for Supplemental Dataset Documentation
 
@@ -20,10 +24,20 @@ class ExtendDDG:
         self,
         client: Any,
         model_name: str,
+        *,
+        description_words: int = 200,
     ):
         self.client = client
         self.model_name = model_name
-        self.auto_ddg = AutoDDG(client=client, model_name=model_name)
+        self.auto_ddg = AutoDDG(
+            client=client,
+            model_name=model_name,
+            description_words=description_words
+        )
+        self.semantic_profiler = SemanticProfiler(
+            client=client,
+            model_name=model_name,
+        )
 
     def describe_dataset(
         self,
@@ -34,9 +48,9 @@ class ExtendDDG:
         use_semantic_profile: bool = False,
         data_topic: str | None = None,
         use_topic: bool = False,
+        # documentation_profile: str | None = None,  # TODO
+        # use_documentation_profile: bool = False,  # TODO
     ) -> Tuple[str, str]:
-        # NOTE: Probably doesn't need to be modified if the profilers and topic generator already incorporate the supplemental data.
-        # But should experiment with including it directly in the prompt if description quality doesn't improve much with the initial changes.
         return self.auto_ddg.describe_dataset(
             dataset_sample=dataset_sample,
             dataset_profile=dataset_profile,
@@ -48,17 +62,15 @@ class ExtendDDG:
         )
 
     def profile_dataframe(self, dataframe: DataFrame) -> Tuple[str, str]:
-        # TODO: This will probably not need to change, but can experiment with incorporating the supplemental data.
         return self.auto_ddg.profile_dataframe(dataframe)
 
     def analyze_semantics(self, dataframe: DataFrame) -> str:
-        # TODO: Incorporate supplemental data into the semantic profiler.
-        return self.auto_ddg.analyze_semantics(dataframe)
+        # return self.auto_ddg.analyze_semantics(dataframe)
+        return self.semantic_profiler.analyze_dataframe(dataframe)
 
     def generate_topic(
         self, title: str, original_description: str | None, dataset_sample: str
     ) -> str:
-        # TODO: Experiment with whether this changes/improves with supplemental data.
         return self.auto_ddg.generate_topic(
             title=title,
             original_description=original_description,

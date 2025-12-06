@@ -1,0 +1,901 @@
+**** Basic Profile ****
+ The key data profile information for this dataset includes:
+**P_SUID**: Data is of type integer. There are 36908 unique values. Coverage spans from 0 to 12121830.0.
+**YEAR_FROM_CODATE**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2024.0.
+**REGION**: Data is of type missingdata.
+**HAPPY**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SATIS_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**SATIS_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**CHNG_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRELPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRACPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**QB2A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**OPENIDEN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**POORASSIST**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GOVSIZE1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**ABRTLGL**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GAYMARR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PAR2CHILD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**PAR2CHILDA**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CLIM1A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 77.0.
+**EVOL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**GUIDE_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**DENOMREC2**: Data is of type missingdata.
+**FAMILY**: Data is of type missingdata.
+**RELTRAD**: Data is of type integer. There are 16 unique values. Coverage spans from 0 to 100000.0.
+**PROTFAM**: Data is of type missingdata.
+**CURREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**CURREL2**: Data is of type missingdata.
+**UNAFFILDETAIL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 9.0.
+**BORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**RELPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPIRPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELCON_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELCON_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_D**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_E**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**ATTNDPERRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**ATTNDONRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**LEADRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**RELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**MEMB**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**HVN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**HLL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SOUL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**BIBIMP**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAY**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**GRACE**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**EXP_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_G**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_F**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**RTRT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SECMEMB**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**VOL12_CPS**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SCRLCON1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL2**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**FRMREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**FRMREL2**: Data is of type missingdata.
+**CHBORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**CHIMPREL_A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHIMPREL_B**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHATTEND**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHCONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHEDU1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHEDU2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFEDIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFESPIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GTHGHT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARITAL**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**SPREL**: Data is of type missingdata.
+**RELMATCH**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 1.0.
+**SPBORNFINAL**: Data is of type missingdata.
+**SPRELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPRELTALK**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPRELSIM**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARWHENREC**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**CHILDREN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDS4ANDUNDERREC**: Data is of type missingdata.
+**KIDS5TO12REC**: Data is of type missingdata.
+**KIDS13TO17REC**: Data is of type missingdata.
+**KIDACT_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_E**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_F**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCPRY1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SCPRY2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELDISP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHRNAT**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**BIRTHDECADE**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**HISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RACECMB**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**AFROHISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**EDUCREC**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**E2**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**EMPLSIT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**USGEN**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**MOVED**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**CITIZEN**: Data is of type missingdata.
+**REG**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2.0.
+**PARTY**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PARTYLN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 99.0.
+**IDEO**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HH1REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**HH3REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**INTFREQ**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**INC_SDT1**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**GENDER**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**FERTREC**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**BRANCH**: Data is of type missingdata.
+**BIRTHHALFDECADE**: Data is of type missingdata.
+**RESPONDENT_BIRTHREGION**: Data is of type missingdata.
+**MOTHER_BIRTHREGION**: Data is of type missingdata.
+**FATHER_BIRTHREGION**: Data is of type missingdata.
+**YEARSINUSREC**: Data is of type missingdata.
+**ORIENTMOD**: Data is of type missingdata.
+**STATE**: Data is of type missingdata.
+**MSA**: Data is of type missingdata.
+**WEIGHT_MSA**: Data is of type missingdata.
+**WEIGHT**: Data is of type float. Coverage spans from 0 to 22406.46712081854.
+**REPWT_036**: Data is of type float. Coverage spans from 0 to 35968.77573619725.
+**REPWT_037**: Data is of type float. Coverage spans from 0 to 33678.215200947554.
+**REPWT_039**: Data is of type float. Coverage spans from 0 to 33350.300145797235.
+**REPWT_074**: Data is of type float. Coverage spans from 0 to 36060.74836742093.
+**REPWT_108**: Data is of type float. Coverage spans from 0 to 36053.70513842225.
+**REPWT_196**: Data is of type float. Coverage spans from 0 to 35552.83236854759.
+**REPWT_236**: Data is of type float. Coverage spans from 0 to 34626.310542282336.
+**REPWT_298**: Data is of type float. Coverage spans from 0 to 34567.02039639264.
+**REPWT_309**: Data is of type float. Coverage spans from 0 to 34022.32023451326.
+**REPWT_311**: Data is of type float. Coverage spans from 0 to 34414.303494286054.
+**REPWT_399**: Data is of type float. Coverage spans from 0 to 33926.785782662606.
+
+**** Semantic Profile ****
+ The key semantic information for this dataset includes:
+**P_SUID**: Represents general identifier. Function/Usage context: identification.
+**YEAR_FROM_CODATE**: Contains temporal data (resolution: Year). Domain-specific type: general.
+**REGION**: Represents location. Contains spatial data (resolution: Region).
+**HAPPY**: Represents measurement. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**SATIS_A**: Function/Usage context: measurement.
+**SATIS_B**: Represents satisfaction rating. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**CHNG_A**:
+**CHNG_B**:
+**CHNG_C**:
+**DIVRELPOP**: Domain-specific type: general. Function/Usage context: measurement.
+**DIVRACPOP**:
+**QB2A**: Function/Usage context: measurement.
+**QB2C**: Function/Usage context: measurement.
+**QB2D**:
+**OPENIDEN**: Represents general identifier. Function/Usage context: identification.
+**POORASSIST**: Function/Usage context: measurement.
+**GOVSIZE1**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**ABRTLGL**:
+**GAYMARR**:
+**PAR2CHILD**: Represents general. Function/Usage context: counting/measurement.
+**PAR2CHILDA**: Function/Usage context: measurement.
+**CLIM1A**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**EVOL**: Function/Usage context: ranking/scoring.
+**GUIDE_A**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_B**: Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_C**:
+**GUIDE_D**: Domain-specific type: general. Function/Usage context: measurement.
+**DENOMREC2**:
+**FAMILY**: Represents general. Domain-specific type: general. Function/Usage context: general.
+**RELTRAD**:
+**PROTFAM**:
+**CURREL**: Represents financial metric. Domain-specific type: general. Function/Usage context: measurement.
+**CURREL2**:
+**UNAFFILDETAIL**:
+**BORNFINAL**: Represents unspecified entity. Domain-specific type: general. Function/Usage context: measurement.
+**RELPER**:
+**SPIRPER**:
+**RELCON_A**:
+**RELCON_B**:
+**RELCON_C**:
+**RELCON_D**:
+**RELCON_E**:
+**ATTNDPERRLS**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**ATTNDONRLS**: Function/Usage context: measurement.
+**CONGRACE**:
+**LEADRACE**:
+**RELIMP**:
+**MEMB**: Represents general. Function/Usage context: measurement.
+**GOD**: Represents general.
+**GOD2**:
+**HVN**: Represents general.
+**HLL**: Domain-specific type: general.
+**SOUL**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**BIBIMP**: Function/Usage context: measurement.
+**HUMNTR_A**:
+**HUMNTR_B**:
+**PRAY**:
+**GRACE**:
+**PRAC_A**:
+**PRAC_B**:
+**PRAC_C**:
+**PRAC_D**:
+**EXP_A**:
+**EXP_B**:
+**EXP_C**:
+**EXP_D**: Represents general. Function/Usage context: measurement.
+**EXP_E**: Represents general. Function/Usage context: measurement.
+**EXP_G**: Function/Usage context: measurement.
+**SPIRACT_A**: Function/Usage context: measurement.
+**SPIRACT_B**:
+**SPIRACT_C**: Represents general. Function/Usage context: measurement.
+**SPIRACT_D**:
+**SPIRACT_E**: Function/Usage context: measurement.
+**SPIRACT_F**: Function/Usage context: measurement.
+**RTRT**:
+**SECMEMB**: Represents numeric value. Domain-specific type: general. Function/Usage context: aggregation key.
+**VOL12_CPS**:
+**SCIMPACT**: Domain-specific type: general. Function/Usage context: measurement.
+**RELIMPACT**: Function/Usage context: measurement.
+**SCRLCON1**: Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL1**:
+**SECBEL2**:
+**FRMREL**:
+**FRMREL2**:
+**CHBORNFINAL**:
+**CHIMPREL_A**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**CHIMPREL_B**:
+**CHATTEND**: Function/Usage context: measurement.
+**CHCONGRACE**:
+**CHEDU1**:
+**CHEDU2**: Represents general. Function/Usage context: measurement.
+**LIFEDIR**:
+**LIFESPIR**: Domain-specific type: general. Function/Usage context: measurement.
+**GTHGHT**:
+**MARITAL**: Represents person. Domain-specific type: demographic. Function/Usage context: categorization.
+**SPREL**:
+**RELMATCH**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**SPBORNFINAL**:
+**SPRELIMP**:
+**SPRELTALK**:
+**SPRELSIM**: Domain-specific type: general.
+**MARWHENREC**:
+**CHILDREN**: Represents count. Function/Usage context: measurement.
+**KIDS4ANDUNDERREC**:
+**KIDS5TO12REC**:
+**KIDS13TO17REC**:
+**KIDACT_A**:
+**KIDACT_B**:
+**KIDACT_C**:
+**RELINST_A**:
+**RELINST_B**:
+**RELINST_D**:
+**RELINST_E**:
+**RELINST_F**:
+**SCPRY1**:
+**SCPRY2**: Domain-specific type: general. Function/Usage context: measurement.
+**RELDISP**: Function/Usage context: measurement.
+**CHRNAT**: Represents general. Function/Usage context: measurement.
+**BIRTHDECADE**: Represents temporal entity. Contains temporal data (resolution: Decade). Function/Usage context: aggregation key.
+**HISP**:
+**RACECMB**:
+**AFROHISP**: Represents general. Function/Usage context: measurement.
+**EDUCREC**:
+**E2**:
+**EMPLSIT**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**USGEN**:
+**MOVED**:
+**CITIZEN**: Represents person.
+**REG**: Function/Usage context: measurement.
+**PARTY**: Represents general. Function/Usage context: aggregation key.
+**PARTYLN**: Represents general. Function/Usage context: measurement.
+**IDEO**:
+**HH1REC**:
+**HH3REC**:
+**INTFREQ**: Function/Usage context: measurement.
+**INC_SDT1**:
+**GENDER**: Represents person. Domain-specific type: demographic. Function/Usage context: aggregation key.
+**FERTREC**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**BRANCH**: Represents general.
+**BIRTHHALFDECADE**: Represents temporal entity. Contains temporal data (resolution: Half-Decade). Domain-specific type: general.
+**RESPONDENT_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**MOTHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**FATHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**YEARSINUSREC**:
+**ORIENTMOD**:
+**STATE**: Represents location. Contains spatial data (resolution: State). Domain-specific type: general.
+**MSA**:
+**WEIGHT_MSA**:
+**WEIGHT**: Represents measurement. Function/Usage context: measurement.
+**REPWT_036**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_037**:
+**REPWT_039**:
+**REPWT_074**:
+**REPWT_108**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_196**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_236**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_298**: Represents general numeric. Function/Usage context: measurement.
+**REPWT_309**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_311**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_399**: Domain-specific type: general. Function/Usage context: measurement.
+
+**** Data Topic ****
+ Religious Composition Analysis
+
+
+**** Description Prompt ****
+ Answer the question using the following information.
+
+First, consider the dataset sample:
+
+P_SUID,YEAR_FROM_CODATE,REGION,HAPPY,SATIS_A,SATIS_B,CHNG_A,CHNG_B,CHNG_C,DIVRELPOP,DIVRACPOP,QB2A,QB2C,QB2D,OPENIDEN,POORASSIST,GOVSIZE1,ABRTLGL,GAYMARR,PAR2CHILD,PAR2CHILDA,CLIM1A,EVOL,GUIDE_A,GUIDE_B,GUIDE_C,GUIDE_D,DENOMREC2,FAMILY,RELTRAD,PROTFAM,CURREL,CURREL2,UNAFFILDETAIL,BORNFINAL,RELPER,SPIRPER,RELCON_A,RELCON_B,RELCON_C,RELCON_D,RELCON_E,ATTNDPERRLS,ATTNDONRLS,CONGRACE,LEADRACE,RELIMP,MEMB,GOD,GOD2,HVN,HLL,SOUL,BIBIMP,HUMNTR_A,HUMNTR_B,PRAY,GRACE,PRAC_A,PRAC_B,PRAC_C,PRAC_D,EXP_A,EXP_B,EXP_C,EXP_D,EXP_E,EXP_G,SPIRACT_A,SPIRACT_B,SPIRACT_C,SPIRACT_D,SPIRACT_E,SPIRACT_F,RTRT,SECMEMB,VOL12_CPS,SCIMPACT,RELIMPACT,SCRLCON1,SECBEL1,SECBEL2,FRMREL,FRMREL2,CHBORNFINAL,CHIMPREL_A,CHIMPREL_B,CHATTEND,CHCONGRACE,CHEDU1,CHEDU2,LIFEDIR,LIFESPIR,GTHGHT,MARITAL,SPREL,RELMATCH,SPBORNFINAL,SPRELIMP,SPRELTALK,SPRELSIM,MARWHENREC,CHILDREN,KIDS4ANDUNDERREC,KIDS5TO12REC,KIDS13TO17REC,KIDACT_A,KIDACT_B,KIDACT_C,RELINST_A,RELINST_B,RELINST_D,RELINST_E,RELINST_F,SCPRY1,SCPRY2,RELDISP,CHRNAT,BIRTHDECADE,HISP,RACECMB,AFROHISP,EDUCREC,E2,EMPLSIT,USGEN,MOVED,CITIZEN,REG,PARTY,PARTYLN,IDEO,HH1REC,HH3REC,INTFREQ,INC_SDT1,GENDER,FERTREC,BRANCH,BIRTHHALFDECADE,RESPONDENT_BIRTHREGION,MOTHER_BIRTHREGION,FATHER_BIRTHREGION,YEARSINUSREC,ORIENTMOD,STATE,MSA,WEIGHT_MSA,WEIGHT,REPWT_036,REPWT_037,REPWT_039,REPWT_074,REPWT_108,REPWT_196,REPWT_236,REPWT_298,REPWT_309,REPWT_311,REPWT_399
+11951320,2024,,2,2,2,1,1,1,3,1,1,2,2,1,3,1,1,1,2,,77,1,3,1,1,1,,,30000,,30000,,9,2.0,3,2,2,2,2,99,2,4,6,1.0,1.0,3,1,1,3.0,2,2,1,5,4.0,4.0,5,5,5,5,5,5,3,3,2,4,2,3,5,5,5,5,5,5,5,2,2,2,1,1,2,2,30000,,2.0,2,2,2,1.0,1,3,2,3,2,6,,,,,,,,2,,,,,,,1,1,1,2,1,4,4,3,4,7,2,1,2,3,3,1,3,1,,2,2,,5,3,3.0,1,7,2,0,,,,,,,,,,,18002.3915061367,36871.34367690578,19534.09974192584,14718.69089424002,16528.26809445211,43624.50007259883,43411.36175336201,31238.668065842583,70249.13691245261,45908.6088892736,39907.937644540514,0.0
+10272890,2023,,3,4,3,1,1,2,3,1,2,2,2,1,1,2,2,4,2,,77,3,1,2,2,2,,,60000,,60000,,9,,1,1,2,2,2,3,2,2,1,5.0,5.0,1,1,1,1.0,1,1,1,4,1.0,1.0,1,1,3,3,1,3,1,1,1,1,1,1,4,2,3,4,4,4,5,2,2,2,2,2,2,1,60000,,,1,1,1,5.0,1,3,1,1,1,3,,,,,,,,2,,,,,,,2,2,2,1,1,4,4,4,4,7,2,1,2,2,1,1,2,2,,1,2,,3,3,2.0,1,1,2,0,,,,,,,,,,,9756.826430855826,28523.02312297521,0.0,22161.73058786811,9556.299838249044,6732.42252329826,7962.854354166236,8383.189258811724,0.0,20150.813051040892,0.0,10620.82034451864
+12094490,2023,,1,3,2,3,3,3,3,3,1,1,2,1,3,2,3,2,1,1.0,3,3,2,2,2,2,,,10000,,10000,,9,1.0,3,2,99,3,99,99,99,3,3,6.0,6.0,2,2,1,2.0,1,1,1,2,1.0,1.0,3,1,3,1,2,2,1,3,1,3,1,1,3,1,5,4,5,1,2,2,1,3,2,1,2,1,10000,,1.0,2,2,4,6.0,1,1,4,4,1,1,,0.0,,1.0,1.0,1.0,3.0,2,,,,,,,1,2,2,1,1,1,1,2,1,1,1,1,2,1,3,5,1,2,,1,2,,1,2,2.0,1,4,1,4,,,,,,,,,,,28150.411953855943,26582.190393968333,0.0,0.0,0.0,27777.73747680738,33491.95784357606,0.0,59574.70587755822,28739.307122118305,0.0,46506.789724539965
+10973640,2023,,3,5,4,3,1,3,3,1,2,1,2,1,1,2,1,3,1,3.0,77,2,2,1,1,3,,,40001,,40001,,9,2.0,2,2,2,2,2,2,2,6,2,,,2,2,1,1.0,1,2,2,2,1.0,1.0,1,2,1,1,1,5,1,4,1,1,4,1,5,4,5,5,5,4,5,2,2,3,3,1,2,1,40001,,2.0,3,1,1,6.0,1,1,3,3,1,1,,1.0,,4.0,4.0,4.0,6.0,1,,,,2.0,2.0,2.0,1,1,1,1,1,3,3,3,3,5,1,1,1,1,3,3,2,2,,2,4,2.0,3,3,2.0,1,2,2,4,,,,,,,,,,,19139.29131265636,36754.470959105834,15054.130905316097,0.0,44653.507580479265,20336.1200883527,0.0,19865.5361919382,0.0,57209.00658201815,0.0,0.0
+11077340,2023,,2,3,3,3,1,1,1,1,1,2,1,1,3,2,1,1,1,3.0,1,2,3,2,2,1,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,5,5,,,2,2,1,2.0,1,1,1,3,3.0,3.0,2,5,5,5,5,5,2,2,2,3,4,3,5,5,5,5,5,5,5,3,2,2,3,2,2,2,10000,,2.0,2,2,2,1.0,4,1,4,4,3,1,,1.0,,2.0,4.0,2.0,7.0,2,,,,,,,1,1,2,1,1,2,2,2,2,3,2,1,2,4,3,1,3,2,,1,1,,4,2,2.0,2,8,1,3,,,,,,,,,,,5895.142958168467,7470.592209780578,13433.198736332506,0.0,14133.324242231964,6391.8422763705785,0.0,6607.67817412155,13889.07299535867,0.0,11004.615809246863,0.0
+10689900,2023,,2,3,4,2,1,2,3,3,2,1,1,2,1,2,1,3,2,,77,3,2,1,1,1,,,100000,,100000,,3,,2,2,2,2,2,2,2,5,4,,,2,2,1,2.0,1,1,99,2,1.0,1.0,5,3,5,3,3,5,2,1,1,3,2,1,4,4,1,4,5,5,5,2,1,3,3,2,2,2,1000,,98.0,1,1,1,6.0,1,1,2,4,2,1,,1.0,,3.0,4.0,4.0,4.0,2,,,,,,,2,2,99,2,1,3,2,99,3,2,2,2,2,2,3,2,3,2,,1,2,,2,3,3.0,3,6,2,2,,,,,,,,,,,15969.837263508763,32658.596723985433,0.0,0.0,15257.261571073304,18859.27855252036,13812.71080316254,0.0,33386.13356189886,33965.46092442165,18543.41118429694,45894.8879961134
+11646630,2023,,2,3,2,1,1,1,1,1,1,1,2,1,1,1,1,2,2,,77,2,3,2,2,3,,,1100,,1000,,9,1.0,3,2,2,1,2,2,2,2,5,2.0,2.0,2,1,1,1.0,1,1,1,3,1.0,1.0,1,2,4,3,4,4,1,1,1,1,3,1,4,2,5,4,5,3,5,2,2,3,2,1,2,2,40002,,2.0,2,1,4,2.0,1,2,3,1,1,1,,0.0,,1.0,1.0,1.0,7.0,1,,,,2.0,2.0,2.0,1,1,2,1,1,3,2,3,3,5,2,2,2,3,3,5,2,2,,1,2,,3,3,3.0,1,5,2,1,,,,,,,,,,,12279.80930873722,12863.250091467971,12213.012428121678,0.0,0.0,0.0,13612.801642693154,50323.92659289477,11270.171457836992,37985.10781008004,10643.662264688635,29565.798380273005
+12046220,2023,,2,2,1,1,1,1,1,1,1,2,2,1,1,2,1,1,2,,1,1,5,2,1,2,,,80000,,80000,,9,,4,2,2,2,3,2,2,6,6,,,4,2,1,4.0,2,2,1,5,5.0,5.0,5,5,5,5,5,5,3,2,2,4,3,3,3,5,5,5,5,5,5,2,2,2,1,1,1,2,80000,,,3,2,4,3.0,1,1,2,1,4,6,,,,,,,,2,,,,,,,1,1,1,2,1,4,4,4,4,6,2,3,2,4,3,1,2,2,,2,2,,5,1,,1,5,2,0,,,,,,,,,,,1914.905894096422,0.0,7912.013522217782,3336.6900042433003,0.0,6714.817762101626,0.0,0.0,2665.767995393118,3291.479081186889,0.0,1676.4609594629242
+11470600,2023,,2,2,2,1,1,1,3,1,1,2,2,1,3,1,2,1,2,,1,2,4,1,1,1,,,1200,,1000,,9,2.0,3,3,2,2,2,2,2,5,6,,,3,2,1,1.0,1,1,1,4,1.0,1.0,6,4,5,5,5,4,4,1,1,1,4,4,3,5,5,5,5,5,5,2,2,2,1,1,2,2,1000,,2.0,2,1,2,1.0,1,4,2,4,3,1,,1.0,,3.0,4.0,2.0,6.0,1,,,,2.0,2.0,2.0,1,2,1,2,1,4,4,4,4,5,2,1,2,4,3,1,3,2,,2,3,2.0,3,3,2.0,1,8,1,2,,,,,,,,,,,9484.942340674488,11991.311924343496,0.0,0.0,0.0,9928.563685122868,28620.899042199097,0.0,22214.02215065643,10394.35352571738,0.0,0.0
+10397070,2023,,3,4,3,3,1,1,1,1,1,2,1,1,1,2,1,1,1,3.0,1,3,5,2,1,2,,,100000,,100000,,3,,4,1,2,2,2,2,2,4,6,4.0,4.0,4,2,1,1.0,1,2,1,4,3.0,1.0,3,5,5,5,5,5,1,1,1,3,1,1,3,1,4,4,4,4,5,2,2,2,3,1,2,2,10000,,2.0,3,1,2,4.0,1,1,3,1,2,6,,,,,,,,1,,,,2.0,2.0,2.0,1,1,1,2,1,3,3,99,3,6,1,9,2,1,3,1,1,2,,2,3,1.0,4,3,1.0,1,1,2,3,,,,,,,,,,,8102.118571239415,0.0,0.0,9072.803773941132,9462.859987225858,25895.13168951109,4806.743727211962,9776.033409416556,0.0,0.0,0.0,0.0
+11939830,2023,,3,5,1,1,1,99,1,3,99,2,2,1,1,2,2,99,1,3.0,1,2,1,1,1,1,,,1100,,1000,,9,2.0,2,1,2,2,2,2,2,3,1,2.0,2.0,1,1,1,1.0,99,99,1,1,2.0,2.0,1,1,1,1,1,2,1,1,1,1,1,1,2,2,2,1,5,2,5,2,1,2,2,1,2,1,1000,,99.0,2,1,4,2.0,1,4,1,1,1,6,,,,,,,,2,,,,,,,2,1,2,2,1,1,1,2,3,3,2,2,2,1,3,3,3,1,,1,2,,3,1,,1,1,2,2,,,,,,,,,,,7877.284889228584,15976.291670573228,7397.573158468073,0.0,8149.690654122574,38408.50337808383,8577.959601787092,7923.414940091804,8586.937999226355,0.0,14733.841758855484,6663.633994834199
+11197560,2023,,2,3,2,2,1,2,2,1,2,1,2,2,3,1,3,3,2,,2,2,1,1,1,1,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,2,4,1.0,1.0,1,1,1,1.0,1,1,1,2,2.0,2.0,2,2,4,2,2,3,2,2,1,3,2,1,5,3,3,2,5,3,5,2,1,2,2,2,2,1,1000,,2.0,2,2,2,1.0,1,4,1,1,2,1,,0.0,,2.0,3.0,1.0,4.0,2,,,,,,,2,2,1,1,1,1,1,1,1,2,2,1,2,4,3,5,3,2,,1,1,,2,3,3.0,2,5,1,2,,,,,,,,,,,1580.9835569866502,0.0,0.0,0.0,2132.300608404568,0.0,3523.798793251345,1485.6507243248052,4330.112781523786,1240.9000897470198,0.0,1474.7876613477267
+11829300,2023,,2,3,3,1,1,1,1,1,1,2,2,1,3,2,2,2,2,,1,2,4,1,2,1,,,100000,,100000,,2,,4,2,2,1,2,2,2,5,6,,,4,2,1,3.0,2,2,1,5,5.0,5.0,7,5,5,5,5,5,3,3,3,3,3,2,3,1,2,2,4,3,5,3,1,2,3,2,1,2,10000,,2.0,4,4,5,,1,2,2,1,4,3,,,,,,,,2,,,,,,,1,1,1,2,1,3,3,3,3,4,2,1,2,4,3,1,2,2,,1,2,,4,1,,1,8,1,3,,,,,,,,,,,2498.0206282890335,2543.28797458825,0.0,0.0,0.0,2704.733389334404,2888.6134222047954,5262.7684975345555,0.0,4727.68330657697,0.0,2490.721271792587
+11979140,2023,,1,2,1,2,1,1,3,1,1,2,2,1,1,2,3,2,1,3.0,1,2,1,1,1,1,,,1200,,1000,,9,1.0,1,1,2,2,2,2,2,2,4,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,99,3,3,1,1,3,1,1,1,1,1,1,2,3,1,2,4,2,3,2,1,2,3,2,2,2,1000,,1.0,1,1,1,1.0,1,4,1,1,1,5,,,,,,,,2,,,,,,,1,1,2,1,1,4,4,2,3,1,2,1,2,4,3,5,3,2,,1,2,,3,1,,2,99,2,2,,,,,,,,,,,2230.2288712199047,0.0,4183.83299183867,0.0,4761.310399187416,4661.252043058321,4151.695779647393,0.0,3025.9891874736477,2293.2500454382134,0.0,2392.190667333882
+11724590,2023,,2,3,2,2,1,3,3,1,1,2,2,1,1,2,1,2,1,3.0,1,2,4,3,2,3,,,1200,,1000,,9,2.0,2,2,99,1,99,99,99,6,6,,,1,2,1,1.0,1,1,1,4,1.0,1.0,1,5,5,5,5,5,2,4,1,2,3,2,5,5,5,5,5,5,5,2,2,2,2,1,2,1,1000,,2.0,3,3,4,1.0,1,1,3,4,2,1,,1.0,,3.0,5.0,4.0,4.0,2,,,,,,,1,1,1,1,1,2,3,3,2,1,2,1,2,2,3,5,3,2,,1,2,,3,2,2.0,3,2,1,0,,,,,,,,,,,10252.62026455301,0.0,15394.810699693318,10255.474499162256,14189.984909484238,0.0,9067.788448139478,6502.704065087253,19855.67810333762,25312.141551441175,12721.069101697816,19922.467507756577
+11566750,2023,,2,3,3,1,2,3,3,3,1,1,1,1,3,1,1,1,1,1.0,1,1,1,1,1,1,,,100000,,100000,,3,,1,1,2,2,2,2,2,1,1,1.0,1.0,1,2,2,1.0,2,2,2,5,,,7,5,5,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,3,2,3,3,2,2,2,10000,,2.0,4,4,6,,1,1,4,4,5,1,,0.0,,4.0,5.0,5.0,5.0,1,,,,2.0,2.0,2.0,2,2,2,2,2,4,4,4,4,1,2,1,2,1,3,1,1,2,,2,4,2.0,3,3,2.0,6,1,3,4,,,,,,,,,,,10249.102977504455,0.0,0.0,0.0,0.0,9352.22701544964,20501.228211799273,15072.163324339965,15852.293756374673,23252.13932486517,23931.61508159501,0.0
+11616160,2023,,3,3,1,3,1,2,3,3,1,1,1,1,2,1,1,2,1,3.0,2,2,3,1,3,1,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,6,4,,,2,2,1,1.0,1,2,1,3,3.0,3.0,3,5,5,1,1,5,4,2,1,4,4,4,5,5,5,5,5,5,5,2,1,3,3,1,2,2,1000,,2.0,1,2,2,1.0,1,3,3,3,2,1,,1.0,,4.0,4.0,4.0,7.0,2,,,,,,,1,1,1,2,99,3,3,3,3,4,2,1,2,2,3,1,3,2,,1,4,1.0,2,2,2.0,1,7,2,2,,,,,,,,,,,3781.135118998765,7960.28477576642,3856.1817202216066,3695.721633326588,0.0,7895.188563266656,0.0,3343.8945070886434,0.0,7767.273823432087,4141.03569982243,3575.089433868221
+12074680,2023,,2,3,99,1,1,3,1,1,1,2,2,1,3,1,2,3,1,3.0,77,2,2,2,2,2,,,100000,,100000,,2,,2,1,2,2,2,2,2,5,6,,,2,2,99,,1,1,1,3,,,6,4,5,4,3,5,3,2,1,3,4,4,3,1,4,4,5,4,5,2,1,2,3,2,2,2,10000,,2.0,2,3,4,1.0,1,2,99,3,2,4,,,,,,,,2,,,,,,,99,99,99,99,2,4,99,3,4,2,2,1,2,2,3,5,1,2,,1,3,2.0,3,1,,2,4,1,1,,,,,,,,,,,1745.589761364184,3841.416487056182,1309.0936491634138,0.0,837.5342196237305,1766.199938939044,1952.9407778700763,733.7882807420722,0.0,0.0,2055.7468041712827,4074.0373457344313
+10736160,2023,,2,3,3,3,1,1,1,1,1,99,2,1,1,2,1,1,2,,77,99,3,1,2,2,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,3,4,6.0,1.0,2,1,1,1.0,2,2,1,3,4.0,2.0,1,2,3,1,3,3,3,1,2,4,4,2,5,4,5,4,5,5,2,3,2,3,3,2,1,2,10000,,2.0,2,1,1,1.0,4,2,3,1,2,6,,,,,,,,2,,,,,,,1,1,1,2,1,4,4,99,4,5,2,1,2,4,3,1,3,2,,2,2,,3,1,,1,4,2,0,,,,,,,,,,,4527.251645509159,0.0,5080.187942314355,4765.741990593653,12917.761765099003,4448.1018930602595,22539.543839871993,5449.980455107044,18432.283100501023,0.0,0.0,0.0
+11416600,2023,,3,3,1,2,1,2,3,2,1,1,1,2,2,1,3,2,2,,3,3,2,1,1,2,,,1100,,1000,,9,1.0,2,1,2,2,2,2,2,5,6,,,3,1,1,2.0,1,1,1,3,1.0,1.0,3,4,5,5,5,4,4,3,3,4,4,2,5,4,5,3,5,5,5,3,1,1,2,2,2,2,10000,,2.0,1,3,1,6.0,1,2,1,1,2,1,,0.0,,2.0,3.0,1.0,6.0,1,,,,2.0,2.0,1.0,2,2,1,1,1,2,3,2,1,5,2,5,2,2,3,1,3,2,,1,3,1.0,2,3,2.0,4,8,1,2,,,,,,,,,,,17069.966073304106,0.0,0.0,31703.581730603342,0.0,0.0,12105.479043741832,53873.00009950613,30719.78798245172,0.0,14033.477462719427,0.0
+11044110,2023,,1,1,1,2,1,2,1,1,1,2,2,1,2,1,1,2,2,,77,2,1,1,1,1,,,20000,,20000,,9,2.0,2,1,2,2,2,2,2,5,6,,,2,2,1,1.0,1,1,1,3,1.0,1.0,3,4,5,5,5,5,1,1,1,1,1,1,5,5,5,2,5,5,5,2,2,99,99,1,1,1,20000,,2.0,2,2,3,1.0,1,1,1,1,1,1,,1.0,,1.0,1.0,3.0,7.0,2,,,,,,,2,2,2,1,1,1,1,1,1,3,2,1,2,1,3,1,3,2,,1,1,,2,2,2.0,1,4,2,3,,,,,,,,,,,2043.7357756512845,5474.351893715166,0.0,3503.8014751195356,0.0,0.0,0.0,4325.430306741892,7458.074779080808,3078.4051079846427,2019.7050910980483,4109.436436313206
+11164630,2024,,2,3,2,2,1,3,2,3,99,1,1,2,1,1,3,3,1,1.0,2,3,1,2,2,3,,,1100,,1000,,9,1.0,1,2,2,2,2,2,2,2,3,6.0,6.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,2,4,1,1,1,1,2,1,1,2,1,4,2,1,4,5,5,4,2,1,3,1,1,2,1,10000,,2.0,3,3,4,1.0,1,1,1,1,1,6,,,,,,,,2,,,,,,,2,2,1,1,1,1,1,1,1,3,2,1,2,2,3,1,3,2,,1,1,,2,1,,2,4,1,0,,,,,,,,,,,6186.441665611154,15104.039949095628,0.0,0.0,0.0,0.0,0.0,7242.1232553018735,0.0,5725.469785414018,0.0,5131.75968877965
+12102960,2023,,2,1,1,1,1,1,1,1,1,2,2,1,1,2,1,1,2,,1,1,1,1,1,1,,,100000,,100000,,2,,2,1,99,99,99,1,99,4,4,6.0,6.0,1,2,1,2.0,2,2,2,5,3.0,3.0,3,5,3,3,3,3,1,1,1,1,1,3,3,3,3,3,3,3,5,3,1,2,3,2,1,2,60000,,,1,1,1,6.0,1,1,3,1,3,6,,,,,,,,2,,,,,,,2,1,1,1,1,4,2,4,4,7,2,3,2,3,1,1,2,2,,1,2,,4,3,3.0,1,5,3,0,,,,,,,,,,,1084.5329859962192,887.0948550338549,1755.7183474368517,0.0,3800.105290941036,0.0,0.0,475.3090769668585,2105.674356438599,0.0,1996.3224408251376,575.4650698520913
+10640120,2023,,3,3,3,2,2,2,2,1,2,2,1,2,1,2,3,3,1,1.0,2,2,1,1,1,2,,,1200,,1000,,9,1.0,1,1,2,2,2,2,2,2,5,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,3,3,3,3,2,3,1,3,3,1,5,3,4,5,5,5,3,2,1,2,2,1,2,1,1000,,1.0,1,1,1,1.0,1,4,1,1,1,1,,0.0,,1.0,1.0,1.0,4.0,1,,,,1.0,1.0,2.0,2,1,2,1,1,1,1,1,1,3,2,1,2,1,3,1,3,1,,1,1,,2,3,3.0,4,2,1,2,,,,,,,,,,,23569.2513040561,0.0,19822.279988153277,20697.190619970104,23246.32879736078,23653.6181873344,56843.49770024172,0.0,27552.55234766341,35872.697821481364,0.0,38272.072467128855
+11755860,2023,,2,3,4,3,1,2,1,1,1,2,2,1,1,2,1,1,1,3.0,1,1,4,2,2,2,,,100000,,100000,,3,,3,2,99,1,99,99,99,6,6,,,3,2,1,3.0,1,1,1,4,4.0,2.0,6,4,5,5,5,5,2,2,2,2,2,1,3,2,2,2,4,4,5,3,1,2,3,1,2,2,10000,,2.0,3,2,3,4.0,3,2,2,1,4,6,,,,,,,,2,,,,,,,1,2,1,2,2,3,3,3,3,6,1,9,2,3,2,1,3,2,,1,2,,4,1,,1,5,2,0,,,,,,,,,,,2437.856654893821,5178.318670473324,0.0,0.0,2449.5811969201736,2768.8039175147205,0.0,2500.9175833837,2316.682676173407,2761.9507316398613,2879.379128882902,2970.8870885147467
+10832470,2023,,1,1,2,3,1,3,3,3,2,2,2,1,1,1,4,99,1,3.0,3,3,2,2,1,2,,,1300,,1000,,9,2.0,1,1,2,2,2,2,2,6,3,,,1,1,1,1.0,1,1,1,2,1.0,1.0,1,1,4,1,1,1,2,2,1,1,1,2,3,2,1,3,4,1,5,2,2,3,3,2,2,1,100000,,,2,1,2,6.0,1,1,4,4,3,6,,,,,,,,1,,,,2.0,2.0,2.0,2,99,99,2,1,3,4,3,3,6,2,2,2,1,3,3,99,1,,2,99,99.0,4,2,1.0,6,1,2,1,,,,,,,,,,,18151.705573058895,35963.90371069435,62438.33365637412,22674.63836651401,0.0,0.0,21958.92486920004,70832.53951568135,0.0,0.0,41139.42389984337,14568.027518775438
+10566620,2023,,1,2,2,1,1,1,3,1,2,2,1,1,1,2,1,4,1,1.0,1,2,5,1,1,2,,,60000,,60000,,9,,2,1,2,2,2,3,2,3,3,6.0,6.0,1,2,1,1.0,1,1,1,3,1.0,1.0,1,2,4,4,4,4,2,1,1,5,1,2,4,2,2,2,4,2,3,2,1,2,2,1,1,1,60000,,,1,1,2,3.0,1,1,2,2,2,1,,0.0,,1.0,2.0,2.0,8.0,2,,,,,,,2,2,2,1,1,2,2,4,4,6,2,3,2,4,3,1,1,2,,1,3,2.0,3,2,2.0,1,8,2,1,,,,,,,,,,,7182.831621434479,12766.100535506826,7595.816065967788,30931.152899449513,12385.801392252995,7720.278576238388,7800.721174862739,0.0,15294.306178795496,7445.186973199292,0.0,9373.751077728386
+10784750,2024,,2,4,4,2,3,2,2,2,2,1,1,2,1,1,3,4,1,3.0,3,2,1,2,1,3,,,1100,,1000,,9,1.0,1,2,2,2,2,2,2,5,1,,,1,1,1,1.0,2,2,1,1,1.0,1.0,1,4,1,1,1,5,1,2,1,1,1,4,5,2,5,5,5,5,5,2,2,3,2,1,2,2,1000,,1.0,2,1,2,6.0,1,2,3,1,1,5,,,,,,,,2,,,,,,,2,1,1,2,1,1,4,2,1,1,2,1,2,1,3,5,99,2,,1,1,,2,1,,2,99,2,0,,,,,,,,,,,8816.782707712133,26218.365897979216,16355.85409374874,10032.532462036615,0.0,19057.798832636505,20441.120845567588,17597.663555648673,0.0,0.0,24488.028972189037,11173.493494635992
+11971380,2023,,2,3,3,3,2,3,3,3,1,1,1,1,2,1,3,2,1,3.0,2,2,4,2,2,2,,,10000,,10000,,9,2.0,1,1,2,3,2,2,2,2,4,6.0,1.0,1,1,1,1.0,1,1,1,2,2.0,2.0,2,3,4,4,4,4,1,1,1,1,2,2,4,4,4,2,99,5,4,2,2,3,2,2,2,2,10000,,2.0,1,1,1,1.0,2,3,3,4,1,6,,,,,,,,2,,,,,,,2,2,2,1,1,3,2,2,99,3,2,9,2,3,3,1,3,2,,1,3,1.0,2,99,,2,5,2,0,,,,,,,,,,,2720.8267215378632,0.0,0.0,0.0,0.0,0.0,0.0,2084.4286027025255,4846.849460664435,9536.55767230541,2889.6115715982173,2263.673625921535
+11563720,2024,,3,3,4,2,1,3,3,3,1,1,2,1,2,1,3,2,2,,77,2,5,3,2,3,,,100000,,100000,,3,,4,4,2,2,2,2,2,6,6,,,4,2,1,2.0,2,2,1,5,3.0,3.0,7,1,5,5,5,5,5,5,5,4,5,4,5,5,5,5,5,5,5,2,2,2,2,2,2,2,100000,,,4,4,4,1.0,1,1,4,4,5,1,,1.0,,1.0,5.0,4.0,8.0,2,,,,,,,1,2,1,2,1,2,2,2,3,3,2,9,99,2,3,1,3,2,,1,3,1.0,2,2,2.0,2,8,99,1,,,,,,,,,,,10456.462572355227,0.0,12518.35571734513,12107.718490632737,11150.79582167124,0.0,25649.035907753823,0.0,21888.492304281117,32166.256664442008,9228.615321832856,30127.41488833468
+10785390,2023,,2,1,1,1,1,1,1,1,1,2,2,1,1,2,2,1,1,3.0,1,1,4,2,1,2,,,80000,,80000,,9,,3,1,2,2,3,2,2,5,6,,,3,2,1,1.0,2,2,1,5,5.0,2.0,1,4,4,4,4,5,2,1,1,2,2,1,2,4,2,1,4,1,5,2,1,2,1,1,2,2,80000,,,2,2,4,3.0,2,2,2,1,2,6,,,,,,,,2,,,,,,,1,1,1,2,2,4,3,3,4,6,2,3,2,4,3,1,2,2,,1,2,,4,1,,2,4,1,0,,,,,,,,,,,2777.8245731527554,0.0,7345.265598659848,3049.880532431488,1895.670887359178,2941.7966647399194,4846.072984439442,1943.407298459943,0.0,9705.67231164687,5743.390238316261,4145.828030073619
+11689260,2023,,1,2,2,3,1,2,3,1,2,1,2,1,2,1,99,3,2,,1,2,2,2,1,2,,,1200,,1000,,9,2.0,1,2,2,2,2,2,2,2,5,1.0,1.0,1,1,1,1.0,1,1,1,1,2.0,1.0,3,4,3,2,3,2,2,4,1,1,2,2,4,2,5,3,5,5,5,2,1,2,2,2,2,2,1000,,2.0,2,1,2,1.0,1,4,3,3,2,3,,,,,,,,2,,,,,,,1,1,1,1,1,1,2,1,3,2,2,1,2,3,3,1,3,2,,1,3,1.0,2,1,,2,4,1,3,,,,,,,,,,,441.9271778227538,0.0,0.0,522.5755314674153,491.13456829966424,627.7487328673732,0.0,977.0148641400156,378.68426279447453,351.93313509752386,486.3343726806504,366.2776077076679
+11687570,2023,,1,3,1,1,1,1,1,1,1,1,1,2,3,2,3,3,1,1.0,1,2,1,1,1,1,,,20000,,20000,,9,2.0,2,2,2,2,2,2,2,2,2,6.0,1.0,1,1,1,1.0,1,2,1,2,1.0,1.0,1,2,3,2,2,3,1,3,1,1,1,3,2,3,3,2,3,3,5,2,1,2,2,2,2,2,20000,,2.0,1,1,2,1.0,1,4,1,1,2,1,,0.0,,2.0,3.0,3.0,8.0,1,,,,1.0,1.0,1.0,1,2,1,1,1,2,2,2,2,6,2,1,2,2,3,2,3,1,,1,1,,2,3,2.0,1,3,2,1,,,,,,,,,,,11616.311203142526,0.0,6940.4796146497365,19382.516431808188,0.0,9080.899784895968,24063.849094334,8661.660534137282,7964.589190381787,0.0,20216.16550513352,12256.701358495216
+10430850,2023,,2,3,3,2,1,1,2,2,1,2,2,2,2,2,3,2,2,,1,2,2,2,1,2,,,1100,,1000,,9,1.0,2,1,99,99,99,99,99,4,5,1.0,1.0,1,2,1,1.0,1,1,1,3,2.0,1.0,3,4,5,5,4,4,2,1,1,3,3,1,4,2,3,4,5,5,5,2,1,2,2,1,2,2,900000,,,2,2,3,1.0,1,3,1,1,1,2,,1.0,,3.0,3.0,3.0,,1,,,,1.0,1.0,2.0,2,2,1,1,1,1,1,1,2,3,2,1,2,2,3,5,3,1,,1,3,2.0,3,3,3.0,2,3,2,2,,,,,,,,,,,12347.395155261476,18418.975212759902,0.0,24065.721325010614,21226.067514118535,16128.76524821179,32716.646868911736,24332.788035143025,0.0,10408.1218374582,12135.934564302195,9277.975509608734
+11686080,2023,,2,2,1,2,1,2,1,1,1,2,2,2,1,1,3,2,1,3.0,1,2,3,1,2,1,,,1100,,1000,,9,1.0,1,1,2,2,2,2,2,5,4,,,1,2,1,1.0,1,1,1,1,4.0,1.0,1,2,4,1,1,3,1,2,1,1,2,1,3,1,3,1,4,4,5,2,2,2,3,2,2,2,1000,,1.0,2,2,1,1.0,1,4,1,1,1,1,,0.0,,1.0,1.0,1.0,7.0,1,,,,1.0,2.0,2.0,2,2,1,1,1,1,2,3,1,6,2,1,2,3,3,3,3,2,,1,1,,3,3,2.0,2,6,2,2,,,,,,,,,,,6464.029040967194,6472.489814026514,0.0,0.0,23994.227870065824,0.0,5718.907015303412,7560.8295494497,13440.659622479632,0.0,6376.32951734296,0.0
+10446430,2023,,2,4,4,2,1,3,1,3,2,2,2,2,3,2,4,3,1,3.0,1,3,5,3,3,2,,,10000,,10000,,9,2.0,3,2,2,3,2,2,2,5,5,,,3,1,1,1.0,2,2,1,3,1.0,1.0,6,3,3,3,3,5,1,1,1,1,4,1,3,2,3,2,4,4,3,2,2,2,1,1,1,2,10000,,2.0,1,2,1,6.0,4,2,2,2,2,6,,,,,,,,2,,,,,,,1,2,2,1,1,2,2,2,2,2,2,1,2,2,3,4,3,2,,2,4,1.0,2,1,,5,4,1,0,,,,,,,,,,,5754.297568422318,14968.911958067209,0.0,7445.815654116204,12732.622602661218,6120.663973913016,6347.259333164234,0.0,0.0,5945.732825532678,0.0,6288.344154203709
+10882050,2023,,2,2,2,1,1,2,3,1,1,2,2,1,2,1,2,2,2,,1,1,5,1,1,1,,,100000,,100000,,2,,4,4,2,2,2,2,2,6,6,,,4,2,1,2.0,2,2,2,5,5.0,5.0,7,5,5,5,5,4,5,1,1,5,4,3,5,5,5,5,5,5,5,2,2,2,1,1,1,2,30000,,2.0,4,3,5,,1,1,2,2,5,1,,0.0,,4.0,5.0,1.0,8.0,2,,,,,,,1,1,1,2,2,4,3,4,3,5,2,1,2,3,3,3,1,2,,2,4,99.0,3,2,2.0,1,8,2,1,,,,,,,,,,,2885.7205921361483,0.0,0.0,3848.2397706918982,0.0,0.0,3462.72056746006,3918.4307314935145,2656.5327652000324,2916.6507739880335,4462.557426171695,2433.055251346187
+11159090,2023,,2,2,2,2,1,2,1,1,2,2,1,1,1,2,4,4,1,3.0,2,2,1,3,2,3,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,4,4,4.0,2.0,1,2,1,1.0,1,1,1,2,1.0,1.0,1,3,5,2,1,2,1,3,1,2,3,1,4,2,2,1,2,3,4,2,2,1,2,1,2,1,10000,,2.0,1,1,2,4.0,1,4,3,99,1,2,,0.0,,1.0,2.0,1.0,,1,,,,2.0,1.0,2.0,2,2,2,1,1,1,1,2,1,5,1,1,2,2,3,3,3,1,,1,2,,3,3,1.0,3,1,2,1,,,,,,,,,,,1670.3522395865486,1513.173952772093,0.0,5080.481642229636,0.0,0.0,0.0,0.0,1494.9139474896724,1975.1448804483236,0.0,0.0
+10339040,2023,,2,3,2,1,1,2,2,1,2,2,1,1,1,2,2,4,1,3.0,77,2,1,2,2,3,,,1300,,1000,,9,1.0,1,1,2,2,2,2,2,2,3,2.0,2.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,1,1,1,1,1,1,1,1,1,1,4,2,4,1,4,1,5,2,2,3,2,1,2,1,1000,,1.0,1,1,1,2.0,1,3,3,3,1,3,,,,,,,,2,,,,,,,2,2,2,1,1,1,1,2,2,4,2,2,2,2,3,3,3,2,,1,2,,3,1,,1,1,2,2,,,,,,,,,,,3212.0764139015646,12949.329161349897,0.0,13461.074639693596,3648.931414194178,4823.688670663423,3188.5776113685965,2621.3898026961706,3590.3390979944716,0.0,0.0,0.0
+11452890,2024,,2,2,3,2,1,1,3,3,1,2,1,1,3,1,1,1,2,,1,1,3,1,1,1,,,10000,,10000,,9,2.0,3,2,2,3,2,2,2,5,5,,,3,2,1,1.0,1,1,1,4,3.0,1.0,6,5,5,5,5,5,3,1,2,1,4,4,5,5,5,5,5,5,5,2,2,2,3,1,2,2,10000,,2.0,3,2,4,1.0,2,1,3,1,4,3,,,,,,,,2,,,,,,,2,1,2,2,1,3,3,2,3,3,2,1,2,4,3,1,3,2,,1,2,,3,2,2.0,2,8,2,1,,,,,,,,,,,3266.1607113379914,3068.343756926738,4231.3179524538955,3559.733837061976,4123.29787297601,3796.3569761898134,0.0,0.0,3655.4355867939657,0.0,0.0,3964.755689048621
+11836930,2023,,2,1,4,1,1,1,1,1,1,2,1,1,1,2,1,1,1,3.0,1,2,4,2,1,2,,,1200,,1000,,9,2.0,3,1,2,2,2,2,2,5,6,,,2,2,1,2.0,1,2,1,3,2.0,1.0,6,4,5,4,2,4,4,3,2,2,1,2,5,5,5,4,5,5,5,2,2,2,3,2,2,2,1000,,1.0,1,1,1,1.0,1,4,3,3,1,5,,,,,,,,1,,,,2.0,2.0,2.0,1,1,1,2,2,4,4,2,4,5,1,4,2,2,3,3,3,2,,1,2,,5,2,1.0,1,2,2,1,,,,,,,,,,,3180.1233206598117,9201.935277667011,10531.096438232596,3216.661030305107,5058.658474932827,0.0,2825.365580923508,0.0,3485.8805797901196,6638.782488069569,3597.930536556229,3757.67932041855
+11674720,2023,,1,3,2,2,1,1,1,1,1,2,2,1,2,1,2,1,2,,1,1,4,1,1,1,,,100000,,100000,,3,,4,4,2,2,2,2,2,5,6,,,4,2,2,3.0,2,2,1,4,,,7,5,5,5,5,5,2,3,2,4,99,3,5,5,5,5,5,5,5,3,1,2,3,2,1,2,1000,,99.0,2,3,4,1.0,1,3,2,2,4,1,,0.0,,4.0,5.0,1.0,5.0,2,,,,,,,1,2,1,2,1,3,3,2,2,3,2,1,2,3,3,1,3,2,,1,3,99.0,3,3,3.0,1,5,2,2,,,,,,,,,,,4167.358683241046,4182.325834231028,0.0,0.0,0.0,0.0,6159.557487215292,0.0,5179.466679287112,0.0,3318.471792743133,9736.23823011727
+10566460,2023,,2,2,2,3,1,1,1,1,1,2,2,1,3,2,2,1,2,,1,1,5,1,1,1,,,100000,,100000,,1,,4,2,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,2,5,,,7,5,5,5,5,4,2,1,2,4,4,4,2,5,5,5,5,5,5,1,2,2,1,1,1,2,1000,,2.0,3,4,4,1.0,1,2,2,3,2,5,,,,,,,,2,,,,,,,1,1,1,2,2,4,4,4,4,2,2,1,2,3,3,5,3,2,,1,3,2.0,4,3,3.0,2,8,2,1,,,,,,,,,,,6814.588737996849,19318.892471885352,7306.351599809976,0.0,5902.888929983408,6628.09450376002,6388.950000763385,6259.121451190134,0.0,6005.75181841669,0.0,10133.297584146108
+11800230,2023,,2,4,4,2,2,2,1,1,2,99,1,1,3,1,1,2,1,3.0,2,2,1,1,1,1,,,1200,,1000,,9,2.0,2,2,1,1,2,2,2,5,4,,,2,2,1,2.0,2,2,1,3,2.0,2.0,1,4,5,4,4,4,2,3,1,3,3,4,5,5,5,5,5,5,5,2,1,2,3,2,1,2,1000,,2.0,2,2,2,1.0,1,2,3,4,3,1,,0.0,,2.0,4.0,2.0,7.0,2,,,,,,,1,1,1,1,1,1,1,3,1,2,2,1,2,3,3,5,3,2,,1,3,1.0,2,3,3.0,2,2,2,2,,,,,,,,,,,4002.2986184325314,4317.116247273057,0.0,3758.2776166710487,0.0,7600.303903614233,4765.915833803657,0.0,4049.968963650407,4212.441518887104,3994.8516802014983,0.0
+12121720,2023,,2,3,2,3,1,2,3,3,2,1,1,2,2,1,4,3,2,,2,2,2,2,2,3,,,1100,,1000,,9,1.0,1,2,2,2,2,2,2,2,2,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,2,2,1,1,1,3,1,1,1,1,3,1,5,2,5,5,5,5,2,2,1,3,3,1,2,2,1000,,1.0,1,1,1,1.0,2,4,1,1,1,1,,0.0,,1.0,2.0,1.0,8.0,2,,,,,,,2,2,2,1,1,1,3,2,2,5,2,1,2,4,3,1,2,2,,1,1,,2,2,2.0,1,4,2,0,,,,,,,,,,,5649.272188358069,0.0,11037.144273390672,13342.47916293956,0.0,11118.31510424392,0.0,0.0,4919.123280748829,0.0,17237.1227990755,20800.954739635603
+10169780,2023,,2,3,2,2,1,3,1,1,2,1,1,2,3,1,1,2,2,,2,2,1,1,1,1,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,4,1,2.0,2.0,1,2,1,1.0,1,1,1,1,1.0,1.0,1,1,4,2,1,2,1,1,2,2,3,1,3,2,5,1,5,1,5,2,2,3,3,1,2,2,1000,,1.0,1,1,3,2.0,1,2,1,1,1,1,,0.0,,1.0,2.0,1.0,6.0,2,,,,,,,2,1,2,1,1,2,2,1,2,4,2,4,2,1,3,1,3,2,,1,1,,3,2,2.0,2,8,1,2,,,,,,,,,,,8497.568364777564,9868.87549479227,14154.592912170903,19160.149884224025,0.0,11309.388794561346,18486.86927518505,9278.582819679346,8668.727052425078,0.0,0.0,7290.887843829229
+10937610,2023,,2,2,2,1,1,3,2,1,2,2,1,1,1,1,4,4,1,1.0,2,3,1,3,3,4,,,1100,,1000,,9,1.0,1,2,2,2,2,2,2,1,5,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,2,1,1,1,4,1,1,1,1,1,1,4,1,4,2,5,5,5,2,1,3,2,2,2,1,1000,,1.0,2,3,2,1.0,2,4,1,3,1,1,,0.0,,1.0,1.0,1.0,8.0,2,,,,,,,2,1,2,1,1,1,2,2,1,6,2,1,2,2,3,1,3,1,,1,1,,2,2,2.0,1,2,2,99,,,,,,,,,,,20925.01356122619,43367.31516840322,0.0,0.0,23044.487892026067,17351.70656509968,18336.26336777564,42954.45628899299,0.0,39587.78919049076,42967.97897483417,0.0
+11797100,2023,,2,3,1,1,1,1,1,1,1,1,2,1,1,2,1,1,2,,1,1,5,2,1,1,,,100000,,100000,,2,,4,4,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,2,5,,,7,5,5,5,5,5,5,2,2,5,3,5,5,5,5,5,5,5,5,3,1,2,1,1,1,2,100000,,,4,4,6,,1,1,4,4,3,1,,1.0,,3.0,5.0,4.0,7.0,1,,,,2.0,2.0,2.0,1,1,1,2,2,4,4,4,4,5,2,1,2,3,3,1,3,2,,1,2,,5,3,2.0,1,6,1,1,,,,,,,,,,,1942.6899374508769,3227.9801083448056,2022.0009792595845,1917.0363892044136,3128.965863500716,4583.205678469626,0.0,0.0,9338.658339902657,0.0,0.0,3195.3590008350766
+11212010,2023,,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,1,1,1.0,2,1,4,1,1,2,,,10000,,10000,,9,2.0,4,3,2,3,2,2,2,5,6,,,3,2,1,3.0,2,2,1,5,5.0,5.0,6,5,5,5,5,4,5,5,1,3,3,1,3,1,2,2,5,5,5,2,2,2,3,1,2,2,100000,,,4,4,6,,1,1,4,1,1,2,,1.0,,3.0,3.0,1.0,,2,,,,,,,1,1,1,1,1,4,3,3,4,6,2,1,2,3,3,1,3,2,,2,1,,3,2,2.0,1,8,2,0,,,,,,,,,,,12196.58337191413,12788.557469336109,0.0,0.0,13200.744465483664,0.0,0.0,0.0,12500.96653917981,32270.257749745433,12542.025235757908,10943.975995487852
+11135230,2023,,2,5,5,2,3,2,2,1,2,1,2,1,3,99,3,4,1,1.0,77,2,1,2,1,3,,,1100,,1000,,9,1.0,1,1,2,2,2,1,2,1,2,6.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,2,1,4,1,1,1,4,1,2,1,4,1,5,1,5,5,4,2,1,3,2,1,2,1,1000,,1.0,1,1,1,1.0,1,4,4,4,1,5,,,,,,,,2,,,,,,,99,2,1,1,1,1,1,1,1,3,2,1,2,1,3,2,3,2,,1,3,1.0,5,1,,1,1,2,3,,,,,,,,,,,9332.278145237946,0.0,0.0,0.0,12969.540125836804,13759.078697906378,5205.888619663305,6674.977943390628,0.0,0.0,29186.386188471784,32849.94565619532
+10647280,2023,,1,1,1,2,1,2,1,1,2,1,1,2,2,1,3,2,1,1.0,2,2,2,1,2,1,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,3,5,1.0,1.0,1,1,1,1.0,1,1,1,2,1.0,1.0,2,3,4,4,2,5,1,1,1,99,1,1,3,2,2,1,4,4,5,2,2,3,2,2,2,1,10000,,2.0,2,1,2,1.0,1,4,2,1,2,1,,0.0,,2.0,4.0,1.0,5.0,2,,,,,,,2,2,2,1,1,3,3,1,1,3,2,1,2,4,3,2,3,1,,1,1,,1,2,2.0,2,6,2,2,,,,,,,,,,,3631.6552355264457,8025.343474057232,0.0,7434.157031322724,0.0,2565.316301961734,10658.451735281744,0.0,5142.03563035395,0.0,9596.209706446,0.0
+11168420,2023,,2,3,2,1,1,1,1,1,1,2,2,1,1,1,1,1,1,3.0,2,1,5,1,1,1,,,100000,,100000,,1,,4,2,99,1,99,99,99,6,6,,,4,2,2,4.0,2,2,1,5,,,7,5,5,5,5,4,3,1,3,4,4,1,4,2,2,4,4,4,5,2,2,2,1,1,1,2,100000,,,4,4,4,1.0,1,1,4,4,1,6,,,,,,,,2,,,,,,,2,1,1,2,2,4,4,4,4,4,2,4,2,1,3,1,3,2,,2,4,2.0,4,2,2.0,2,5,2,3,,,,,,,,,,,22261.569456564423,34274.557373218384,20615.719152160946,71999.00395868489,24403.242506080685,15289.806936518686,33096.35882061023,20850.14626867179,0.0,35528.7977943139,51045.98130069239,24457.36273122751
+11799380,2023,,1,2,1,1,1,1,1,1,1,2,2,1,2,99,1,1,1,1.0,1,1,1,1,1,1,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,5,5,,,1,2,1,1.0,1,2,1,1,1.0,1.0,1,1,4,1,1,4,1,1,1,1,1,1,2,2,5,1,5,4,4,2,1,3,3,2,2,2,100000,,,1,3,5,,1,1,1,1,1,1,,0.0,,1.0,1.0,1.0,5.0,2,,,,,,,1,1,1,2,2,4,1,4,4,3,2,1,2,2,3,1,3,1,,1,2,,4,2,2.0,2,4,2,0,,,,,,,,,,,3744.628598151641,7941.483901940135,8899.894612696202,7156.596114299874,4911.053009909281,6487.725197634429,3475.850194082157,4186.3606558649435,3455.4284233897833,3665.804058752255,3350.242037838063,0.0
+11724010,2023,,2,3,4,1,2,1,1,1,1,2,2,1,3,2,1,1,2,,1,1,5,1,2,1,,,100000,,100000,,2,,4,2,2,2,2,2,2,4,5,3.0,3.0,2,2,2,2.0,2,2,1,3,,,6,5,5,4,5,4,3,1,4,4,3,3,3,1,2,5,5,3,5,2,2,2,3,1,1,2,100000,,,3,3,6,,1,1,4,4,3,3,,,,,,,,2,,,,,,,1,1,1,2,1,4,4,4,4,2,2,3,2,4,3,2,1,2,,1,3,2.0,4,1,,1,1,1,0,,,,,,,,,,,1412.2261081858433,2614.7338902059255,0.0,0.0,0.0,0.0,2712.8345071278654,0.0,0.0,0.0,2716.9005568346256,2833.5727203165065
+11910860,2023,,1,1,1,1,1,3,3,1,2,2,2,1,1,2,1,3,1,3.0,1,2,2,1,1,2,,,1100,,1000,,9,1.0,4,1,2,2,2,2,2,2,1,2.0,2.0,1,1,1,1.0,1,1,1,1,5.0,1.0,1,2,1,1,1,2,99,1,1,1,1,1,2,2,2,2,4,3,5,2,1,2,3,2,1,1,1000,,1.0,1,1,1,2.0,2,2,2,1,1,6,,,,,,,,1,,,,1.0,1.0,2.0,2,2,2,1,1,1,1,2,2,6,2,4,2,2,3,3,2,2,,1,4,2.0,3,2,1.0,4,1,2,1,,,,,,,,,,,2811.9953677579056,0.0,2103.1328975511447,2709.249233947931,2201.963055081586,0.0,0.0,0.0,2544.509589031206,5450.163124504885,5542.886439939845,2645.565888511412
+10006850,2023,,2,3,2,1,1,1,1,1,1,2,2,1,3,2,1,1,2,,77,3,5,2,2,2,,,100000,,100000,,3,,3,2,2,2,2,2,2,5,6,,,3,2,1,1.0,99,99,1,4,5.0,1.0,5,5,5,5,1,5,2,3,2,3,3,3,4,5,5,3,99,5,5,2,2,2,3,1,2,2,900000,,,4,4,5,,1,1,1,1,2,1,,1.0,,3.0,4.0,1.0,4.0,2,,,,,,,1,1,1,2,2,4,3,3,2,2,1,5,2,1,3,5,3,1,,1,2,,4,2,2.0,2,2,2,1,,,,,,,,,,,15304.915881415674,0.0,0.0,0.0,18766.759797581843,0.0,23618.860030752658,17547.76870931232,0.0,0.0,18884.01802134561,0.0
+11701730,2023,,1,1,3,1,1,1,1,1,1,1,2,1,3,1,1,2,2,,3,2,3,2,2,2,,,40002,,40002,,9,2.0,2,1,2,2,1,2,1,2,5,6.0,6.0,2,1,1,2.0,1,2,1,3,2.0,2.0,1,4,4,3,2,3,1,1,1,1,1,1,2,5,1,1,5,1,3,2,1,2,2,2,2,2,1000,,2.0,2,2,3,6.0,2,2,2,1,1,6,,,,,,,,2,,,,,,,1,2,1,1,1,3,1,2,3,3,2,1,2,3,3,1,3,2,,1,3,1.0,3,1,,2,2,1,0,,,,,,,,,,,1829.8401204748936,0.0,2230.1079893681517,0.0,2076.668731898082,0.0,1897.416586583687,4949.440529818666,8244.890919679494,1721.425803161415,9333.615474631131,0.0
+10487550,2023,,2,3,2,1,2,2,2,3,2,2,1,1,3,1,4,3,1,3.0,1,2,1,1,2,1,,,10000,,10000,,9,2.0,1,2,2,3,2,2,2,1,5,1.0,1.0,1,1,1,2.0,1,1,1,2,1.0,1.0,1,2,2,2,1,3,2,2,1,3,1,2,4,1,5,3,5,1,3,2,1,2,2,2,2,2,10000,,2.0,2,2,2,1.0,4,1,1,3,1,1,,0.0,,1.0,3.0,1.0,6.0,1,,,,1.0,1.0,1.0,2,1,2,1,1,2,2,2,2,5,99,9,2,3,3,1,1,2,,1,3,1.0,3,3,2.0,1,7,1,4,,,,,,,,,,,9591.892137243509,0.0,0.0,16092.36143684234,13685.132657137776,10893.672220508051,0.0,0.0,0.0,0.0,27078.571754767876,7350.842576330054
+10332730,2023,,2,2,2,3,3,3,3,3,1,2,1,1,2,2,2,2,2,,1,2,3,2,1,3,,,100000,,100000,,3,,2,2,2,1,2,2,2,6,6,,,2,2,1,1.0,1,1,1,1,1.0,1.0,3,5,5,5,5,5,5,4,3,5,4,4,4,1,2,4,5,5,5,2,2,2,2,1,2,1,100000,,,4,4,4,1.0,1,2,3,3,3,6,,,,,,,,2,,,,,,,1,1,1,1,1,2,2,2,2,4,2,1,2,1,3,1,3,2,,1,1,,3,1,,1,3,1,0,,,,,,,,,,,3704.4311885929274,0.0,4816.916488004755,3022.9215523759094,0.0,10547.177419884962,3539.353069161557,5088.398496320264,4558.330820730437,7613.443507800664,0.0,0.0
+11454430,2023,,2,3,2,3,1,3,3,1,2,2,1,1,1,1,3,3,2,,1,2,3,2,1,2,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,4,6,6.0,6.0,1,2,1,1.0,1,1,1,2,2.0,1.0,1,1,5,4,4,5,3,3,1,3,3,1,5,5,5,4,5,4,5,2,2,3,3,1,99,1,1000,,99.0,2,2,2,6.0,1,1,4,4,1,1,,0.0,,2.0,3.0,1.0,5.0,2,,,,,,,99,99,99,99,99,2,99,99,2,3,2,1,2,2,3,1,99,2,,1,1,,3,3,3.0,2,99,2,1,,,,,,,,,,,6087.08194914275,0.0,0.0,16493.016130796917,15531.992603900491,0.0,6239.382305722599,0.0,0.0,6826.6032862492,6752.544871550872,11120.99140145529
+11357620,2023,,2,2,1,3,3,2,2,3,2,1,1,1,2,1,3,4,2,,2,3,1,2,2,2,,,1100,,1000,,9,2.0,1,2,2,2,2,2,2,3,2,1.0,1.0,1,1,1,1.0,1,1,1,2,1.0,1.0,1,3,2,1,1,4,1,4,1,2,4,2,5,5,5,4,5,5,5,2,1,3,2,1,2,1,1000,,2.0,2,1,1,1.0,4,4,1,3,1,1,,0.0,,1.0,2.0,1.0,7.0,1,,,,1.0,2.0,2.0,2,1,2,1,1,1,2,1,1,6,2,1,2,2,3,2,3,1,,1,1,,1,3,2.0,3,5,2,2,,,,,,,,,,,33610.65755474828,0.0,26132.69363159801,0.0,0.0,0.0,61357.597153065675,0.0,48017.06705981853,28167.14162329225,0.0,0.0
+10568040,2023,,2,2,2,3,1,1,3,1,1,2,2,1,2,2,2,2,2,,1,1,4,1,1,1,,,10000,,10000,,9,2.0,3,3,2,3,2,2,2,4,4,1.0,1.0,3,1,1,2.0,1,1,1,4,5.0,2.0,6,5,5,5,5,5,3,4,3,4,3,3,4,5,4,4,4,4,5,2,1,2,3,1,2,2,10000,,2.0,3,2,2,1.0,1,4,2,2,3,1,,0.0,,3.0,3.0,1.0,6.0,1,,,,2.0,1.0,2.0,2,2,2,2,1,3,3,3,3,4,2,1,2,4,3,1,3,2,,1,4,2.0,3,3,2.0,1,8,2,2,,,,,,,,,,,8856.971661347794,7163.11234065601,20549.91798648562,17427.655427691014,0.0,9790.675649745122,26834.691690042797,17066.481285720554,6183.389342029758,0.0,15842.446320020084,6335.688580762344
+10029470,2023,,1,3,1,1,1,1,3,1,99,2,2,1,1,2,2,1,2,,1,1,5,1,1,1,,,100000,,100000,,1,,4,4,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,2,5,,,7,5,5,5,5,5,5,5,4,5,5,3,5,5,5,5,5,5,5,2,1,2,1,1,1,2,10000,,2.0,4,1,2,4.0,1,2,2,2,4,1,,1.0,,3.0,5.0,3.0,6.0,2,,,,,,,1,1,1,2,2,4,4,4,4,4,1,1,2,1,3,1,1,2,,1,3,2.0,5,3,3.0,1,7,2,2,,,,,,,,,,,19277.584775466566,9639.36375320791,10773.53321189301,0.0,14548.821153849296,28832.52489250124,0.0,0.0,45472.85010330249,0.0,18975.88877743714,46357.43426596549
+11927050,2023,,1,2,2,2,1,3,1,1,1,2,2,1,2,1,3,1,2,,3,1,2,2,1,1,,,100000,,100000,,3,,4,3,2,1,2,2,2,5,6,,,3,2,1,2.0,2,2,1,4,5.0,5.0,6,5,5,5,5,5,1,3,1,4,4,4,5,2,5,2,5,5,5,2,2,3,3,1,2,2,100000,,,3,4,4,1.0,1,1,3,3,3,1,,0.0,,3.0,4.0,4.0,4.0,2,,,,,,,1,1,2,2,1,3,3,3,3,3,2,1,2,2,3,1,3,2,,1,1,,3,2,2.0,1,7,2,2,,,,,,,,,,,7335.097704417469,21017.540237145826,19200.635813249257,7533.78421312162,5110.785312710697,5347.652973215486,7081.132315082467,18142.19998310371,31244.5486714746,10186.235661948667,0.0,0.0
+10020750,2023,,1,2,1,2,1,2,1,1,1,1,1,1,2,1,2,2,2,,77,1,1,1,2,3,,,10000,,10000,,9,2.0,1,1,2,3,2,2,2,2,5,1.0,6.0,1,1,1,1.0,1,1,1,2,1.0,2.0,1,1,4,4,4,4,2,4,1,1,3,1,2,1,1,1,3,2,3,2,1,2,2,2,2,2,10000,,2.0,2,2,2,6.0,3,1,1,1,2,1,,0.0,,1.0,2.0,1.0,4.0,2,,,,,,,1,2,1,1,1,2,2,2,2,2,2,1,2,4,3,5,2,2,,1,3,1.0,2,2,2.0,2,8,1,0,,,,,,,,,,,644.6305869159664,0.0,1579.234326040057,0.0,663.8482595754898,952.6254303264463,1299.6301627560224,510.0131620118496,1040.8950462406651,0.0,1431.122732125696,0.0
+11708400,2023,,2,2,2,2,1,2,1,1,1,1,2,1,2,1,3,3,1,1.0,2,2,1,1,1,2,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,5,6,,,2,2,1,1.0,1,1,1,2,1.0,1.0,5,4,5,4,5,5,1,1,1,99,1,2,2,2,1,2,5,4,4,2,2,2,3,99,1,2,1000,,1.0,2,2,2,1.0,1,4,4,3,1,1,,0.0,,2.0,4.0,2.0,2.0,2,,,,,,,99,1,1,1,1,2,2,2,2,1,2,1,2,2,3,5,3,1,,1,1,,2,2,2.0,3,99,2,2,,,,,,,,,,,4078.367690016256,7664.482532688603,0.0,0.0,4133.031262266415,6150.233007797281,4021.2542802927737,9954.597657764423,5864.107454551165,11237.634270664084,0.0,11834.510696398544
+12137190,2023,,3,3,3,1,1,1,1,1,1,2,2,1,1,2,1,1,2,,1,1,5,2,2,3,,,100000,,100000,,1,,4,2,2,2,2,2,2,6,5,,,4,2,2,2.0,2,2,2,5,,,6,5,5,5,5,4,4,2,3,5,4,3,4,5,5,4,5,5,5,2,2,2,1,1,1,2,1000,,1.0,2,1,1,1.0,2,4,2,2,4,1,,0.0,,4.0,4.0,1.0,7.0,2,,,,,,,1,1,1,2,2,4,4,4,4,6,2,1,2,2,3,1,3,2,,1,2,,5,2,2.0,1,8,2,0,,,,,,,,,,,5895.984126120117,4362.156162666011,7197.2844134723355,15353.926792463326,14591.75629944672,0.0,16251.996026154147,0.0,6528.944485852463,18563.572638179056,22547.1941776262,0.0
+11959130,2024,,1,1,1,3,1,2,1,3,1,2,2,1,3,1,1,1,2,,1,1,5,1,2,1,,,100000,,100000,,2,,4,2,2,2,2,2,2,6,6,,,4,2,1,3.0,2,2,1,5,5.0,5.0,6,5,5,5,4,5,1,1,1,3,1,1,3,4,1,3,5,2,5,3,1,2,1,1,2,2,1000,,1.0,4,1,1,1.0,1,4,2,1,1,1,,0.0,,4.0,3.0,1.0,5.0,2,,,,,,,1,1,1,2,1,4,4,4,4,3,2,1,2,4,3,5,3,2,,1,2,,3,2,2.0,1,3,1,1,,,,,,,,,,,3538.0448867288605,6605.858086543072,7718.816834487548,0.0,8221.276186912535,11257.426102115536,0.0,0.0,3920.023878692413,4043.8154808541185,3850.864208062135,0.0
+10269000,2023,,1,2,1,3,1,1,1,1,1,2,2,1,1,2,1,2,1,1.0,1,1,4,1,2,1,,,100000,,100000,,1,,4,4,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,2,4,,,7,5,5,5,5,4,1,1,1,4,1,1,1,3,1,1,5,5,5,2,2,2,3,2,99,2,1000,,2.0,4,4,5,,1,1,4,4,4,3,,,,,,,,2,,,,,,,1,1,1,1,1,3,3,3,3,1,2,1,2,2,3,1,3,2,,1,2,,5,1,,4,1,1,3,,,,,,,,,,,2793.605940062422,0.0,5766.649248749343,0.0,0.0,0.0,0.0,3316.2132587831657,3009.411267467403,0.0,0.0,0.0
+11601910,2024,,2,2,2,3,1,3,3,3,1,2,1,1,3,2,1,1,2,,1,1,5,1,1,1,,,100000,,100000,,2,,4,2,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,1,5,,,7,5,5,5,5,4,4,1,1,3,3,3,5,5,5,5,5,5,5,2,2,2,1,1,1,2,1000,,1.0,3,2,3,1.0,1,3,2,2,4,1,,1.0,,2.0,3.0,2.0,6.0,1,,,,2.0,2.0,2.0,2,1,1,2,2,4,4,4,4,5,2,1,2,1,3,1,3,2,,1,3,2.0,3,3,2.0,1,5,1,2,,,,,,,,,,,24260.66349277899,54339.10146792472,69737.13776493931,21816.31962316575,48113.39540234902,0.0,67401.15136596713,0.0,42608.160325779136,0.0,21391.062601959973,27607.67780554241
+10120430,2023,,2,1,2,99,1,3,99,1,1,99,2,1,3,2,2,1,1,3.0,77,1,2,1,2,1,,,10000,,10000,,9,2.0,1,1,2,3,2,2,2,4,6,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,5,4,5,4,2,2,1,1,2,4,5,5,5,2,5,4,5,2,2,2,2,1,2,2,10000,,2.0,1,1,2,3.0,2,1,1,1,1,1,,0.0,,1.0,4.0,1.0,6.0,1,,,,2.0,2.0,2.0,2,2,1,1,1,2,1,2,2,4,2,3,2,3,3,3,1,2,,1,3,2.0,4,3,3.0,1,8,2,3,,,,,,,,,,,6168.8397580581295,8733.432289455919,0.0,0.0,6969.80083494392,0.0,19182.173395083937,0.0,11431.064451259825,7696.233434268884,19765.780617953984,7383.048970586752
+10391930,2024,,1,1,1,2,1,2,1,1,1,1,1,1,2,1,4,2,1,1.0,2,2,2,1,1,2,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,2,3,1.0,1.0,1,1,1,1.0,1,1,1,2,1.0,1.0,2,1,1,1,1,2,1,1,1,1,1,1,3,2,2,2,4,2,5,2,1,2,2,2,2,1,10000,,2.0,1,1,2,1.0,2,2,1,1,2,1,,0.0,,1.0,1.0,1.0,6.0,1,,,,1.0,1.0,2.0,2,1,2,1,1,1,1,1,1,5,2,1,2,3,3,1,3,2,,1,1,,2,3,2.0,1,7,1,2,,,,,,,,,,,6859.137284937261,13439.17825606027,0.0,0.0,0.0,0.0,0.0,6471.992153204394,7684.407950069088,0.0,6352.075147684102,5967.3352262798435
+11596380,2023,,2,3,2,2,1,2,2,1,2,1,1,1,2,1,3,3,2,,2,3,1,1,1,1,,,1100,,1000,,9,1.0,1,1,2,2,2,2,2,2,3,1.0,1.0,1,1,1,1.0,2,1,1,1,1.0,1.0,1,3,1,1,1,1,1,1,1,2,1,1,4,2,2,2,5,2,4,2,1,2,2,2,2,1,1000,,1.0,1,1,1,1.0,1,4,1,1,1,1,,0.0,,1.0,2.0,1.0,3.0,2,,,,,,,2,2,2,1,1,1,4,4,1,2,2,1,2,3,3,5,3,2,,1,1,,1,2,2.0,1,6,1,2,,,,,,,,,,,3791.4790401164264,3187.5993257702166,0.0,3654.1007406469735,6042.620330566058,3372.837029118921,14257.855589061966,12534.88647929328,3297.5722206190508,0.0,4431.982535306169,0.0
+10490840,2023,,2,3,2,1,1,2,3,1,2,2,1,1,3,2,99,99,1,1.0,1,3,1,1,1,3,,,40001,,40001,,9,2.0,1,1,2,2,2,2,2,1,6,6.0,6.0,1,2,1,1.0,1,2,1,1,1.0,1.0,1,1,1,1,1,1,1,1,1,5,1,1,4,2,2,1,5,1,1,2,1,3,3,2,2,1,1000,,2.0,2,1,2,1.0,1,4,1,1,1,4,,,,,,,,2,,,,,,,2,1,1,2,2,3,2,99,99,1,99,9,99,1,3,2,3,2,,2,99,99.0,99,1,,2,1,2,3,,,,,,,,,,,2779.2665191345413,0.0,0.0,5366.432778190435,5300.190436357314,3091.078602851667,0.0,3627.256536537205,3144.882702517969,0.0,2634.7405211167575,0.0
+10525640,2024,,2,3,2,2,1,3,3,2,1,1,1,2,2,1,2,2,2,,2,1,4,1,1,1,,,100000,,100000,,3,,3,3,2,2,2,2,2,6,6,,,4,2,2,2.0,2,2,1,5,,,7,5,5,5,5,4,4,3,2,4,3,4,3,5,4,3,5,4,5,3,2,2,1,2,1,2,1000,,2.0,3,2,3,1.0,1,2,2,2,4,1,,0.0,,4.0,5.0,2.0,5.0,2,,,,,,,1,1,2,2,1,3,3,4,3,1,2,1,2,4,3,5,3,2,,1,3,1.0,1,2,2.0,2,8,1,0,,,,,,,,,,,2316.3204277645295,2869.450572909029,0.0,3034.1096752008825,2468.727873954921,3139.727628639266,2362.191318002119,2066.928877294578,0.0,2974.927314630595,5452.06751497815,0.0
+11065220,2023,,2,5,3,3,1,2,3,3,1,2,2,1,1,2,2,2,1,1.0,1,2,2,2,1,1,,,1100,,1000,,9,1.0,2,1,2,2,2,2,2,3,6,1.0,1.0,2,2,1,1.0,1,1,1,1,1.0,1.0,99,99,99,99,99,2,3,2,2,3,4,3,4,2,2,3,5,5,5,2,2,2,2,1,2,1,1000,,99.0,99,99,99,,99,99,99,99,99,99,,,,,,,,2,,,,,,,1,1,1,1,1,1,1,1,1,3,2,1,2,1,3,4,99,2,,2,3,2.0,2,1,,2,1,1,2,,,,,,,,,,,23753.365123973108,0.0,0.0,20801.24786872002,69636.93421212217,22722.788498437036,31447.96850380813,54090.14466408467,55479.25350945974,0.0,28498.586603909243,20034.907613846743
+12043710,2023,,1,2,2,1,1,2,2,1,2,2,1,1,1,1,3,3,1,1.0,2,2,1,2,2,3,,,1100,,1000,,9,1.0,1,1,2,2,2,2,2,2,3,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,2,2,1,1,2,1,1,1,1,1,1,4,1,2,5,5,1,2,2,1,3,2,2,2,2,1000,,1.0,1,2,1,1.0,1,4,1,1,1,6,,,,,,,,2,,,,,,,2,2,2,1,1,1,1,1,2,2,2,1,2,3,3,2,3,2,,1,1,,1,1,,2,4,2,0,,,,,,,,,,,1788.2871723645058,0.0,1690.6976470405518,3425.9323579478505,3313.087345645962,1880.8735422213008,0.0,1656.1007707836975,0.0,2351.0027452266213,0.0,4360.712832111034
+12072510,2023,,1,2,2,1,1,2,1,1,2,2,2,1,3,2,1,1,1,3.0,1,1,3,1,1,1,,,1200,,1000,,9,2.0,4,2,2,2,2,2,2,6,6,,,4,2,2,1.0,2,2,1,4,,,7,5,5,5,5,4,1,2,1,4,1,4,5,99,5,5,5,99,5,2,1,2,1,1,1,2,1000,,2.0,3,3,2,1.0,1,4,2,4,4,5,,,,,,,,2,,,,,,,1,1,1,2,1,4,3,4,4,1,2,1,2,4,3,1,3,2,,1,2,,4,3,3.0,1,8,1,2,,,,,,,,,,,3902.3586899496513,9804.801344659823,15553.22425987907,0.0,0.0,4022.6566812017622,17922.23920456409,7142.426079690426,3716.934513180776,7453.327429132036,4427.085301134489,0.0
+10036700,2023,,2,2,2,3,1,3,3,3,1,1,2,2,2,1,2,2,1,1.0,2,2,2,1,1,3,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,2,2,1.0,1.0,2,1,1,1.0,1,1,1,2,1.0,1.0,2,1,1,2,4,4,1,1,1,1,1,1,4,4,3,2,5,4,5,2,1,2,2,2,1,2,1000,,2.0,2,1,2,1.0,1,3,3,3,2,1,,0.0,,2.0,2.0,1.0,4.0,2,,,,,,,1,1,1,1,1,2,2,2,2,1,2,1,2,2,3,5,3,2,,1,1,,2,2,2.0,2,5,1,2,,,,,,,,,,,3105.041672685976,3245.5468212370215,3466.611508624002,9334.30665837412,0.0,0.0,6729.538784348511,0.0,5243.122469476601,0.0,4609.684610672798,7614.679111694262
+12078150,2023,,2,4,3,3,1,3,2,1,2,1,2,1,3,2,3,3,1,1.0,77,2,1,2,1,2,,,1300,,1000,,9,1.0,2,2,2,2,2,2,2,2,1,6.0,1.0,1,2,1,1.0,1,1,1,2,1.0,1.0,3,4,1,4,4,4,1,3,1,1,1,2,4,2,2,4,5,2,5,2,2,3,2,2,2,1,1000,,1.0,1,1,2,1.0,99,1,1,4,2,6,,,,,,,,2,,,,,,,2,2,2,1,1,2,2,2,2,1,2,1,2,1,3,5,2,2,,1,1,,2,1,,6,1,1,0,,,,,,,,,,,8636.912469641946,0.0,0.0,0.0,7965.658858644901,18277.385161392645,6490.676316368949,0.0,8343.057709360448,0.0,0.0,32927.8327966562
+11555650,2024,,1,3,2,2,2,2,3,1,2,1,1,1,2,1,3,4,1,1.0,2,2,1,3,1,2,,,1100,,1000,,9,1.0,1,1,2,2,2,2,2,1,1,6.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,1,1,1,2,1,2,1,1,1,1,1,2,4,1,5,2,3,2,1,2,2,2,2,2,1000,,1.0,1,1,1,1.0,1,4,1,1,1,1,,0.0,,1.0,1.0,1.0,3.0,2,,,,,,,1,1,1,1,1,1,2,1,2,2,2,1,2,3,3,5,3,2,,1,3,1.0,2,2,2.0,2,3,1,2,,,,,,,,,,,6093.850409264108,0.0,11939.467359747568,6319.152425934549,13539.496886181983,0.0,0.0,0.0,6673.4635653859,16975.900099718037,5095.278114870399,12104.99095075453
+10495270,2023,,2,2,2,1,1,1,1,1,1,2,2,1,3,1,2,1,2,,1,1,5,1,1,2,,,50000,,50000,,9,,4,2,3,2,2,2,2,5,6,,,4,2,2,2.0,2,2,2,5,,,6,5,5,5,5,4,1,1,1,5,1,2,5,5,5,5,5,5,5,2,1,2,3,2,1,99,50000,,,3,2,4,1.0,1,2,3,3,4,5,,,,,,,,2,,,,,,,1,1,1,1,2,4,4,3,4,2,2,1,2,4,3,5,3,2,,1,3,2.0,3,1,,2,8,1,2,,,,,,,,,,,307.64684898420575,448.50344549518826,957.5536015607424,0.0,744.4394099680991,369.3206258893072,318.9064959218754,0.0,344.4890330714102,1258.736897411021,240.7449345359322,712.3892415329008
+10673140,2023,,1,2,2,1,2,2,2,1,2,2,1,1,3,1,4,4,1,1.0,2,3,1,1,1,2,,,1100,,1000,,9,1.0,1,1,2,99,99,99,99,3,6,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,1,4,1,1,1,1,1,1,1,1,1,2,1,3,1,5,1,5,2,1,2,2,2,2,1,1000,,1.0,1,1,1,1.0,1,4,1,1,1,3,,,,,,,,2,,,,,,,2,2,2,1,1,1,1,1,1,2,2,1,99,1,3,5,3,1,,2,1,,1,1,,4,1,1,4,,,,,,,,,,,17983.214399357257,0.0,16598.89991883883,37570.29762335403,0.0,73909.31055813987,0.0,15315.936977516552,29425.57619428064,37911.15683588222,0.0,0.0
+12062060,2023,,2,2,3,2,1,2,2,2,2,1,1,2,2,1,3,2,2,,3,1,1,2,1,3,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,2,2,1.0,1.0,1,1,1,1.0,1,1,1,1,1.0,1.0,1,3,1,1,2,2,1,1,1,1,2,1,2,2,2,1,5,2,4,2,1,3,2,1,2,2,1000,,1.0,3,1,1,1.0,1,4,1,1,1,3,,,,,,,,2,,,,,,,2,2,2,1,1,1,1,1,1,1,2,1,2,3,3,5,3,2,,1,1,,2,1,,2,2,2,0,,,,,,,,,,,1524.7639032429613,0.0,0.0,2951.326690692277,1507.931825558432,3388.6640035088385,0.0,0.0,1380.3213717870494,3199.1883242430877,0.0,1492.2313248790445
+10163950,2023,,1,1,1,2,1,1,1,1,1,2,2,1,1,2,2,1,2,,1,2,4,1,1,1,,,1200,,1000,,9,2.0,4,4,2,2,2,2,2,6,6,,,4,2,2,3.0,2,2,2,5,,,7,5,5,5,5,5,1,3,2,5,5,4,5,5,5,5,5,5,5,3,2,2,1,2,2,2,1000,,2.0,4,2,2,1.0,1,4,2,4,2,5,,,,,,,,2,,,,,,,1,1,1,2,1,4,3,3,4,2,2,1,2,4,3,5,3,2,,1,3,2.0,3,1,,2,7,1,1,,,,,,,,,,,1423.6566125616785,3920.094153419852,4696.007263438865,0.0,0.0,5978.5019592766,0.0,2137.625012709871,1860.6672922848431,1554.506411798436,0.0,3012.8330937274345
+11674260,2024,,3,4,2,2,3,3,2,3,1,2,2,1,1,2,2,2,2,,77,2,2,1,1,2,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,3,6,1.0,1.0,2,1,1,1.0,1,1,1,2,4.0,2.0,2,3,5,4,3,4,4,4,4,3,4,2,5,5,5,5,5,5,5,2,1,2,3,1,2,1,1000,,1.0,2,1,2,1.0,1,4,3,3,1,1,,0.0,,2.0,4.0,1.0,6.0,1,,,,2.0,1.0,2.0,2,2,2,1,1,2,2,2,2,4,2,1,2,2,3,3,3,1,,1,2,,3,3,3.0,2,3,2,2,,,,,,,,,,,2281.999327636065,0.0,1528.353811585967,2932.2880952950727,1951.436406657873,4213.712027622699,4814.710407467267,0.0,4909.982467073676,1535.4099029063243,1502.2997605288092,5058.153124466857
+11488160,2023,,2,3,2,1,1,1,1,1,1,1,2,1,1,1,1,1,2,,1,3,3,1,2,3,,,100000,,100000,,1,,4,1,2,2,2,2,2,5,5,,,2,2,2,2.0,2,2,1,5,,,6,5,5,5,5,5,3,3,3,4,4,3,3,99,2,3,5,3,4,2,2,3,3,2,2,2,100000,,,3,3,5,,1,1,2,1,3,6,,,,,,,,2,,,,,,,2,2,1,1,1,3,3,4,4,7,1,1,2,2,1,3,3,2,,1,2,,4,1,,1,5,2,0,,,,,,,,,,,3113.4426948068403,0.0,3236.4191166788987,6481.434952026231,0.0,0.0,6070.354562316389,7387.787675111356,0.0,0.0,3598.8045939718436,0.0
+11297950,2023,,2,3,4,1,1,1,1,1,1,2,2,1,2,1,1,1,1,3.0,1,1,5,1,1,1,,,100000,,100000,,2,,4,4,2,2,2,2,2,4,6,1.0,1.0,4,2,2,3.0,2,2,99,5,,,6,3,5,5,5,4,4,1,1,4,1,99,99,99,99,99,99,99,99,2,1,2,1,1,2,2,10000,,2.0,2,2,2,1.0,2,2,2,4,3,3,,,,,,,,1,,,,99.0,99.0,99.0,1,1,1,2,1,4,4,4,4,3,2,1,2,3,3,1,3,2,,2,3,99.0,3,3,2.0,2,8,2,1,,,,,,,,,,,7775.646014892535,0.0,12350.195770244143,0.0,10695.44384370705,0.0,0.0,10046.974554082495,7382.912481277632,0.0,9679.993150031602,7803.927076168883
+11871390,2023,,3,4,5,3,1,1,1,1,1,2,2,1,2,1,1,1,1,3.0,1,1,3,2,2,2,,,100000,,100000,,2,,4,4,2,2,2,2,2,6,6,,,4,2,2,2.0,2,2,1,5,,,7,5,5,5,5,3,5,1,4,1,4,4,5,5,5,5,5,5,5,2,2,2,1,1,1,2,1000,,2.0,1,3,1,1.0,1,4,2,3,2,5,,,,,,,,2,,,,,,,2,1,1,2,1,4,4,4,4,2,2,4,2,2,3,1,3,2,,1,3,2.0,3,3,3.0,1,4,2,0,,,,,,,,,,,846.2638559687206,0.0,774.8875254195383,911.0335613413135,0.0,443.52554713833854,1577.3164839906874,0.0,604.6830264996005,1127.1119477564434,0.0,4403.366653801075
+10351790,2024,,2,2,2,2,1,2,2,1,2,2,2,1,3,2,2,2,2,,77,2,1,1,2,2,,,1100,,1000,,9,1.0,1,2,2,2,2,2,2,1,4,1.0,1.0,1,1,1,1.0,1,1,1,1,2.0,1.0,2,2,2,1,2,3,1,1,1,1,3,3,5,5,5,3,4,3,4,2,1,2,2,2,2,2,1000,,2.0,2,1,2,1.0,1,4,1,1,1,5,,,,,,,,2,,,,,,,2,2,1,1,1,2,1,3,3,2,2,1,2,4,3,5,3,2,,1,2,,2,1,,2,5,2,3,,,,,,,,,,,1783.5003456951342,0.0,0.0,1691.0340659678932,2286.1355359746603,4379.617125300386,3596.167407015272,1721.775721689506,0.0,0.0,0.0,0.0
+10000840,2023,,1,1,2,1,1,1,1,1,1,2,1,1,3,2,2,1,1,3.0,2,2,1,1,1,1,,,1200,,1000,,9,2.0,2,1,2,1,2,2,2,2,3,1.0,1.0,1,1,1,1.0,1,1,1,2,1.0,1.0,2,1,4,2,3,4,1,1,1,1,1,3,4,2,4,2,2,4,4,2,1,2,2,2,2,2,10000,,2.0,2,1,2,1.0,1,4,1,1,1,1,,0.0,,1.0,3.0,2.0,4.0,2,,,,,,,1,2,99,1,1,3,99,3,4,2,2,1,2,4,3,5,3,2,,1,2,,4,2,2.0,2,7,2,2,,,,,,,,,,,2631.399871096371,2547.2807227182593,3137.1374568110828,3061.4663548533854,0.0,7897.843494849685,0.0,4542.880223714436,4550.177408824636,2868.322712782064,5242.095977913174,0.0
+10810330,2023,,2,2,2,2,1,1,3,3,1,2,2,2,1,2,2,1,2,,2,2,2,2,2,3,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,4,6,1.0,1.0,2,1,1,2.0,1,1,1,4,1.0,1.0,3,3,4,4,4,5,3,3,1,3,3,2,2,1,1,2,2,4,4,2,1,3,3,1,2,1,10000,,2.0,2,2,2,1.0,3,4,4,1,3,5,,,,,,,,2,,,,,,,1,1,1,1,1,1,1,1,1,2,2,1,2,2,3,5,3,1,,1,1,,2,1,,1,1,2,2,,,,,,,,,,,6060.06172388256,0.0,4336.0808141915495,7546.162985125582,0.0,30316.299995791487,0.0,7496.735316749539,6577.850493813576,0.0,0.0,0.0
+11382990,2023,,2,3,3,2,1,1,1,1,1,1,2,1,2,1,1,1,2,,77,2,3,2,2,3,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,4,4,1.0,1.0,2,1,1,1.0,1,1,1,3,2.0,2.0,5,4,4,3,4,3,3,3,3,3,3,3,4,4,4,4,5,4,5,2,2,3,3,1,2,2,1000,,2.0,3,2,5,,1,3,3,3,2,3,,,,,,,,1,,,,2.0,2.0,2.0,1,1,1,1,1,2,2,2,3,4,2,1,2,2,3,1,3,2,,1,2,,4,3,3.0,1,4,2,3,,,,,,,,,,,5459.32793912122,0.0,0.0,0.0,10141.51749812725,16551.813384610916,12010.061759444705,6032.071103857418,11388.49557643887,9036.231804715366,0.0,6567.495805666024
+10479980,2023,,1,2,2,2,1,1,1,1,1,2,1,1,1,1,1,2,1,3.0,1,1,4,2,1,2,,,100000,,100000,,3,,3,2,2,2,2,2,2,6,6,,,4,2,2,2.0,2,2,1,4,,,6,5,5,4,5,4,1,1,1,1,1,3,2,1,2,4,5,5,5,2,1,3,3,2,2,2,1000,,1.0,1,1,2,1.0,1,4,2,1,4,1,,1.0,,4.0,4.0,2.0,5.0,2,,,,,,,2,2,2,1,1,4,4,4,2,3,2,1,2,3,3,1,3,2,,1,3,2.0,3,3,3.0,1,5,2,2,,,,,,,,,,,6587.69766955819,6667.949155550182,17479.25622491354,15691.271979021209,6755.023183831206,14590.370265580808,11463.41452510764,6252.821871108383,6635.327234099264,0.0,12115.20552035078,0.0
+11183260,2023,,2,4,5,2,1,2,2,3,1,2,1,2,3,2,3,2,1,3.0,1,3,3,2,2,2,,,1200,,1000,,9,2.0,2,2,2,2,2,2,2,4,6,1.0,1.0,1,1,1,1.0,1,1,1,3,1.0,1.0,2,2,5,4,4,4,3,3,2,3,2,3,5,3,5,5,5,5,5,2,2,2,2,1,2,2,1000,,2.0,2,2,2,1.0,1,4,1,1,2,5,,,,,,,,2,,,,,,,1,1,1,1,1,2,2,2,2,2,2,1,2,1,3,5,3,1,,2,2,,3,1,,1,2,2,1,,,,,,,,,,,3549.178113372704,4135.978066245401,0.0,3203.036606779218,5201.187874788177,2139.060216699535,11488.354521277068,0.0,3605.771353095528,0.0,6302.60650805398,0.0
+10667770,2023,,2,3,3,1,1,1,1,1,1,2,2,1,1,2,1,1,2,,1,1,3,1,1,1,,,10000,,10000,,9,2.0,2,2,2,3,2,2,2,2,5,4.0,4.0,2,2,1,1.0,1,1,1,2,3.0,1.0,3,4,3,3,3,4,3,1,1,3,1,1,5,2,1,2,5,5,5,3,2,2,3,1,1,2,10000,,2.0,2,1,2,4.0,1,2,3,3,2,1,,1.0,,4.0,4.0,4.0,8.0,2,,,,,,,1,1,1,2,1,4,4,4,4,7,1,1,2,3,3,1,3,2,,2,2,,5,1,,1,4,1,0,,,,,,,,,,,6695.373201249154,0.0,6193.690567503107,8041.997739826772,7416.547897455757,7573.443818086797,5827.5421864507625,8662.290328083236,24450.663602435736,0.0,11231.286528764012,12367.450923444752
+10595500,2023,,2,2,2,1,1,1,1,1,1,2,2,1,1,2,1,1,1,1.0,1,1,5,1,2,1,,,100000,,100000,,1,,4,4,99,1,99,99,99,5,6,,,4,2,2,1.0,2,2,2,5,,,7,4,5,5,5,4,5,3,2,5,3,2,5,5,5,5,5,5,5,2,2,2,3,1,1,2,10000,,2.0,2,1,2,1.0,1,4,2,2,4,2,,0.0,,4.0,4.0,1.0,,2,,,,,,,2,1,1,2,1,4,4,4,4,6,2,1,2,3,3,1,3,2,,1,2,,5,2,2.0,1,7,2,0,,,,,,,,,,,10769.574324939698,13839.459513447937,0.0,0.0,0.0,23015.341934850745,18511.439483097707,8383.057717312313,9486.159960412708,0.0,0.0,13453.295884384344
+11828790,2023,,1,2,2,1,1,1,1,1,1,2,2,2,1,1,1,4,1,1.0,1,1,1,2,2,1,,,20000,,20000,,9,1.0,2,1,1,1,1,1,1,1,2,1.0,2.0,99,1,2,1.0,2,1,2,1,,,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,2,1,99,10000,,99.0,99,99,99,,99,99,99,99,99,99,,,,,,,,2,,,,,,,1,1,1,1,1,1,1,1,99,3,1,2,2,1,1,99,1,1,,2,2,,1,3,3.0,1,2,1,0,,,,,,,,,,,43255.3886584965,88673.91901776669,0.0,0.0,77697.93284151501,0.0,70305.11880586576,0.0,66570.98813340854,75618.32758163115,0.0,0.0
+11239210,2023,,2,3,2,2,3,2,2,1,2,1,1,2,2,1,4,4,1,1.0,3,3,1,2,2,2,,,1100,,1000,,9,1.0,2,2,2,2,2,2,2,1,5,1.0,1.0,2,1,1,1.0,2,1,1,1,1.0,1.0,1,1,3,1,1,3,1,1,1,3,4,3,5,2,5,2,5,5,4,2,2,3,3,2,2,1,1000,,1.0,1,1,1,1.0,4,4,4,3,2,1,,0.0,,1.0,2.0,1.0,7.0,1,,,,1.0,1.0,1.0,1,2,2,1,1,1,2,2,2,6,2,1,2,3,3,3,2,2,,1,1,,1,3,2.0,2,4,2,2,,,,,,,,,,,7410.402780615227,0.0,0.0,6159.832628766087,9538.825364301263,6554.218799661832,16863.398561444785,10294.589309784256,9218.7833593651,0.0,0.0,19609.819431139505
+11029850,2023,,2,3,3,2,2,3,3,2,1,2,2,2,2,1,1,2,1,1.0,1,2,2,2,1,3,,,1300,,1000,,9,2.0,1,1,2,2,2,2,2,3,2,2.0,2.0,1,1,1,1.0,1,1,1,2,1.0,1.0,3,2,3,2,2,2,2,1,1,3,3,2,5,3,5,3,5,3,5,2,2,2,3,2,2,2,1000,,2.0,2,2,3,2.0,1,4,3,3,2,1,,0.0,,99.0,3.0,2.0,3.0,1,,,,2.0,2.0,99.0,1,1,1,2,1,3,3,3,3,4,2,2,2,2,3,4,3,2,,1,2,,3,3,2.0,2,4,1,1,,,,,,,,,,,8426.149039442564,0.0,4337.053917382413,0.0,5369.0852250181715,0.0,0.0,0.0,0.0,17794.805494111835,5989.545895041526,0.0
+
+
+Additionally, the dataset profile is as follows:
+
+The key data profile information for this dataset includes:
+**P_SUID**: Data is of type integer. There are 36908 unique values. Coverage spans from 0 to 12121830.0.
+**YEAR_FROM_CODATE**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2024.0.
+**REGION**: Data is of type missingdata.
+**HAPPY**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SATIS_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**SATIS_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**CHNG_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRELPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRACPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**QB2A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**OPENIDEN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**POORASSIST**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GOVSIZE1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**ABRTLGL**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GAYMARR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PAR2CHILD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**PAR2CHILDA**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CLIM1A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 77.0.
+**EVOL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**GUIDE_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**DENOMREC2**: Data is of type missingdata.
+**FAMILY**: Data is of type missingdata.
+**RELTRAD**: Data is of type integer. There are 16 unique values. Coverage spans from 0 to 100000.0.
+**PROTFAM**: Data is of type missingdata.
+**CURREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**CURREL2**: Data is of type missingdata.
+**UNAFFILDETAIL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 9.0.
+**BORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**RELPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPIRPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELCON_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELCON_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_D**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_E**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**ATTNDPERRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**ATTNDONRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**LEADRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**RELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**MEMB**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**HVN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**HLL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SOUL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**BIBIMP**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAY**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**GRACE**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**EXP_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_G**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_F**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**RTRT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SECMEMB**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**VOL12_CPS**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SCRLCON1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL2**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**FRMREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**FRMREL2**: Data is of type missingdata.
+**CHBORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**CHIMPREL_A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHIMPREL_B**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHATTEND**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHCONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHEDU1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHEDU2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFEDIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFESPIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GTHGHT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARITAL**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**SPREL**: Data is of type missingdata.
+**RELMATCH**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 1.0.
+**SPBORNFINAL**: Data is of type missingdata.
+**SPRELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPRELTALK**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPRELSIM**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARWHENREC**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**CHILDREN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDS4ANDUNDERREC**: Data is of type missingdata.
+**KIDS5TO12REC**: Data is of type missingdata.
+**KIDS13TO17REC**: Data is of type missingdata.
+**KIDACT_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_E**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_F**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCPRY1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SCPRY2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELDISP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHRNAT**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**BIRTHDECADE**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**HISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RACECMB**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**AFROHISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**EDUCREC**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**E2**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**EMPLSIT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**USGEN**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**MOVED**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**CITIZEN**: Data is of type missingdata.
+**REG**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2.0.
+**PARTY**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PARTYLN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 99.0.
+**IDEO**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HH1REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**HH3REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**INTFREQ**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**INC_SDT1**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**GENDER**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**FERTREC**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**BRANCH**: Data is of type missingdata.
+**BIRTHHALFDECADE**: Data is of type missingdata.
+**RESPONDENT_BIRTHREGION**: Data is of type missingdata.
+**MOTHER_BIRTHREGION**: Data is of type missingdata.
+**FATHER_BIRTHREGION**: Data is of type missingdata.
+**YEARSINUSREC**: Data is of type missingdata.
+**ORIENTMOD**: Data is of type missingdata.
+**STATE**: Data is of type missingdata.
+**MSA**: Data is of type missingdata.
+**WEIGHT_MSA**: Data is of type missingdata.
+**WEIGHT**: Data is of type float. Coverage spans from 0 to 22406.46712081854.
+**REPWT_036**: Data is of type float. Coverage spans from 0 to 35968.77573619725.
+**REPWT_037**: Data is of type float. Coverage spans from 0 to 33678.215200947554.
+**REPWT_039**: Data is of type float. Coverage spans from 0 to 33350.300145797235.
+**REPWT_074**: Data is of type float. Coverage spans from 0 to 36060.74836742093.
+**REPWT_108**: Data is of type float. Coverage spans from 0 to 36053.70513842225.
+**REPWT_196**: Data is of type float. Coverage spans from 0 to 35552.83236854759.
+**REPWT_236**: Data is of type float. Coverage spans from 0 to 34626.310542282336.
+**REPWT_298**: Data is of type float. Coverage spans from 0 to 34567.02039639264.
+**REPWT_309**: Data is of type float. Coverage spans from 0 to 34022.32023451326.
+**REPWT_311**: Data is of type float. Coverage spans from 0 to 34414.303494286054.
+**REPWT_399**: Data is of type float. Coverage spans from 0 to 33926.785782662606.
+
+Based on this profile, please add sentence(s) to enrich the dataset description.
+
+Furthermore, the semantic profile of the dataset columns is as follows:
+The key semantic information for this dataset includes:
+**P_SUID**: Represents general identifier. Function/Usage context: identification.
+**YEAR_FROM_CODATE**: Contains temporal data (resolution: Year). Domain-specific type: general.
+**REGION**: Represents location. Contains spatial data (resolution: Region).
+**HAPPY**: Represents measurement. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**SATIS_A**: Function/Usage context: measurement.
+**SATIS_B**: Represents satisfaction rating. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**CHNG_A**:
+**CHNG_B**:
+**CHNG_C**:
+**DIVRELPOP**: Domain-specific type: general. Function/Usage context: measurement.
+**DIVRACPOP**:
+**QB2A**: Function/Usage context: measurement.
+**QB2C**: Function/Usage context: measurement.
+**QB2D**:
+**OPENIDEN**: Represents general identifier. Function/Usage context: identification.
+**POORASSIST**: Function/Usage context: measurement.
+**GOVSIZE1**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**ABRTLGL**:
+**GAYMARR**:
+**PAR2CHILD**: Represents general. Function/Usage context: counting/measurement.
+**PAR2CHILDA**: Function/Usage context: measurement.
+**CLIM1A**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**EVOL**: Function/Usage context: ranking/scoring.
+**GUIDE_A**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_B**: Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_C**:
+**GUIDE_D**: Domain-specific type: general. Function/Usage context: measurement.
+**DENOMREC2**:
+**FAMILY**: Represents general. Domain-specific type: general. Function/Usage context: general.
+**RELTRAD**:
+**PROTFAM**:
+**CURREL**: Represents financial metric. Domain-specific type: general. Function/Usage context: measurement.
+**CURREL2**:
+**UNAFFILDETAIL**:
+**BORNFINAL**: Represents unspecified entity. Domain-specific type: general. Function/Usage context: measurement.
+**RELPER**:
+**SPIRPER**:
+**RELCON_A**:
+**RELCON_B**:
+**RELCON_C**:
+**RELCON_D**:
+**RELCON_E**:
+**ATTNDPERRLS**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**ATTNDONRLS**: Function/Usage context: measurement.
+**CONGRACE**:
+**LEADRACE**:
+**RELIMP**:
+**MEMB**: Represents general. Function/Usage context: measurement.
+**GOD**: Represents general.
+**GOD2**:
+**HVN**: Represents general.
+**HLL**: Domain-specific type: general.
+**SOUL**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**BIBIMP**: Function/Usage context: measurement.
+**HUMNTR_A**:
+**HUMNTR_B**:
+**PRAY**:
+**GRACE**:
+**PRAC_A**:
+**PRAC_B**:
+**PRAC_C**:
+**PRAC_D**:
+**EXP_A**:
+**EXP_B**:
+**EXP_C**:
+**EXP_D**: Represents general. Function/Usage context: measurement.
+**EXP_E**: Represents general. Function/Usage context: measurement.
+**EXP_G**: Function/Usage context: measurement.
+**SPIRACT_A**: Function/Usage context: measurement.
+**SPIRACT_B**:
+**SPIRACT_C**: Represents general. Function/Usage context: measurement.
+**SPIRACT_D**:
+**SPIRACT_E**: Function/Usage context: measurement.
+**SPIRACT_F**: Function/Usage context: measurement.
+**RTRT**:
+**SECMEMB**: Represents numeric value. Domain-specific type: general. Function/Usage context: aggregation key.
+**VOL12_CPS**:
+**SCIMPACT**: Domain-specific type: general. Function/Usage context: measurement.
+**RELIMPACT**: Function/Usage context: measurement.
+**SCRLCON1**: Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL1**:
+**SECBEL2**:
+**FRMREL**:
+**FRMREL2**:
+**CHBORNFINAL**:
+**CHIMPREL_A**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**CHIMPREL_B**:
+**CHATTEND**: Function/Usage context: measurement.
+**CHCONGRACE**:
+**CHEDU1**:
+**CHEDU2**: Represents general. Function/Usage context: measurement.
+**LIFEDIR**:
+**LIFESPIR**: Domain-specific type: general. Function/Usage context: measurement.
+**GTHGHT**:
+**MARITAL**: Represents person. Domain-specific type: demographic. Function/Usage context: categorization.
+**SPREL**:
+**RELMATCH**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**SPBORNFINAL**:
+**SPRELIMP**:
+**SPRELTALK**:
+**SPRELSIM**: Domain-specific type: general.
+**MARWHENREC**:
+**CHILDREN**: Represents count. Function/Usage context: measurement.
+**KIDS4ANDUNDERREC**:
+**KIDS5TO12REC**:
+**KIDS13TO17REC**:
+**KIDACT_A**:
+**KIDACT_B**:
+**KIDACT_C**:
+**RELINST_A**:
+**RELINST_B**:
+**RELINST_D**:
+**RELINST_E**:
+**RELINST_F**:
+**SCPRY1**:
+**SCPRY2**: Domain-specific type: general. Function/Usage context: measurement.
+**RELDISP**: Function/Usage context: measurement.
+**CHRNAT**: Represents general. Function/Usage context: measurement.
+**BIRTHDECADE**: Represents temporal entity. Contains temporal data (resolution: Decade). Function/Usage context: aggregation key.
+**HISP**:
+**RACECMB**:
+**AFROHISP**: Represents general. Function/Usage context: measurement.
+**EDUCREC**:
+**E2**:
+**EMPLSIT**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**USGEN**:
+**MOVED**:
+**CITIZEN**: Represents person.
+**REG**: Function/Usage context: measurement.
+**PARTY**: Represents general. Function/Usage context: aggregation key.
+**PARTYLN**: Represents general. Function/Usage context: measurement.
+**IDEO**:
+**HH1REC**:
+**HH3REC**:
+**INTFREQ**: Function/Usage context: measurement.
+**INC_SDT1**:
+**GENDER**: Represents person. Domain-specific type: demographic. Function/Usage context: aggregation key.
+**FERTREC**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**BRANCH**: Represents general.
+**BIRTHHALFDECADE**: Represents temporal entity. Contains temporal data (resolution: Half-Decade). Domain-specific type: general.
+**RESPONDENT_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**MOTHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**FATHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region).
+**YEARSINUSREC**:
+**ORIENTMOD**:
+**STATE**: Represents location. Contains spatial data (resolution: State). Domain-specific type: general.
+**MSA**:
+**WEIGHT_MSA**:
+**WEIGHT**: Represents measurement. Function/Usage context: measurement.
+**REPWT_036**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_037**:
+**REPWT_039**:
+**REPWT_074**:
+**REPWT_108**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_196**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_236**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_298**: Represents general numeric. Function/Usage context: measurement.
+**REPWT_309**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_311**: Represents numeric value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_399**: Domain-specific type: general. Function/Usage context: measurement.
+
+Based on this information, please add sentence(s) discussing the semantic profile in the description.
+
+Moreover, the dataset topic is: Religious Composition Analysis. Based on this topic, please add sentence(s) describing what this dataset can be used for.
+
+Question: Based on the information above and the requirements, provide a dataset description in sentences. Use only natural, readable sentences without special formatting.
+
+Answer:
+
+Target length: approximately 200 words.
+
+**** Dataset Description ****
+ This dataset focuses on Religious Composition Analysis, providing valuable insights into various aspects of religious beliefs and practices across different demographics. It includes a wide range of variables, such as happiness levels, satisfaction ratings, and changes in religious affiliation, which can be used to assess the impact of religion on individual well-being and community dynamics. The dataset features unique identifiers for respondents, temporal data spanning from 2023 to 2024, and various demographic factors, including age, gender, and education level.
+
+The semantic profile of the dataset reveals that it encompasses measurements related to personal beliefs, community involvement, and religious practices. For instance, variables like HAPPY and SATIS_A provide insights into individual satisfaction and happiness, while CHNG_A and CHNG_B track changes in religious affiliation and beliefs. Additionally, the dataset captures information on family structures and social influences, making it a comprehensive resource for researchers and policymakers interested in understanding the interplay between religion and societal factors.
+
+Overall, this dataset serves as a crucial tool for analyzing religious trends, evaluating the effects of spirituality on life satisfaction, and informing community programs aimed at fostering inclusivity and understanding among diverse religious groups.
+
+**** Search Prompt ****
+ You are given a dataset about the topic Religious Composition Analysis, with the following initial description:
+
+This dataset focuses on Religious Composition Analysis, providing valuable insights into various aspects of religious beliefs and practices across different demographics. It includes a wide range of variables, such as happiness levels, satisfaction ratings, and changes in religious affiliation, which can be used to assess the impact of religion on individual well-being and community dynamics. The dataset features unique identifiers for respondents, temporal data spanning from 2023 to 2024, and various demographic factors, including age, gender, and education level.
+
+The semantic profile of the dataset reveals that it encompasses measurements related to personal beliefs, community involvement, and religious practices. For instance, variables like HAPPY and SATIS_A provide insights into individual satisfaction and happiness, while CHNG_A and CHNG_B track changes in religious affiliation and beliefs. Additionally, the dataset captures information on family structures and social influences, making it a comprehensive resource for researchers and policymakers interested in understanding the interplay between religion and societal factors.
+
+Overall, this dataset serves as a crucial tool for analyzing religious trends, evaluating the effects of spirituality on life satisfaction, and informing community programs aimed at fostering inclusivity and understanding among diverse religious groups.
+
+Please expand the description by including the exact topic. Additionally, add as many related concepts, synonyms, and relevant terms as possible based on the initial description and the topic.
+
+Unlike the initial description, which is focused on presentation and readability, the expanded description is intended to be indexed at the backend of a dataset search engine to improve searchability.
+
+Therefore, focus less on readability and more on including all relevant terms related to the topic. Make sure to include any variations of the key terms and concepts that could help improve retrieval in search results.
+
+Please follow the structure of the following example template:
+Dataset Overview:
+- Please keep the exact initial description of the dataset as shown in beginning the prompt.
+
+Key Themes or Topics:
+- Central focus on a broad area of interest (e.g., urban planning, socio-economic factors, environmental analysis).
+- Data spans multiple subtopics or related areas that contribute to a holistic understanding of the primary theme.
+Example:
+- theme1/topic1
+- theme2/topic2
+- theme3/topic3
+
+Applications and Use Cases:
+- Facilitates analysis for professionals, policymakers, researchers, or stakeholders.
+- Useful for specific applications, such as planning, engineering, policy formulation, or statistical modeling.
+- Enables insights into patterns, trends, and relationships relevant to the domain.
+Example:
+- application1/usecase1
+- application2/usecase2
+- application3/usecase3
+
+Concepts and Synonyms:
+- Includes related concepts, terms, and variations to ensure comprehensive coverage of the topic.
+- Synonyms and alternative phrases improve searchability and retrieval effectiveness.
+Example:
+- concept1/synonym1
+- concept2/synonym2
+- concept3/synonym3
+
+Keywords and Themes:
+- Lists relevant keywords and themes for indexing, categorization, and enhancing discoverability.
+- Keywords reflect the dataset's content, scope, and relevance to the domain.
+Example:
+- keyword1
+- keyword2
+- keyword3
+
+Additional Context:
+- Highlights the dataset's relevance to specific challenges or questions in the domain.
+- May emphasize its value for interdisciplinary applications or integration with related datasets.
+Example:
+- context1
+- context2
+- context3
+
+
+**** Search-Focused Description ****
+ Dataset Overview:
+- This dataset focuses on Religious Composition Analysis, providing valuable insights into various aspects of religious beliefs and practices across different demographics. It includes a wide range of variables, such as happiness levels, satisfaction ratings, and changes in religious affiliation, which can be used to assess the impact of religion on individual well-being and community dynamics. The dataset features unique identifiers for respondents, temporal data spanning from 2023 to 2024, and various demographic factors, including age, gender, and education level. The semantic profile of the dataset reveals that it encompasses measurements related to personal beliefs, community involvement, and religious practices. For instance, variables like HAPPY and SATIS_A provide insights into individual satisfaction and happiness, while CHNG_A and CHNG_B track changes in religious affiliation and beliefs. Additionally, the dataset captures information on family structures and social influences, making it a comprehensive resource for researchers and policymakers interested in understanding the interplay between religion and societal factors. Overall, this dataset serves as a crucial tool for analyzing religious trends, evaluating the effects of spirituality on life satisfaction, and informing community programs aimed at fostering inclusivity and understanding among diverse religious groups.
+
+Key Themes or Topics:
+- Religious beliefs
+- Religious practices
+- Spirituality
+- Well-being and happiness
+- Community dynamics
+- Demographic analysis
+- Faith and trust
+- Affiliation changes
+- Family structures
+- Social influences
+
+Applications and Use Cases:
+- Facilitates sociological research on the impacts of religion on individual behavior and attitudes.
+- Useful for policymakers to inform community programs promoting inclusivity and understanding.
+- Enables theologians and religious studies scholars to analyze trends in religious adherence and belief systems.
+- Supports psychological studies related to spirituality and mental health outcomes.
+- Aids in developing strategies for community integration and social cohesion among diverse religious groups.
+
+Concepts and Synonyms:
+- Religion/faith/belief systems
+- Spirituality/religiousness
+- Happiness/well-being/life satisfaction
+- Satisfaction ratings/contentment
+- Community involvement/engagement
+- Demographics/population characteristics
+- Affiliation change/religious conversion
+- Social factors/community influences
+- Family dynamics/family structure
+
+Keywords and Themes:
+- religious composition
+- religious affiliation
+- happiness levels
+- satisfaction ratings
+- demographic factors
+- faith trends
+- community dynamics
+- spiritual practices
+- social influence
+- well-being assessment
+
+Additional Context:
+- This dataset is particularly relevant for examining the evolving landscape of religious identity in the context of modern society.
+- Its interdisciplinary nature allows for integration with psychological, sociological, and anthropological research, providing a multifaceted view of the impact of religion.
+- It highlights the significance of understanding religious dynamics in addressing societal challenges such as mental health, community engagement, and cultural integration.
+
+**** Score of the General Description ****
+ Completeness: 8, Conciseness: 9, Readability: 9
+
+**** Score of the Search-Focused Description ****
+ Completeness: 9, Conciseness: 8, Readability: 9

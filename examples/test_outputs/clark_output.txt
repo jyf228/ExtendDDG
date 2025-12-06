@@ -1,0 +1,318 @@
+**** Basic Profile ****
+ The key data profile information for this dataset includes:
+**Case_ID**: Data is of type text. There are 110 unique values.
+**Tumor/Normal**: Data is of type text. There are 2 unique values.
+**Gender**: Data is of type text. There are 2 unique values.
+**Age**: Data is of type integer. There are 43 unique values. Coverage spans from 0 to 84.0.
+**BMI**: Data is of type float. Coverage spans from 0 to 68.59.
+**Race**: Data is of type text. There are 4 unique values.
+**Ethnicity_Self_Identify**: Data is of type text. There are 16 unique values.
+**Tumor_Site**: Data is of type text. There are 4 unique values.
+**Tumor_Site_Other**: Data is of type text. There are 27 unique values.
+**Tumor_Size_cm**: Data is of type float. Coverage spans from 0 to 14.1.
+**Tumor_Focality**: Data is of type text. There are 2 unique values.
+**Histologic_Type**: Data is of type text.
+**Grade**: Data is of type text. There are 4 unique values.
+**Tumor_Stage_Pathological**: Data is of type text. There are 4 unique values.
+**Path_Stage_Primary_Tumor_pT**: Data is of type text. There are 8 unique values.
+**Path_Stage_Reg_Lymph_Nodes_pN**: Data is of type text. There are 3 unique values.
+
+**** Structural Profile ****
+
+
+**** Semantic Profile ****
+ The key semantic information for this dataset includes:
+**Case_ID**: Represents case. Domain-specific type: general. Function/Usage context: identification key.
+**Tumor/Normal**: Represents biological condition. Domain-specific type: healthcare. Function/Usage context: classification.
+**Gender**: Represents person.
+**Age**: Represents person. Domain-specific type: demographic. Function/Usage context: measurement.
+**BMI**: Represents measurement. Domain-specific type: healthcare. Function/Usage context: assessment.
+**Race**: Represents demographic attribute.
+**Ethnicity_Self_Identify**: Represents person. Domain-specific type: demographic. Function/Usage context: classification.
+**Tumor_Site**: Represents location. Contains spatial data (resolution: Specific anatomical site). Domain-specific type: healthcare. Function/Usage context: measurement.
+**Tumor_Site_Other**: Represents medical condition. Domain-specific type: healthcare. Function/Usage context: categorization.
+**Tumor_Size_cm**: Represents measurement. Domain-specific type: healthcare. Function/Usage context: measurement.
+**Tumor_Focality**: Represents medical attribute. Domain-specific type: healthcare. Function/Usage context: classification.
+**Histologic_Type**: Represents medical condition. Domain-specific type: healthcare. Function/Usage context: classification.
+**Grade**: Represents general. Function/Usage context: ranking/scoring.
+**Tumor_Stage_Pathological**: Represents medical classification. Domain-specific type: healthcare. Function/Usage context: categorization.
+**Path_Stage_Primary_Tumor_pT**: Represents tumor stage. Domain-specific type: healthcare. Function/Usage context: classification.
+**Path_Stage_Reg_Lymph_Nodes_pN**: Represents pathological stage. Domain-specific type: healthcare. Function/Usage context: measurement.
+
+**** Data Topic ****
+ Renal Cell Carcinoma
+
+**** Description Prompt ****
+ Answer the question using the following information.
+
+First, consider the dataset sample:
+
+Case_ID,Tumor/Normal,Gender,Age,BMI,Race,Ethnicity_Self_Identify,Tumor_Site,Tumor_Site_Other,Tumor_Size_cm,Tumor_Focality,Histologic_Type,Grade,Tumor_Stage_Pathological,Path_Stage_Primary_Tumor_pT,Path_Stage_Reg_Lymph_Nodes_pN
+C3L-01603,TN,Male,63,42.77,White,White,Other,"Left Upper Pole, Lateral aspect",4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00380,T,Female,57,46.0,,Slavonic,Upper pole,,4.1,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3L-00907,TN,Male,55,47.25,White,WHITE,Other,Right Lower Pole,4.8,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3L-00606,TN,Female,75,42.33,White,White,Middle,,7.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pN0
+C3L-00812,T,Male,74,27.04,White,White,Upper pole,,2.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-01283,T,Male,37,30.86,White,Hispanic,Middle,,2.4,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1a,pNX
+C3L-00790,T,Male,44,38.99,White,Medical Record Does Not State,Middle,,7.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-00314,TN,Male,78,31.0,,Caucasian,Middle,,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3L-01836,TN,Male,47,29.41,White,White,Upper pole,,4.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pNX
+C3L-01286,TN,Male,58,46.17,White,White,Other,"Hilum, recurrent clear cell renal cell carcinoma, original tumor had sarcomatoid features",6.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3N-00313,T,Female,31,22.0,,Caucasian,Middle,,4.0,Unifocal,non-Clear Cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3L-00902,TN,Female,69,19.72,White,White,Middle,,5.0,Unifocal,Clear cell renal cell carcinoma,G1,Stage I,pT1b,pNX
+C3N-00315,T,Male,68,28.0,,Caucasian,Upper pole,,7.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pNX
+C3L-00026,TN,Female,65,28.23,White,White,Lower pole,,2.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1a,pNX
+C3N-01646,TN,Male,69,25.0,,Caucasian,Upper pole,,10.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3N-00492,TN,Female,49,26.0,,Caucasian,Lower pole,,11.0,Unifocal,non-Clear Cell renal cell carcinoma,G3,Stage II,pT2b,pNX
+C3N-00317,TN,Female,74,23.0,,Caucasian,Upper pole,,5.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-00852,TN,Male,62,28.71,,Slavonic,Other,Entire kidney,13.6,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3L-00791,TN,Male,76,29.49,White,Medical record does not state.,Lower pole,,6.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT1b,pN1
+C3L-00607,TN,Male,66,37.96,White,Caucasion,Middle,,7.5,Multifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3L-00765,T,Female,61,21.96,White,Medical Record Does Not State,Lower pole,,5.6,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-00834,TN,Male,65,30.0,,Caucasian,Upper pole,,5.0,Unifocal,Clear cell renal cell carcinoma,G1,Stage I,pT1b,pNX
+C3L-00096,TN,Male,52,27.44,White,White,Lower pole,,12.3,Multifocal,Clear cell renal cell carcinoma,G4,Stage IV,pT3a,pN0
+C3N-00437,TN,Female,69,37.0,,Caucasian,Upper pole,,6.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3L-00796,T,Male,67,30.81,White,Medical record does not state,Lower pole,,5.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-00148,TN,Male,52,28.41,,Caucasian,Other,Kidney,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-01213,T,Male,68,22.68,,Slavonic,Upper pole,,8.3,Unifocal,Clear cell renal cell carcinoma,G1,Stage III,pT3a,pNX
+C3N-00312,TN,Male,68,30.0,,Caucasian,Middle,,4.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3L-01313,TN,Male,63,29.38,White,White,Other,Mid to inferior aspect,9.0,Unifocal,Clear cell renal cell carcinoma,G4,Stage III,pT3a,pNX
+C3L-01287,TN,Male,60,25.31,White,White,Other,Right Inferior,10.5,Unifocal,Clear cell renal cell carcinoma,G4,Stage IV,pT3a,pNX
+C3L-00917,TN,Male,37,45.37,White,Hispanic,Middle,,3.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1a,pNX
+C3N-00573,TN,Male,61,22.04,,Asian,Other,"Left kidney, unspecified pole",11.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage II,pT2b,pN0
+C3L-00418,TN,Female,56,59.88,White,White,Other,Inferior to Mid Pole,8.7,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3N-00168,TN,Male,47,18.78,,Asian,Other,Pole,4.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pN0
+C3L-00813,T,Male,61,19.49,White,Medical record does not state,Upper pole,,4.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pNX
+C3L-00561,TN,Male,50,27.47,White,White,Middle,,10.0,Unifocal,Clear cell renal cell carcinoma,G4,Stage III,pT3b,pN0
+C3N-00495,TN,Male,67,16.0,,Caucasian,Upper pole,,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-01882,TN,Male,48,48.79,White,White,Other,Left,2.2,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pN0
+C3L-01553,T,Male,59,46.17,White,Medical record does not state,Lower pole,,1.9,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-00799,T,Male,41,35.66,White,Caucasion,Middle,,2.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-00011,TN,Female,63,27.47,White,White,Lower pole,,12.0,Unifocal,Clear cell renal cell carcinoma,G4,Stage IV,pT3a,pNX
+C3L-00910,TN,Female,75,36.36,White,White,Upper pole,,5.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pNX
+C3L-00447,TN,Male,35,36.57,White,White,Upper pole,,5.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pNX
+C3L-00097,TN,Male,59,36.81,White,white,Upper pole,,3.7,Multifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00390,TN,Male,58,29.05,,Slavonic,Upper pole,,14.1,Unifocal,Clear cell renal cell carcinoma,G2,Stage IV,pT3a,pNX
+C3L-01288,T,Female,70,39.45,White,White,Middle,,2.8,Unifocal,Clear cell renal cell carcinoma,G1,Stage I,pT1a,pNX
+C3L-00792,T,Female,>=90,29.6,White,Medical record does not state,Lower pole,,8.7,Unifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2a,pNX
+C3L-01302,TN,Female,71,36.0,White,White,Upper pole,,8.5,Unifocal,Clear cell renal cell carcinoma,G4,Stage III,pT3a,pN0
+C3L-00817,T,Male,80,33.96,White,Medical record does not state,Lower pole,,1.2,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00646,TN,Female,57,27.72,,Caucasian,Other,Kidney,3.2,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00242,TN,Male,69,39.2,White,Whte,Other,"RIGHT, unspecified",3.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-00103,TN,Male,56,28.7,White,White,Middle,,11.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3b,pN0
+C3N-01179,TN,Male,72,26.0,,Caucasian,Middle,,2.0,Multifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3N-00310,TN,Male,84,28.0,,Caucasian,Middle,,5.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-00800,T,Male,41,29.01,White,White,Middle,,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00494,TN,Male,66,34.0,,Caucasian,Upper pole,,5.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3L-00766,T,Female,57,68.59,White,Caucasion,Upper pole,,2.8,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00246,TN,Male,44,45.77,White,white,Lower pole,,3.1,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3L-00088,TN,Male,72,32.82,White,white,Middle,,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-01352,T,Female,76,26.95,White,Hispanic,Middle,,3.4,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00305,T,Female,60,19.0,,Caucasian,Middle,,1.0,Multifocal,Clear cell renal cell carcinoma,G1,Stage I,pT1a,pNX
+C3L-00448,TN,Male,66,26.18,White,White,Other,mid anterior,1.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00491,TN,Male,54,30.0,,Caucasian,Upper pole,,6.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage IV,pT1b,pNX
+C3L-00359,T,Female,73,42.92,White,White,Lower pole,,3.0,Unifocal,non-Clear Cell renal cell carcinoma,G1,Stage I,pT1a,pNX
+C3N-01180,T,Male,51,24.0,,Caucasian,Upper pole,,5.0,Unifocal,non-Clear Cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-01200,TN,Female,56,26.37,,Slavonic,Other,Complete replacement of the left kidney's parenchyma,16.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage IV,pT4,pN0
+C3N-01522,TN,Male,80,30.78,,Slavonic,Upper pole,,5.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pN0
+C3L-00079,TN,Male,49,37.88,White,white,Other,mid-inferior,14.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pN1
+C3N-01261,TN,Male,67,24.02,,Slavonic,Upper pole,,5.2,Unifocal,Clear cell renal cell carcinoma,G1,Stage I,pT1b,pNX
+C3L-01560,T,Female,54,38.08,White,Medical record does not state,Lower pole,,1.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1a,pNX
+C3N-01524,TN,Male,61,28.38,,Slavonic,Upper pole,,8.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2a,pNX
+C3N-00435,TN,Male,72,26.99,,Slavonic,Upper pole,,10.5,Unifocal,non-Clear Cell renal cell carcinoma,G3,Stage III,pT3,pN1
+C3N-01651,TN,Male,58,25.0,,Caucasian,Middle,,10.0,Multifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2a,pNX
+C3N-01214,TN,Male,60,21.38,,Slavonic,Upper pole,,8.4,Unifocal,Clear cell renal cell carcinoma,G2,Stage II,pT2a,pN0
+C3N-00149,TN,Female,68,27.05,,Caucasian,Other,Kidney,12.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage IV,pT4,pN0
+C3N-01178,TN,Female,58,25.0,,Caucasian,Upper pole,,7.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-00416,TN,Male,62,32.0,White,White,Other,HILAR,6.0,Unifocal,Clear cell renal cell carcinoma,G4,Stage III,pT3b,pNX
+C3N-00194,TN,Female,51,26.96,White,white,Other,MID TO LOWER POLE,12.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage IV,pT2b,pNX
+C3L-01557,T,Male,51,48.46,Black or African American,Medical record does not state,Other,Tumor invades the lower and middle poles,9.6,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3a,pN0
+C3N-00577,TN,Male,72,21.83,,Asian,Other,"Left kidney, not otherwise specified",14.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage IV,pT3,pN1
+C3L-00183,TN,Female,33,36.39,White,Patient not interviewed,Middle,,6.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-00583,TN,Male,55,37.72,White,Hispanic,Other,Central,4.0,Multifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1a,pNX
+C3L-00908,TN,Female,60,27.85,White,White,Other,Left Central Anterior,10.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2b,pNX
+C3L-00360,TN,Male,72,38.94,White,WHITE,Other,posterior central,3.7,Unifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2a,pNX
+C3N-00831,TN,Male,52,30.0,,Caucasian,Upper pole,,8.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage II,pT2a,pNX
+C3L-00010,TN,Male,30,34.15,White,White,Upper pole,,6.5,Unifocal,Clear cell renal cell carcinoma,G3,Stage I,pT1b,pN0
+C3N-01220,TN,Male,51,23.89,,Slavonic,Middle,,6.8,Unifocal,Clear cell renal cell carcinoma,G4,Stage IV,pT3a,pNX
+C3N-00733,TN,Male,56,27.77,White,American,Other,Involves all three poles,8.6,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-00581,TN,Male,52,33.66,White,White,Lower pole,,13.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage II,pT2b,pNX
+C3L-00369,TN,Male,89,27.35,White,White,Lower pole,,12.5,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3N-00177,TN,Male,52,24.06,,Vietnam,Other,Pole,7.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3,pN0
+C3N-01649,TN,Male,51,35.0,,Caucasian,Upper pole,,8.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3N-00320,TN,Male,67,32.0,,Caucasian,Upper pole,,4.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3N-00832,T,Male,79,23.0,,Caucasian,Lower pole,,4.0,Unifocal,non-Clear Cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-01361,TN,Male,48,39.0,,Caucasian,Middle,,2.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+C3N-00154,T,Male,68,28.08,,Caucasian,Other,Kidney,8.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage II,pT2a,pN0
+C3L-00004,TN,Male,72,22.8,White,White,Lower pole,,12.0,Unifocal,Clear cell renal cell carcinoma,G3,Stage III,pT3,pNX
+C3N-01808,TN,Male,47,28.75,White,American,Upper pole,,5.8,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1b,pNX
+C3N-01176,TN,Male,71,29.0,,Caucasian,Upper pole,,6.0,Multifocal,Clear cell renal cell carcinoma,G2,Stage III,pT3a,pNX
+C3L-00814,TN,Male,83,30.56,Not Reported,Medical Record Does Not State,Middle,,3.0,Unifocal,Clear cell renal cell carcinoma,G2,Stage I,pT1a,pNX
+
+
+Additionally, the dataset profile is as follows:
+
+The key data profile information for this dataset includes:
+**Case_ID**: Data is of type text. There are 110 unique values.
+**Tumor/Normal**: Data is of type text. There are 2 unique values.
+**Gender**: Data is of type text. There are 2 unique values.
+**Age**: Data is of type integer. There are 43 unique values. Coverage spans from 0 to 84.0.
+**BMI**: Data is of type float. Coverage spans from 0 to 68.59.
+**Race**: Data is of type text. There are 4 unique values.
+**Ethnicity_Self_Identify**: Data is of type text. There are 16 unique values.
+**Tumor_Site**: Data is of type text. There are 4 unique values.
+**Tumor_Site_Other**: Data is of type text. There are 27 unique values.
+**Tumor_Size_cm**: Data is of type float. Coverage spans from 0 to 14.1.
+**Tumor_Focality**: Data is of type text. There are 2 unique values.
+**Histologic_Type**: Data is of type text.
+**Grade**: Data is of type text. There are 4 unique values.
+**Tumor_Stage_Pathological**: Data is of type text. There are 4 unique values.
+**Path_Stage_Primary_Tumor_pT**: Data is of type text. There are 8 unique values.
+**Path_Stage_Reg_Lymph_Nodes_pN**: Data is of type text. There are 3 unique values.
+
+Based on this profile, please add sentence(s) to enrich the dataset description.
+
+Furthermore, the semantic profile of the dataset columns is as follows:
+The key semantic information for this dataset includes:
+**Case_ID**: Represents case. Domain-specific type: general. Function/Usage context: identification key.
+**Tumor/Normal**: Represents biological condition. Domain-specific type: healthcare. Function/Usage context: classification.
+**Gender**: Represents person.
+**Age**: Represents person. Domain-specific type: demographic. Function/Usage context: measurement.
+**BMI**: Represents measurement. Domain-specific type: healthcare. Function/Usage context: assessment.
+**Race**: Represents demographic attribute.
+**Ethnicity_Self_Identify**: Represents person. Domain-specific type: demographic. Function/Usage context: classification.
+**Tumor_Site**: Represents location. Contains spatial data (resolution: Specific anatomical site). Domain-specific type: healthcare. Function/Usage context: measurement.
+**Tumor_Site_Other**: Represents medical condition. Domain-specific type: healthcare. Function/Usage context: categorization.
+**Tumor_Size_cm**: Represents measurement. Domain-specific type: healthcare. Function/Usage context: measurement.
+**Tumor_Focality**: Represents medical attribute. Domain-specific type: healthcare. Function/Usage context: classification.
+**Histologic_Type**: Represents medical condition. Domain-specific type: healthcare. Function/Usage context: classification.
+**Grade**: Represents general. Function/Usage context: ranking/scoring.
+**Tumor_Stage_Pathological**: Represents medical classification. Domain-specific type: healthcare. Function/Usage context: categorization.
+**Path_Stage_Primary_Tumor_pT**: Represents tumor stage. Domain-specific type: healthcare. Function/Usage context: classification.
+**Path_Stage_Reg_Lymph_Nodes_pN**: Represents pathological stage. Domain-specific type: healthcare. Function/Usage context: measurement.
+
+Based on this information, please add sentence(s) discussing the semantic profile in the description.
+
+Moreover, the dataset topic is: Renal Cell Carcinoma. Based on this topic, please add sentence(s) describing what this dataset can be used for.
+
+Question: Based on the information above and the requirements, provide a dataset description in sentences. Use only natural, readable sentences without special formatting.
+
+Answer:
+
+Target length: approximately 100 words.
+
+**** Dataset Description ****
+ This dataset focuses on Renal Cell Carcinoma, providing valuable insights into various patient demographics and tumor characteristics. It includes 110 unique cases, detailing factors such as age, gender, race, and BMI, alongside specific tumor attributes like size, site, and histologic type. The dataset categorizes cases based on their biological condition (tumor or normal) and includes detailed classifications of tumor stage and grade. This information can be utilized for research on cancer epidemiology, treatment outcomes, and the correlation between demographic factors and tumor characteristics, ultimately aiding in the advancement of personalized medicine in renal cancer care.
+
+**** Search Prompt ****
+ You are given a dataset about the topic Renal Cell Carcinoma, with the following initial description:
+
+This dataset focuses on Renal Cell Carcinoma, providing valuable insights into various patient demographics and tumor characteristics. It includes 110 unique cases, detailing factors such as age, gender, race, and BMI, alongside specific tumor attributes like size, site, and histologic type. The dataset categorizes cases based on their biological condition (tumor or normal) and includes detailed classifications of tumor stage and grade. This information can be utilized for research on cancer epidemiology, treatment outcomes, and the correlation between demographic factors and tumor characteristics, ultimately aiding in the advancement of personalized medicine in renal cancer care.
+
+Please expand the description by including the exact topic. Additionally, add as many related concepts, synonyms, and relevant terms as possible based on the initial description and the topic.
+
+Unlike the initial description, which is focused on presentation and readability, the expanded description is intended to be indexed at the backend of a dataset search engine to improve searchability.
+
+Therefore, focus less on readability and more on including all relevant terms related to the topic. Make sure to include any variations of the key terms and concepts that could help improve retrieval in search results.
+
+Please follow the structure of the following example template:
+Dataset Overview:
+- Please keep the exact initial description of the dataset as shown in beginning the prompt.
+
+Key Themes or Topics:
+- Central focus on a broad area of interest (e.g., urban planning, socio-economic factors, environmental analysis).
+- Data spans multiple subtopics or related areas that contribute to a holistic understanding of the primary theme.
+Example:
+- theme1/topic1
+- theme2/topic2
+- theme3/topic3
+
+Applications and Use Cases:
+- Facilitates analysis for professionals, policymakers, researchers, or stakeholders.
+- Useful for specific applications, such as planning, engineering, policy formulation, or statistical modeling.
+- Enables insights into patterns, trends, and relationships relevant to the domain.
+Example:
+- application1/usecase1
+- application2/usecase2
+- application3/usecase3
+
+Concepts and Synonyms:
+- Includes related concepts, terms, and variations to ensure comprehensive coverage of the topic.
+- Synonyms and alternative phrases improve searchability and retrieval effectiveness.
+Example:
+- concept1/synonym1
+- concept2/synonym2
+- concept3/synonym3
+
+Keywords and Themes:
+- Lists relevant keywords and themes for indexing, categorization, and enhancing discoverability.
+- Keywords reflect the dataset's content, scope, and relevance to the domain.
+Example:
+- keyword1
+- keyword2
+- keyword3
+
+Additional Context:
+- Highlights the dataset's relevance to specific challenges or questions in the domain.
+- May emphasize its value for interdisciplinary applications or integration with related datasets.
+Example:
+- context1
+- context2
+- context3
+
+
+**** Search-Focused Description ****
+ Dataset Overview:
+- This dataset focuses on Renal Cell Carcinoma, providing valuable insights into various patient demographics and tumor characteristics. It includes 110 unique cases, detailing factors such as age, gender, race, and BMI, alongside specific tumor attributes like size, site, and histologic type. The dataset categorizes cases based on their biological condition (tumor or normal) and includes detailed classifications of tumor stage and grade. This information can be utilized for research on cancer epidemiology, treatment outcomes, and the correlation between demographic factors and tumor characteristics, ultimately aiding in the advancement of personalized medicine in renal cancer care.
+
+Key Themes or Topics:
+- Oncological diseases
+- Renal cancers
+- Cancer epidemiology
+- Tumor characteristics
+- Patient demographics
+- Tumor biology
+- Nephrology
+- Health disparities in cancer
+- Clinical oncology
+- Cancer treatment and outcomes
+
+Applications and Use Cases:
+- Facilitates analysis for oncologists, researchers, healthcare professionals, and epidemiologists.
+- Useful for applications in cancer research, patient stratification, personalized treatment plans, and public health studies.
+- Enables insights into correlation studies for risk factors associated with renal cell carcinoma, treatment effectiveness, and survival rates.
+
+Concepts and Synonyms:
+- Renal cell carcinoma/RCC
+- Kidney cancer
+- Clear cell carcinoma
+- Tumor size and staging
+- Tumor grade
+- Biological behavior of tumors
+- Patient characteristics
+- Age distribution in cancer patients
+- BMI and cancer outcomes
+- Histopathological types
+
+Keywords and Themes:
+- Renal Cell Carcinoma (RCC)
+- Kidney tumors
+- Epidemiological research
+- Tumor staging (AJCC)
+- Histology
+- Patient demographics
+- Cancer statistics
+- Tumor classification
+- Oncology data set
+- BMI and cancer
+
+Additional Context:
+- Highlights the dataset's relevance to understanding renal cell carcinoma dynamics and disparities in incidence and outcomes across different populations.
+- Emphasizes its value for integrating findings with related datasets on cancer prognosis, treatment methodologies, and quality of life in cancer patients.
+- Addresses the need for data-driven approaches to improve personalized medicine strategies in renal cancer care and enhance treatment pathways.
+
+**** Score of the General Description ****
+ Completeness: 8, Conciseness: 9, Readability: 9
+
+**** Score of the Search-Focused Description ****
+ Completeness: 9, Conciseness: 8, Readability: 9
