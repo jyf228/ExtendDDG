@@ -13,8 +13,7 @@ repos:
       - id: end-of-file-fixer
         exclude: '\.csv$'
       - id: check-toml
-      # TODO: Remove large file check for now, add back in later
-      # - id: check-added-large-files
-      #   args: ["--maxkb=1024"]
-      #   exclude: '\.(mp4|avi|mov|mkv)$'
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+        exclude: '\.(mp4|avi|mov|mkv)$'
       - id: mixed-line-ending

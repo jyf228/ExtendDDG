@@ -14,7 +14,9 @@ model_name = "gpt-4o-mini"
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
 # Load dataset
-csv_file = "datasets/rls_dataset.csv"
+# This is a subset of the full dataset (150 rows) to stay within GitHub's file size limit.
+# You will probably want to test with the full dataset.
+csv_file = "datasets/rls_dataset_example.csv"
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
     "This Pew Research Center survey was conducted among a nationally representative sample of adults "
