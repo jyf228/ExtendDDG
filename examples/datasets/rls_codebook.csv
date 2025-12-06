@@ -1,0 +1,2080 @@
+﻿Variable,Variable_Label,Values,Value_Labels
+P_SUID,Unique ID,10000040,Min. Val.
+P_SUID,,12158940,Max. Val
+YEAR_FROM_CODATE,Year in which survey was completed,2023,Min. Val.
+YEAR_FROM_CODATE,,2024,Max. Val
+REGION,Census region (variable is only available in restricted use file),1,Northeast
+REGION,,2,Midwest
+REGION,,3,South
+REGION,,4,West
+HAPPY,"Generally, how happy are you with your life these days? Are you...",1,Very happy
+HAPPY,,2,Pretty happy
+HAPPY,,3,Not too happy
+HAPPY,,99,DON'T KNOW/REFUSED
+SATIS_A,"Would you say your health in general is excellent, very good, good, fair or poor",1,Excellent
+SATIS_A,,2,Very good
+SATIS_A,,3,Good
+SATIS_A,,4,Fair
+SATIS_A,,5,Poor
+SATIS_A,,99,DON'T KNOW/REFUSED
+SATIS_B,"Would you say your family life is excellent, very good, good, fair or poor?",1,Excellent
+SATIS_B,,2,Very good
+SATIS_B,,3,Good
+SATIS_B,,4,Fair
+SATIS_B,,5,Poor
+SATIS_B,,99,DON'T KNOW/REFUSED
+CHNG_A,"A growing population of immigrants: Is this a change for the better, worse, or not made much difference?",1,Change for the better
+CHNG_A,,2,Change for the worse
+CHNG_A,,3,Hasn't made much difference
+CHNG_A,,99,DON'T KNOW/REFUSED
+CHNG_B,"More women in the workforce: Is this a change for the better, worse, or not made much difference?",1,Change for the better
+CHNG_B,,2,Change for the worse
+CHNG_B,,3,Hasn't made much difference
+CHNG_B,,99,DON'T KNOW/REFUSED
+CHNG_C,"Greater acceptance of people who are transgender: Is this a change for the better, worse, or not made much difference?",1,Change for the better
+CHNG_C,,2,Change for the worse
+CHNG_C,,3,Hasn't made much difference
+CHNG_C,,99,DON'T KNOW/REFUSED
+DIVRELPOP,"Does the fact that the U.S. is made up of people of many different religions and people who are not religious strengthen American society, weaken it, or not make much difference?",1,Strengthens American society
+DIVRELPOP,,2,Weakens American society
+DIVRELPOP,,3,Doesn't make much difference
+DIVRELPOP,,99,DON'T KNOW/REFUSED
+DIVRACPOP,"Does the fact that the U.S. is made up of people of many different races/ethnicities strengthen American society, weaken it, or not make much difference?",1,Strengthens American society
+DIVRACPOP,,2,Weakens American society
+DIVRACPOP,,3,Doesn't make much difference
+DIVRACPOP,,99,DON'T KNOW/REFUSED
+QB2A,"Which statement comes closer to your view, even if neither is exactly right?",1,Homosexuality should be accepted by society.
+QB2A,,2,Homosexuality should be discouraged by society.
+QB2A,,99,DON'T KNOW/REFUSED
+QB2C,"Which statement comes closer to your view, even if neither is exactly right?",1,Stricter environmental laws and regulations cost too many jobs and hurt the economy.
+QB2C,,2,Stricter environmental laws and regulations are worth the cost.
+QB2C,,99,DON'T KNOW/REFUSED
+QB2D,"Which statement comes closer to your view, even if neither is exactly right?",1,There are clear and absolute standards for what is right and wrong.
+QB2D,,2,Whether something is right or wrong often depends on the situation.
+QB2D,,99,DON'T KNOW/REFUSED
+OPENIDEN,"Which statement comes closer to your view, even if neither is exactly right?",1,America's openness to people from all over the world is essential to who we are as a nation.
+OPENIDEN,,2,"If America is too open to people from all over the world, we risk losing our identity as a nation."
+OPENIDEN,,99,DON'T KNOW/REFUSED
+POORASSIST,"Should government provide more assistance to people in need, less assistance, or is it providing about the right amount of assistance?",1,Should provide more assistance.
+POORASSIST,,2,Should provide less assistance.
+POORASSIST,,3,Is providing about the right amount of assistance.
+POORASSIST,,99,DON'T KNOW/REFUSED
+GOVSIZE1,"If you had to choose, would you rather have...",1,A smaller government providing fewer services.
+GOVSIZE1,,2,A bigger government providing more services.
+GOVSIZE1,,99,DON'T KNOW/REFUSED
+ABRTLGL,Do you think abortion should be...,1,Legal in all cases
+ABRTLGL,,2,Legal in most cases
+ABRTLGL,,3,Illegal in most cases
+ABRTLGL,,4,Illegal in all cases
+ABRTLGL,,99,DON'T KNOW/REFUSED
+GAYMARR,Do you favor or oppose allowing gays and lesbians to marry legally?,1,Strongly favor
+GAYMARR,,2,Favor
+GAYMARR,,3,Oppose
+GAYMARR,,4,Strongly oppose
+GAYMARR,,99,DON'T KNOW/REFUSED
+PAR2CHILD,"Which statement comes closer to your view, even if neither is exactly right?",1,Children with two parents are better off when a parent stays home to focus on the family.
+PAR2CHILD,,2,Children with two parents are just as well off when their parents work outside the home.
+PAR2CHILD,,99,DON'T KNOW/REFUSED
+PAR2CHILDA,"If one parent stays home to focus on the family, is it generally better if that",1,Mother
+PAR2CHILDA,,2,Father
+PAR2CHILDA,,3,It doesn't matter which parent stays home
+PAR2CHILDA,,99,DON'T KNOW/REFUSED
+CLIM1A,Which statement about the Earth's temperature comes closest to your view?,1,The Earth is getting warmer mostly because of human activity such as burning fossil fuels.
+CLIM1A,,2,The Earth is getting warmer mostly because of natural patterns in the Earth's environment.
+CLIM1A,,3,There is no solid evidence that the Earth is getting warmer.
+CLIM1A,,77,Not sure
+CLIM1A,,99,REFUSED
+EVOL,Which statement about the development of human life on Earth comes closest to your view?,1,Humans have evolved over time due to processes such as natural selection; God or a higher power had no role in this proc
+EVOL,,2,Humans have evolved over time due to processes that were guided or allowed by God or a higher power.
+EVOL,,3,Humans have existed in their present form since the beginning of time.
+EVOL,,99,DON'T KNOW/REFUSED
+GUIDE_A,Religious teachings and beliefs: How important is this to you when making decisions about right and wrong?,1,Extremely important
+GUIDE_A,,2,Very important
+GUIDE_A,,3,Somewhat important
+GUIDE_A,,4,Not too important
+GUIDE_A,,5,Not at all important
+GUIDE_A,,99,DON'T KNOW/REFUSED
+GUIDE_B,Logic and reason: How important is this to you when making decisions about right and wrong?,1,Extremely important
+GUIDE_B,,2,Very important
+GUIDE_B,,3,Somewhat important
+GUIDE_B,,4,Not too important
+GUIDE_B,,5,Not at all important
+GUIDE_B,,99,DON'T KNOW/REFUSED
+GUIDE_C,Practical experience and common sense: How important is this to you when making decisions about right and wrong?,1,Extremely important
+GUIDE_C,,2,Very important
+GUIDE_C,,3,Somewhat important
+GUIDE_C,,4,Not too important
+GUIDE_C,,5,Not at all important
+GUIDE_C,,99,DON'T KNOW/REFUSED
+GUIDE_D,Scientific information: How important is this to you when making decisions about right and wrong?,1,Extremely important
+GUIDE_D,,2,Very important
+GUIDE_D,,3,Somewhat important
+GUIDE_D,,4,Not too important
+GUIDE_D,,5,Not at all important
+GUIDE_D,,99,DON'T KNOW/REFUSED
+DENOMREC2,Religious affiliation; Collapsed version of DENOM; refer to documentation for additional information (variable is only available in restricted use file),101,Southern Baptist Convention
+DENOMREC2,,102,Independent Baptist (evangelical trad.)
+DENOMREC2,,133,Other Baptist (evangelical trad.)
+DENOMREC2,,134,American Baptist Churches USA
+DENOMREC2,,166,Other Baptist (mainline trad.)
+DENOMREC2,,167,"National Baptist Convention, USA"
+DENOMREC2,,168,National Baptist Convention of America
+DENOMREC2,,170,Progressive National Baptist Convention
+DENOMREC2,,183,Independent Baptist (historically Black Protestant trad.)
+DENOMREC2,,199,Other Baptist (historically Black Protestant trad.)
+DENOMREC2,,209,Global Methodist Church
+DENOMREC2,,233,Other Methodist (evangelical trad.)
+DENOMREC2,,234,United Methodist Church
+DENOMREC2,,266,Other Methodist (mainline trad.)
+DENOMREC2,,267,African Methodist Episcopal Church
+DENOMREC2,,299,Other Methodist (historically Black Protestant trad.)
+DENOMREC2,,301,Nondenominational evangelical
+DENOMREC2,,302,Nondenominational fundamentalist
+DENOMREC2,,303,Nondenominational charismatic
+DENOMREC2,,309,Interdenominational (evangelical trad.)
+DENOMREC2,,333,Other nondenominational (evangelical trad.)
+DENOMREC2,,334,Interdenominational (mainline trad.)
+DENOMREC2,,366,Other nondenominational (mainline trad.)
+DENOMREC2,,399,Nondenominational family (historically Black Protestant trad.)
+DENOMREC2,,401,Lutheran Church-Missouri Synod
+DENOMREC2,,433,Other Lutheran (evangelical trad.)
+DENOMREC2,,434,Evangelical Lutheran Church in America (ELCA)
+DENOMREC2,,466,Other Lutheran (mainline trad.)
+DENOMREC2,,501,Presbyterian Church in America
+DENOMREC2,,533,Other Presbyterian (evangelical trad.)
+DENOMREC2,,534,Presbyterian Church (USA)
+DENOMREC2,,566,Other Presbyterian (mainline trad.)
+DENOMREC2,,601,Assemblies of God
+DENOMREC2,,602,"Church of God (Cleveland, Tennessee)"
+DENOMREC2,,633,Other Pentecostal (evangelical trad.)
+DENOMREC2,,667,Church of God in Christ
+DENOMREC2,,699,Other Pentecostal (historically Black Protestant trad.)
+DENOMREC2,,733,Episcopalian/Anglican Family (evangelical trad.)
+DENOMREC2,,734,Episcopal Church
+DENOMREC2,,766,Other Episcopalian/Anglican (mainline trad.)
+DENOMREC2,,801,Churches of Christ
+DENOMREC2,,833,Other Restorationist (evangelical trad.)
+DENOMREC2,,834,Disciples of Christ
+DENOMREC2,,866,Other Restorationist (mainline trad.)
+DENOMREC2,,933,Congregational family (evangelical trad.)
+DENOMREC2,,934,United Church of Christ
+DENOMREC2,,966,Other Congregationalist (mainline trad.)
+DENOMREC2,,1001,Church of the Nazarene
+DENOMREC2,,1003,Free Methodist Church
+DENOMREC2,,1033,Other Holiness (evangelical trad.)
+DENOMREC2,,1099,Holiness Family (historically Black Protestant trad.)
+DENOMREC2,,1101,Christian Reformed Church
+DENOMREC2,,1133,Other Reformed (evangelical trad.)
+DENOMREC2,,1166,Reformed Family (mainline trad.)
+DENOMREC2,,1201,Seventh-day Adventist
+DENOMREC2,,1233,Other Adventist (evangelical trad.)
+DENOMREC2,,1333,Anabaptist Family (evangelical trad.)
+DENOMREC2,,1366,Anabaptist Family (mainline trad.)
+DENOMREC2,,1433,Pietist Family (evangelical trad.)
+DENOMREC2,,1533,Friends Family (evangelical trad.)
+DENOMREC2,,1566,Friends Family (mainline trad.)
+DENOMREC2,,1633,Other evangelical/Fundamentalist family (evangelical trad.)
+DENOMREC2,,1833,Nonspecific/Other Protestant family (evangelical trad.)
+DENOMREC2,,1866,Nonspecific/Other Protestant family (mainline trad.)
+DENOMREC2,,1899,Nonspecific/Other Protestant family (historically Black Protestant trad.)
+DENOMREC2,,2000,Catholic
+DENOMREC2,,2100,Church of Jesus Christ of Latter-day Saints (Mormon)
+DENOMREC2,,2200,Orthodox Christian
+DENOMREC2,,2201,Jehovah's Witness
+DENOMREC2,,2310,Metaphysical Christian ('Other Christian' trad.)
+DENOMREC2,,2517,Others in 'Other Christian' tradition
+DENOMREC2,,2600,Jewish
+DENOMREC2,,2700,Muslim
+DENOMREC2,,2801,Buddhist
+DENOMREC2,,2900,Hindu
+DENOMREC2,,2999,Other World Religions
+DENOMREC2,,3034,Unitarian
+DENOMREC2,,3040,Spiritual but not religious
+DENOMREC2,,3045,Other in the 'Unitarian and other liberal faiths' family
+DENOMREC2,,3090,Pagan or Wiccan
+DENOMREC2,,3091,Other in the New Age family
+DENOMREC2,,3099,Native American religions
+DENOMREC2,,3201,Atheist
+DENOMREC2,,3202,Agnostic
+DENOMREC2,,3203,Nothing in particular
+DENOMREC2,,9999,No answer
+FAMILY,Collapsed version of DENOM: Respondent's current religion (family of denominational groupings); refer to documentation for additional information (variable is only available in restricted use file),1,Baptist family in the Evangelical Protestant Tradition
+FAMILY,,2,Methodist family in the Evangelical Protestant Tradition
+FAMILY,,3,Nondenominational family in the Evangelical Protestant Tradition
+FAMILY,,4,Lutheran family in the Evangelical Protestant Tradition
+FAMILY,,5,Presbyterian family in the Evangelical Protestant Tradition
+FAMILY,,6,Pentecostal family in the Evangelical Protestant Tradition
+FAMILY,,7,Anglican/Episcopalian family in the Evangelical Protestant Tradition
+FAMILY,,8,Restorationist family in the Evangelical Protestant Tradition
+FAMILY,,9,Congregational family in the Evangelical Protestant Tradition
+FAMILY,,10,Holiness family in the Evangelical Protestant Tradition
+FAMILY,,11,Reformed family in the Evangelical Protestant Tradition
+FAMILY,,12,Adventist family in the Evangelical Protestant Tradition
+FAMILY,,13,Anabaptist family in the Evangelical Protestant Tradition
+FAMILY,,14,Pietist family in the Evangelical Protestant Tradition
+FAMILY,,15,Friends family in the Evangelical Protestant Tradition
+FAMILY,,16,Other Evangelical/Fundamentalist family in the Evangelical Protestant Tradition
+FAMILY,,18,Protestant non-specific family in the Evangelical Protestant Tradition
+FAMILY,,34,Baptist family in the Mainline Protestant Tradition
+FAMILY,,35,Methodist family in the Mainline Protestant Tradition
+FAMILY,,36,Nondenominational family in the Mainline Protestant Tradition
+FAMILY,,37,Lutheran family in the Mainline Protestant Tradition
+FAMILY,,38,Presbyterian family in the Mainline Protestant Tradition
+FAMILY,,39,Anglican/Episcopalian family in the Mainline Protestant Tradition
+FAMILY,,40,Restorationist family in the Mainline Protestant Tradition
+FAMILY,,41,Congregational family in the Mainline Protestant Tradition
+FAMILY,,42,Reformed family in the Mainline Protestant Tradition
+FAMILY,,43,Anabaptist family in the Mainline Protestant Tradition
+FAMILY,,44,Friends family in the Mainline Protestant Tradition
+FAMILY,,45,Protestant other/non-specific family in the Mainline Protestant Tradition
+FAMILY,,67,Baptist family in the Historically Black Protestant Tradition
+FAMILY,,68,Methodist family in the Historically Black Protestant Tradition
+FAMILY,,69,Pentecostal family in the Historically Black Protestant Tradition
+FAMILY,,70,Holiness family in the Historically Black Protestant Tradition
+FAMILY,,71,Nondenominational Protestant family in the Historically Black Protestant Tradition
+FAMILY,,72,Protestant non-specific family in the Historically Black Protestant Tradition
+FAMILY,,101,Catholic
+FAMILY,,102,Church of Jesus Christ of Latter-day Saints (Mormon)
+FAMILY,,103,Orthodox Christian
+FAMILY,,104,Jehovah's Witness family
+FAMILY,,105,Metaphysical family
+FAMILY,,106,"""Other"" Other Christian family"
+FAMILY,,201,Jewish family
+FAMILY,,202,Muslim family
+FAMILY,,203,Buddhist family
+FAMILY,,204,Hindu family
+FAMILY,,205,Other World Religions
+FAMILY,,206,Unitarians and other Liberal Faiths in Other Faiths Tradition
+FAMILY,,207,New Age in Other Faiths Tradition
+FAMILY,,208,Native American Religions
+FAMILY,,301,Atheist family
+FAMILY,,302,Agnostic family
+FAMILY,,303,Nothing in particular family
+FAMILY,,999,DK/REF - NO INFO ON RELIGIOUS AFFILIATION
+RELTRAD,Collapsed version of FAMILY: Respondent's religious tradition; refer to documentation for additional information,1100,Evangelical Protestant Tradition
+RELTRAD,,1200,Mainline Protestant Tradition
+RELTRAD,,1300,Historically Black Protestant Tradition
+RELTRAD,,10000,Catholic
+RELTRAD,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+RELTRAD,,30000,Orthodox Christian
+RELTRAD,,40001,Jehovah's Witness
+RELTRAD,,40002,Other Christian
+RELTRAD,,50000,Jewish
+RELTRAD,,60000,Muslim
+RELTRAD,,70000,Buddhist
+RELTRAD,,80000,Hindu
+RELTRAD,,90001,Other World Religions
+RELTRAD,,90002,Other Faiths
+RELTRAD,,100000,Religiously Unaffiliated
+RELTRAD,,900000,Don't know/refused
+PROTFAM,Collapsed version of FAMILY: family of Protestant denominations; refer to documentation for additional information (variable is only available in restricted use file),0,Not Protestant
+PROTFAM,,1,Baptist family
+PROTFAM,,2,Methodist family
+PROTFAM,,3,Nondenominational family
+PROTFAM,,4,Lutheran family
+PROTFAM,,5,Presbyterian family
+PROTFAM,,6,Pentecostal family
+PROTFAM,,7,Episcopalian family
+PROTFAM,,8,Restorationist family
+PROTFAM,,9,Congregationalist family
+PROTFAM,,10,Holiness family
+PROTFAM,,11,Reformed family
+PROTFAM,,12,Adventist family
+PROTFAM,,13,Anabaptist family
+PROTFAM,,14,Other - Pietist family
+PROTFAM,,15,Friends family
+PROTFAM,,16,Other Evangelical/Fundamentalist family
+PROTFAM,,18,Protestant non-specific family
+CURREL,Respondent's current religion - recoded from RELTRAD to match coding in FRMREL and SPREL for analysis of religious switching and intermarriage,1000,Protestant
+CURREL,,10000,Catholic
+CURREL,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+CURREL,,30000,Orthodox Christian
+CURREL,,40001,Jehovah's Witness
+CURREL,,40002,Other Christian
+CURREL,,50000,Jewish
+CURREL,,60000,Muslim
+CURREL,,70000,Buddhist
+CURREL,,80000,Hindu
+CURREL,,90001,Other world religions
+CURREL,,90002,Other faiths
+CURREL,,100000,Religiously unaffiliated
+CURREL,,900000,Refused/uninterpretable
+CURREL2,"Respondent's current religion, with detail for 'Protestant' and 'unaffiliated' in CURREL - matches coding in FRMREL2/SPREL2 for analysis of religious switching/intermarriage (variable only available in restricted use file)",1,Baptist family
+CURREL2,,2,Methodist family
+CURREL2,,3,Nondenominational family
+CURREL2,,4,Lutheran family
+CURREL2,,5,Presbyterian family
+CURREL2,,6,Pentecostal family
+CURREL2,,7,Episcopalian family
+CURREL2,,8,Restorationist family
+CURREL2,,9,Congregationalist family
+CURREL2,,10,Holiness family
+CURREL2,,11,Reformed family
+CURREL2,,12,Adventist family
+CURREL2,,13,Anabaptist family
+CURREL2,,14,Other - Pietist family
+CURREL2,,15,Friends family
+CURREL2,,16,Other Evangelical/Fundamentalist family
+CURREL2,,18,Protestant non-specific family
+CURREL2,,10000,Catholic
+CURREL2,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+CURREL2,,30000,Orthodox Christian
+CURREL2,,40001,Jehovah's Witness
+CURREL2,,40002,Other Christian
+CURREL2,,50000,Jewish
+CURREL2,,60000,Muslim
+CURREL2,,70000,Buddhist
+CURREL2,,80000,Hindu
+CURREL2,,90001,Other world religions
+CURREL2,,90002,Other faiths
+CURREL2,,100001,Atheist
+CURREL2,,100002,Agnostic
+CURREL2,,100003,Nothing in particular
+CURREL2,,900000,Refused/uninterpretable
+UNAFFILDETAIL,Additional detail about the identity of the religiously unaffiliated (in RELTRAD),1,Atheist
+UNAFFILDETAIL,,2,Agnostic
+UNAFFILDETAIL,,3,Nothing in particular
+UNAFFILDETAIL,,9,Not religiously unaffiliated in RELTRAD
+BORNFINAL,"BORN based on Christians: Would you describe yourself as a born-again or evangelical Christian, or not?",1,"Yes, born-again or evangelical Christian"
+BORNFINAL,,2,"No, not born-again or evangelical Christian"
+BORNFINAL,,98,Not asked
+BORNFINAL,,99,Don't know/refused
+RELPER,To what extent do you consider yourself a religious person? Are you...,1,Very religious
+RELPER,,2,Somewhat religious
+RELPER,,3,Not too religious
+RELPER,,4,Not at all religious
+RELPER,,99,DON'T KNOW/REFUSED
+SPIRPER,To what extent do you consider yourself a spiritual person? Are you...,1,Very spiritual
+SPIRPER,,2,Somewhat spiritual
+SPIRPER,,3,Not too spiritual
+SPIRPER,,4,Not at all spiritual
+SPIRPER,,99,DON'T KNOW/REFUSED
+RELCON_A,"Aside from religion, do you consider yourself to be Jewish?",1,Yes
+RELCON_A,,2,No
+RELCON_A,,3,Respondent is Jewish by religion
+RELCON_A,,99,DON'T KNOW/REFUSED
+RELCON_B,"Aside from religion, do you consider yourself to be Catholic?",1,Yes
+RELCON_B,,2,No
+RELCON_B,,3,Respondent is Catholic by religion
+RELCON_B,,99,DON'T KNOW/REFUSED
+RELCON_C,"Aside from religion, do you consider yourself to be Hindu?",1,Yes
+RELCON_C,,2,No
+RELCON_C,,3,Respondent is Hindu by religion
+RELCON_C,,99,DON'T KNOW/REFUSED
+RELCON_D,"Aside from religion, do you consider yourself to be Muslim?",1,Yes
+RELCON_D,,2,No
+RELCON_D,,3,Respondent is Muslim by religion
+RELCON_D,,99,DON'T KNOW/REFUSED
+RELCON_E,"Aside from religion, do you consider yourself to be Buddhist?",1,Yes
+RELCON_E,,2,No
+RELCON_E,,3,Respondent is Buddhist by religion
+RELCON_E,,99,DON'T KNOW/REFUSED
+ATTNDPERRLS,How often do you attend religious services in person?,1,More than once a week
+ATTNDPERRLS,,2,Once a week
+ATTNDPERRLS,,3,Once or twice a month
+ATTNDPERRLS,,4,A few times a year
+ATTNDPERRLS,,5,Seldom
+ATTNDPERRLS,,6,Never
+ATTNDPERRLS,,99,DON'T KNOW/REFUSED
+ATTNDONRLS,How often do you watch or participate in religious services online or on TV?,1,More than once a week
+ATTNDONRLS,,2,Once a week
+ATTNDONRLS,,3,Once or twice a month
+ATTNDONRLS,,4,A few times a year
+ATTNDONRLS,,5,Seldom
+ATTNDONRLS,,6,Never
+ATTNDONRLS,,99,DON'T KNOW/REFUSED
+CONGRACE,"When you attend religious services in person, what is the race or ethnicity of most other people attending?",1,All or most are White
+CONGRACE,,2,All or most are Black or African American
+CONGRACE,,3,All or most are Asian or Asian American
+CONGRACE,,4,All or most are Hispanic or Latino
+CONGRACE,,5,All or most are some other race or ethnicity (please specify)
+CONGRACE,,6,No one racial group makes up a majority
+CONGRACE,,99,DON'T KNOW/REFUSED
+LEADRACE,"Thinking about the place where you most often attend religious services in person, what is the race or ethnicity of the senior religious leaders?",1,All or most are White
+LEADRACE,,2,All or most are Black or African American
+LEADRACE,,3,All or most are Asian or Asian American
+LEADRACE,,4,All or most are Hispanic or Latino
+LEADRACE,,5,All or most are some other race or ethnicity (please specify)
+LEADRACE,,6,No one racial group makes up a majority
+LEADRACE,,99,DON'T KNOW/REFUSED
+RELIMP,How important is religion in your life?,1,Very important
+RELIMP,,2,Somewhat important
+RELIMP,,3,Not too important
+RELIMP,,4,Not at all important
+RELIMP,,99,DON'T KNOW/REFUSED
+MEMB,"Are you personally a member of a church, synagogue, mosque, temple, or other house of worship?",1,Yes
+MEMB,,2,No
+MEMB,,99,DON'T KNOW/REFUSED
+GOD,Do you believe in God or a universal spirit?,1,Yes
+GOD,,2,No
+GOD,,99,DON'T KNOW/REFUSED
+GOD2,How certain are you about this belief?,1,Absolutely certain
+GOD2,,2,Fairly certain
+GOD2,,3,Not too certain
+GOD2,,4,Not at all certain
+GOD2,,99,DON'T KNOW/REFUSED
+HVN,Do you think there is a heaven where people who have led good lives are eternally rewarded?,1,Yes
+HVN,,2,No
+HVN,,99,DON'T KNOW/REFUSED
+HLL,Do you think there is a hell where people who have led bad lives and die without being sorry are eternally punished?,1,Yes
+HLL,,2,No
+HLL,,99,DON'T KNOW/REFUSED
+SOUL,Do you believe people have a soul or spirit in addition to their physical body?,1,Yes
+SOUL,,2,No
+SOUL,,99,DON'T KNOW/REFUSED
+BIBIMP,How important is the Bible in your life?,1,Extremely important
+BIBIMP,,2,Very important
+BIBIMP,,3,Somewhat important
+BIBIMP,,4,Not too important
+BIBIMP,,5,Not at all important
+BIBIMP,,99,DON'T KNOW/REFUSED
+HUMNTR_A,God gave humans the right to use the Earth for humanity's benefit: How well does this describe your view?,1,Completely
+HUMNTR_A,,2,Mostly
+HUMNTR_A,,3,Somewhat
+HUMNTR_A,,4,A little bit
+HUMNTR_A,,5,Not at all
+HUMNTR_A,,99,DON'T KNOW/REFUSED
+HUMNTR_B,God gave humans a duty to protect and care for the Earth: How well does this describe your view?,1,Completely
+HUMNTR_B,,2,Mostly
+HUMNTR_B,,3,Somewhat
+HUMNTR_B,,4,A little bit
+HUMNTR_B,,5,Not at all
+HUMNTR_B,,99,DON'T KNOW/REFUSED
+PRAY,"Outside of attending religious services, how often do you pray?",1,Several times a day
+PRAY,,2,Once a day
+PRAY,,3,A few times a week
+PRAY,,4,Once a week
+PRAY,,5,A few times a month
+PRAY,,6,Seldom
+PRAY,,7,Never
+PRAY,,99,DON'T KNOW/REFUSED
+GRACE,How often do you say grace or pray before meals?,1,Always
+GRACE,,2,Often
+GRACE,,3,Sometimes
+GRACE,,4,Seldom
+GRACE,,5,Never
+GRACE,,99,DON'T KNOW/REFUSED
+PRAC_A,"How often do you participate in prayer groups, scripture study groups or religoius education programs?",1,At least once a week
+PRAC_A,,2,Once or twice a month
+PRAC_A,,3,Several times a year
+PRAC_A,,4,Seldom
+PRAC_A,,5,Never
+PRAC_A,,99,DON'T KNOW/REFUSED
+PRAC_B,How often do you read scripture outside of religious services?,1,At least once a week
+PRAC_B,,2,Once or twice a month
+PRAC_B,,3,Several times a year
+PRAC_B,,4,Seldom
+PRAC_B,,5,Never
+PRAC_B,,99,DON'T KNOW/REFUSED
+PRAC_C,"How often do you read other holy texts, devotions, or inspirational literature (",1,At least once a week
+PRAC_C,,2,Once or twice a month
+PRAC_C,,3,Several times a year
+PRAC_C,,4,Seldom
+PRAC_C,,5,Never
+PRAC_C,,99,DON'T KNOW/REFUSED
+PRAC_D,How often do you share your views about religion with people from other religious backgrounds?,1,At least once a week
+PRAC_D,,2,Once or twice a month
+PRAC_D,,3,Several times a year
+PRAC_D,,4,Seldom
+PRAC_D,,5,Never
+PRAC_D,,99,DON'T KNOW/REFUSED
+EXP_A,How often do you feel a deep sense of spiritual peace and well-being?,1,At least once a week
+EXP_A,,2,Once or twice a month
+EXP_A,,3,Several times a year
+EXP_A,,4,Seldom
+EXP_A,,5,Never
+EXP_A,,99,DON'T KNOW/REFUSED
+EXP_B,How often do you feel a deep sense of wonder about the universe?,1,At least once a week
+EXP_B,,2,Once or twice a month
+EXP_B,,3,Several times a year
+EXP_B,,4,Seldom
+EXP_B,,5,Never
+EXP_B,,99,DON'T KNOW/REFUSED
+EXP_C,How often do you feel a strong sense of gratitude or thankfulness?,1,At least once a week
+EXP_C,,2,Once or twice a month
+EXP_C,,3,Several times a year
+EXP_C,,4,Seldom
+EXP_C,,5,Never
+EXP_C,,99,DON'T KNOW/REFUSED
+EXP_D,How often do you feel the presence of something from beyond this world?,1,At least once a week
+EXP_D,,2,Once or twice a month
+EXP_D,,3,Several times a year
+EXP_D,,4,Seldom
+EXP_D,,5,Never
+EXP_D,,99,DON'T KNOW/REFUSED
+EXP_E,How often do you feel a deep sense of connection with humanity?,1,At least once a week
+EXP_E,,2,Once or twice a month
+EXP_E,,3,Several times a year
+EXP_E,,4,Seldom
+EXP_E,,5,Never
+EXP_E,,99,DON'T KNOW/REFUSED
+EXP_F,How often do you feel a sense of awe at the beauty of nature?,1,At least once a week
+EXP_F,,2,Once or twice a month
+EXP_F,,3,Several times a year
+EXP_F,,4,Seldom
+EXP_F,,5,Never
+EXP_F,,99,DON'T KNOW/REFUSED
+EXP_G,How often do you think about the meaning and purpose of life?,1,At least once a week
+EXP_G,,2,Once or twice a month
+EXP_G,,3,Several times a year
+EXP_G,,4,Seldom
+EXP_G,,5,Never
+EXP_G,,99,DON'T KNOW/REFUSED
+SPIRACT_A,How often do you visit a nature spot for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_A,,2,Weekly
+SPIRACT_A,,3,Monthly
+SPIRACT_A,,4,Less often
+SPIRACT_A,,5,Never do this for spiritual reasons
+SPIRACT_A,,99,DON'T KNOW/REFUSED
+SPIRACT_B,How often do you listen to music for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_B,,2,Weekly
+SPIRACT_B,,3,Monthly
+SPIRACT_B,,4,Less often
+SPIRACT_B,,5,Never do this for spiritual reasons
+SPIRACT_B,,99,DON'T KNOW/REFUSED
+SPIRACT_C,How often do you exercise for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_C,,2,Weekly
+SPIRACT_C,,3,Monthly
+SPIRACT_C,,4,Less often
+SPIRACT_C,,5,Never do this for spiritual reasons
+SPIRACT_C,,99,DON'T KNOW/REFUSED
+SPIRACT_D,How often do you look inward or center yourself for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_D,,2,Weekly
+SPIRACT_D,,3,Monthly
+SPIRACT_D,,4,Less often
+SPIRACT_D,,5,Never do this for spiritual reasons
+SPIRACT_D,,99,DON'T KNOW/REFUSED
+SPIRACT_E,How often do you practice yoga for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_E,,2,Weekly
+SPIRACT_E,,3,Monthly
+SPIRACT_E,,4,Less often
+SPIRACT_E,,5,Never do this for spiritual reasons
+SPIRACT_E,,99,DON'T KNOW/REFUSED
+SPIRACT_F,How often do you meditate for spiritual reasons?,1,Do this daily for spiritual reasons
+SPIRACT_F,,2,Weekly
+SPIRACT_F,,3,Monthly
+SPIRACT_F,,4,Less often
+SPIRACT_F,,5,Never do this for spiritual reasons
+SPIRACT_F,,99,DON'T KNOW/REFUSED
+RTRT,How often do you go on spiritual retreats?,1,More than once a year
+RTRT,,2,About once a year
+RTRT,,3,Once every few years
+RTRT,,4,Less often
+RTRT,,5,Never
+RTRT,,99,DON'T KNOW/REFUSED
+SECMEMB,Do you participate in any organization of atheists or non-believers?,1,Yes
+SECMEMB,,2,No
+SECMEMB,,3,Not sure/never heard of these kinds of organizations
+SECMEMB,,99,REFUSED
+VOL12_CPS,"In the past 12 months, did you spend any time volunteering?",1,Yes
+VOL12_CPS,,2,No
+VOL12_CPS,,99,DON'T KNOW/REFUSED
+SCIMPACT,"Overall, what impact does science have on American society?",1,Science does more harm than good.
+SCIMPACT,,2,Science does more good than harm.
+SCIMPACT,,3,Science does equal amounts of good and harm.
+SCIMPACT,,99,DON'T KNOW/REFUSED
+RELIMPACT,"Overall, what impact does religion have on American society?",1,Religion does more harm than good.
+RELIMPACT,,2,Religion does more good than harm.
+RELIMPACT,,3,Religion does equal amounts of good and harm.
+RELIMPACT,,99,DON'T KNOW/REFUSED
+SCRLCON1,"Which statement comes closer to your view, even if neither is exactly right?",1,Science and religion are mostly in conflict.
+SCRLCON1,,2,Science and religion are mostly compatible.
+SCRLCON1,,99,DON'T KNOW/REFUSED
+SPIRWORLD2,"Which statement comes closer to your view, even if neither is exactly right?",1,The natural world is all there is.
+SPIRWORLD2,,2,"There is something spiritual beyond the natural world, even if we cannot see it."
+SPIRWORLD2,,99,DON'T KNOW/REFUSED
+SECBEL1,"Which statement comes closer to your view, even if neither is exactly right?",1,"There is a scientific explanation for everything, even if we don't understand how everything works."
+SECBEL1,,2,There are some things that science cannot possibly explain.
+SECBEL1,,99,DON'T KNOW/REFUSED
+SECBEL2,"Which statement comes closer to your view, even if neither is exactly right?",1,It is necessary to believe in God in order to be moral and have good values.
+SECBEL2,,2,It is possible to be moral and have good values without believing in God.
+SECBEL2,,99,DON'T KNOW/REFUSED
+FRMREL,Religion in which respondent was raised,1000,Protestant
+FRMREL,,10000,Catholic
+FRMREL,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+FRMREL,,30000,Orthodox Christian
+FRMREL,,40001,Jehovah's Witness
+FRMREL,,40002,Other Christian
+FRMREL,,50000,Jewish
+FRMREL,,60000,Muslim
+FRMREL,,70000,Buddhist
+FRMREL,,80000,Hindu
+FRMREL,,90001,Other world religions
+FRMREL,,90002,Other faiths
+FRMREL,,100000,Religiously unaffiliated
+FRMREL,,900000,Refused/uninterpretable
+FRMREL2,Religion in which respondent was raised -- with additional detail for 'Protestant' and 'Religiously Unaffiliated' in frmrel (variable is only available in restricted use file),1,Baptist family
+FRMREL2,,2,Methodist family
+FRMREL2,,3,Nondenominational family
+FRMREL2,,4,Lutheran family
+FRMREL2,,5,Presbyterian family
+FRMREL2,,6,Pentecostal family
+FRMREL2,,7,Episcopalian family
+FRMREL2,,8,Restorationist family
+FRMREL2,,9,Congregationalist family
+FRMREL2,,10,Holiness family
+FRMREL2,,11,Reformed family
+FRMREL2,,12,Adventist family
+FRMREL2,,13,Anabaptist family
+FRMREL2,,14,Other - Pietist family
+FRMREL2,,15,Friends family
+FRMREL2,,16,Other Evangelical/Fundamentalist family
+FRMREL2,,18,Protestant non-specific family
+FRMREL2,,10000,Catholic
+FRMREL2,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+FRMREL2,,30000,Orthodox Christian
+FRMREL2,,40001,Jehovah's Witness
+FRMREL2,,40002,Other Christian
+FRMREL2,,50000,Jewish
+FRMREL2,,60000,Muslim
+FRMREL2,,70000,Buddhist
+FRMREL2,,80000,Hindu
+FRMREL2,,90001,Other world religions
+FRMREL2,,90002,Other faiths
+FRMREL2,,100001,Atheist
+FRMREL2,,100002,Agnostic
+FRMREL2,,100003,Nothing in particular
+FRMREL2,,900000,Refused/uninterpretable
+CHBORNFINAL,"CHBORN based on those raised Christian: As a child, would you say you were raised as a born-again or evangelical Christian?",1,"Yes, raised as born-again or evangelical Christian"
+CHBORNFINAL,,2,"No, not raised as born-again or evangelical Christian"
+CHBORNFINAL,,98,Not asked
+CHBORNFINAL,,99,Don't know/refused
+CHIMPREL_A,"When you were growing up, how important was religion to you personally?",1,Very important
+CHIMPREL_A,,2,Somewhat important
+CHIMPREL_A,,3,Not too important
+CHIMPREL_A,,4,Not at all important
+CHIMPREL_A,,99,DON'T KNOW/REFUSED
+CHIMPREL_B,"When you were growing up, how important was religion to your family?",1,Very important
+CHIMPREL_B,,2,Somewhat important
+CHIMPREL_B,,3,Not too important
+CHIMPREL_B,,4,Not at all important
+CHIMPREL_B,,99,DON'T KNOW/REFUSED
+CHATTEND,How often did you attend religious services in person when you were growing up?,1,More than once a week
+CHATTEND,,2,Once a week
+CHATTEND,,3,Once or twice a month
+CHATTEND,,4,A few times a year
+CHATTEND,,5,Seldom
+CHATTEND,,6,Never
+CHATTEND,,99,DON'T KNOW/REFUSED
+CHCONGRACE,"Thinking about the place where you most often attended religious services when you were growing up, what was the race/ethnicity of most of the other people attending?",1,All or most were White
+CHCONGRACE,,2,All or most were Black or African American
+CHCONGRACE,,3,All or most were Asian or Asian American
+CHCONGRACE,,4,All or most were Hispanic or Latino
+CHCONGRACE,,5,All or most were of some other race or ethnicity (please specify)
+CHCONGRACE,,6,No one racial group made up a majority
+CHCONGRACE,,99,DON'T KNOW/REFUSED
+CHEDU1,"From kindergarten through 12th grade, how many years did you attend a private religious school?",1,None - I never attended a private religious school
+CHEDU1,,2,1-3 years
+CHEDU1,,3,4-6 years
+CHEDU1,,4,7 years or more
+CHEDU1,,99,DON'T KNOW/REFUSED
+CHEDU2,"Aside from any religious schools you might have attended, how many years did you attend Sunday School, CCD, or some other form of religious education?",1,None
+CHEDU2,,2,1-3 years
+CHEDU2,,3,4-6 years
+CHEDU2,,4,7 years or more
+CHEDU2,,99,DON'T KNOW/REFUSED
+LIFEDIR,"Over the course of your lifetime, have you generally become more religious, less religious, some of both, or stayed about the same religiously?",1,Become more religious
+LIFEDIR,,2,Become less religious
+LIFEDIR,,3,"Some of both - sometimes becoming more religious, other times less religious"
+LIFEDIR,,4,Stayed about the same religiously
+LIFEDIR,,99,DON'T KNOW/REFUSED
+LIFESPIR,"Over the course of your lifetime, have you generally become more spiritual, less spiritual, some of both, or stayed about the same spiritually?",1,Become more spiritual
+LIFESPIR,,2,Become less spiritual
+LIFESPIR,,3,"Some of both - sometimes becoming more spiritual, other times less spiritual"
+LIFESPIR,,4,Stayed about the same spiritually
+LIFESPIR,,99,DON'T KNOW/REFUSED
+GTHGHT,"In recent years, how much have you thought about God and religion?",1,A great deal
+GTHGHT,,2,Quite a bit
+GTHGHT,,3,Some
+GTHGHT,,4,A little
+GTHGHT,,5,None
+GTHGHT,,99,DON'T KNOW/REFUSED
+MARITAL,Current marital status,1,Married
+MARITAL,,2,Living with a partner
+MARITAL,,3,Divorced
+MARITAL,,4,Separated
+MARITAL,,5,Widowed
+MARITAL,,6,Never been married
+MARITAL,,99,DON'T KNOW/REFUSED
+SPREL,Religion of respondent's spouse/partner (variable is only available in restricted use file),1000,Protestant
+SPREL,,10000,Catholic
+SPREL,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+SPREL,,30000,Orthodox Christian
+SPREL,,40001,Jehovah's Witness
+SPREL,,40002,Other Christian
+SPREL,,50000,Jewish
+SPREL,,60000,Muslim
+SPREL,,70000,Buddhist
+SPREL,,80000,Hindu
+SPREL,,90001,Other world religions
+SPREL,,90002,Other faiths
+SPREL,,100000,Religiously unaffiliated
+SPREL,,900000,Refused/uninterpretable
+SPREL2,Religion of respondent's spouse/partner - with additional detail for 'Protestant' and 'Religiously Unaffiliated' in SPREL (variable is only available in restricted use file),1,Baptist family
+SPREL2,,2,Methodist family
+SPREL2,,3,Nondenominational family
+SPREL2,,4,Lutheran family
+SPREL2,,5,Presbyterian family
+SPREL2,,6,Pentecostal family
+SPREL2,,7,Episcopalian family
+SPREL2,,8,Restorationist family
+SPREL2,,9,Congregationalist family
+SPREL2,,10,Holiness family
+SPREL2,,11,Reformed family
+SPREL2,,12,Adventist family
+SPREL2,,13,Anabaptist family
+SPREL2,,14,Other - Pietist family
+SPREL2,,15,Friends family
+SPREL2,,16,Other Evangelical/Fundamentalist family
+SPREL2,,18,Protestant non-specific family
+SPREL2,,10000,Catholic
+SPREL2,,20000,Church of Jesus Christ of Latter-day Saints (Mormon)
+SPREL2,,30000,Orthodox Christian
+SPREL2,,40001,Jehovah's Witness
+SPREL2,,40002,Other Christian
+SPREL2,,50000,Jewish
+SPREL2,,60000,Muslim
+SPREL2,,70000,Buddhist
+SPREL2,,80000,Hindu
+SPREL2,,90001,Other world religions
+SPREL2,,90002,Other faiths
+SPREL2,,100001,Atheist
+SPREL2,,100002,Agnostic
+SPREL2,,100003,Nothing in particular
+SPREL2,,900000,Refused/uninterpretable
+RELMATCH,Religious intermarriage - indicator of whether respondent's religion in CURREL matches spouse's/partner's religion in SPREL,0,Respondent's religion in CURREL matches spouse's/partner's religion in SPREL
+RELMATCH,,1,Respondent's religion in CURREL does not match spouse's/partner's religion in SPREL
+SPBORNFINAL,SPBORN based on those whose spouse/partner is Christian: Would your spouse/partner describe themself as a born-again or evangelical Christian? (variable is only available in restricted use file),1,"Yes, spouse/partner would describe themself as born-again or evangelical Christian"
+SPBORNFINAL,,2,"No, spouse/partner would not describe themself as born-again or evangelical Christian"
+SPBORNFINAL,,98,Not asked
+SPBORNFINAL,,99,Don't know/refused
+SPRELIMP,How important is religion in your spouse's/partner's life?,1,Very important
+SPRELIMP,,2,Somewhat important
+SPRELIMP,,3,Not too important
+SPRELIMP,,4,Not at all important
+SPRELIMP,,99,DON'T KNOW/REFUSED
+SPRELTALK,How often do you and your spouse/partner talk with each other about religion?,1,Daily
+SPRELTALK,,2,Weekly
+SPRELTALK,,3,Monthly
+SPRELTALK,,4,Less often
+SPRELTALK,,5,Never
+SPRELTALK,,99,DON'T KNOW/REFUSED
+SPRELSIM,How similar are your own religious beliefs and your spouse's/partner's religious beliefs?,1,Very similar
+SPRELSIM,,2,Somewhat similar
+SPRELSIM,,3,Not too similar
+SPRELSIM,,4,Not at all similar
+SPRELSIM,,5,Not sure
+SPRELSIM,,99,REFUSED
+MARWHENREC,Decade in which respondent got married (based on current marriage of married respondents),1,1950s or earlier
+MARWHENREC,,2,1960s
+MARWHENREC,,3,1970s
+MARWHENREC,,4,1980s
+MARWHENREC,,5,1990s
+MARWHENREC,,6,2000s
+MARWHENREC,,7,2010s
+MARWHENREC,,8,2020s
+MARWHENREC,,99,No answer
+CHILDREN,Are you the parent or guardian of any children under 18 now living in your house,1,Yes
+CHILDREN,,2,No
+CHILDREN,,99,DON'T KNOW/REFUSED
+KIDS4ANDUNDERREC,Is respondent parent/guardian of at least one child in the household age 4 or under? (variable is only available in restricted use file),0,No
+KIDS4ANDUNDERREC,,1,Yes
+KIDS4ANDUNDERREC,,99,No answer
+KIDS5TO12REC,Is respondent parent/guardian of at least one child in the household between ages 5 and 12? (variable is only available in restricted use file),0,No
+KIDS5TO12REC,,1,Yes
+KIDS5TO12REC,,99,No answer
+KIDS13TO17REC,Is respondent parent/guardian of at least one child in the household between ages 13 and 17? (variable is only available in restricted use file),0,No
+KIDS13TO17REC,,1,Yes
+KIDS13TO17REC,,99,No answer
+KIDACT_A,Do you pray or read scripture with your child/any of your children?,1,"Yes, I do this"
+KIDACT_A,,2,"No, I do not do this"
+KIDACT_A,,99,DON'T KNOW/REFUSED
+KIDACT_B,Do you send your child/any of your children to Sunday school or another religious education program?,1,"Yes, I do this"
+KIDACT_B,,2,"No, I do not do this"
+KIDACT_B,,99,DON'T KNOW/REFUSED
+KIDACT_C,Do you homeschool or send your child/any of your children to a religoius school instead of public school?,1,"Yes, I do this"
+KIDACT_C,,2,"No, I do not do this"
+KIDACT_C,,99,DON'T KNOW/REFUSED
+RELINST_A,Churches and other religoius organizations focus too much on rules: agree or disagree?,1,Agree
+RELINST_A,,2,Disagree
+RELINST_A,,99,DON'T KNOW/REFUSED
+RELINST_B,Churches and other religious organizations are too concerned with money and power: agree or disagree?,1,Agree
+RELINST_B,,2,Disagree
+RELINST_B,,99,DON'T KNOW/REFUSED
+RELINST_D,Churches and other religious organizations are too involved with politics: agree or disagree?,1,Agree
+RELINST_D,,2,Disagree
+RELINST_D,,99,DON'T KNOW/REFUSED
+RELINST_E,Churches and other religious organizations protect and strengthen morality in society: agree or disagree?,1,Agree
+RELINST_E,,2,Disagree
+RELINST_E,,99,DON'T KNOW/REFUSED
+RELINST_F,Churches and other religious organizations bring people together and strengthen community bonds: agree or disagree?,1,Agree
+RELINST_F,,2,Disagree
+RELINST_F,,99,DON'T KNOW/REFUSED
+RELINST_G,Churches and other religious organizations play an important role in helping the poor and needy: agree or disagree?,1,Agree
+RELINST_G,,2,Disagree
+RELINST_G,,99,DON'T KNOW/REFUSED
+SCPRY1,Allowing public school teachers to lead their classes in prayers that refer to Jesus: favor or oppose?,1,Strongly favor
+SCPRY1,,2,Favor
+SCPRY1,,3,Oppose
+SCPRY1,,4,Strongly oppose
+SCPRY1,,99,DON'T KNOW/REFUSED
+SCPRY2,Allowing public school teachers to lead their classes in prayers that refer to God but not to any specific religion: favor or oppose?,1,Strongly favor
+SCPRY2,,2,Favor
+SCPRY2,,3,Oppose
+SCPRY2,,4,Strongly oppose
+SCPRY2,,99,DON'T KNOW/REFUSED
+RELDISP,Allowing cities and towns in the U.S. to place religious symbols on public property: favor or oppose?,1,Strongly favor
+RELDISP,,2,Favor
+RELDISP,,3,Oppose
+RELDISP,,4,Strongly oppose
+RELDISP,,99,DON'T KNOW/REFUSED
+CHRNAT,The federal government declaring the U.S. a Christian nation: favor or oppose?,1,Strongly favor
+CHRNAT,,2,Favor
+CHRNAT,,3,Oppose
+CHRNAT,,4,Strongly oppose
+CHRNAT,,99,DON'T KNOW/REFUSED
+BIRTHDECADE,Decade in which respondent was born,1,1940s or earlier
+BIRTHDECADE,,2,1950s
+BIRTHDECADE,,3,1960s
+BIRTHDECADE,,4,1970s
+BIRTHDECADE,,5,1980s
+BIRTHDECADE,,6,1990s
+BIRTHDECADE,,7,2000s
+BIRTHDECADE,,99,No answer
+HISP,"Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban?",1,Yes
+HISP,,2,No
+HISP,,99,DON'T KNOW/REFUSED
+RACECMB,Race based on responses to RACEMOD_1-6 (CAWI/CATI) and Q94 (PAPI),1,White
+RACECMB,,2,Black or African-American
+RACECMB,,3,Asian or Asian-American
+RACECMB,,4,Mixed Race
+RACECMB,,5,Or some other race
+RACECMB,,9,DON'T KNOW/REFUSED
+AFROHISP,"Do you consider yourself Afro-Latino or Afro-Hispanic, or not?",1,Yes
+AFROHISP,,2,No
+AFROHISP,,99,DON'T KNOW/REFUSED
+EDUCREC,What is the highest degree or level of school you have completed?,1,High school or less
+EDUCREC,,2,Some college/associate's degree
+EDUCREC,,3,College graduate
+EDUCREC,,4,Master's degree or higher
+EDUCREC,,99,No answer
+E2,"Are you now enrolled in school, either full time or part time?",1,"Yes, full-time student"
+E2,,2,"Yes, part-time student"
+E2,,3,No
+E2,,99,DON'T KNOW/REFUSED
+EMPLSIT,What is your current work situation?,1,Work full time for pay
+EMPLSIT,,2,Work part time for pay
+EMPLSIT,,3,Not currently working for pay
+EMPLSIT,,4,Unable to work due to a disability
+EMPLSIT,,5,Retired
+EMPLSIT,,99,DON'T KNOW/REFUSED
+USGEN,Indicator of whether respondent is an immigrant to the U.S. or the child of immigrants,1,Respondent was born outside the U.S.
+USGEN,,2,"Respondent was born in the U.S., has at least one parent who was born outside the U.S."
+USGEN,,3,Respondent and both parents were born in the U.S.
+USGEN,,99,Unclear
+YEARLOCREC,Number of years respondent has lived in their local community (collapsed variable),1,5 years or less
+YEARLOCREC,,2,6 to 10 years
+YEARLOCREC,,3,11 to 15 years
+YEARLOCREC,,4,16 years or more
+YEARLOCREC,,99,No answer
+MOVED,"Have you lived in or near the local community where you live now your entire life, or have you lived in other places?",1,Have lived in same local community entire life
+MOVED,,2,Have lived in other places
+MOVED,,99,DON'T KNOW/REFUSED
+CITIZEN,Are you a citizen of the United States? (variable is only available in restricted use file),1,Yes
+CITIZEN,,2,No
+CITIZEN,,99,DON'T KNOW/REFUSED
+REG,Are you registered to vote at your current address?,1,Yes
+REG,,2,"No, not registered/not sure/no answer/not asked (in REG) or not a citizen (in CITIZEN)"
+PARTY,"In politics today, do you consider yourself a...",1,Republican
+PARTY,,2,Democrat
+PARTY,,3,Independent
+PARTY,,4,Something else
+PARTY,,99,DON'T KNOW/REFUSED
+PARTYLN,As of today do you lean more to...,1,The Republican Party
+PARTYLN,,2,The Democratic Party
+PARTYLN,,99,Don't know/refused
+IDEO,"In general, would you describe your political views as...",1,Very conservative
+IDEO,,2,Conservative
+IDEO,,3,Moderate
+IDEO,,4,Liberal
+IDEO,,5,Very liberal
+IDEO,,99,DON'T KNOW/REFUSED
+HH1REC,"How many people, including yourself, live in your household? (collapsed variable)",1,1
+HH1REC,,2,2
+HH1REC,,3,3 or more
+HH1REC,,99,No answer
+HH3REC,"How many people living in your household, including yourself, are adults? (collapsed variable)",1,1
+HH3REC,,2,2
+HH3REC,,3,3 or more
+HH3REC,,99,No answer
+INTFREQ,About how often do you use the internet?,1,Almost constantly
+INTFREQ,,2,Several times a day
+INTFREQ,,3,About once a day
+INTFREQ,,4,Several times a week
+INTFREQ,,5,Less often
+INTFREQ,,6,Never
+INTFREQ,,99,DON'T KNOW/REFUSED
+INC_SDT1,"Last year, what was your total family income?",1,"Less than $30,000"
+INC_SDT1,,2,"$30,000 to less than $40,000"
+INC_SDT1,,3,"$40,000 to less than $50,000"
+INC_SDT1,,4,"$50,000 to less than $75,000"
+INC_SDT1,,5,"$75,000 to less than $100,000"
+INC_SDT1,,6,"$100,000 to less than $125,000"
+INC_SDT1,,7,"$125,000 to less than $150,000"
+INC_SDT1,,8,"$150,000 or more"
+INC_SDT1,,99,DON'T KNOW/REFUSED
+GENDER,"Do you describe yourself as a man, a woman or in some other way?",1,A man
+GENDER,,2,A woman
+GENDER,,3,In some other way
+GENDER,,99,DON'T KNOW/REFUSED
+FERTREC,How many children have you ever had? (collapsed variable),0,0
+FERTREC,,1,1
+FERTREC,,2,2
+FERTREC,,3,3
+FERTREC,,4,4 or more
+FERTREC,,99,No answer
+BRANCH,Combined responses to BRANCH (CAWI/CATI) and Q28 (PAPI) (variable is only available in restricted use file),1,Reform
+BRANCH,,2,Conservative
+BRANCH,,3,Orthodox
+BRANCH,,4,Something else
+BRANCH,,5,No particular denomination
+BRANCH,,81,More than one selected
+BRANCH,,99,Don't know/refused
+BIRTHHALFDECADE,Respondent's year of birth (detailed) (variable is only available in restricted use file),1,1949 or earlier
+BIRTHHALFDECADE,,2,1950-54
+BIRTHHALFDECADE,,3,1955-59
+BIRTHHALFDECADE,,4,1960-64
+BIRTHHALFDECADE,,5,1965-69
+BIRTHHALFDECADE,,6,1970-74
+BIRTHHALFDECADE,,7,1975-79
+BIRTHHALFDECADE,,8,1980-84
+BIRTHHALFDECADE,,9,1985-89
+BIRTHHALFDECADE,,10,1990-94
+BIRTHHALFDECADE,,11,1995-99
+BIRTHHALFDECADE,,12,2000-06
+BIRTHHALFDECADE,,99,Refused
+RESPONDENT_BIRTHREGION,Region of respondent's birth (variable is only available in restricted use file),1,Born in U.S.
+RESPONDENT_BIRTHREGION,,2,Americas (excluding U.S.)
+RESPONDENT_BIRTHREGION,,3,Asia/Pacific
+RESPONDENT_BIRTHREGION,,4,Europe
+RESPONDENT_BIRTHREGION,,5,MENA (Middle East/North Africa)
+RESPONDENT_BIRTHREGION,,6,Sub-Saharan Africa
+RESPONDENT_BIRTHREGION,,10,Outside U.S. - Unclear where
+RESPONDENT_BIRTHREGION,,99,Don't know/refused/unclear/undetermined
+MOTHER_BIRTHREGION,Region of respondent's mother's birth (variable is only available in restricted use file),1,Born in U.S.
+MOTHER_BIRTHREGION,,2,Americas (excluding U.S.)
+MOTHER_BIRTHREGION,,3,Asia/Pacific
+MOTHER_BIRTHREGION,,4,Europe
+MOTHER_BIRTHREGION,,5,MENA (Middle East/North Africa)
+MOTHER_BIRTHREGION,,6,Sub-Saharan Africa
+MOTHER_BIRTHREGION,,10,Outside U.S. - Unclear where
+MOTHER_BIRTHREGION,,99,Don't know/refused/unclear/undetermined
+FATHER_BIRTHREGION,Region of respondent's father's birth (variable is only available in restricted use file),1,Born in U.S.
+FATHER_BIRTHREGION,,2,Americas (excluding U.S.)
+FATHER_BIRTHREGION,,3,Asia/Pacific
+FATHER_BIRTHREGION,,4,Europe
+FATHER_BIRTHREGION,,5,MENA (Middle East/North Africa)
+FATHER_BIRTHREGION,,6,Sub-Saharan Africa
+FATHER_BIRTHREGION,,10,Outside U.S. - Unclear where
+FATHER_BIRTHREGION,,99,Don't know/refused/unclear/undetermined
+YEARSINUSREC,Number of years respondent has lived in the United States (variable is only available in restricted use file),1,5 years or less
+YEARSINUSREC,,2,6 to 10 years
+YEARSINUSREC,,3,11 to 15 years
+YEARSINUSREC,,4,16 years or more
+YEARSINUSREC,,99,Not asked/no answer
+ORIENTMOD,Do you think of yourself as... (variable is only available in restricted use file),1,Gay or lesbian
+ORIENTMOD,,2,"Straight, that is, not gay or lesbian"
+ORIENTMOD,,3,Bisexual
+ORIENTMOD,,4,Something else
+ORIENTMOD,,5,I don't know the answer
+ORIENTMOD,,99,REFUSED
+STATE,State (abbreviated) (variable is only available in restricted use file),1,AL
+STATE,,2,AK
+STATE,,4,AZ
+STATE,,5,AR
+STATE,,6,CA
+STATE,,8,CO
+STATE,,9,CT
+STATE,,10,DE
+STATE,,11,DC
+STATE,,12,FL
+STATE,,13,GA
+STATE,,15,HI
+STATE,,16,ID
+STATE,,17,IL
+STATE,,18,IN
+STATE,,19,IA
+STATE,,20,KS
+STATE,,21,KY
+STATE,,22,LA
+STATE,,23,ME
+STATE,,24,MD
+STATE,,25,MA
+STATE,,26,MI
+STATE,,27,MN
+STATE,,28,MS
+STATE,,29,MO
+STATE,,30,MT
+STATE,,31,NE
+STATE,,32,NV
+STATE,,33,NH
+STATE,,34,NJ
+STATE,,35,NM
+STATE,,36,NY
+STATE,,37,NC
+STATE,,38,ND
+STATE,,39,OH
+STATE,,40,OK
+STATE,,41,OR
+STATE,,42,PA
+STATE,,44,RI
+STATE,,45,SC
+STATE,,46,SD
+STATE,,47,TN
+STATE,,48,TX
+STATE,,49,UT
+STATE,,50,VT
+STATE,,51,VA
+STATE,,53,WA
+STATE,,54,WV
+STATE,,55,WI
+STATE,,56,WY
+MSA,Metropolitan Statistical Area where respondent resides (variable is only available in restricted use file),1,Atlanta
+MSA,,2,Austin
+MSA,,3,Baltimore
+MSA,,4,Boston
+MSA,,5,Charlotte
+MSA,,6,Chicago
+MSA,,7,Cincinnati
+MSA,,8,Cleveland
+MSA,,9,Columbus
+MSA,,10,Dallas
+MSA,,11,Denver
+MSA,,12,Detroit
+MSA,,13,Houston
+MSA,,14,Las Vegas
+MSA,,15,Los Angeles
+MSA,,16,Miami
+MSA,,17,Minneapolis
+MSA,,18,Nashville
+MSA,,19,New York City
+MSA,,20,Orlando
+MSA,,21,Philadelphia
+MSA,,22,Phoenix
+MSA,,24,Portland
+MSA,,25,Providence
+MSA,,26,Riverside
+MSA,,27,Sacramento
+MSA,,28,St Louis
+MSA,,29,San Antonio
+MSA,,30,San Diego
+MSA,,31,San Francisco
+MSA,,32,Seattle
+MSA,,33,Tampa
+MSA,,34,Honolulu
+MSA,,35,Washington DC
+MSA,,99,Respondent does not live in any of the metropolitan statistical areas listed above
+WEIGHT_MSA,Raked weight for MSAs with 250+ interviews (variable is only available in restricted use file),230.503,Min. Val.
+WEIGHT_MSA,,71920.05,Max. Val
+WEIGHT,Full-sample raked weight,166.3963,Min. Val.
+WEIGHT,,84837.1,Max. Val
+REPWT_001,Replicate raked weight 1,0,Min. Val.
+REPWT_001,,145115,Max. Val
+REPWT_002,Replicate raked weight 2,0,Min. Val.
+REPWT_002,,138736.5,Max. Val
+REPWT_003,Replicate raked weight 3,0,Min. Val.
+REPWT_003,,149941.2,Max. Val
+REPWT_004,Replicate raked weight 4,0,Min. Val.
+REPWT_004,,142243.2,Max. Val
+REPWT_005,Replicate raked weight 5,0,Min. Val.
+REPWT_005,,171670.8,Max. Val
+REPWT_006,Replicate raked weight 6,0,Min. Val.
+REPWT_006,,137198,Max. Val
+REPWT_007,Replicate raked weight 7,0,Min. Val.
+REPWT_007,,137117.1,Max. Val
+REPWT_008,Replicate raked weight 8,0,Min. Val.
+REPWT_008,,177902.3,Max. Val
+REPWT_009,Replicate raked weight 9,0,Min. Val.
+REPWT_009,,137323.5,Max. Val
+REPWT_010,Replicate raked weight 10,0,Min. Val.
+REPWT_010,,134804.6,Max. Val
+REPWT_011,Replicate raked weight 11,0,Min. Val.
+REPWT_011,,211212,Max. Val
+REPWT_012,Replicate raked weight 12,0,Min. Val.
+REPWT_012,,168926.5,Max. Val
+REPWT_013,Replicate raked weight 13,0,Min. Val.
+REPWT_013,,143940.6,Max. Val
+REPWT_014,Replicate raked weight 14,0,Min. Val.
+REPWT_014,,148900.3,Max. Val
+REPWT_015,Replicate raked weight 15,0,Min. Val.
+REPWT_015,,146068.1,Max. Val
+REPWT_016,Replicate raked weight 16,0,Min. Val.
+REPWT_016,,146868.8,Max. Val
+REPWT_017,Replicate raked weight 17,0,Min. Val.
+REPWT_017,,151557.4,Max. Val
+REPWT_018,Replicate raked weight 18,0,Min. Val.
+REPWT_018,,141710.6,Max. Val
+REPWT_019,Replicate raked weight 19,0,Min. Val.
+REPWT_019,,155056.4,Max. Val
+REPWT_020,Replicate raked weight 20,0,Min. Val.
+REPWT_020,,142648.4,Max. Val
+REPWT_021,Replicate raked weight 21,0,Min. Val.
+REPWT_021,,148683.5,Max. Val
+REPWT_022,Replicate raked weight 22,0,Min. Val.
+REPWT_022,,181414.7,Max. Val
+REPWT_023,Replicate raked weight 23,0,Min. Val.
+REPWT_023,,140073.1,Max. Val
+REPWT_024,Replicate raked weight 24,0,Min. Val.
+REPWT_024,,156379.2,Max. Val
+REPWT_025,Replicate raked weight 25,0,Min. Val.
+REPWT_025,,135715.2,Max. Val
+REPWT_026,Replicate raked weight 26,0,Min. Val.
+REPWT_026,,157794.9,Max. Val
+REPWT_027,Replicate raked weight 27,0,Min. Val.
+REPWT_027,,214286,Max. Val
+REPWT_028,Replicate raked weight 28,0,Min. Val.
+REPWT_028,,139756.4,Max. Val
+REPWT_029,Replicate raked weight 29,0,Min. Val.
+REPWT_029,,142948.8,Max. Val
+REPWT_030,Replicate raked weight 30,0,Min. Val.
+REPWT_030,,131705.2,Max. Val
+REPWT_031,Replicate raked weight 31,0,Min. Val.
+REPWT_031,,160100.6,Max. Val
+REPWT_032,Replicate raked weight 32,0,Min. Val.
+REPWT_032,,158431.2,Max. Val
+REPWT_033,Replicate raked weight 33,0,Min. Val.
+REPWT_033,,156036.1,Max. Val
+REPWT_034,Replicate raked weight 34,0,Min. Val.
+REPWT_034,,140985.7,Max. Val
+REPWT_035,Replicate raked weight 35,0,Min. Val.
+REPWT_035,,156952.7,Max. Val
+REPWT_036,Replicate raked weight 36,0,Min. Val.
+REPWT_036,,173143.6,Max. Val
+REPWT_037,Replicate raked weight 37,0,Min. Val.
+REPWT_037,,168111.9,Max. Val
+REPWT_038,Replicate raked weight 38,0,Min. Val.
+REPWT_038,,180548.2,Max. Val
+REPWT_039,Replicate raked weight 39,0,Min. Val.
+REPWT_039,,189174.5,Max. Val
+REPWT_040,Replicate raked weight 40,0,Min. Val.
+REPWT_040,,191849.8,Max. Val
+REPWT_041,Replicate raked weight 41,0,Min. Val.
+REPWT_041,,124286.7,Max. Val
+REPWT_042,Replicate raked weight 42,0,Min. Val.
+REPWT_042,,135004.8,Max. Val
+REPWT_043,Replicate raked weight 43,0,Min. Val.
+REPWT_043,,147912.2,Max. Val
+REPWT_044,Replicate raked weight 44,0,Min. Val.
+REPWT_044,,131949,Max. Val
+REPWT_045,Replicate raked weight 45,0,Min. Val.
+REPWT_045,,166618.8,Max. Val
+REPWT_046,Replicate raked weight 46,0,Min. Val.
+REPWT_046,,144411.2,Max. Val
+REPWT_047,Replicate raked weight 47,0,Min. Val.
+REPWT_047,,180790.3,Max. Val
+REPWT_048,Replicate raked weight 48,0,Min. Val.
+REPWT_048,,151352.4,Max. Val
+REPWT_049,Replicate raked weight 49,0,Min. Val.
+REPWT_049,,197552.4,Max. Val
+REPWT_050,Replicate raked weight 50,0,Min. Val.
+REPWT_050,,145879,Max. Val
+REPWT_051,Replicate raked weight 51,0,Min. Val.
+REPWT_051,,190727.1,Max. Val
+REPWT_052,Replicate raked weight 52,0,Min. Val.
+REPWT_052,,159523.3,Max. Val
+REPWT_053,Replicate raked weight 53,0,Min. Val.
+REPWT_053,,127313.7,Max. Val
+REPWT_054,Replicate raked weight 54,0,Min. Val.
+REPWT_054,,133481.6,Max. Val
+REPWT_055,Replicate raked weight 55,0,Min. Val.
+REPWT_055,,147458.9,Max. Val
+REPWT_056,Replicate raked weight 56,0,Min. Val.
+REPWT_056,,156261.7,Max. Val
+REPWT_057,Replicate raked weight 57,0,Min. Val.
+REPWT_057,,145965.1,Max. Val
+REPWT_058,Replicate raked weight 58,0,Min. Val.
+REPWT_058,,160970.1,Max. Val
+REPWT_059,Replicate raked weight 59,0,Min. Val.
+REPWT_059,,141117.4,Max. Val
+REPWT_060,Replicate raked weight 60,0,Min. Val.
+REPWT_060,,152231.9,Max. Val
+REPWT_061,Replicate raked weight 61,0,Min. Val.
+REPWT_061,,162901.1,Max. Val
+REPWT_062,Replicate raked weight 62,0,Min. Val.
+REPWT_062,,145422.4,Max. Val
+REPWT_063,Replicate raked weight 63,0,Min. Val.
+REPWT_063,,190022.3,Max. Val
+REPWT_064,Replicate raked weight 64,0,Min. Val.
+REPWT_064,,127079.5,Max. Val
+REPWT_065,Replicate raked weight 65,0,Min. Val.
+REPWT_065,,131501.7,Max. Val
+REPWT_066,Replicate raked weight 66,0,Min. Val.
+REPWT_066,,165871.4,Max. Val
+REPWT_067,Replicate raked weight 67,0,Min. Val.
+REPWT_067,,243122.4,Max. Val
+REPWT_068,Replicate raked weight 68,0,Min. Val.
+REPWT_068,,162376.4,Max. Val
+REPWT_069,Replicate raked weight 69,0,Min. Val.
+REPWT_069,,162324.9,Max. Val
+REPWT_070,Replicate raked weight 70,0,Min. Val.
+REPWT_070,,143053.3,Max. Val
+REPWT_071,Replicate raked weight 71,0,Min. Val.
+REPWT_071,,143450.4,Max. Val
+REPWT_072,Replicate raked weight 72,0,Min. Val.
+REPWT_072,,148828,Max. Val
+REPWT_073,Replicate raked weight 73,0,Min. Val.
+REPWT_073,,142668.7,Max. Val
+REPWT_074,Replicate raked weight 74,0,Min. Val.
+REPWT_074,,154610.8,Max. Val
+REPWT_075,Replicate raked weight 75,0,Min. Val.
+REPWT_075,,142345.8,Max. Val
+REPWT_076,Replicate raked weight 76,0,Min. Val.
+REPWT_076,,134234.5,Max. Val
+REPWT_077,Replicate raked weight 77,0,Min. Val.
+REPWT_077,,149055.5,Max. Val
+REPWT_078,Replicate raked weight 78,0,Min. Val.
+REPWT_078,,150299.1,Max. Val
+REPWT_079,Replicate raked weight 79,0,Min. Val.
+REPWT_079,,131956,Max. Val
+REPWT_080,Replicate raked weight 80,0,Min. Val.
+REPWT_080,,184202.7,Max. Val
+REPWT_081,Replicate raked weight 81,0,Min. Val.
+REPWT_081,,145445,Max. Val
+REPWT_082,Replicate raked weight 82,0,Min. Val.
+REPWT_082,,162091.4,Max. Val
+REPWT_083,Replicate raked weight 83,0,Min. Val.
+REPWT_083,,176303.7,Max. Val
+REPWT_084,Replicate raked weight 84,0,Min. Val.
+REPWT_084,,130040.5,Max. Val
+REPWT_085,Replicate raked weight 85,0,Min. Val.
+REPWT_085,,129980.3,Max. Val
+REPWT_086,Replicate raked weight 86,0,Min. Val.
+REPWT_086,,162622.7,Max. Val
+REPWT_087,Replicate raked weight 87,0,Min. Val.
+REPWT_087,,147408.2,Max. Val
+REPWT_088,Replicate raked weight 88,0,Min. Val.
+REPWT_088,,155231.6,Max. Val
+REPWT_089,Replicate raked weight 89,0,Min. Val.
+REPWT_089,,144615.9,Max. Val
+REPWT_090,Replicate raked weight 90,0,Min. Val.
+REPWT_090,,171348,Max. Val
+REPWT_091,Replicate raked weight 91,0,Min. Val.
+REPWT_091,,141140.8,Max. Val
+REPWT_092,Replicate raked weight 92,0,Min. Val.
+REPWT_092,,167407.5,Max. Val
+REPWT_093,Replicate raked weight 93,0,Min. Val.
+REPWT_093,,157290.4,Max. Val
+REPWT_094,Replicate raked weight 94,0,Min. Val.
+REPWT_094,,121585.2,Max. Val
+REPWT_095,Replicate raked weight 95,0,Min. Val.
+REPWT_095,,147834.7,Max. Val
+REPWT_096,Replicate raked weight 96,0,Min. Val.
+REPWT_096,,170911,Max. Val
+REPWT_097,Replicate raked weight 97,0,Min. Val.
+REPWT_097,,163026.1,Max. Val
+REPWT_098,Replicate raked weight 98,0,Min. Val.
+REPWT_098,,148506.7,Max. Val
+REPWT_099,Replicate raked weight 99,0,Min. Val.
+REPWT_099,,125838.1,Max. Val
+REPWT_100,Replicate raked weight 100,0,Min. Val.
+REPWT_100,,163462,Max. Val
+REPWT_101,Replicate raked weight 101,0,Min. Val.
+REPWT_101,,132744.4,Max. Val
+REPWT_102,Replicate raked weight 102,0,Min. Val.
+REPWT_102,,154361.7,Max. Val
+REPWT_103,Replicate raked weight 103,0,Min. Val.
+REPWT_103,,207542.5,Max. Val
+REPWT_104,Replicate raked weight 104,0,Min. Val.
+REPWT_104,,131693.1,Max. Val
+REPWT_105,Replicate raked weight 105,0,Min. Val.
+REPWT_105,,129981.9,Max. Val
+REPWT_106,Replicate raked weight 106,0,Min. Val.
+REPWT_106,,136564.5,Max. Val
+REPWT_107,Replicate raked weight 107,0,Min. Val.
+REPWT_107,,163009.1,Max. Val
+REPWT_108,Replicate raked weight 108,0,Min. Val.
+REPWT_108,,179432.2,Max. Val
+REPWT_109,Replicate raked weight 109,0,Min. Val.
+REPWT_109,,156992.6,Max. Val
+REPWT_110,Replicate raked weight 110,0,Min. Val.
+REPWT_110,,185037.9,Max. Val
+REPWT_111,Replicate raked weight 111,0,Min. Val.
+REPWT_111,,155362.9,Max. Val
+REPWT_112,Replicate raked weight 112,0,Min. Val.
+REPWT_112,,243413.6,Max. Val
+REPWT_113,Replicate raked weight 113,0,Min. Val.
+REPWT_113,,206799.7,Max. Val
+REPWT_114,Replicate raked weight 114,0,Min. Val.
+REPWT_114,,157622.1,Max. Val
+REPWT_115,Replicate raked weight 115,0,Min. Val.
+REPWT_115,,182352.7,Max. Val
+REPWT_116,Replicate raked weight 116,0,Min. Val.
+REPWT_116,,136986.4,Max. Val
+REPWT_117,Replicate raked weight 117,0,Min. Val.
+REPWT_117,,181302.7,Max. Val
+REPWT_118,Replicate raked weight 118,0,Min. Val.
+REPWT_118,,128240.4,Max. Val
+REPWT_119,Replicate raked weight 119,0,Min. Val.
+REPWT_119,,178954.6,Max. Val
+REPWT_120,Replicate raked weight 120,0,Min. Val.
+REPWT_120,,136308.1,Max. Val
+REPWT_121,Replicate raked weight 121,0,Min. Val.
+REPWT_121,,149151.8,Max. Val
+REPWT_122,Replicate raked weight 122,0,Min. Val.
+REPWT_122,,166814.1,Max. Val
+REPWT_123,Replicate raked weight 123,0,Min. Val.
+REPWT_123,,154360.5,Max. Val
+REPWT_124,Replicate raked weight 124,0,Min. Val.
+REPWT_124,,165082.1,Max. Val
+REPWT_125,Replicate raked weight 125,0,Min. Val.
+REPWT_125,,152315.1,Max. Val
+REPWT_126,Replicate raked weight 126,0,Min. Val.
+REPWT_126,,140989.2,Max. Val
+REPWT_127,Replicate raked weight 127,0,Min. Val.
+REPWT_127,,146207.5,Max. Val
+REPWT_128,Replicate raked weight 128,0,Min. Val.
+REPWT_128,,155063,Max. Val
+REPWT_129,Replicate raked weight 129,0,Min. Val.
+REPWT_129,,167786.1,Max. Val
+REPWT_130,Replicate raked weight 130,0,Min. Val.
+REPWT_130,,157533.1,Max. Val
+REPWT_131,Replicate raked weight 131,0,Min. Val.
+REPWT_131,,157248.1,Max. Val
+REPWT_132,Replicate raked weight 132,0,Min. Val.
+REPWT_132,,220592.6,Max. Val
+REPWT_133,Replicate raked weight 133,0,Min. Val.
+REPWT_133,,117512.8,Max. Val
+REPWT_134,Replicate raked weight 134,0,Min. Val.
+REPWT_134,,147369.7,Max. Val
+REPWT_135,Replicate raked weight 135,0,Min. Val.
+REPWT_135,,168603.3,Max. Val
+REPWT_136,Replicate raked weight 136,0,Min. Val.
+REPWT_136,,198194.5,Max. Val
+REPWT_137,Replicate raked weight 137,0,Min. Val.
+REPWT_137,,154932.2,Max. Val
+REPWT_138,Replicate raked weight 138,0,Min. Val.
+REPWT_138,,212818.5,Max. Val
+REPWT_139,Replicate raked weight 139,0,Min. Val.
+REPWT_139,,189651.1,Max. Val
+REPWT_140,Replicate raked weight 140,0,Min. Val.
+REPWT_140,,202937.6,Max. Val
+REPWT_141,Replicate raked weight 141,0,Min. Val.
+REPWT_141,,149664,Max. Val
+REPWT_142,Replicate raked weight 142,0,Min. Val.
+REPWT_142,,218262.4,Max. Val
+REPWT_143,Replicate raked weight 143,0,Min. Val.
+REPWT_143,,138096.1,Max. Val
+REPWT_144,Replicate raked weight 144,0,Min. Val.
+REPWT_144,,150817.3,Max. Val
+REPWT_145,Replicate raked weight 145,0,Min. Val.
+REPWT_145,,211314.4,Max. Val
+REPWT_146,Replicate raked weight 146,0,Min. Val.
+REPWT_146,,173572.1,Max. Val
+REPWT_147,Replicate raked weight 147,0,Min. Val.
+REPWT_147,,179102.1,Max. Val
+REPWT_148,Replicate raked weight 148,0,Min. Val.
+REPWT_148,,144410.1,Max. Val
+REPWT_149,Replicate raked weight 149,0,Min. Val.
+REPWT_149,,164136.3,Max. Val
+REPWT_150,Replicate raked weight 150,0,Min. Val.
+REPWT_150,,202969.4,Max. Val
+REPWT_151,Replicate raked weight 151,0,Min. Val.
+REPWT_151,,194297.3,Max. Val
+REPWT_152,Replicate raked weight 152,0,Min. Val.
+REPWT_152,,120167.1,Max. Val
+REPWT_153,Replicate raked weight 153,0,Min. Val.
+REPWT_153,,119412.7,Max. Val
+REPWT_154,Replicate raked weight 154,0,Min. Val.
+REPWT_154,,126982.1,Max. Val
+REPWT_155,Replicate raked weight 155,0,Min. Val.
+REPWT_155,,155595.1,Max. Val
+REPWT_156,Replicate raked weight 156,0,Min. Val.
+REPWT_156,,188708.9,Max. Val
+REPWT_157,Replicate raked weight 157,0,Min. Val.
+REPWT_157,,128434.1,Max. Val
+REPWT_158,Replicate raked weight 158,0,Min. Val.
+REPWT_158,,187467.2,Max. Val
+REPWT_159,Replicate raked weight 159,0,Min. Val.
+REPWT_159,,163169,Max. Val
+REPWT_160,Replicate raked weight 160,0,Min. Val.
+REPWT_160,,212081.6,Max. Val
+REPWT_161,Replicate raked weight 161,0,Min. Val.
+REPWT_161,,178569.3,Max. Val
+REPWT_162,Replicate raked weight 162,0,Min. Val.
+REPWT_162,,177969.2,Max. Val
+REPWT_163,Replicate raked weight 163,0,Min. Val.
+REPWT_163,,196733.2,Max. Val
+REPWT_164,Replicate raked weight 164,0,Min. Val.
+REPWT_164,,182609.8,Max. Val
+REPWT_165,Replicate raked weight 165,0,Min. Val.
+REPWT_165,,181051.2,Max. Val
+REPWT_166,Replicate raked weight 166,0,Min. Val.
+REPWT_166,,181188.7,Max. Val
+REPWT_167,Replicate raked weight 167,0,Min. Val.
+REPWT_167,,160363.3,Max. Val
+REPWT_168,Replicate raked weight 168,0,Min. Val.
+REPWT_168,,174490.7,Max. Val
+REPWT_169,Replicate raked weight 169,0,Min. Val.
+REPWT_169,,135884.2,Max. Val
+REPWT_170,Replicate raked weight 170,0,Min. Val.
+REPWT_170,,162132.9,Max. Val
+REPWT_171,Replicate raked weight 171,0,Min. Val.
+REPWT_171,,111531.1,Max. Val
+REPWT_172,Replicate raked weight 172,0,Min. Val.
+REPWT_172,,144947.5,Max. Val
+REPWT_173,Replicate raked weight 173,0,Min. Val.
+REPWT_173,,136204.1,Max. Val
+REPWT_174,Replicate raked weight 174,0,Min. Val.
+REPWT_174,,133139.6,Max. Val
+REPWT_175,Replicate raked weight 175,0,Min. Val.
+REPWT_175,,168253.7,Max. Val
+REPWT_176,Replicate raked weight 176,0,Min. Val.
+REPWT_176,,204386.9,Max. Val
+REPWT_177,Replicate raked weight 177,0,Min. Val.
+REPWT_177,,175778.1,Max. Val
+REPWT_178,Replicate raked weight 178,0,Min. Val.
+REPWT_178,,144918,Max. Val
+REPWT_179,Replicate raked weight 179,0,Min. Val.
+REPWT_179,,144493.6,Max. Val
+REPWT_180,Replicate raked weight 180,0,Min. Val.
+REPWT_180,,138670.6,Max. Val
+REPWT_181,Replicate raked weight 181,0,Min. Val.
+REPWT_181,,149791,Max. Val
+REPWT_182,Replicate raked weight 182,0,Min. Val.
+REPWT_182,,134584.4,Max. Val
+REPWT_183,Replicate raked weight 183,0,Min. Val.
+REPWT_183,,129535.8,Max. Val
+REPWT_184,Replicate raked weight 184,0,Min. Val.
+REPWT_184,,147494.8,Max. Val
+REPWT_185,Replicate raked weight 185,0,Min. Val.
+REPWT_185,,145898.8,Max. Val
+REPWT_186,Replicate raked weight 186,0,Min. Val.
+REPWT_186,,137566.4,Max. Val
+REPWT_187,Replicate raked weight 187,0,Min. Val.
+REPWT_187,,172302,Max. Val
+REPWT_188,Replicate raked weight 188,0,Min. Val.
+REPWT_188,,127642.6,Max. Val
+REPWT_189,Replicate raked weight 189,0,Min. Val.
+REPWT_189,,208283,Max. Val
+REPWT_190,Replicate raked weight 190,0,Min. Val.
+REPWT_190,,166638.4,Max. Val
+REPWT_191,Replicate raked weight 191,0,Min. Val.
+REPWT_191,,186585.9,Max. Val
+REPWT_192,Replicate raked weight 192,0,Min. Val.
+REPWT_192,,139043.8,Max. Val
+REPWT_193,Replicate raked weight 193,0,Min. Val.
+REPWT_193,,130045.3,Max. Val
+REPWT_194,Replicate raked weight 194,0,Min. Val.
+REPWT_194,,226765,Max. Val
+REPWT_195,Replicate raked weight 195,0,Min. Val.
+REPWT_195,,185173.5,Max. Val
+REPWT_196,Replicate raked weight 196,0,Min. Val.
+REPWT_196,,202987.3,Max. Val
+REPWT_197,Replicate raked weight 197,0,Min. Val.
+REPWT_197,,164292,Max. Val
+REPWT_198,Replicate raked weight 198,0,Min. Val.
+REPWT_198,,133487.8,Max. Val
+REPWT_199,Replicate raked weight 199,0,Min. Val.
+REPWT_199,,167325.9,Max. Val
+REPWT_200,Replicate raked weight 200,0,Min. Val.
+REPWT_200,,156669.3,Max. Val
+REPWT_201,Replicate raked weight 201,0,Min. Val.
+REPWT_201,,182638.5,Max. Val
+REPWT_202,Replicate raked weight 202,0,Min. Val.
+REPWT_202,,119466.7,Max. Val
+REPWT_203,Replicate raked weight 203,0,Min. Val.
+REPWT_203,,164684.9,Max. Val
+REPWT_204,Replicate raked weight 204,0,Min. Val.
+REPWT_204,,154574.3,Max. Val
+REPWT_205,Replicate raked weight 205,0,Min. Val.
+REPWT_205,,182796.8,Max. Val
+REPWT_206,Replicate raked weight 206,0,Min. Val.
+REPWT_206,,158586.1,Max. Val
+REPWT_207,Replicate raked weight 207,0,Min. Val.
+REPWT_207,,149670.4,Max. Val
+REPWT_208,Replicate raked weight 208,0,Min. Val.
+REPWT_208,,140836.3,Max. Val
+REPWT_209,Replicate raked weight 209,0,Min. Val.
+REPWT_209,,162986.9,Max. Val
+REPWT_210,Replicate raked weight 210,0,Min. Val.
+REPWT_210,,151772.4,Max. Val
+REPWT_211,Replicate raked weight 211,0,Min. Val.
+REPWT_211,,125851.6,Max. Val
+REPWT_212,Replicate raked weight 212,0,Min. Val.
+REPWT_212,,254490.7,Max. Val
+REPWT_213,Replicate raked weight 213,0,Min. Val.
+REPWT_213,,179657.3,Max. Val
+REPWT_214,Replicate raked weight 214,0,Min. Val.
+REPWT_214,,140001.5,Max. Val
+REPWT_215,Replicate raked weight 215,0,Min. Val.
+REPWT_215,,140911.1,Max. Val
+REPWT_216,Replicate raked weight 216,0,Min. Val.
+REPWT_216,,146999.6,Max. Val
+REPWT_217,Replicate raked weight 217,0,Min. Val.
+REPWT_217,,150376.2,Max. Val
+REPWT_218,Replicate raked weight 218,0,Min. Val.
+REPWT_218,,153043.6,Max. Val
+REPWT_219,Replicate raked weight 219,0,Min. Val.
+REPWT_219,,217914.1,Max. Val
+REPWT_220,Replicate raked weight 220,0,Min. Val.
+REPWT_220,,151632.7,Max. Val
+REPWT_221,Replicate raked weight 221,0,Min. Val.
+REPWT_221,,186794.1,Max. Val
+REPWT_222,Replicate raked weight 222,0,Min. Val.
+REPWT_222,,214086.1,Max. Val
+REPWT_223,Replicate raked weight 223,0,Min. Val.
+REPWT_223,,134332.2,Max. Val
+REPWT_224,Replicate raked weight 224,0,Min. Val.
+REPWT_224,,141926.2,Max. Val
+REPWT_225,Replicate raked weight 225,0,Min. Val.
+REPWT_225,,144940.7,Max. Val
+REPWT_226,Replicate raked weight 226,0,Min. Val.
+REPWT_226,,150441.8,Max. Val
+REPWT_227,Replicate raked weight 227,0,Min. Val.
+REPWT_227,,148804.7,Max. Val
+REPWT_228,Replicate raked weight 228,0,Min. Val.
+REPWT_228,,205188.5,Max. Val
+REPWT_229,Replicate raked weight 229,0,Min. Val.
+REPWT_229,,146948.7,Max. Val
+REPWT_230,Replicate raked weight 230,0,Min. Val.
+REPWT_230,,187929.8,Max. Val
+REPWT_231,Replicate raked weight 231,0,Min. Val.
+REPWT_231,,162095.1,Max. Val
+REPWT_232,Replicate raked weight 232,0,Min. Val.
+REPWT_232,,162106.1,Max. Val
+REPWT_233,Replicate raked weight 233,0,Min. Val.
+REPWT_233,,129920.9,Max. Val
+REPWT_234,Replicate raked weight 234,0,Min. Val.
+REPWT_234,,125169,Max. Val
+REPWT_235,Replicate raked weight 235,0,Min. Val.
+REPWT_235,,117698.8,Max. Val
+REPWT_236,Replicate raked weight 236,0,Min. Val.
+REPWT_236,,135202.3,Max. Val
+REPWT_237,Replicate raked weight 237,0,Min. Val.
+REPWT_237,,143518.7,Max. Val
+REPWT_238,Replicate raked weight 238,0,Min. Val.
+REPWT_238,,135568.6,Max. Val
+REPWT_239,Replicate raked weight 239,0,Min. Val.
+REPWT_239,,178813.8,Max. Val
+REPWT_240,Replicate raked weight 240,0,Min. Val.
+REPWT_240,,135676.8,Max. Val
+REPWT_241,Replicate raked weight 241,0,Min. Val.
+REPWT_241,,125963.8,Max. Val
+REPWT_242,Replicate raked weight 242,0,Min. Val.
+REPWT_242,,156026.2,Max. Val
+REPWT_243,Replicate raked weight 243,0,Min. Val.
+REPWT_243,,235490.2,Max. Val
+REPWT_244,Replicate raked weight 244,0,Min. Val.
+REPWT_244,,124924.6,Max. Val
+REPWT_245,Replicate raked weight 245,0,Min. Val.
+REPWT_245,,210458.7,Max. Val
+REPWT_246,Replicate raked weight 246,0,Min. Val.
+REPWT_246,,160475.8,Max. Val
+REPWT_247,Replicate raked weight 247,0,Min. Val.
+REPWT_247,,162843.7,Max. Val
+REPWT_248,Replicate raked weight 248,0,Min. Val.
+REPWT_248,,131988.1,Max. Val
+REPWT_249,Replicate raked weight 249,0,Min. Val.
+REPWT_249,,141097.9,Max. Val
+REPWT_250,Replicate raked weight 250,0,Min. Val.
+REPWT_250,,137431.4,Max. Val
+REPWT_251,Replicate raked weight 251,0,Min. Val.
+REPWT_251,,124769.9,Max. Val
+REPWT_252,Replicate raked weight 252,0,Min. Val.
+REPWT_252,,119544.4,Max. Val
+REPWT_253,Replicate raked weight 253,0,Min. Val.
+REPWT_253,,225165.1,Max. Val
+REPWT_254,Replicate raked weight 254,0,Min. Val.
+REPWT_254,,124185.8,Max. Val
+REPWT_255,Replicate raked weight 255,0,Min. Val.
+REPWT_255,,151602.6,Max. Val
+REPWT_256,Replicate raked weight 256,0,Min. Val.
+REPWT_256,,141764,Max. Val
+REPWT_257,Replicate raked weight 257,0,Min. Val.
+REPWT_257,,147241.6,Max. Val
+REPWT_258,Replicate raked weight 258,0,Min. Val.
+REPWT_258,,201717.7,Max. Val
+REPWT_259,Replicate raked weight 259,0,Min. Val.
+REPWT_259,,154258.6,Max. Val
+REPWT_260,Replicate raked weight 260,0,Min. Val.
+REPWT_260,,170826.7,Max. Val
+REPWT_261,Replicate raked weight 261,0,Min. Val.
+REPWT_261,,153104.3,Max. Val
+REPWT_262,Replicate raked weight 262,0,Min. Val.
+REPWT_262,,171941.9,Max. Val
+REPWT_263,Replicate raked weight 263,0,Min. Val.
+REPWT_263,,169053,Max. Val
+REPWT_264,Replicate raked weight 264,0,Min. Val.
+REPWT_264,,176851.9,Max. Val
+REPWT_265,Replicate raked weight 265,0,Min. Val.
+REPWT_265,,158815.9,Max. Val
+REPWT_266,Replicate raked weight 266,0,Min. Val.
+REPWT_266,,149105.4,Max. Val
+REPWT_267,Replicate raked weight 267,0,Min. Val.
+REPWT_267,,162365,Max. Val
+REPWT_268,Replicate raked weight 268,0,Min. Val.
+REPWT_268,,125390.4,Max. Val
+REPWT_269,Replicate raked weight 269,0,Min. Val.
+REPWT_269,,157721.3,Max. Val
+REPWT_270,Replicate raked weight 270,0,Min. Val.
+REPWT_270,,152239,Max. Val
+REPWT_271,Replicate raked weight 271,0,Min. Val.
+REPWT_271,,151737.3,Max. Val
+REPWT_272,Replicate raked weight 272,0,Min. Val.
+REPWT_272,,162640.2,Max. Val
+REPWT_273,Replicate raked weight 273,0,Min. Val.
+REPWT_273,,126724.6,Max. Val
+REPWT_274,Replicate raked weight 274,0,Min. Val.
+REPWT_274,,161832.9,Max. Val
+REPWT_275,Replicate raked weight 275,0,Min. Val.
+REPWT_275,,144827.1,Max. Val
+REPWT_276,Replicate raked weight 276,0,Min. Val.
+REPWT_276,,158392,Max. Val
+REPWT_277,Replicate raked weight 277,0,Min. Val.
+REPWT_277,,135779.7,Max. Val
+REPWT_278,Replicate raked weight 278,0,Min. Val.
+REPWT_278,,131232.5,Max. Val
+REPWT_279,Replicate raked weight 279,0,Min. Val.
+REPWT_279,,172624.2,Max. Val
+REPWT_280,Replicate raked weight 280,0,Min. Val.
+REPWT_280,,153841.4,Max. Val
+REPWT_281,Replicate raked weight 281,0,Min. Val.
+REPWT_281,,131057.3,Max. Val
+REPWT_282,Replicate raked weight 282,0,Min. Val.
+REPWT_282,,154086.1,Max. Val
+REPWT_283,Replicate raked weight 283,0,Min. Val.
+REPWT_283,,150472.4,Max. Val
+REPWT_284,Replicate raked weight 284,0,Min. Val.
+REPWT_284,,165196.6,Max. Val
+REPWT_285,Replicate raked weight 285,0,Min. Val.
+REPWT_285,,138623.3,Max. Val
+REPWT_286,Replicate raked weight 286,0,Min. Val.
+REPWT_286,,128601.3,Max. Val
+REPWT_287,Replicate raked weight 287,0,Min. Val.
+REPWT_287,,142815.4,Max. Val
+REPWT_288,Replicate raked weight 288,0,Min. Val.
+REPWT_288,,145904.8,Max. Val
+REPWT_289,Replicate raked weight 289,0,Min. Val.
+REPWT_289,,164244,Max. Val
+REPWT_290,Replicate raked weight 290,0,Min. Val.
+REPWT_290,,138136.5,Max. Val
+REPWT_291,Replicate raked weight 291,0,Min. Val.
+REPWT_291,,169054.4,Max. Val
+REPWT_292,Replicate raked weight 292,0,Min. Val.
+REPWT_292,,176579.4,Max. Val
+REPWT_293,Replicate raked weight 293,0,Min. Val.
+REPWT_293,,146625.8,Max. Val
+REPWT_294,Replicate raked weight 294,0,Min. Val.
+REPWT_294,,134764.6,Max. Val
+REPWT_295,Replicate raked weight 295,0,Min. Val.
+REPWT_295,,134090.2,Max. Val
+REPWT_296,Replicate raked weight 296,0,Min. Val.
+REPWT_296,,138871.7,Max. Val
+REPWT_297,Replicate raked weight 297,0,Min. Val.
+REPWT_297,,130740.1,Max. Val
+REPWT_298,Replicate raked weight 298,0,Min. Val.
+REPWT_298,,176863.2,Max. Val
+REPWT_299,Replicate raked weight 299,0,Min. Val.
+REPWT_299,,113315.2,Max. Val
+REPWT_300,Replicate raked weight 300,0,Min. Val.
+REPWT_300,,205373.5,Max. Val
+REPWT_301,Replicate raked weight 301,0,Min. Val.
+REPWT_301,,156366.7,Max. Val
+REPWT_302,Replicate raked weight 302,0,Min. Val.
+REPWT_302,,180171.7,Max. Val
+REPWT_303,Replicate raked weight 303,0,Min. Val.
+REPWT_303,,130667.8,Max. Val
+REPWT_304,Replicate raked weight 304,0,Min. Val.
+REPWT_304,,125298.7,Max. Val
+REPWT_305,Replicate raked weight 305,0,Min. Val.
+REPWT_305,,155972.9,Max. Val
+REPWT_306,Replicate raked weight 306,0,Min. Val.
+REPWT_306,,232024.3,Max. Val
+REPWT_307,Replicate raked weight 307,0,Min. Val.
+REPWT_307,,117183.6,Max. Val
+REPWT_308,Replicate raked weight 308,0,Min. Val.
+REPWT_308,,138159.2,Max. Val
+REPWT_309,Replicate raked weight 309,0,Min. Val.
+REPWT_309,,167499.4,Max. Val
+REPWT_310,Replicate raked weight 310,0,Min. Val.
+REPWT_310,,131633.9,Max. Val
+REPWT_311,Replicate raked weight 311,0,Min. Val.
+REPWT_311,,135017.2,Max. Val
+REPWT_312,Replicate raked weight 312,0,Min. Val.
+REPWT_312,,161108.5,Max. Val
+REPWT_313,Replicate raked weight 313,0,Min. Val.
+REPWT_313,,165321.5,Max. Val
+REPWT_314,Replicate raked weight 314,0,Min. Val.
+REPWT_314,,134833.1,Max. Val
+REPWT_315,Replicate raked weight 315,0,Min. Val.
+REPWT_315,,150744,Max. Val
+REPWT_316,Replicate raked weight 316,0,Min. Val.
+REPWT_316,,146225.8,Max. Val
+REPWT_317,Replicate raked weight 317,0,Min. Val.
+REPWT_317,,154405.4,Max. Val
+REPWT_318,Replicate raked weight 318,0,Min. Val.
+REPWT_318,,141606.6,Max. Val
+REPWT_319,Replicate raked weight 319,0,Min. Val.
+REPWT_319,,127551.8,Max. Val
+REPWT_320,Replicate raked weight 320,0,Min. Val.
+REPWT_320,,162157.5,Max. Val
+REPWT_321,Replicate raked weight 321,0,Min. Val.
+REPWT_321,,123346.9,Max. Val
+REPWT_322,Replicate raked weight 322,0,Min. Val.
+REPWT_322,,139238.2,Max. Val
+REPWT_323,Replicate raked weight 323,0,Min. Val.
+REPWT_323,,148874.5,Max. Val
+REPWT_324,Replicate raked weight 324,0,Min. Val.
+REPWT_324,,135770.2,Max. Val
+REPWT_325,Replicate raked weight 325,0,Min. Val.
+REPWT_325,,130347.6,Max. Val
+REPWT_326,Replicate raked weight 326,0,Min. Val.
+REPWT_326,,153608.6,Max. Val
+REPWT_327,Replicate raked weight 327,0,Min. Val.
+REPWT_327,,154845.4,Max. Val
+REPWT_328,Replicate raked weight 328,0,Min. Val.
+REPWT_328,,137368.6,Max. Val
+REPWT_329,Replicate raked weight 329,0,Min. Val.
+REPWT_329,,146211.1,Max. Val
+REPWT_330,Replicate raked weight 330,0,Min. Val.
+REPWT_330,,184270.1,Max. Val
+REPWT_331,Replicate raked weight 331,0,Min. Val.
+REPWT_331,,133781.9,Max. Val
+REPWT_332,Replicate raked weight 332,0,Min. Val.
+REPWT_332,,185824,Max. Val
+REPWT_333,Replicate raked weight 333,0,Min. Val.
+REPWT_333,,149414.1,Max. Val
+REPWT_334,Replicate raked weight 334,0,Min. Val.
+REPWT_334,,154855.7,Max. Val
+REPWT_335,Replicate raked weight 335,0,Min. Val.
+REPWT_335,,183329.3,Max. Val
+REPWT_336,Replicate raked weight 336,0,Min. Val.
+REPWT_336,,148292.8,Max. Val
+REPWT_337,Replicate raked weight 337,0,Min. Val.
+REPWT_337,,170862.2,Max. Val
+REPWT_338,Replicate raked weight 338,0,Min. Val.
+REPWT_338,,150280.7,Max. Val
+REPWT_339,Replicate raked weight 339,0,Min. Val.
+REPWT_339,,205760.5,Max. Val
+REPWT_340,Replicate raked weight 340,0,Min. Val.
+REPWT_340,,222249,Max. Val
+REPWT_341,Replicate raked weight 341,0,Min. Val.
+REPWT_341,,145506.5,Max. Val
+REPWT_342,Replicate raked weight 342,0,Min. Val.
+REPWT_342,,138588.5,Max. Val
+REPWT_343,Replicate raked weight 343,0,Min. Val.
+REPWT_343,,172797.7,Max. Val
+REPWT_344,Replicate raked weight 344,0,Min. Val.
+REPWT_344,,162204.4,Max. Val
+REPWT_345,Replicate raked weight 345,0,Min. Val.
+REPWT_345,,127260,Max. Val
+REPWT_346,Replicate raked weight 346,0,Min. Val.
+REPWT_346,,152520.4,Max. Val
+REPWT_347,Replicate raked weight 347,0,Min. Val.
+REPWT_347,,189651.4,Max. Val
+REPWT_348,Replicate raked weight 348,0,Min. Val.
+REPWT_348,,129664.9,Max. Val
+REPWT_349,Replicate raked weight 349,0,Min. Val.
+REPWT_349,,158086.3,Max. Val
+REPWT_350,Replicate raked weight 350,0,Min. Val.
+REPWT_350,,154448.2,Max. Val
+REPWT_351,Replicate raked weight 351,0,Min. Val.
+REPWT_351,,151116.6,Max. Val
+REPWT_352,Replicate raked weight 352,0,Min. Val.
+REPWT_352,,136315.2,Max. Val
+REPWT_353,Replicate raked weight 353,0,Min. Val.
+REPWT_353,,135741.7,Max. Val
+REPWT_354,Replicate raked weight 354,0,Min. Val.
+REPWT_354,,139091.8,Max. Val
+REPWT_355,Replicate raked weight 355,0,Min. Val.
+REPWT_355,,143264.5,Max. Val
+REPWT_356,Replicate raked weight 356,0,Min. Val.
+REPWT_356,,159762.6,Max. Val
+REPWT_357,Replicate raked weight 357,0,Min. Val.
+REPWT_357,,169812.4,Max. Val
+REPWT_358,Replicate raked weight 358,0,Min. Val.
+REPWT_358,,150806.9,Max. Val
+REPWT_359,Replicate raked weight 359,0,Min. Val.
+REPWT_359,,155813.2,Max. Val
+REPWT_360,Replicate raked weight 360,0,Min. Val.
+REPWT_360,,158849.8,Max. Val
+REPWT_361,Replicate raked weight 361,0,Min. Val.
+REPWT_361,,144463.7,Max. Val
+REPWT_362,Replicate raked weight 362,0,Min. Val.
+REPWT_362,,134087.7,Max. Val
+REPWT_363,Replicate raked weight 363,0,Min. Val.
+REPWT_363,,181370.3,Max. Val
+REPWT_364,Replicate raked weight 364,0,Min. Val.
+REPWT_364,,118272.8,Max. Val
+REPWT_365,Replicate raked weight 365,0,Min. Val.
+REPWT_365,,157570.1,Max. Val
+REPWT_366,Replicate raked weight 366,0,Min. Val.
+REPWT_366,,139409.1,Max. Val
+REPWT_367,Replicate raked weight 367,0,Min. Val.
+REPWT_367,,159212.6,Max. Val
+REPWT_368,Replicate raked weight 368,0,Min. Val.
+REPWT_368,,169078,Max. Val
+REPWT_369,Replicate raked weight 369,0,Min. Val.
+REPWT_369,,186454.8,Max. Val
+REPWT_370,Replicate raked weight 370,0,Min. Val.
+REPWT_370,,178428.6,Max. Val
+REPWT_371,Replicate raked weight 371,0,Min. Val.
+REPWT_371,,202505.7,Max. Val
+REPWT_372,Replicate raked weight 372,0,Min. Val.
+REPWT_372,,153663.5,Max. Val
+REPWT_373,Replicate raked weight 373,0,Min. Val.
+REPWT_373,,178175.8,Max. Val
+REPWT_374,Replicate raked weight 374,0,Min. Val.
+REPWT_374,,199798.8,Max. Val
+REPWT_375,Replicate raked weight 375,0,Min. Val.
+REPWT_375,,157426,Max. Val
+REPWT_376,Replicate raked weight 376,0,Min. Val.
+REPWT_376,,147977.4,Max. Val
+REPWT_377,Replicate raked weight 377,0,Min. Val.
+REPWT_377,,150701,Max. Val
+REPWT_378,Replicate raked weight 378,0,Min. Val.
+REPWT_378,,133121.9,Max. Val
+REPWT_379,Replicate raked weight 379,0,Min. Val.
+REPWT_379,,174343.6,Max. Val
+REPWT_380,Replicate raked weight 380,0,Min. Val.
+REPWT_380,,182720.5,Max. Val
+REPWT_381,Replicate raked weight 381,0,Min. Val.
+REPWT_381,,194654,Max. Val
+REPWT_382,Replicate raked weight 382,0,Min. Val.
+REPWT_382,,163582.4,Max. Val
+REPWT_383,Replicate raked weight 383,0,Min. Val.
+REPWT_383,,124894.1,Max. Val
+REPWT_384,Replicate raked weight 384,0,Min. Val.
+REPWT_384,,165518.9,Max. Val
+REPWT_385,Replicate raked weight 385,0,Min. Val.
+REPWT_385,,147744.5,Max. Val
+REPWT_386,Replicate raked weight 386,0,Min. Val.
+REPWT_386,,174256.5,Max. Val
+REPWT_387,Replicate raked weight 387,0,Min. Val.
+REPWT_387,,132374.4,Max. Val
+REPWT_388,Replicate raked weight 388,0,Min. Val.
+REPWT_388,,149798.8,Max. Val
+REPWT_389,Replicate raked weight 389,0,Min. Val.
+REPWT_389,,153250.7,Max. Val
+REPWT_390,Replicate raked weight 390,0,Min. Val.
+REPWT_390,,138230.2,Max. Val
+REPWT_391,Replicate raked weight 391,0,Min. Val.
+REPWT_391,,152645.3,Max. Val
+REPWT_392,Replicate raked weight 392,0,Min. Val.
+REPWT_392,,138935.1,Max. Val
+REPWT_393,Replicate raked weight 393,0,Min. Val.
+REPWT_393,,146137.1,Max. Val
+REPWT_394,Replicate raked weight 394,0,Min. Val.
+REPWT_394,,153830,Max. Val
+REPWT_395,Replicate raked weight 395,0,Min. Val.
+REPWT_395,,137631,Max. Val
+REPWT_396,Replicate raked weight 396,0,Min. Val.
+REPWT_396,,201375.1,Max. Val
+REPWT_397,Replicate raked weight 397,0,Min. Val.
+REPWT_397,,227791.1,Max. Val
+REPWT_398,Replicate raked weight 398,0,Min. Val.
+REPWT_398,,144467.7,Max. Val
+REPWT_399,Replicate raked weight 399,0,Min. Val.
+REPWT_399,,164707.3,Max. Val
+REPWT_400,Replicate raked weight 400,0,Min. Val.
+REPWT_400,,153730.5,Max. Val
+REPWT_401,Replicate raked weight 401,0,Min. Val.
+REPWT_401,,143316.5,Max. Val
+REPWT_402,Replicate raked weight 402,0,Min. Val.
+REPWT_402,,167742.5,Max. Val
+REPWT_403,Replicate raked weight 403,0,Min. Val.
+REPWT_403,,154959.3,Max. Val
+REPWT_404,Replicate raked weight 404,0,Min. Val.
+REPWT_404,,129960.4,Max. Val
+REPWT_405,Replicate raked weight 405,0,Min. Val.
+REPWT_405,,130934.4,Max. Val
+REPWT_406,Replicate raked weight 406,0,Min. Val.
+REPWT_406,,121769.5,Max. Val
+REPWT_407,Replicate raked weight 407,0,Min. Val.
+REPWT_407,,150297.8,Max. Val
+REPWT_408,Replicate raked weight 408,0,Min. Val.
+REPWT_408,,147389.6,Max. Val
+REPWT_409,Replicate raked weight 409,0,Min. Val.
+REPWT_409,,145141,Max. Val
+REPWT_410,Replicate raked weight 410,0,Min. Val.
+REPWT_410,,156804.6,Max. Val
+REPWT_411,Replicate raked weight 411,0,Min. Val.
+REPWT_411,,139887.2,Max. Val
+REPWT_412,Replicate raked weight 412,0,Min. Val.
+REPWT_412,,135201.3,Max. Val
+REPWT_413,Replicate raked weight 413,0,Min. Val.
+REPWT_413,,133873.2,Max. Val
+REPWT_414,Replicate raked weight 414,0,Min. Val.
+REPWT_414,,173725.5,Max. Val
+REPWT_415,Replicate raked weight 415,0,Min. Val.
+REPWT_415,,152249.4,Max. Val
+REPWT_416,Replicate raked weight 416,0,Min. Val.
+REPWT_416,,145031.2,Max. Val
+REPWT_417,Replicate raked weight 417,0,Min. Val.
+REPWT_417,,144420.2,Max. Val
+REPWT_418,Replicate raked weight 418,0,Min. Val.
+REPWT_418,,149485.3,Max. Val
+REPWT_419,Replicate raked weight 419,0,Min. Val.
+REPWT_419,,144332.8,Max. Val
+REPWT_420,Replicate raked weight 420,0,Min. Val.
+REPWT_420,,124003.9,Max. Val
+REPWT_421,Replicate raked weight 421,0,Min. Val.
+REPWT_421,,130225.9,Max. Val
+REPWT_422,Replicate raked weight 422,0,Min. Val.
+REPWT_422,,206580.4,Max. Val
+REPWT_423,Replicate raked weight 423,0,Min. Val.
+REPWT_423,,147422.1,Max. Val
+REPWT_424,Replicate raked weight 424,0,Min. Val.
+REPWT_424,,139790.5,Max. Val
+REPWT_425,Replicate raked weight 425,0,Min. Val.
+REPWT_425,,113643,Max. Val
+REPWT_426,Replicate raked weight 426,0,Min. Val.
+REPWT_426,,182466.6,Max. Val
+REPWT_427,Replicate raked weight 427,0,Min. Val.
+REPWT_427,,130962.7,Max. Val
+REPWT_428,Replicate raked weight 428,0,Min. Val.
+REPWT_428,,131809.6,Max. Val
+REPWT_429,Replicate raked weight 429,0,Min. Val.
+REPWT_429,,181985.3,Max. Val
+REPWT_430,Replicate raked weight 430,0,Min. Val.
+REPWT_430,,140107.5,Max. Val
+REPWT_431,Replicate raked weight 431,0,Min. Val.
+REPWT_431,,160366.5,Max. Val
+REPWT_432,Replicate raked weight 432,0,Min. Val.
+REPWT_432,,147593.7,Max. Val
+REPWT_433,Replicate raked weight 433,0,Min. Val.
+REPWT_433,,131588.1,Max. Val
+REPWT_434,Replicate raked weight 434,0,Min. Val.
+REPWT_434,,155869.5,Max. Val
+REPWT_435,Replicate raked weight 435,0,Min. Val.
+REPWT_435,,141371.8,Max. Val
+REPWT_436,Replicate raked weight 436,0,Min. Val.
+REPWT_436,,204338.2,Max. Val
+REPWT_437,Replicate raked weight 437,0,Min. Val.
+REPWT_437,,208506.9,Max. Val
+REPWT_438,Replicate raked weight 438,0,Min. Val.
+REPWT_438,,145053.7,Max. Val
+REPWT_439,Replicate raked weight 439,0,Min. Val.
+REPWT_439,,180718.1,Max. Val
+REPWT_440,Replicate raked weight 440,0,Min. Val.
+REPWT_440,,228468.5,Max. Val
+REPWT_441,Replicate raked weight 441,0,Min. Val.
+REPWT_441,,165401.3,Max. Val
+REPWT_442,Replicate raked weight 442,0,Min. Val.
+REPWT_442,,159701.5,Max. Val
+REPWT_443,Replicate raked weight 443,0,Min. Val.
+REPWT_443,,148369.8,Max. Val
+REPWT_444,Replicate raked weight 444,0,Min. Val.
+REPWT_444,,148999.2,Max. Val
+REPWT_445,Replicate raked weight 445,0,Min. Val.
+REPWT_445,,135640.4,Max. Val
+REPWT_446,Replicate raked weight 446,0,Min. Val.
+REPWT_446,,209075,Max. Val
+REPWT_447,Replicate raked weight 447,0,Min. Val.
+REPWT_447,,137811.7,Max. Val
+REPWT_448,Replicate raked weight 448,0,Min. Val.
+REPWT_448,,167003.2,Max. Val
+REPWT_449,Replicate raked weight 449,0,Min. Val.
+REPWT_449,,173891.8,Max. Val
+REPWT_450,Replicate raked weight 450,0,Min. Val.
+REPWT_450,,192454.4,Max. Val
+REPWT_451,Replicate raked weight 451,0,Min. Val.
+REPWT_451,,148628.4,Max. Val
+REPWT_452,Replicate raked weight 452,0,Min. Val.
+REPWT_452,,133970.7,Max. Val
+REPWT_453,Replicate raked weight 453,0,Min. Val.
+REPWT_453,,173406,Max. Val
+REPWT_454,Replicate raked weight 454,0,Min. Val.
+REPWT_454,,151279.5,Max. Val
+REPWT_455,Replicate raked weight 455,0,Min. Val.
+REPWT_455,,214441.2,Max. Val
+REPWT_456,Replicate raked weight 456,0,Min. Val.
+REPWT_456,,191740.8,Max. Val
+REPWT_457,Replicate raked weight 457,0,Min. Val.
+REPWT_457,,142664.8,Max. Val
+REPWT_458,Replicate raked weight 458,0,Min. Val.
+REPWT_458,,178795.3,Max. Val
+REPWT_459,Replicate raked weight 459,0,Min. Val.
+REPWT_459,,165654.7,Max. Val
+REPWT_460,Replicate raked weight 460,0,Min. Val.
+REPWT_460,,125077.3,Max. Val
+REPWT_461,Replicate raked weight 461,0,Min. Val.
+REPWT_461,,125352,Max. Val
+REPWT_462,Replicate raked weight 462,0,Min. Val.
+REPWT_462,,167986.9,Max. Val
+REPWT_463,Replicate raked weight 463,0,Min. Val.
+REPWT_463,,169273.3,Max. Val
+REPWT_464,Replicate raked weight 464,0,Min. Val.
+REPWT_464,,132711.5,Max. Val
+REPWT_465,Replicate raked weight 465,0,Min. Val.
+REPWT_465,,152856.8,Max. Val
+REPWT_466,Replicate raked weight 466,0,Min. Val.
+REPWT_466,,137613,Max. Val
+REPWT_467,Replicate raked weight 467,0,Min. Val.
+REPWT_467,,128368.9,Max. Val
+REPWT_468,Replicate raked weight 468,0,Min. Val.
+REPWT_468,,141361.2,Max. Val
+REPWT_469,Replicate raked weight 469,0,Min. Val.
+REPWT_469,,164162.4,Max. Val
+REPWT_470,Replicate raked weight 470,0,Min. Val.
+REPWT_470,,196711,Max. Val
+REPWT_471,Replicate raked weight 471,0,Min. Val.
+REPWT_471,,136854.7,Max. Val
+REPWT_472,Replicate raked weight 472,0,Min. Val.
+REPWT_472,,188657.7,Max. Val
+REPWT_473,Replicate raked weight 473,0,Min. Val.
+REPWT_473,,125915,Max. Val
+REPWT_474,Replicate raked weight 474,0,Min. Val.
+REPWT_474,,135423,Max. Val
+REPWT_475,Replicate raked weight 475,0,Min. Val.
+REPWT_475,,153154.6,Max. Val
+REPWT_476,Replicate raked weight 476,0,Min. Val.
+REPWT_476,,139011,Max. Val
+REPWT_477,Replicate raked weight 477,0,Min. Val.
+REPWT_477,,145974.2,Max. Val
+REPWT_478,Replicate raked weight 478,0,Min. Val.
+REPWT_478,,197745.7,Max. Val
+REPWT_479,Replicate raked weight 479,0,Min. Val.
+REPWT_479,,163541.3,Max. Val
+REPWT_480,Replicate raked weight 480,0,Min. Val.
+REPWT_480,,125972.4,Max. Val
+REPWT_481,Replicate raked weight 481,0,Min. Val.
+REPWT_481,,162239.2,Max. Val
+REPWT_482,Replicate raked weight 482,0,Min. Val.
+REPWT_482,,145425.3,Max. Val
+REPWT_483,Replicate raked weight 483,0,Min. Val.
+REPWT_483,,132221.9,Max. Val
+REPWT_484,Replicate raked weight 484,0,Min. Val.
+REPWT_484,,137817.3,Max. Val
+REPWT_485,Replicate raked weight 485,0,Min. Val.
+REPWT_485,,168612.9,Max. Val
+REPWT_486,Replicate raked weight 486,0,Min. Val.
+REPWT_486,,162297.7,Max. Val
+REPWT_487,Replicate raked weight 487,0,Min. Val.
+REPWT_487,,131693.6,Max. Val
+REPWT_488,Replicate raked weight 488,0,Min. Val.
+REPWT_488,,129198.5,Max. Val
+REPWT_489,Replicate raked weight 489,0,Min. Val.
+REPWT_489,,157291.9,Max. Val
+REPWT_490,Replicate raked weight 490,0,Min. Val.
+REPWT_490,,126298.8,Max. Val
+REPWT_491,Replicate raked weight 491,0,Min. Val.
+REPWT_491,,145686.6,Max. Val
+REPWT_492,Replicate raked weight 492,0,Min. Val.
+REPWT_492,,158637.9,Max. Val
+REPWT_493,Replicate raked weight 493,0,Min. Val.
+REPWT_493,,190660.3,Max. Val
+REPWT_494,Replicate raked weight 494,0,Min. Val.
+REPWT_494,,193652.6,Max. Val
+REPWT_495,Replicate raked weight 495,0,Min. Val.
+REPWT_495,,172254.9,Max. Val
+REPWT_496,Replicate raked weight 496,0,Min. Val.
+REPWT_496,,167268.2,Max. Val
+REPWT_497,Replicate raked weight 497,0,Min. Val.
+REPWT_497,,144550.6,Max. Val
+REPWT_498,Replicate raked weight 498,0,Min. Val.
+REPWT_498,,179590.3,Max. Val
+REPWT_499,Replicate raked weight 499,0,Min. Val.
+REPWT_499,,159787.1,Max. Val
+REPWT_500,Replicate raked weight 500,0,Min. Val.
+REPWT_500,,149850.1,Max. Val

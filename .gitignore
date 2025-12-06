@@ -17,5 +17,3 @@ __pycache__/
 
 .vscode/
 **/.vscode
-
-examples/quick_start.ipynb
