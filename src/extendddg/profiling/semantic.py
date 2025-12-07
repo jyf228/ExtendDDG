@@ -35,17 +35,37 @@ class SemanticProfiler:
         response_body = re.sub(r",\s*}", "}", response_body)
         return response_body
 
-    def _build_prompt(self, column_name: str, sample_values: Iterable[str]) -> str:
+    def _build_prompt(
+        self, column_name: str, sample_values: Iterable[str], codebook: DataFrame | None
+    ) -> str:
         sample_text = ", ".join(sample_values)
-        return self._user_prompt.format(
+        prompt = self._user_prompt.format(
             template=self._template,
             response_example=self._response_example,
             column_name=column_name,
             sample_values=sample_text,
         )
+        codebook_block = self._codebook_context(column_name, codebook)
+        if codebook_block:
+            prompt = f"{prompt}\n\nCodebook context for column '{column_name}':\n{codebook_block}"
+        return prompt
+
+    def _codebook_context(self, column_name: str, codebook: DataFrame | None) -> str:
+        if codebook is None or codebook.empty:
+            return ""
+        try:
+            name_col = codebook.columns[0]
+            matches = codebook[
+                codebook[name_col].astype(str).str.strip().str.lower() == column_name.lower()
+            ]
+            if matches.empty:
+                return ""
+            return matches.to_csv(index=False)
+        except Exception:
+            return ""
 
     def get_semantic_type(
-        self, column_name: str, sample_values: Iterable[str]
+        self, column_name: str, sample_values: Iterable[str], codebook: DataFrame | None = None
     ) -> Dict[str, Any] | None:
         """
         Return parsed semantic metadata for a column or None on parse failure
@@ -53,17 +73,13 @@ class SemanticProfiler:
         Args:
             column_name: Column name
             sample_values: Example values
+            codebook: Optional codebook dataframe to add context
 
         Returns:
             Semantic metadata dict or None
         """
 
-        # TODO: Look up the column name in the codebook dataframe if available
-        # If found, include all rows related to that column in the prompt for additional context
-
-        # TODO: Update prompt to include codebook context if available
-        # TODO: Currently this is using AutoDDG's prompts--create load_prompts util for ExtendDDG so we can alter the prompts
-        prompt = self._build_prompt(column_name, sample_values)
+        prompt = self._build_prompt(column_name, sample_values, codebook)
         response = self.client.chat.completions.create(
             model=self.model,
             messages=[
@@ -79,13 +95,14 @@ class SemanticProfiler:
         except json.JSONDecodeError:
             return None
 
-    def analyze_dataframe(self, dataframe: DataFrame, codebook: DataFrame | None) -> str:
+    def analyze_dataframe(self, dataframe: DataFrame, codebook: DataFrame | None = None) -> str:
         """
         Summarize detected semantics per column in plain English,
         incorporating additional context from dataset codebooks if available.
 
         Args:
             dataframe: Input frame for tabular data
+            codebook: Optional codebook dataframe
 
         Returns:
             Text summary of semantics

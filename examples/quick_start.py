@@ -20,7 +20,7 @@ csv_file = "datasets/rls_dataset_example.csv"
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
     "This Pew Research Center survey was conducted among a nationally representative sample of adults "
-    "to provide estimates of the U.S. population’s religious composition, beliefs and practices."
+    "to provide estimates of the U.S. population's religious composition, beliefs and practices."
 )
 csv_df = pd.read_csv(csv_file)
 
@@ -51,13 +51,12 @@ sample_df, dataset_sample = get_sample(
     row_sample_size=100,
 )
 
-# TODO: Call CodebookParser if codebook or data dictionary is available
-# TODO: Maybe this should be in the ExtendDDG class
+# Parse the codebook if available
 codebook_parser = CodebookParser()
-codebook_parser.extract_variables("datasets/rls_codebook.csv")
+codebook_df = codebook_parser.extract_variables("datasets/rls_codebook.csv")
 
 # Generate semantic profile
-semantic_profile_details = extend_ddg.analyze_semantics(sample_df)
+semantic_profile_details = extend_ddg.analyze_semantics(sample_df, codebook=codebook_df)
 semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
 )
@@ -72,9 +71,10 @@ data_topic = extend_ddg.generate_topic(
 
 print("\n**** Data Topic ****\n", data_topic)
 
-# TODO: Call DocParser if additional documentation is available
-
-# TODO: Generate documentation profile
+# Optional: Build a documentation profile if supplemental docs are available
+# documentation_profile = extend_ddg.build_documentation_profile(
+#     documentation_path="datasets/rls_documentation.pdf"
+# )
 # print("\n**** Documentation Profile ****\n", documentation_profile)
 
 # General description
@@ -86,8 +86,8 @@ prompt, description = extend_ddg.describe_dataset(
     use_semantic_profile=True,
     data_topic=data_topic,
     use_topic=True,
-    # documentation_profile=documentation_profile,  # TODO
-    # use_documentation_profile=True,  # TODO
+    # documentation_profile=documentation_profile,
+    # use_documentation_profile=True,
 )
 
 print("\n**** Description Prompt ****\n", prompt)

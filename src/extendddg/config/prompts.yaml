@@ -1,0 +1,41 @@
+dataset_description:
+  documentation_instruction: |
+    Supplementary documentation profile:
+    {documentation_profile}
+
+    Use only stated facts from this profile (provenance, collection, methodology, limitations, licensing, usage guidance, known issues) to enrich the dataset description. Keep additions concise and avoid copying long sentences verbatim.
+
+documentation_profiler:
+  system_message: |
+    You are a documentation analyst. Distill the most relevant facts from supplemental documentation into a concise profile for dataset description prompts.
+  profile_template: |
+    Fill this JSON schema with short phrases (max ~3 sentences per field):
+    {
+      "purpose_scope": "",
+      "provenance_source": "",
+      "data_collection_method": "",
+      "population_scope": "",
+      "variables_overview": "",
+      "methodology": "",
+      "quality_limits_bias": "",
+      "update_frequency": "",
+      "licensing_access": "",
+      "usage_guidance": "",
+      "known_issues": "",
+      "contact_citation": "",
+      "source_refs": ""
+    }
+  summary_prompt: |
+    You will be given documentation excerpts selected for relevance.
+    {profile_template}
+
+    Rules:
+    - Use only the evidence provided.
+    - If a field is missing, return an empty string for that field.
+    - Keep text concise; prefer phrases over long sentences.
+    - Include provenance breadcrumbs (pages/sections) in "source_refs" when obvious.
+
+    Documentation excerpts:
+    {documentation_chunks}
+
+    Respond with a single JSON object only, with no commentary.

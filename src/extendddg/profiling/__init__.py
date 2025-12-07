@@ -1,5 +1,4 @@
-from __future__ import annotations
-
+from .documentation import DocumentationProfiler
 from .semantic import SemanticProfiler
 
-__all__ = ["SemanticProfiler"]
+__all__ = ["SemanticProfiler", "DocumentationProfiler"]
