@@ -64,8 +64,8 @@ class ExtendDDG:
     def profile_dataframe(self, dataframe: DataFrame) -> Tuple[str, str]:
         return self.auto_ddg.profile_dataframe(dataframe)
 
-    def analyze_semantics(self, dataframe: DataFrame) -> str:
-        return self.semantic_profiler.analyze_dataframe(dataframe)
+    def analyze_semantics(self, dataframe: DataFrame, codebook_path: str | None) -> str:
+        return self.semantic_profiler.analyze_dataframe(dataframe, codebook_path)
 
     def generate_topic(
         self, title: str, original_description: str | None, dataset_sample: str

@@ -4,19 +4,19 @@ import json
 import re
 from typing import Any, Dict, Iterable, List
 
-from beartype import beartype
 from pandas import DataFrame
+
+from extendddg.parsing.codebook import CodebookParser
 
 from ..utils import load_prompts
 
 
-@beartype
 class SemanticProfiler:
     """Infer semantic information for each column using an LLM"""
 
     def __init__(self, client: Any, model_name: str = "gpt-4o-mini") -> None:
         self.client = client
-        self.model = model_name
+        self.model_name = model_name
         prompts = load_prompts()["semantic_profiler"]
         self._template = prompts["template"]
         self._response_example = prompts["response_example"]
@@ -35,17 +35,26 @@ class SemanticProfiler:
         response_body = re.sub(r",\s*}", "}", response_body)
         return response_body
 
-    def _build_prompt(self, column_name: str, sample_values: Iterable[str]) -> str:
+    def _build_prompt(
+        self,
+        column_name: str,
+        sample_values: Iterable[str],
+        codebook_description: str | None = None,
+    ) -> str:
         sample_text = ", ".join(sample_values)
         return self._user_prompt.format(
             template=self._template,
             response_example=self._response_example,
             column_name=column_name,
             sample_values=sample_text,
+            codebook_description=codebook_description if codebook_description else "None",
         )
 
     def get_semantic_type(
-        self, column_name: str, sample_values: Iterable[str]
+        self,
+        column_name: str,
+        sample_values: Iterable[str],
+        codebook: dict[str, dict[str, str]] | None = None
     ) -> Dict[str, Any] | None:
         """
         Return parsed semantic metadata for a column or None on parse failure
@@ -53,19 +62,20 @@ class SemanticProfiler:
         Args:
             column_name: Column name
             sample_values: Example values
+            codebook: Parsed codebook JSON, optional
 
         Returns:
             Semantic metadata dict or None
         """
 
-        # TODO: Look up the column name in the codebook dataframe if available
-        # If found, include all rows related to that column in the prompt for additional context
+        # Look up the column in the codebook JSON
+        column_codebook_entry = {}
+        if codebook and codebook.get(column_name):
+            column_codebook_entry = json.dumps(codebook[column_name])
 
-        # TODO: Update prompt to include codebook context if available
-        # TODO: Currently this is using AutoDDG's prompts--create load_prompts util for ExtendDDG so we can alter the prompts
-        prompt = self._build_prompt(column_name, sample_values)
+        prompt = self._build_prompt(column_name, sample_values, column_codebook_entry)
         response = self.client.chat.completions.create(
-            model=self.model,
+            model=self.model_name,
             messages=[
                 {"role": "system", "content": self._system_message},
                 {"role": "user", "content": prompt},
@@ -79,13 +89,14 @@ class SemanticProfiler:
         except json.JSONDecodeError:
             return None
 
-    def analyze_dataframe(self, dataframe: DataFrame, codebook: DataFrame | None) -> str:
+    def analyze_dataframe(self, dataframe: DataFrame, codebook_path: str | None = None) -> str:
         """
         Summarize detected semantics per column in plain English,
         incorporating additional context from dataset codebooks if available.
 
         Args:
             dataframe: Input frame for tabular data
+            codebook_path: Filepath to dataset codebook or data dictionary, optional
 
         Returns:
             Text summary of semantics
@@ -98,6 +109,16 @@ class SemanticProfiler:
 
         semantic_summary: List[str] = []
         dataframe_sample = _get_sample(dataframe, 5)
+
+        # If a codebook is provided, parse the file to extract variable information
+        codebook = None
+        if codebook_path:
+            codebook_parser = CodebookParser(
+                client=self.client,
+                model_name=self.model_name,
+            )
+            codebook = codebook_parser.parse_codebook(dataframe, codebook_path)
+
 
         for column in dataframe.columns:
             sample_values = dataframe_sample[column].astype(str).tolist()

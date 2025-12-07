@@ -2,11 +2,10 @@ import pandas as pd
 from openai import OpenAI
 
 from extendddg import ExtendDDG, GPTEvaluator
-from extendddg.parsing.codebook import CodebookParser
 from extendddg.utils import get_sample
 
 # Setup OpenAI client
-api_key = "your-api-key"
+api_key = "you-api-key"
 client = OpenAI(api_key=api_key)
 model_name = "gpt-4o-mini"
 
@@ -14,8 +13,6 @@ model_name = "gpt-4o-mini"
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
 # Load dataset
-# NOTE: This is a subset of the full dataset (150 rows) to stay within GitHub's file size limit.
-# You will probably want to test with the full dataset.
 csv_file = "datasets/rls_dataset_example.csv"
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
@@ -51,13 +48,11 @@ sample_df, dataset_sample = get_sample(
     row_sample_size=100,
 )
 
-# TODO: Call CodebookParser if codebook or data dictionary is available
-# TODO: Maybe this should be in the ExtendDDG class
-codebook_parser = CodebookParser()
-codebook_parser.extract_variables("datasets/rls_codebook.csv")
-
 # Generate semantic profile
-semantic_profile_details = extend_ddg.analyze_semantics(sample_df)
+semantic_profile_details = extend_ddg.analyze_semantics(
+    sample_df,
+    codebook_path="datasets/rls_codebook.csv"
+)
 semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
 )
