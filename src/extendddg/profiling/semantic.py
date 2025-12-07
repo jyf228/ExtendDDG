@@ -45,7 +45,10 @@ class SemanticProfiler:
         )
 
     def get_semantic_type(
-        self, column_name: str, sample_values: Iterable[str]
+        self,
+        column_name: str,
+        sample_values: Iterable[str],
+        codebook: DataFrame | None = None,
     ) -> Dict[str, Any] | None:
         """
         Return parsed semantic metadata for a column or None on parse failure
@@ -63,6 +66,7 @@ class SemanticProfiler:
 
         # TODO: Update prompt to include codebook context if available
         # TODO: Currently this is using AutoDDG's prompts--create load_prompts util for ExtendDDG so we can alter the prompts
+
         prompt = self._build_prompt(column_name, sample_values)
         response = self.client.chat.completions.create(
             model=self.model,
@@ -104,7 +108,11 @@ class SemanticProfiler:
             semantic_description: Dict[str, Any] | None = None
             retry_count = 0
             while semantic_description is None and retry_count < 3:
-                semantic_description = self.get_semantic_type(column, sample_values, codebook)
+                semantic_description = self.get_semantic_type(
+                    column,
+                    sample_values,
+                    codebook,
+                )
                 retry_count += 1
             if semantic_description is None:
                 continue
