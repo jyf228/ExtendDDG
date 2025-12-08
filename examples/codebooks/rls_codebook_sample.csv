@@ -1,0 +1,9 @@
+﻿Variable,Variable_Label,Values,Value_Labels
+P_SUID,Unique ID,10000040,Min. Val.
+P_SUID,,12158940,Max. Val
+YEAR_FROM_CODATE,Year in which survey was completed,2023,Min. Val.
+YEAR_FROM_CODATE,,2024,Max. Val
+REGION,Census region (variable is only available in restricted use file),1,Northeast
+REGION,,2,Midwest
+REGION,,3,South
+REGION,,4,West

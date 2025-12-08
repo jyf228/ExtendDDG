@@ -3,12 +3,14 @@ codebook_parser:
     {
       'variable_name': Index of the column that contains the variable names,
       'description': Index of the column that contains the variable descriptions or human-readable labels,
+      'variable_type': Index of the column that contains the variable data types (if present),
       'other_columns': List the indices of any remaining columns that do not correspond to the above two roles as an array.
     }
   response_example: |
     {
       "variable_name": 0,
       "description": 1,
+      "variable_type": null,
       "other_columns": [2, 3]
     }
   user_prompt: |
@@ -17,17 +19,18 @@ codebook_parser:
     Your task is to analyze the structure of the table and determine which column indices correspond with each standardized role:
       - "variable_name": The index of the column that contains the names of variables.
       - "description": The index of the column that contains descriptions or labels for each variable.
+      - "variable_type": The index of the column that contains the data type information for each variable (if present).
       - "other_columns": Any remaining columns that do not belong to the two roles above.
     Please follow these rules:
       1. Return your answer strictly as a JSON object following the template. It must be valid JSON.
       2. All keys must appear in the output.
-      3. If a role does not exist in the codebook sample, set the value to an empty string, e.g. "description": "".
+      3. If a role does not exist in the codebook sample, set the value to null, e.g. "variable_type": null.
       4. "other_columns" must always be a list, even if empty.
       5. Use only column names present in the provided table.
       6. There must be only one variable_name and one description column.
       7. There must be no trailing commas.
       8. Do not include any additional information or context in the response.
-      9. If you are unsure about a specific role, you can leave it as an empty string.
+      9. If you are unsure about a specific role, you can leave it as null.
 
     Codebook sample: {codebook_sample}
   system_message: |

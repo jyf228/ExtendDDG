@@ -1,13 +1,21 @@
 import json
 import re
+import warnings
 from typing import Any
 
+import camelot
 import pandas as pd
 from beartype import beartype
 from pandas import DataFrame
+from pypdf import PdfReader
 
 from ..utils import load_prompts
 
+warnings.filterwarnings('ignore', message='Cannot close object; pdfium library is destroyed. This may cause a memory leak.')
+
+
+PARSING_METHODS = ['lattice', 'stream', 'network', 'hybrid']
+PROCESS_BACKGROUND_OPTIONS = [False, True]
 
 @beartype
 class CodebookParser:
@@ -57,11 +65,71 @@ class CodebookParser:
             )
 
     def _extract_from_pdf(self, codebook_path: str) -> DataFrame:
-        # TODO: Extract tables from PDF using camelot
-        # https://colab.research.google.com/github/camelot-dev/camelot/blob/master/examples/camelot-quickstart-notebook.ipynb
+        """Read and process tables from a codebook PDF file into a DataFrame"""
 
-        # TODO: Combine extracted tables into a single DataFrame if page breaks occur mid-table
-        pass
+        # Verify file can be opened before processing
+        try:
+            reader = PdfReader(codebook_path)
+            if len(reader.pages) == 0:
+                raise ValueError(f"No pages found in {codebook_path}")
+        except Exception as e:
+            raise IOError(f"Failed to read {codebook_path}: {e}") from e
+
+        # Read tables from the PDF
+        tables = self._read_tables_from_pdf(codebook_path)
+
+        # Clean tables by replacing new line characters with spaces
+        for i in range(len(tables)):
+            tables[i] = tables[i].replace(r'\n', ' ', regex=True)
+
+        # Merge tables separated by page breaks into one DataFrame
+        # For now, we assume all tables extracted from one file are part of the same codebook
+        combined_df = pd.concat(tables, ignore_index=True)
+        return combined_df
+
+    def _read_tables_from_pdf(self, codebook_path: str) -> list[DataFrame]:
+        """Attempt to read tables from a PDF using multiple parsing methods"""
+
+        # Attempt to read tables with the specified parsing method and process_background option
+        def _attempt_read(
+            parsing_method: str, process_background: bool = False
+        ) -> list[DataFrame]:
+            try:
+                # Build kwargs conditionally
+                kwargs = {
+                    'flavor': parsing_method,
+                }
+                # Add process_background condtionally since only 'lattice' parsing supports it
+                if parsing_method == 'lattice' and process_background:
+                    kwargs['process_background'] = process_background
+
+                tables = camelot.read_pdf(codebook_path, pages='all', **kwargs)
+
+                if len(tables) == 0:
+                    return []
+                return [table.df for table in tables]
+            except Exception as e:
+                raise IOError(f"Failed to read tables from {codebook_path}: {e}") from e
+
+        # Fallback logic to try different parameter options for reading the PDF tables
+        for parsing_method in PARSING_METHODS:
+            if parsing_method == 'lattice':
+                for pb_option in PROCESS_BACKGROUND_OPTIONS:
+                    if not _attempt_read(parsing_method, pb_option):
+                        # Try reading with another process_background option
+                        continue
+                    return _attempt_read(parsing_method, pb_option)
+            else:
+                if not _attempt_read(parsing_method):
+                    # Try reading with another parsing method
+                    continue
+                return _attempt_read(parsing_method)
+
+        # If no tables were successfully found after fallback options were attempted, raise an error
+        raise ValueError(
+            f"No tables detected in {codebook_path}. Codebook must have "
+            "at least one table containing variable information."
+        )
 
     def _extract_from_csv(self, codebook_path: str) -> DataFrame:
         csv_df = pd.read_csv(codebook_path)
@@ -109,7 +177,7 @@ class CodebookParser:
         columns_to_keep = []
 
         for key, col_index in col_mappings.items():
-            if key in ['variable_name', 'description']:
+            if key in ['variable_name', 'description', 'variable_type']:
                 if isinstance(col_index, int):
                     curr_col_name = df.columns[col_index]
                     rename_mapping[curr_col_name] = key

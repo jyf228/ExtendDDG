@@ -14,7 +14,7 @@ extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
 # Load dataset and supplemental documentation if available
 dataset_file = "datasets/rls_dataset_example.csv"
-codebook_file = "datasets/rls_codebook.csv"  # Set to None if not available
+codebook_file = "codebooks/rls_codebook.csv"  # Set to None if not available
 # documentation_file = "datasets/rls_documentation.pdf"  # Set to None if not available
 
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
@@ -122,3 +122,5 @@ search_score = extend_ddg.evaluate_description(search_focused_description)
 
 print("\n**** Score of the General Description ****\n", general_score)
 print("\n**** Score of the Search-Focused Description ****\n", search_score)
+
+# evaluation_metrics = extend_ddg.evaluation_metrics(description, original_description)
