@@ -2,7 +2,6 @@ import pandas as pd
 from openai import OpenAI
 
 from extendddg import ExtendDDG, GPTEvaluator
-from extendddg.parsing.codebook import CodebookParser
 from extendddg.utils import get_sample
 
 # Setup OpenAI client
@@ -13,16 +12,19 @@ model_name = "gpt-4o-mini"
 # Initialize ExtendDDG
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
-# Load dataset
-# NOTE: This is a subset of the full dataset (150 rows) to stay within GitHub's file size limit.
-# You will probably want to test with the full dataset.
-csv_file = "datasets/rls_dataset_example.csv"
+# Load dataset and supplemental documentation if available
+dataset_file = "datasets/rls_dataset_example.csv"
+codebook_file = "codebooks/rls_codebook.csv"  # Set to None if not available
+# documentation_file = "datasets/rls_documentation.pdf"  # Set to None if not available
+
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
     "This Pew Research Center survey was conducted among a nationally representative sample of adults "
     "to provide estimates of the U.S. population’s religious composition, beliefs and practices."
 )
-csv_df = pd.read_csv(csv_file)
+
+# Read dataset
+csv_df = pd.read_csv(dataset_file)
 
 # Create column weights
 col_weights = []
@@ -45,19 +47,26 @@ basic_profile, structural_profile = extend_ddg.profile_dataframe(col_sample_df)
 print("**** Basic Profile ****\n", basic_profile)
 print("\n**** Structural Profile ****\n", structural_profile)
 
-# Sample rows for semantic profiling
+# Sample rows for codebook and semantic profiling
 sample_df, dataset_sample = get_sample(
     col_sample_df,
     row_sample_size=100,
 )
 
-# TODO: Call CodebookParser if codebook or data dictionary is available
-# TODO: Maybe this should be in the ExtendDDG class
-codebook_parser = CodebookParser()
-codebook_parser.extract_variables("datasets/rls_codebook.csv")
+# Generate codebook profile if codebook is provided
+codebook_profile = {}
+if codebook_file:
+    codebook_profile = extend_ddg.profile_codebook(
+        dataset_df=sample_df,
+        codebook_file=codebook_file,
+    )
+    print("\n**** Codebook Profile ****\n", codebook_profile)
 
 # Generate semantic profile
-semantic_profile_details = extend_ddg.analyze_semantics(sample_df)
+semantic_profile_details = extend_ddg.analyze_semantics(
+    sample_df,
+    codebook_profile=codebook_profile if codebook_profile else None,
+)
 semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
 )
@@ -88,6 +97,8 @@ prompt, description = extend_ddg.describe_dataset(
     use_topic=True,
     # documentation_profile=documentation_profile,  # TODO
     # use_documentation_profile=True,  # TODO
+    codebook_profile=codebook_profile,
+    use_codebook_profile=True,
 )
 
 print("\n**** Description Prompt ****\n", prompt)
@@ -111,3 +122,5 @@ search_score = extend_ddg.evaluate_description(search_focused_description)
 
 print("\n**** Score of the General Description ****\n", general_score)
 print("\n**** Score of the Search-Focused Description ****\n", search_score)
+
+# evaluation_metrics = extend_ddg.evaluation_metrics(description, original_description)
