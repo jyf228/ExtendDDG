@@ -5,21 +5,26 @@ from extendddg import ExtendDDG, GPTEvaluator
 from extendddg.utils import get_sample
 
 # Setup OpenAI client
-api_key = "you-api-key"
+api_key = "your-api-key"
 client = OpenAI(api_key=api_key)
 model_name = "gpt-4o-mini"
 
 # Initialize ExtendDDG
 extend_ddg = ExtendDDG(client=client, model_name=model_name)
 
-# Load dataset
-csv_file = "datasets/rls_dataset_example.csv"
+# Load dataset and supplemental documentation if available
+dataset_file = "datasets/rls_dataset_example.csv"
+codebook_file = "datasets/rls_codebook.csv"  # Set to None if not available
+# documentation_file = "datasets/rls_documentation.pdf"  # Set to None if not available
+
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
     "This Pew Research Center survey was conducted among a nationally representative sample of adults "
     "to provide estimates of the U.S. population’s religious composition, beliefs and practices."
 )
-csv_df = pd.read_csv(csv_file)
+
+# Read dataset
+csv_df = pd.read_csv(dataset_file)
 
 # Create column weights
 col_weights = []
@@ -42,16 +47,25 @@ basic_profile, structural_profile = extend_ddg.profile_dataframe(col_sample_df)
 print("**** Basic Profile ****\n", basic_profile)
 print("\n**** Structural Profile ****\n", structural_profile)
 
-# Sample rows for semantic profiling
+# Sample rows for codebook and semantic profiling
 sample_df, dataset_sample = get_sample(
     col_sample_df,
     row_sample_size=100,
 )
 
+# Generate codebook profile if codebook is provided
+codebook_profile = {}
+if codebook_file:
+    codebook_profile = extend_ddg.profile_codebook(
+        dataset_df=sample_df,
+        codebook_file=codebook_file,
+    )
+    print("\n**** Codebook Profile ****\n", codebook_profile)
+
 # Generate semantic profile
 semantic_profile_details = extend_ddg.analyze_semantics(
     sample_df,
-    codebook_path="datasets/rls_codebook.csv"
+    codebook_profile=codebook_profile if codebook_profile else None,
 )
 semantic_profile = "\n".join(
     section for section in [structural_profile, semantic_profile_details] if section
@@ -83,6 +97,8 @@ prompt, description = extend_ddg.describe_dataset(
     use_topic=True,
     # documentation_profile=documentation_profile,  # TODO
     # use_documentation_profile=True,  # TODO
+    codebook_profile=codebook_profile,
+    use_codebook_profile=True,
 )
 
 print("\n**** Description Prompt ****\n", prompt)

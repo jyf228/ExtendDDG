@@ -1,4 +1,4 @@
-codebook_profiler:
+codebook_parser:
   template: |
     {
       'variable_name': Index of the column that contains the variable names,
@@ -34,7 +34,7 @@ codebook_profiler:
     You are a highly reliable assistant for identifying the structural roles of columns in messy, irregular, or multi-row codebooks.
     You base your decision only on patterns in the provided table.
 
-codebook_parser:
+codebook_profiler:
   template: |
     {'<variable_name>': {
       'description': What is a brief definition or description of the variable?,
@@ -119,11 +119,12 @@ dataset_description:
   introduction: |
     Answer the question using the following information.
 
-    First, consider the dataset sample:
+  dataset_sample_instruction: |
+    Consider the dataset sample:
 
     {dataset_sample}
   profile_instruction: |
-    Additionally, the dataset profile is as follows:
+    The dataset profile is as follows:
 
     {dataset_profile}
 
@@ -137,21 +138,30 @@ dataset_description:
   topic_instruction: |
     Moreover, the dataset topic is: {data_topic}. Based on this topic, please add sentence(s) describing what this dataset can be used for.
   documentation_instruction: |
-    The dataset is accompanied by the following supplemental information derived from external documentation sources such as methodology papers, codebooks, READMEs, survey questionnaires, or official data collection descriptions:
+    The dataset is accompanied by the following supplemental information derived from external documentation sources such as methodology papers, READMEs, or official data collection descriptions:
 
     {documentation_profile}
 
     Based on this supplemental information, please add sentence(s) describing:
     (1) how the data was collected (e.g., sampling strategy, instruments used, time period),
-    (2) definitions or explanations of key variables from the codebook,
-    (3) any methodological details, limitations, or context that clarify the meaning or intended use of the dataset, and
-    (4) notable preprocessing, transformations, or construction steps if they are explained in the supplemental sources.
+    (2) any methodological details, limitations, or context that clarify the meaning or intended use of the dataset, and
+    (3) notable preprocessing, transformations, or construction steps if they are explained in the supplemental sources.
 
     Integrate this information in a concise, factual, and readable way to improve faithfulness and completeness.
+  codebook_instruction: |
+    Furthermore, the dataset codebook information is as follows:
 
+    {codebook_profile}
+
+    Based on this information, please add sentences discussing some of the key variables and how they can be used in the context of the dataset topic.
+    Focus on variables that are particularly interesting, unique, or important for understanding the dataset, ignoring identifiers.
   closing_instruction: |
     Question: Based on the information above and the requirements, provide a dataset description in sentences. Use only natural, readable sentences without special formatting.
 
     Answer:
   system_message: |
-    You are an assistant for a dataset search engine. Your goal is to improve the readability of dataset descriptions for dataset search engine users. The dataset may also include supplemental external information such as methodology papers, codebooks, READMEs, or survey instruments. When this information is provided, your task is to incorporate relevant methodological details, variable definitions, and data collection context into the description to produce a more accurate, complete, and trustworthy overview of the dataset. Avoid speculation; use only the information explicitly given.
+    You are an assistant for a dataset search engine. Your goal is to improve the readability of dataset descriptions for dataset search engine users.
+    The dataset may also include supplemental external information such as methodology papers, codebooks, or READMEs.
+    When this information is provided, your task is to incorporate relevant methodological details, variable definitions,
+    and data collection context into the description to produce a more accurate, complete, and trustworthy overview of the dataset.
+    Avoid speculation; use only the information explicitly given.

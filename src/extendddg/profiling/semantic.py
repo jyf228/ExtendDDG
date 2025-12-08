@@ -6,8 +6,6 @@ from typing import Any, Dict, Iterable, List
 
 from pandas import DataFrame
 
-from extendddg.parsing.codebook import CodebookParser
-
 from ..utils import load_prompts
 
 
@@ -54,7 +52,7 @@ class SemanticProfiler:
         self,
         column_name: str,
         sample_values: Iterable[str],
-        codebook: dict[str, dict[str, str]] | None = None
+        codebook_profile: dict[str, dict[str, str]] | None = None
     ) -> Dict[str, Any] | None:
         """
         Return parsed semantic metadata for a column or None on parse failure
@@ -62,16 +60,16 @@ class SemanticProfiler:
         Args:
             column_name: Column name
             sample_values: Example values
-            codebook: Parsed codebook JSON, optional
+            codebook_profile: Codebook profile represented as a dictionary of variables, optional
 
         Returns:
             Semantic metadata dict or None
         """
 
-        # Look up the column in the codebook JSON
+        # Look up the column in the codebook profile
         column_codebook_entry = {}
-        if codebook and codebook.get(column_name):
-            column_codebook_entry = json.dumps(codebook[column_name])
+        if codebook_profile and codebook_profile.get(column_name):
+            column_codebook_entry = json.dumps(codebook_profile[column_name])
 
         prompt = self._build_prompt(column_name, sample_values, column_codebook_entry)
         response = self.client.chat.completions.create(
@@ -89,14 +87,16 @@ class SemanticProfiler:
         except json.JSONDecodeError:
             return None
 
-    def analyze_dataframe(self, dataframe: DataFrame, codebook_path: str | None = None) -> str:
+    def analyze_dataframe(
+        self, dataframe: DataFrame, codebook_profile: dict[str, dict[str, str]] | None = None
+    ) -> str:
         """
         Summarize detected semantics per column in plain English,
-        incorporating additional context from dataset codebooks if available.
+        incorporating additional context from the dataset codebook if provided.
 
         Args:
             dataframe: Input frame for tabular data
-            codebook_path: Filepath to dataset codebook or data dictionary, optional
+            codebook_profile: Codebook profile represented as a dictionary of variables, optional
 
         Returns:
             Text summary of semantics
@@ -110,22 +110,12 @@ class SemanticProfiler:
         semantic_summary: List[str] = []
         dataframe_sample = _get_sample(dataframe, 5)
 
-        # If a codebook is provided, parse the file to extract variable information
-        codebook = None
-        if codebook_path:
-            codebook_parser = CodebookParser(
-                client=self.client,
-                model_name=self.model_name,
-            )
-            codebook = codebook_parser.parse_codebook(dataframe, codebook_path)
-
-
         for column in dataframe.columns:
             sample_values = dataframe_sample[column].astype(str).tolist()
             semantic_description: Dict[str, Any] | None = None
             retry_count = 0
             while semantic_description is None and retry_count < 3:
-                semantic_description = self.get_semantic_type(column, sample_values, codebook)
+                semantic_description = self.get_semantic_type(column, sample_values, codebook_profile)
                 retry_count += 1
             if semantic_description is None:
                 continue

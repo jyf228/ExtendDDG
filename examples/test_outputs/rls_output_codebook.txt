@@ -1,0 +1,817 @@
+**** Basic Profile ****
+ The key data profile information for this dataset includes:
+**P_SUID**: Data is of type integer. There are 36908 unique values. Coverage spans from 0 to 12121830.0.
+**YEAR_FROM_CODATE**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2024.0.
+**REGION**: Data is of type missingdata.
+**HAPPY**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SATIS_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**SATIS_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**CHNG_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRELPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRACPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**QB2A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**OPENIDEN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**POORASSIST**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GOVSIZE1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**ABRTLGL**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GAYMARR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PAR2CHILD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**PAR2CHILDA**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CLIM1A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 77.0.
+**EVOL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**GUIDE_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**DENOMREC2**: Data is of type missingdata.
+**FAMILY**: Data is of type missingdata.
+**RELTRAD**: Data is of type integer. There are 16 unique values. Coverage spans from 0 to 100000.0.
+**PROTFAM**: Data is of type missingdata.
+**CURREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**CURREL2**: Data is of type missingdata.
+**UNAFFILDETAIL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 9.0.
+**BORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**RELPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPIRPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELCON_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELCON_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_D**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_E**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**ATTNDPERRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**ATTNDONRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**LEADRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**RELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**MEMB**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**HVN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**HLL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SOUL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**BIBIMP**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAY**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**GRACE**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**EXP_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_G**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_F**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**RTRT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SECMEMB**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**VOL12_CPS**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SCRLCON1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL2**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**FRMREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**FRMREL2**: Data is of type missingdata.
+**CHBORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**CHIMPREL_A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHIMPREL_B**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHATTEND**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHCONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHEDU1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHEDU2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFEDIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFESPIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GTHGHT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARITAL**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**SPREL**: Data is of type missingdata.
+**RELMATCH**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 1.0.
+**SPBORNFINAL**: Data is of type missingdata.
+**SPRELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPRELTALK**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPRELSIM**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARWHENREC**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**CHILDREN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDS4ANDUNDERREC**: Data is of type missingdata.
+**KIDS5TO12REC**: Data is of type missingdata.
+**KIDS13TO17REC**: Data is of type missingdata.
+**KIDACT_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_E**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_F**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCPRY1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SCPRY2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELDISP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHRNAT**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**BIRTHDECADE**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**HISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RACECMB**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**AFROHISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**EDUCREC**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**E2**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**EMPLSIT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**USGEN**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**MOVED**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**CITIZEN**: Data is of type missingdata.
+**REG**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2.0.
+**PARTY**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PARTYLN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 99.0.
+**IDEO**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HH1REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**HH3REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**INTFREQ**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**INC_SDT1**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**GENDER**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**FERTREC**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**BRANCH**: Data is of type missingdata.
+**BIRTHHALFDECADE**: Data is of type missingdata.
+**RESPONDENT_BIRTHREGION**: Data is of type missingdata.
+**MOTHER_BIRTHREGION**: Data is of type missingdata.
+**FATHER_BIRTHREGION**: Data is of type missingdata.
+**YEARSINUSREC**: Data is of type missingdata.
+**ORIENTMOD**: Data is of type missingdata.
+**STATE**: Data is of type missingdata.
+**MSA**: Data is of type missingdata.
+**WEIGHT_MSA**: Data is of type missingdata.
+**WEIGHT**: Data is of type float. Coverage spans from 0 to 22406.46712081854.
+**REPWT_036**: Data is of type float. Coverage spans from 0 to 35968.77573619725.
+**REPWT_037**: Data is of type float. Coverage spans from 0 to 33678.215200947554.
+**REPWT_039**: Data is of type float. Coverage spans from 0 to 33350.300145797235.
+**REPWT_074**: Data is of type float. Coverage spans from 0 to 36060.74836742093.
+**REPWT_108**: Data is of type float. Coverage spans from 0 to 36053.70513842225.
+**REPWT_196**: Data is of type float. Coverage spans from 0 to 35552.83236854759.
+**REPWT_236**: Data is of type float. Coverage spans from 0 to 34626.310542282336.
+**REPWT_298**: Data is of type float. Coverage spans from 0 to 34567.02039639264.
+**REPWT_309**: Data is of type float. Coverage spans from 0 to 34022.32023451326.
+**REPWT_311**: Data is of type float. Coverage spans from 0 to 34414.303494286054.
+**REPWT_399**: Data is of type float. Coverage spans from 0 to 33926.785782662606.
+
+**** Structural Profile ****
+
+
+**** Codebook Profile ****
+ {'P_SUID': {'description': 'Unique ID', 'type': 'string'}, 'YEAR_FROM_CODATE': {'description': 'Year in which survey was completed', 'type': 'integer'}, 'REGION': {'description': 'Census region (variable is only available in restricted use file)', 'type': 'categorical'}, 'HAPPY': {'description': 'Generally, how happy are you with your life these days? Are you...', 'type': 'categorical'}, 'SATIS_A': {'description': 'Would you say your health in general is excellent, very good, good, fair or poor', 'type': 'categorical'}, 'SATIS_B': {'description': 'Would you say your family life is excellent, very good, good, fair or poor?', 'type': 'categorical'}, 'CHNG_A': {'description': 'A growing population of immigrants: Is this a change for the better, worse, or not made much difference?', 'type': 'categorical'}, 'CHNG_B': {'description': 'More women in the workforce: Is this a change for the better, worse, or not made much difference?', 'type': 'categorical'}, 'CHNG_C': {'description': 'Greater acceptance of people who are transgender: Is this a change for the better, worse, or not made much difference?', 'type': 'categorical'}, 'DIVRELPOP': {'description': 'Does the fact that the U.S. is made up of people of many different religions and people who are not religious strengthen American society, weaken it, or not make much difference?', 'type': 'categorical'}, 'DIVRACPOP': {'description': 'Does the fact that the U.S. is made up of people of many different races/ethnicities strengthen American society, weaken it, or not make much difference?', 'type': 'categorical'}, 'QB2A': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'QB2C': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'QB2D': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'OPENIDEN': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'POORASSIST': {'description': 'Should government provide more assistance to people in need, less assistance, or is it providing about the right amount of assistance?', 'type': 'categorical'}, 'GOVSIZE1': {'description': 'If you had to choose, would you rather have...', 'type': 'categorical'}, 'ABRTLGL': {'description': 'Do you think abortion should be...', 'type': 'categorical'}, 'GAYMARR': {'description': 'Do you favor or oppose allowing gays and lesbians to marry legally?', 'type': 'categorical'}, 'PAR2CHILD': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'PAR2CHILDA': {'description': 'If one parent stays home to focus on the family, is it generally better if that', 'type': 'categorical'}, 'CLIM1A': {'description': "Which statement about the Earth's temperature comes closest to your view?", 'type': 'categorical'}, 'EVOL': {'description': 'Which statement about the development of human life on Earth comes closest to your view?', 'type': 'categorical'}, 'GUIDE_A': {'description': 'Religious teachings and beliefs: How important is this to you when making decisions about right and wrong?', 'type': 'categorical'}, 'GUIDE_B': {'description': 'Logic and reason: How important is this to you when making decisions about right and wrong?', 'type': 'categorical'}, 'GUIDE_C': {'description': 'Practical experience and common sense: How important is this to you when making decisions about right and wrong?', 'type': 'categorical'}, 'GUIDE_D': {'description': 'Scientific information: How important is this to you when making decisions about right and wrong?', 'type': 'categorical'}, 'DENOMREC2': {'description': 'Religious affiliation; Collapsed version of DENOM; refer to documentation for additional information (variable is only available in restricted use file)', 'type': 'categorical'}, 'FAMILY': {'description': "Collapsed version of DENOM: Respondent's current religion (family of denominational groupings); refer to documentation for additional information (variable is only available in restricted use file)", 'type': 'categorical'}, 'RELTRAD': {'description': "Collapsed version of FAMILY: Respondent's religious tradition; refer to documentation for additional information", 'type': 'categorical'}, 'PROTFAM': {'description': 'Collapsed version of FAMILY: family of Protestant denominations; refer to documentation for additional information (variable is only available in restricted use file)', 'type': 'categorical'}, 'CURREL': {'description': "Respondent's current religion - recoded from RELTRAD to match coding in FRMREL and SPREL for analysis of religious switching and intermarriage", 'type': 'categorical'}, 'CURREL2': {'description': "Respondent's current religion, with detail for 'Protestant' and 'unaffiliated' in CURREL - matches coding in FRMREL2/SPREL2 for analysis of religious switching/intermarriage (variable only available in restricted use file)", 'type': 'categorical'}, 'UNAFFILDETAIL': {'description': 'Additional detail about the identity of the religiously unaffiliated (in RELTRAD)', 'type': 'categorical'}, 'BORNFINAL': {'description': 'BORN based on Christians: Would you describe yourself as a born-again or evangelical Christian, or not?', 'type': 'categorical'}, 'RELPER': {'description': 'To what extent do you consider yourself a religious person? Are you...', 'type': 'categorical'}, 'SPIRPER': {'description': 'To what extent do you consider yourself a spiritual person? Are you...', 'type': 'categorical'}, 'RELCON_A': {'description': 'Aside from religion, do you consider yourself to be Jewish?', 'type': 'categorical'}, 'RELCON_B': {'description': 'Aside from religion, do you consider yourself to be Catholic?', 'type': 'categorical'}, 'RELCON_C': {'description': 'Aside from religion, do you consider yourself to be Hindu?', 'type': 'categorical'}, 'RELCON_D': {'description': 'Aside from religion, do you consider yourself to be Muslim?', 'type': 'categorical'}, 'RELCON_E': {'description': 'Aside from religion, do you consider yourself to be Buddhist?', 'type': 'categorical'}, 'ATTNDPERRLS': {'description': 'How often do you attend religious services in person?', 'type': 'categorical'}, 'ATTNDONRLS': {'description': 'How often do you watch or participate in religious services online or on TV?', 'type': 'categorical'}, 'CONGRACE': {'description': 'When you attend religious services in person, what is the race or ethnicity of most other people attending?', 'type': 'categorical'}, 'LEADRACE': {'description': 'Thinking about the place where you most often attend religious services in person, what is the race or ethnicity of the senior religious leaders?', 'type': 'categorical'}, 'RELIMP': {'description': 'How important is religion in your life?', 'type': 'categorical'}, 'MEMB': {'description': 'Are you personally a member of a church, synagogue, mosque, temple, or other house of worship?', 'type': 'categorical'}, 'GOD': {'description': 'Do you believe in God or a universal spirit?', 'type': 'categorical'}, 'GOD2': {'description': 'How certain are you about this belief?', 'type': 'categorical'}, 'HVN': {'description': 'Do you think there is a heaven where people who have led good lives are eternally rewarded?', 'type': 'categorical'}, 'HLL': {'description': 'Do you think there is a hell where people who have led bad lives and die without being sorry are eternally punished?', 'type': 'categorical'}, 'SOUL': {'description': 'Do you believe people have a soul or spirit in addition to their physical body?', 'type': 'categorical'}, 'BIBIMP': {'description': 'How important is the Bible in your life?', 'type': 'categorical'}, 'HUMNTR_A': {'description': "God gave humans the right to use the Earth for humanity's benefit: How well does this describe your view?", 'type': 'categorical'}, 'HUMNTR_B': {'description': 'God gave humans a duty to protect and care for the Earth: How well does this describe your view?', 'type': 'categorical'}, 'PRAY': {'description': 'Outside of attending religious services, how often do you pray?', 'type': 'categorical'}, 'GRACE': {'description': 'How often do you say grace or pray before meals?', 'type': 'categorical'}, 'PRAC_A': {'description': 'How often do you participate in prayer groups, scripture study groups or religious education programs?', 'type': 'categorical'}, 'PRAC_B': {'description': 'How often do you read scripture outside of religious services?', 'type': 'categorical'}, 'PRAC_C': {'description': 'How often do you read other holy texts, devotions, or inspirational literature (', 'type': 'categorical'}, 'PRAC_D': {'description': 'How often do you share your views about religion with people from other religious backgrounds?', 'type': 'categorical'}, 'EXP_A': {'description': 'How often do you feel a deep sense of spiritual peace and well-being?', 'type': 'categorical'}, 'EXP_B': {'description': 'How often do you feel a deep sense of wonder about the universe?', 'type': 'categorical'}, 'EXP_C': {'description': 'How often do you feel a strong sense of gratitude or thankfulness?', 'type': 'categorical'}, 'EXP_D': {'description': 'How often do you feel the presence of something from beyond this world?', 'type': 'categorical'}, 'EXP_E': {'description': 'How often do you feel a deep sense of connection with humanity?', 'type': 'categorical'}, 'EXP_G': {'description': 'How often do you think about the meaning and purpose of life?', 'type': 'categorical'}, 'SPIRACT_A': {'description': 'How often do you visit a nature spot for spiritual reasons?', 'type': 'categorical'}, 'SPIRACT_B': {'description': 'How often do you listen to music for spiritual reasons?', 'type': 'categorical'}, 'SPIRACT_C': {'description': 'How often do you exercise for spiritual reasons?', 'type': 'categorical'}, 'SPIRACT_D': {'description': 'How often do you look inward or center yourself for spiritual reasons?', 'type': 'categorical'}, 'SPIRACT_E': {'description': 'How often do you practice yoga for spiritual reasons?', 'type': 'categorical'}, 'SPIRACT_F': {'description': 'How often do you meditate for spiritual reasons?', 'type': 'categorical'}, 'RTRT': {'description': 'How often do you go on spiritual retreats?', 'type': 'categorical'}, 'SECMEMB': {'description': 'Do you participate in any organization of atheists or non-believers?', 'type': 'categorical'}, 'VOL12_CPS': {'description': 'In the past 12 months, did you spend any time volunteering?', 'type': 'categorical'}, 'SCIMPACT': {'description': 'Overall, what impact does science have on American society?', 'type': 'categorical'}, 'RELIMPACT': {'description': 'Overall, what impact does religion have on American society?', 'type': 'categorical'}, 'SCRLCON1': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'SECBEL1': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'SECBEL2': {'description': 'Which statement comes closer to your view, even if neither is exactly right?', 'type': 'categorical'}, 'FRMREL': {'description': 'Religion in which respondent was raised', 'type': 'categorical'}, 'FRMREL2': {'description': "Religion in which respondent was raised -- with additional detail for 'Protestant' and 'Religiously Unaffiliated' in frmrel (variable is only available in restricted use file)", 'type': 'categorical'}, 'CHBORNFINAL': {'description': 'CHBORN based on those raised Christian: As a child, would you say you were raised as a born-again or evangelical Christian?', 'type': 'categorical'}, 'CHIMPREL_A': {'description': 'When you were growing up, how important was religion to you personally?', 'type': 'categorical'}, 'CHIMPREL_B': {'description': 'When you were growing up, how important was religion to your family?', 'type': 'categorical'}, 'CHATTEND': {'description': 'How often did you attend religious services in person when you were growing up?', 'type': 'categorical'}, 'CHCONGRACE': {'description': 'Thinking about the place where you most often attended religious services when you were growing up, what was the race/ethnicity of most of the other people attending?', 'type': 'categorical'}, 'CHEDU1': {'description': 'From kindergarten through 12th grade, how many years did you attend a private religious school?', 'type': 'integer'}, 'CHEDU2': {'description': 'Aside from any religious schools you might have attended, how many years did you attend Sunday School, CCD, or some other form of religious education?', 'type': 'integer'}, 'LIFEDIR': {'description': 'Over the course of your lifetime, have you generally become more religious, less religious, some of both, or stayed about the same religiously?', 'type': 'categorical'}, 'LIFESPIR': {'description': 'Over the course of your lifetime, have you generally become more spiritual, less spiritual, some of both, or stayed about the same spiritually?', 'type': 'categorical'}, 'GTHGHT': {'description': 'In recent years, how much have you thought about God and religion?', 'type': 'categorical'}, 'MARITAL': {'description': 'Current marital status', 'type': 'categorical'}, 'SPREL': {'description': "Religion of respondent's spouse/partner (variable is only available in restricted use file)", 'type': 'categorical'}, 'RELMATCH': {'description': "Religious intermarriage - indicator of whether respondent's religion in CURREL matches spouse's/partner's religion in SPREL", 'type': 'categorical'}, 'SPBORNFINAL': {'description': 'SPBORN based on those whose spouse/partner is Christian: Would your spouse/partner describe themself as a born-again or evangelical Christian? (variable is only available in restricted use file)', 'type': 'categorical'}, 'SPRELIMP': {'description': "How important is religion in your spouse's/partner's life?", 'type': 'categorical'}, 'SPRELTALK': {'description': 'How often do you and your spouse/partner talk with each other about religion?', 'type': 'categorical'}, 'SPRELSIM': {'description': "How similar are your own religious beliefs and your spouse's/partner's religious beliefs?", 'type': 'categorical'}, 'MARWHENREC': {'description': 'Decade in which respondent got married (based on current marriage of married respondents)', 'type': 'categorical'}, 'CHILDREN': {'description': 'Are you the parent or guardian of any children under 18 now living in your house', 'type': 'categorical'}, 'KIDS4ANDUNDERREC': {'description': 'Is respondent parent/guardian of at least one child in the household age 4 or under? (variable is only available in restricted use file)', 'type': 'categorical'}, 'KIDS5TO12REC': {'description': 'Is respondent parent/guardian of at least one child in the household between ages 5 and 12? (variable is only available in restricted use file)', 'type': 'categorical'}, 'KIDS13TO17REC': {'description': 'Is respondent parent/guardian of at least one child in the household between ages 13 and 17? (variable is only available in restricted use file)', 'type': 'categorical'}, 'KIDACT_A': {'description': 'Do you pray or read scripture with your child/any of your children?', 'type': 'categorical'}, 'KIDACT_B': {'description': 'Do you send your child/any of your children to Sunday school or another religious education program?', 'type': 'categorical'}, 'KIDACT_C': {'description': 'Do you homeschool or send your child/any of your children to a religious school instead of public school?', 'type': 'categorical'}, 'RELINST_A': {'description': 'Churches and other religious organizations focus too much on rules: agree or disagree?', 'type': 'categorical'}, 'RELINST_B': {'description': 'Churches and other religious organizations are too concerned with money and power: agree or disagree?', 'type': 'categorical'}, 'RELINST_D': {'description': 'Churches and other religious organizations are too involved with politics: agree or disagree?', 'type': 'categorical'}, 'RELINST_E': {'description': 'Churches and other religious organizations protect and strengthen morality in society: agree or disagree?', 'type': 'categorical'}, 'RELINST_F': {'description': 'Churches and other religious organizations bring people together and strengthen community bonds: agree or disagree?', 'type': 'categorical'}, 'SCPRY1': {'description': 'Allowing public school teachers to lead their classes in prayers that refer to Jesus: favor or oppose?', 'type': 'categorical'}, 'SCPRY2': {'description': 'Allowing public school teachers to lead their classes in prayers that refer to God but not to any specific religion: favor or oppose?', 'type': 'categorical'}, 'RELDISP': {'description': 'Allowing cities and towns in the U.S. to place religious symbols on public property: favor or oppose?', 'type': 'categorical'}, 'CHRNAT': {'description': 'The federal government declaring the U.S. a Christian nation: favor or oppose?', 'type': 'categorical'}, 'BIRTHDECADE': {'description': 'Decade in which respondent was born', 'type': 'categorical'}, 'HISP': {'description': 'Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban?', 'type': 'categorical'}, 'RACECMB': {'description': 'Race based on responses to RACEMOD_1-6 (CAWI/CATI) and Q94 (PAPI)', 'type': 'categorical'}, 'AFROHISP': {'description': 'Do you consider yourself Afro-Latino or Afro-Hispanic, or not?', 'type': 'categorical'}, 'EDUCREC': {'description': 'What is the highest degree or level of school you have completed?', 'type': 'categorical'}, 'E2': {'description': 'Are you now enrolled in school, either full time or part time?', 'type': 'categorical'}, 'EMPLSIT': {'description': 'What is your current work situation?', 'type': 'categorical'}, 'USGEN': {'description': 'Indicator of whether respondent is an immigrant to the U.S. or the child of immigrants', 'type': 'categorical'}, 'MOVED': {'description': 'Have you lived in or near the local community where you live now your entire life, or have you lived in other places?', 'type': 'categorical'}, 'CITIZEN': {'description': 'Are you a citizen of the United States? (variable is only available in restricted use file)', 'type': 'categorical'}, 'REG': {'description': 'Are you registered to vote at your current address?', 'type': 'categorical'}, 'PARTY': {'description': 'In politics today, do you consider yourself a...', 'type': 'categorical'}, 'PARTYLN': {'description': 'As of today do you lean more to...', 'type': 'categorical'}, 'IDEO': {'description': 'In general, would you describe your political views as...', 'type': 'categorical'}, 'HH1REC': {'description': 'How many people, including yourself, live in your household? (collapsed variable)', 'type': 'integer'}, 'HH3REC': {'description': 'How many people living in your household, including yourself, are adults? (collapsed variable)', 'type': 'integer'}, 'INTFREQ': {'description': 'About how often do you use the internet?', 'type': 'categorical'}, 'INC_SDT1': {'description': 'Last year, what was your total family income?', 'type': 'integer'}, 'GENDER': {'description': 'Do you describe yourself as a man, a woman or in some other way?', 'type': 'categorical'}, 'FERTREC': {'description': 'How many children have you ever had? (collapsed variable)', 'type': 'integer'}, 'BRANCH': {'description': 'Combined responses to BRANCH (CAWI/CATI) and Q28 (PAPI) (variable is only available in restricted use file)', 'type': 'categorical'}, 'BIRTHHALFDECADE': {'description': "Respondent's year of birth (detailed) (variable is only available in restricted use file)", 'type': 'integer'}, 'RESPONDENT_BIRTHREGION': {'description': "Region of respondent's birth (variable is only available in restricted use file)", 'type': 'categorical'}, 'MOTHER_BIRTHREGION': {'description': "Region of respondent's mother's birth (variable is only available in restricted use file)", 'type': 'categorical'}, 'FATHER_BIRTHREGION': {'description': "Region of respondent's father's birth (variable is only available in restricted use file)", 'type': 'categorical'}, 'YEARSINUSREC': {'description': 'Number of years respondent has lived in the United States (variable is only available in restricted use file)', 'type': 'integer'}, 'ORIENTMOD': {'description': 'Do you think of yourself as... (variable is only available in restricted use file)', 'type': 'categorical'}, 'STATE': {'description': 'State (abbreviated) (variable is only available in restricted use file)', 'type': 'categorical'}, 'MSA': {'description': 'Metropolitan Statistical Area where respondent resides (variable is only available in restricted use file)', 'type': 'categorical'}, 'WEIGHT_MSA': {'description': 'Raked weight for MSAs with 250+ interviews (variable is only available in restricted use file)', 'type': 'integer'}, 'WEIGHT': {'description': 'Full-sample raked weight', 'type': 'integer'}, 'REPWT_036': {'description': 'Replicate raked weight 36', 'type': 'integer'}, 'REPWT_037': {'description': 'Replicate raked weight 37', 'type': 'integer'}, 'REPWT_039': {'description': 'Replicate raked weight 39', 'type': 'integer'}, 'REPWT_074': {'description': 'Replicate raked weight 74', 'type': 'integer'}, 'REPWT_108': {'description': 'Replicate raked weight 108', 'type': 'integer'}, 'REPWT_196': {'description': 'Replicate raked weight 196', 'type': 'integer'}, 'REPWT_236': {'description': 'Replicate raked weight 236', 'type': 'integer'}, 'REPWT_298': {'description': 'Replicate raked weight 298', 'type': 'integer'}, 'REPWT_309': {'description': 'Replicate raked weight 309', 'type': 'integer'}, 'REPWT_311': {'description': 'Replicate raked weight 311', 'type': 'integer'}, 'REPWT_399': {'description': 'Replicate raked weight 399', 'type': 'integer'}}
+
+**** Semantic Profile ****
+ The key semantic information for this dataset includes:
+**P_SUID**: Represents identifier. Domain-specific type: general. Function/Usage context: identifier.
+**YEAR_FROM_CODATE**: Represents temporal entity. Contains temporal data (resolution: Year). Function/Usage context: measurement.
+**REGION**: Represents location. Contains spatial data (resolution: Census region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**HAPPY**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**SATIS_A**: Represents health status. Domain-specific type: healthcare. Function/Usage context: categorical dimension.
+**SATIS_B**: Represents subjective assessment. Domain-specific type: general. Function/Usage context: measurement.
+**CHNG_A**: Represents change indicator. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHNG_B**: Represents change assessment. Function/Usage context: categorical dimension.
+**CHNG_C**: Represents abstract concept. Domain-specific type: social attitudes. Function/Usage context: categorical dimension.
+**DIVRELPOP**: Represents survey response. Domain-specific type: general. Function/Usage context: categorical dimension.
+**DIVRACPOP**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**QB2A**: Represents statement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**QB2C**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**QB2D**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**OPENIDEN**: Function/Usage context: categorical dimension.
+**POORASSIST**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GOVSIZE1**: Domain-specific type: general. Function/Usage context: categorical dimension.
+**ABRTLGL**: Represents opinion. Domain-specific type: social issues. Function/Usage context: categorical dimension.
+**GAYMARR**: Represents opinion. Domain-specific type: social. Function/Usage context: categorical dimension.
+**PAR2CHILD**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PAR2CHILDA**: Represents categorical entity. Function/Usage context: categorical dimension.
+**CLIM1A**: Represents opinion. Domain-specific type: climate. Function/Usage context: categorical dimension.
+**EVOL**: Function/Usage context: categorical dimension.
+**GUIDE_A**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_B**: Represents categorical dimension. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_C**: Represents categorical data. Function/Usage context: measurement.
+**GUIDE_D**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**DENOMREC2**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**FAMILY**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELTRAD**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PROTFAM**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CURREL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CURREL2**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**UNAFFILDETAIL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**BORNFINAL**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELPER**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**SPIRPER**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_A**: Function/Usage context: categorical dimension.
+**RELCON_B**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**RELCON_C**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_D**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_E**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**ATTNDPERRLS**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**ATTNDONRLS**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CONGRACE**: Represents event. Function/Usage context: measurement.
+**LEADRACE**: Represents categorical entity.
+**RELIMP**: Represents abstract concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**MEMB**: Represents categorical dimension. Domain-specific type: general. Function/Usage context: measurement.
+**GOD**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GOD2**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**HVN**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**HLL**: Function/Usage context: categorical dimension.
+**SOUL**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**BIBIMP**: Represents concept. Domain-specific type: general. Function/Usage context: measurement.
+**HUMNTR_A**: Represents view. Domain-specific type: general. Function/Usage context: categorical dimension.
+**HUMNTR_B**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAY**: Represents activity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GRACE**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_A**: Represents activity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_B**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_C**: Represents categorical entity. Function/Usage context: measurement.
+**PRAC_D**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_A**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**EXP_B**: Represents measurement. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**EXP_C**: Represents emotion. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_D**: Represents entity. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_E**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_G**: Represents concept. Domain-specific type: general. Function/Usage context: measurement.
+**SPIRACT_A**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_B**: Domain-specific type: general. Function/Usage context: measurement.
+**SPIRACT_C**: Represents activity frequency. Domain-specific type: health. Function/Usage context: measurement.
+**SPIRACT_D**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_E**: Represents activity frequency. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_F**: Represents activity. Domain-specific type: general. Function/Usage context: measurement.
+**RTRT**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**SECMEMB**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**VOL12_CPS**: Represents event. Contains temporal data (resolution: Month). Domain-specific type: general. Function/Usage context: categorical dimension.
+**SCIMPACT**: Represents categorical data. Domain-specific type: general. Function/Usage context: measurement.
+**RELIMPACT**: Represents impact assessment. Domain-specific type: general. Function/Usage context: measurement.
+**SCRLCON1**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL1**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL2**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**FRMREL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**FRMREL2**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHBORNFINAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CHIMPREL_A**: Function/Usage context: categorical dimension.
+**CHIMPREL_B**: Function/Usage context: measurement.
+**CHATTEND**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**CHCONGRACE**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CHEDU1**: Represents measurement. Domain-specific type: education. Function/Usage context: categorical dimension.
+**CHEDU2**: Represents measurement. Domain-specific type: education. Function/Usage context: categorical dimension.
+**LIFEDIR**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**LIFESPIR**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GTHGHT**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**MARITAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPREL**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**RELMATCH**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPBORNFINAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**SPRELIMP**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**SPRELTALK**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPRELSIM**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**MARWHENREC**: Represents event. Contains temporal data (resolution: Decade). Function/Usage context: categorical dimension.
+**CHILDREN**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS4ANDUNDERREC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS5TO12REC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS13TO17REC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_A**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_B**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_C**: Represents general. Domain-specific type: education. Function/Usage context: categorical dimension.
+**RELINST_A**: Represents opinion. Function/Usage context: categorical dimension.
+**RELINST_B**: Represents opinion. Function/Usage context: categorical dimension.
+**RELINST_D**: Function/Usage context: categorical dimension.
+**RELINST_E**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELINST_F**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SCPRY1**: Represents opinion. Function/Usage context: categorical dimension.
+**SCPRY2**: Represents opinion. Domain-specific type: education. Function/Usage context: categorical dimension.
+**RELDISP**: Represents political opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHRNAT**: Represents categorical variable. Function/Usage context: measurement.
+**BIRTHDECADE**: Represents temporal entity. Contains temporal data (resolution: Decade). Domain-specific type: general. Function/Usage context: categorical dimension.
+**HISP**: Represents categorical entity. Domain-specific type: demographic. Function/Usage context: measurement.
+**RACECMB**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**AFROHISP**: Represents social identity. Domain-specific type: demographic. Function/Usage context: categorical dimension.
+**EDUCREC**: Represents educational achievement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**E2**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**EMPLSIT**: Represents employment situation. Function/Usage context: categorical dimension.
+**USGEN**: Represents person. Contains spatial data (resolution: Country). Domain-specific type: demographic. Function/Usage context: categorical dimension.
+**MOVED**: Represents person. Contains spatial data (resolution: Local Community). Domain-specific type: general. Function/Usage context: categorical dimension.
+**CITIZEN**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**REG**: Represents categorial entity. Domain-specific type: general. Function/Usage context: measurement.
+**PARTY**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**PARTYLN**: Domain-specific type: general. Function/Usage context: categorical dimension.
+**IDEO**: Represents political view. Function/Usage context: categorical dimension.
+**HH1REC**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**HH3REC**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**INTFREQ**: Represents usage frequency. Domain-specific type: general. Function/Usage context: measurement.
+**INC_SDT1**: Represents integer value. Domain-specific type: general. Function/Usage context: measurement.
+**GENDER**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**FERTREC**: Represents quantitative measure. Domain-specific type: general. Function/Usage context: measurement.
+**BRANCH**: Represents categorical entity.
+**BIRTHHALFDECADE**: Represents person. Contains temporal data (resolution: Year).
+**RESPONDENT_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**MOTHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**FATHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**YEARSINUSREC**: Represents person. Contains spatial data (resolution: Country). Domain-specific type: general. Function/Usage context: measurement.
+**ORIENTMOD**: Represents categorical variable. Domain-specific type: general. Function/Usage context: categorical dimension.
+**STATE**: Represents location. Contains spatial data (resolution: State). Domain-specific type: general. Function/Usage context: categorical dimension.
+**MSA**: Represents location. Contains spatial data (resolution: Metropolitan Statistical Area). Domain-specific type: general. Function/Usage context: categorical dimension.
+**WEIGHT_MSA**: Represents quantitative measurement. Domain-specific type: general. Function/Usage context: measurement.
+**WEIGHT**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_036**: Represents weight measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_037**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_039**: Represents statistical metric. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_074**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_108**: Represents measurement. Domain-specific type: general. Function/Usage context: weight.
+**REPWT_196**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_236**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_298**: Represents weight. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_309**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_311**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_399**: Represents integer. Domain-specific type: general. Function/Usage context: measurement.
+
+**** Data Topic ****
+ Religious Composition Analysis
+
+**** Description Prompt ****
+ Answer the question using the following information.
+
+The dataset profile is as follows:
+
+The key data profile information for this dataset includes:
+**P_SUID**: Data is of type integer. There are 36908 unique values. Coverage spans from 0 to 12121830.0.
+**YEAR_FROM_CODATE**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2024.0.
+**REGION**: Data is of type missingdata.
+**HAPPY**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SATIS_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**SATIS_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**CHNG_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CHNG_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRELPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**DIVRACPOP**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**QB2A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**QB2D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**OPENIDEN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**POORASSIST**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GOVSIZE1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**ABRTLGL**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GAYMARR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PAR2CHILD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**PAR2CHILDA**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**CLIM1A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 77.0.
+**EVOL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**GUIDE_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 3.0.
+**GUIDE_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**DENOMREC2**: Data is of type missingdata.
+**FAMILY**: Data is of type missingdata.
+**RELTRAD**: Data is of type integer. There are 16 unique values. Coverage spans from 0 to 100000.0.
+**PROTFAM**: Data is of type missingdata.
+**CURREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**CURREL2**: Data is of type missingdata.
+**UNAFFILDETAIL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 9.0.
+**BORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**RELPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPIRPER**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELCON_A**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_B**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELCON_C**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_D**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**RELCON_E**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 99.0.
+**ATTNDPERRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**ATTNDONRLS**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**LEADRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**RELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**MEMB**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**GOD2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**HVN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**HLL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SOUL**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**BIBIMP**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HUMNTR_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAY**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**GRACE**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**PRAC_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**EXP_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**EXP_G**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_A**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_B**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_C**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_D**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_E**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPIRACT_F**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**RTRT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SECMEMB**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**VOL12_CPS**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**RELIMPACT**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**SCRLCON1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL1**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SECBEL2**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**FRMREL**: Data is of type integer. There are 14 unique values. Coverage spans from 0 to 100000.0.
+**FRMREL2**: Data is of type missingdata.
+**CHBORNFINAL**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**CHIMPREL_A**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHIMPREL_B**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHATTEND**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHCONGRACE**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**CHEDU1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHEDU2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFEDIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**LIFESPIR**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**GTHGHT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARITAL**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**SPREL**: Data is of type missingdata.
+**RELMATCH**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 1.0.
+**SPBORNFINAL**: Data is of type missingdata.
+**SPRELIMP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SPRELTALK**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**SPRELSIM**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**MARWHENREC**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**CHILDREN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDS4ANDUNDERREC**: Data is of type missingdata.
+**KIDS5TO12REC**: Data is of type missingdata.
+**KIDS13TO17REC**: Data is of type missingdata.
+**KIDACT_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**KIDACT_C**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_A**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_B**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_D**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_E**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RELINST_F**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**SCPRY1**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**SCPRY2**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**RELDISP**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**CHRNAT**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**BIRTHDECADE**: Data is of type integer. There are 8 unique values. Coverage spans from 0 to 7.0.
+**HISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**RACECMB**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**AFROHISP**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**EDUCREC**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**E2**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**EMPLSIT**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**USGEN**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**MOVED**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 2.0.
+**CITIZEN**: Data is of type missingdata.
+**REG**: Data is of type integer. There are 2 unique values. Coverage spans from 0 to 2.0.
+**PARTY**: Data is of type integer. There are 5 unique values. Coverage spans from 0 to 4.0.
+**PARTYLN**: Data is of type integer. There are 3 unique values. Coverage spans from 0 to 99.0.
+**IDEO**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 5.0.
+**HH1REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**HH3REC**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 3.0.
+**INTFREQ**: Data is of type integer. There are 7 unique values. Coverage spans from 0 to 6.0.
+**INC_SDT1**: Data is of type integer. There are 9 unique values. Coverage spans from 0 to 8.0.
+**GENDER**: Data is of type integer. There are 4 unique values. Coverage spans from 0 to 2.0.
+**FERTREC**: Data is of type integer. There are 6 unique values. Coverage spans from 0 to 4.0.
+**BRANCH**: Data is of type missingdata.
+**BIRTHHALFDECADE**: Data is of type missingdata.
+**RESPONDENT_BIRTHREGION**: Data is of type missingdata.
+**MOTHER_BIRTHREGION**: Data is of type missingdata.
+**FATHER_BIRTHREGION**: Data is of type missingdata.
+**YEARSINUSREC**: Data is of type missingdata.
+**ORIENTMOD**: Data is of type missingdata.
+**STATE**: Data is of type missingdata.
+**MSA**: Data is of type missingdata.
+**WEIGHT_MSA**: Data is of type missingdata.
+**WEIGHT**: Data is of type float. Coverage spans from 0 to 22406.46712081854.
+**REPWT_036**: Data is of type float. Coverage spans from 0 to 35968.77573619725.
+**REPWT_037**: Data is of type float. Coverage spans from 0 to 33678.215200947554.
+**REPWT_039**: Data is of type float. Coverage spans from 0 to 33350.300145797235.
+**REPWT_074**: Data is of type float. Coverage spans from 0 to 36060.74836742093.
+**REPWT_108**: Data is of type float. Coverage spans from 0 to 36053.70513842225.
+**REPWT_196**: Data is of type float. Coverage spans from 0 to 35552.83236854759.
+**REPWT_236**: Data is of type float. Coverage spans from 0 to 34626.310542282336.
+**REPWT_298**: Data is of type float. Coverage spans from 0 to 34567.02039639264.
+**REPWT_309**: Data is of type float. Coverage spans from 0 to 34022.32023451326.
+**REPWT_311**: Data is of type float. Coverage spans from 0 to 34414.303494286054.
+**REPWT_399**: Data is of type float. Coverage spans from 0 to 33926.785782662606.
+
+Based on this profile, please add sentence(s) to enrich the dataset description.
+
+Furthermore, the semantic profile of the dataset columns is as follows:
+
+The key semantic information for this dataset includes:
+**P_SUID**: Represents identifier. Domain-specific type: general. Function/Usage context: identifier.
+**YEAR_FROM_CODATE**: Represents temporal entity. Contains temporal data (resolution: Year). Function/Usage context: measurement.
+**REGION**: Represents location. Contains spatial data (resolution: Census region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**HAPPY**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**SATIS_A**: Represents health status. Domain-specific type: healthcare. Function/Usage context: categorical dimension.
+**SATIS_B**: Represents subjective assessment. Domain-specific type: general. Function/Usage context: measurement.
+**CHNG_A**: Represents change indicator. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHNG_B**: Represents change assessment. Function/Usage context: categorical dimension.
+**CHNG_C**: Represents abstract concept. Domain-specific type: social attitudes. Function/Usage context: categorical dimension.
+**DIVRELPOP**: Represents survey response. Domain-specific type: general. Function/Usage context: categorical dimension.
+**DIVRACPOP**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**QB2A**: Represents statement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**QB2C**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**QB2D**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**OPENIDEN**: Function/Usage context: categorical dimension.
+**POORASSIST**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GOVSIZE1**: Domain-specific type: general. Function/Usage context: categorical dimension.
+**ABRTLGL**: Represents opinion. Domain-specific type: social issues. Function/Usage context: categorical dimension.
+**GAYMARR**: Represents opinion. Domain-specific type: social. Function/Usage context: categorical dimension.
+**PAR2CHILD**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PAR2CHILDA**: Represents categorical entity. Function/Usage context: categorical dimension.
+**CLIM1A**: Represents opinion. Domain-specific type: climate. Function/Usage context: categorical dimension.
+**EVOL**: Function/Usage context: categorical dimension.
+**GUIDE_A**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_B**: Represents categorical dimension. Domain-specific type: general. Function/Usage context: measurement.
+**GUIDE_C**: Represents categorical data. Function/Usage context: measurement.
+**GUIDE_D**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**DENOMREC2**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**FAMILY**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELTRAD**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PROTFAM**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CURREL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CURREL2**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**UNAFFILDETAIL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**BORNFINAL**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELPER**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**SPIRPER**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_A**: Function/Usage context: categorical dimension.
+**RELCON_B**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**RELCON_C**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_D**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELCON_E**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**ATTNDPERRLS**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**ATTNDONRLS**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CONGRACE**: Represents event. Function/Usage context: measurement.
+**LEADRACE**: Represents categorical entity.
+**RELIMP**: Represents abstract concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**MEMB**: Represents categorical dimension. Domain-specific type: general. Function/Usage context: measurement.
+**GOD**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GOD2**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**HVN**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**HLL**: Function/Usage context: categorical dimension.
+**SOUL**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**BIBIMP**: Represents concept. Domain-specific type: general. Function/Usage context: measurement.
+**HUMNTR_A**: Represents view. Domain-specific type: general. Function/Usage context: categorical dimension.
+**HUMNTR_B**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAY**: Represents activity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GRACE**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_A**: Represents activity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_B**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**PRAC_C**: Represents categorical entity. Function/Usage context: measurement.
+**PRAC_D**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_A**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**EXP_B**: Represents measurement. Domain-specific type: general. Function/Usage context: ranking/scoring.
+**EXP_C**: Represents emotion. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_D**: Represents entity. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_E**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**EXP_G**: Represents concept. Domain-specific type: general. Function/Usage context: measurement.
+**SPIRACT_A**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_B**: Domain-specific type: general. Function/Usage context: measurement.
+**SPIRACT_C**: Represents activity frequency. Domain-specific type: health. Function/Usage context: measurement.
+**SPIRACT_D**: Represents general. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_E**: Represents activity frequency. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPIRACT_F**: Represents activity. Domain-specific type: general. Function/Usage context: measurement.
+**RTRT**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**SECMEMB**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**VOL12_CPS**: Represents event. Contains temporal data (resolution: Month). Domain-specific type: general. Function/Usage context: categorical dimension.
+**SCIMPACT**: Represents categorical data. Domain-specific type: general. Function/Usage context: measurement.
+**RELIMPACT**: Represents impact assessment. Domain-specific type: general. Function/Usage context: measurement.
+**SCRLCON1**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL1**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**SECBEL2**: Represents categorical response. Domain-specific type: general. Function/Usage context: measurement.
+**FRMREL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**FRMREL2**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHBORNFINAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CHIMPREL_A**: Function/Usage context: categorical dimension.
+**CHIMPREL_B**: Function/Usage context: measurement.
+**CHATTEND**: Represents event. Domain-specific type: general. Function/Usage context: measurement.
+**CHCONGRACE**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**CHEDU1**: Represents measurement. Domain-specific type: education. Function/Usage context: categorical dimension.
+**CHEDU2**: Represents measurement. Domain-specific type: education. Function/Usage context: categorical dimension.
+**LIFEDIR**: Represents opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**LIFESPIR**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**GTHGHT**: Represents concept. Domain-specific type: general. Function/Usage context: categorical dimension.
+**MARITAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPREL**: Represents categorical variable. Domain-specific type: general. Function/Usage context: measurement.
+**RELMATCH**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPBORNFINAL**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**SPRELIMP**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**SPRELTALK**: Represents measurement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SPRELSIM**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**MARWHENREC**: Represents event. Contains temporal data (resolution: Decade). Function/Usage context: categorical dimension.
+**CHILDREN**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS4ANDUNDERREC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS5TO12REC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDS13TO17REC**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_A**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_B**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**KIDACT_C**: Represents general. Domain-specific type: education. Function/Usage context: categorical dimension.
+**RELINST_A**: Represents opinion. Function/Usage context: categorical dimension.
+**RELINST_B**: Represents opinion. Function/Usage context: categorical dimension.
+**RELINST_D**: Function/Usage context: categorical dimension.
+**RELINST_E**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**RELINST_F**: Represents organization. Domain-specific type: general. Function/Usage context: categorical dimension.
+**SCPRY1**: Represents opinion. Function/Usage context: categorical dimension.
+**SCPRY2**: Represents opinion. Domain-specific type: education. Function/Usage context: categorical dimension.
+**RELDISP**: Represents political opinion. Domain-specific type: general. Function/Usage context: categorical dimension.
+**CHRNAT**: Represents categorical variable. Function/Usage context: measurement.
+**BIRTHDECADE**: Represents temporal entity. Contains temporal data (resolution: Decade). Domain-specific type: general. Function/Usage context: categorical dimension.
+**HISP**: Represents categorical entity. Domain-specific type: demographic. Function/Usage context: measurement.
+**RACECMB**: Represents categorical entity. Domain-specific type: general. Function/Usage context: categorical dimension.
+**AFROHISP**: Represents social identity. Domain-specific type: demographic. Function/Usage context: categorical dimension.
+**EDUCREC**: Represents educational achievement. Domain-specific type: general. Function/Usage context: categorical dimension.
+**E2**: Represents event. Domain-specific type: general. Function/Usage context: categorical dimension.
+**EMPLSIT**: Represents employment situation. Function/Usage context: categorical dimension.
+**USGEN**: Represents person. Contains spatial data (resolution: Country). Domain-specific type: demographic. Function/Usage context: categorical dimension.
+**MOVED**: Represents person. Contains spatial data (resolution: Local Community). Domain-specific type: general. Function/Usage context: categorical dimension.
+**CITIZEN**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**REG**: Represents categorial entity. Domain-specific type: general. Function/Usage context: measurement.
+**PARTY**: Represents categorical entity. Domain-specific type: general. Function/Usage context: measurement.
+**PARTYLN**: Domain-specific type: general. Function/Usage context: categorical dimension.
+**IDEO**: Represents political view. Function/Usage context: categorical dimension.
+**HH1REC**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**HH3REC**: Represents person. Domain-specific type: general. Function/Usage context: measurement.
+**INTFREQ**: Represents usage frequency. Domain-specific type: general. Function/Usage context: measurement.
+**INC_SDT1**: Represents integer value. Domain-specific type: general. Function/Usage context: measurement.
+**GENDER**: Represents person. Domain-specific type: general. Function/Usage context: categorical dimension.
+**FERTREC**: Represents quantitative measure. Domain-specific type: general. Function/Usage context: measurement.
+**BRANCH**: Represents categorical entity.
+**BIRTHHALFDECADE**: Represents person. Contains temporal data (resolution: Year).
+**RESPONDENT_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**MOTHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**FATHER_BIRTHREGION**: Represents location. Contains spatial data (resolution: Region). Domain-specific type: general. Function/Usage context: categorical dimension.
+**YEARSINUSREC**: Represents person. Contains spatial data (resolution: Country). Domain-specific type: general. Function/Usage context: measurement.
+**ORIENTMOD**: Represents categorical variable. Domain-specific type: general. Function/Usage context: categorical dimension.
+**STATE**: Represents location. Contains spatial data (resolution: State). Domain-specific type: general. Function/Usage context: categorical dimension.
+**MSA**: Represents location. Contains spatial data (resolution: Metropolitan Statistical Area). Domain-specific type: general. Function/Usage context: categorical dimension.
+**WEIGHT_MSA**: Represents quantitative measurement. Domain-specific type: general. Function/Usage context: measurement.
+**WEIGHT**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_036**: Represents weight measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_037**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_039**: Represents statistical metric. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_074**: Represents measurement. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_108**: Represents measurement. Domain-specific type: general. Function/Usage context: weight.
+**REPWT_196**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_236**: Represents general. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_298**: Represents weight. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_309**: Represents numerical value. Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_311**: Domain-specific type: general. Function/Usage context: measurement.
+**REPWT_399**: Represents integer. Domain-specific type: general. Function/Usage context: measurement.
+
+Based on this information, please add sentence(s) discussing the semantic profile in the description.
+
+Moreover, the dataset topic is: Religious Composition Analysis. Based on this topic, please add sentence(s) describing what this dataset can be used for.
+
+Furthermore, the dataset codebook information is as follows:
+
+{"P_SUID": {"description": "Unique ID", "type": "string"}, "YEAR_FROM_CODATE": {"description": "Year in which survey was completed", "type": "integer"}, "REGION": {"description": "Census region (variable is only available in restricted use file)", "type": "categorical"}, "HAPPY": {"description": "Generally, how happy are you with your life these days? Are you...", "type": "categorical"}, "SATIS_A": {"description": "Would you say your health in general is excellent, very good, good, fair or poor", "type": "categorical"}, "SATIS_B": {"description": "Would you say your family life is excellent, very good, good, fair or poor?", "type": "categorical"}, "CHNG_A": {"description": "A growing population of immigrants: Is this a change for the better, worse, or not made much difference?", "type": "categorical"}, "CHNG_B": {"description": "More women in the workforce: Is this a change for the better, worse, or not made much difference?", "type": "categorical"}, "CHNG_C": {"description": "Greater acceptance of people who are transgender: Is this a change for the better, worse, or not made much difference?", "type": "categorical"}, "DIVRELPOP": {"description": "Does the fact that the U.S. is made up of people of many different religions and people who are not religious strengthen American society, weaken it, or not make much difference?", "type": "categorical"}, "DIVRACPOP": {"description": "Does the fact that the U.S. is made up of people of many different races/ethnicities strengthen American society, weaken it, or not make much difference?", "type": "categorical"}, "QB2A": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "QB2C": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "QB2D": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "OPENIDEN": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "POORASSIST": {"description": "Should government provide more assistance to people in need, less assistance, or is it providing about the right amount of assistance?", "type": "categorical"}, "GOVSIZE1": {"description": "If you had to choose, would you rather have...", "type": "categorical"}, "ABRTLGL": {"description": "Do you think abortion should be...", "type": "categorical"}, "GAYMARR": {"description": "Do you favor or oppose allowing gays and lesbians to marry legally?", "type": "categorical"}, "PAR2CHILD": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "PAR2CHILDA": {"description": "If one parent stays home to focus on the family, is it generally better if that", "type": "categorical"}, "CLIM1A": {"description": "Which statement about the Earth's temperature comes closest to your view?", "type": "categorical"}, "EVOL": {"description": "Which statement about the development of human life on Earth comes closest to your view?", "type": "categorical"}, "GUIDE_A": {"description": "Religious teachings and beliefs: How important is this to you when making decisions about right and wrong?", "type": "categorical"}, "GUIDE_B": {"description": "Logic and reason: How important is this to you when making decisions about right and wrong?", "type": "categorical"}, "GUIDE_C": {"description": "Practical experience and common sense: How important is this to you when making decisions about right and wrong?", "type": "categorical"}, "GUIDE_D": {"description": "Scientific information: How important is this to you when making decisions about right and wrong?", "type": "categorical"}, "DENOMREC2": {"description": "Religious affiliation; Collapsed version of DENOM; refer to documentation for additional information (variable is only available in restricted use file)", "type": "categorical"}, "FAMILY": {"description": "Collapsed version of DENOM: Respondent's current religion (family of denominational groupings); refer to documentation for additional information (variable is only available in restricted use file)", "type": "categorical"}, "RELTRAD": {"description": "Collapsed version of FAMILY: Respondent's religious tradition; refer to documentation for additional information", "type": "categorical"}, "PROTFAM": {"description": "Collapsed version of FAMILY: family of Protestant denominations; refer to documentation for additional information (variable is only available in restricted use file)", "type": "categorical"}, "CURREL": {"description": "Respondent's current religion - recoded from RELTRAD to match coding in FRMREL and SPREL for analysis of religious switching and intermarriage", "type": "categorical"}, "CURREL2": {"description": "Respondent's current religion, with detail for 'Protestant' and 'unaffiliated' in CURREL - matches coding in FRMREL2/SPREL2 for analysis of religious switching/intermarriage (variable only available in restricted use file)", "type": "categorical"}, "UNAFFILDETAIL": {"description": "Additional detail about the identity of the religiously unaffiliated (in RELTRAD)", "type": "categorical"}, "BORNFINAL": {"description": "BORN based on Christians: Would you describe yourself as a born-again or evangelical Christian, or not?", "type": "categorical"}, "RELPER": {"description": "To what extent do you consider yourself a religious person? Are you...", "type": "categorical"}, "SPIRPER": {"description": "To what extent do you consider yourself a spiritual person? Are you...", "type": "categorical"}, "RELCON_A": {"description": "Aside from religion, do you consider yourself to be Jewish?", "type": "categorical"}, "RELCON_B": {"description": "Aside from religion, do you consider yourself to be Catholic?", "type": "categorical"}, "RELCON_C": {"description": "Aside from religion, do you consider yourself to be Hindu?", "type": "categorical"}, "RELCON_D": {"description": "Aside from religion, do you consider yourself to be Muslim?", "type": "categorical"}, "RELCON_E": {"description": "Aside from religion, do you consider yourself to be Buddhist?", "type": "categorical"}, "ATTNDPERRLS": {"description": "How often do you attend religious services in person?", "type": "categorical"}, "ATTNDONRLS": {"description": "How often do you watch or participate in religious services online or on TV?", "type": "categorical"}, "CONGRACE": {"description": "When you attend religious services in person, what is the race or ethnicity of most other people attending?", "type": "categorical"}, "LEADRACE": {"description": "Thinking about the place where you most often attend religious services in person, what is the race or ethnicity of the senior religious leaders?", "type": "categorical"}, "RELIMP": {"description": "How important is religion in your life?", "type": "categorical"}, "MEMB": {"description": "Are you personally a member of a church, synagogue, mosque, temple, or other house of worship?", "type": "categorical"}, "GOD": {"description": "Do you believe in God or a universal spirit?", "type": "categorical"}, "GOD2": {"description": "How certain are you about this belief?", "type": "categorical"}, "HVN": {"description": "Do you think there is a heaven where people who have led good lives are eternally rewarded?", "type": "categorical"}, "HLL": {"description": "Do you think there is a hell where people who have led bad lives and die without being sorry are eternally punished?", "type": "categorical"}, "SOUL": {"description": "Do you believe people have a soul or spirit in addition to their physical body?", "type": "categorical"}, "BIBIMP": {"description": "How important is the Bible in your life?", "type": "categorical"}, "HUMNTR_A": {"description": "God gave humans the right to use the Earth for humanity's benefit: How well does this describe your view?", "type": "categorical"}, "HUMNTR_B": {"description": "God gave humans a duty to protect and care for the Earth: How well does this describe your view?", "type": "categorical"}, "PRAY": {"description": "Outside of attending religious services, how often do you pray?", "type": "categorical"}, "GRACE": {"description": "How often do you say grace or pray before meals?", "type": "categorical"}, "PRAC_A": {"description": "How often do you participate in prayer groups, scripture study groups or religious education programs?", "type": "categorical"}, "PRAC_B": {"description": "How often do you read scripture outside of religious services?", "type": "categorical"}, "PRAC_C": {"description": "How often do you read other holy texts, devotions, or inspirational literature (", "type": "categorical"}, "PRAC_D": {"description": "How often do you share your views about religion with people from other religious backgrounds?", "type": "categorical"}, "EXP_A": {"description": "How often do you feel a deep sense of spiritual peace and well-being?", "type": "categorical"}, "EXP_B": {"description": "How often do you feel a deep sense of wonder about the universe?", "type": "categorical"}, "EXP_C": {"description": "How often do you feel a strong sense of gratitude or thankfulness?", "type": "categorical"}, "EXP_D": {"description": "How often do you feel the presence of something from beyond this world?", "type": "categorical"}, "EXP_E": {"description": "How often do you feel a deep sense of connection with humanity?", "type": "categorical"}, "EXP_G": {"description": "How often do you think about the meaning and purpose of life?", "type": "categorical"}, "SPIRACT_A": {"description": "How often do you visit a nature spot for spiritual reasons?", "type": "categorical"}, "SPIRACT_B": {"description": "How often do you listen to music for spiritual reasons?", "type": "categorical"}, "SPIRACT_C": {"description": "How often do you exercise for spiritual reasons?", "type": "categorical"}, "SPIRACT_D": {"description": "How often do you look inward or center yourself for spiritual reasons?", "type": "categorical"}, "SPIRACT_E": {"description": "How often do you practice yoga for spiritual reasons?", "type": "categorical"}, "SPIRACT_F": {"description": "How often do you meditate for spiritual reasons?", "type": "categorical"}, "RTRT": {"description": "How often do you go on spiritual retreats?", "type": "categorical"}, "SECMEMB": {"description": "Do you participate in any organization of atheists or non-believers?", "type": "categorical"}, "VOL12_CPS": {"description": "In the past 12 months, did you spend any time volunteering?", "type": "categorical"}, "SCIMPACT": {"description": "Overall, what impact does science have on American society?", "type": "categorical"}, "RELIMPACT": {"description": "Overall, what impact does religion have on American society?", "type": "categorical"}, "SCRLCON1": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "SECBEL1": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "SECBEL2": {"description": "Which statement comes closer to your view, even if neither is exactly right?", "type": "categorical"}, "FRMREL": {"description": "Religion in which respondent was raised", "type": "categorical"}, "FRMREL2": {"description": "Religion in which respondent was raised -- with additional detail for 'Protestant' and 'Religiously Unaffiliated' in frmrel (variable is only available in restricted use file)", "type": "categorical"}, "CHBORNFINAL": {"description": "CHBORN based on those raised Christian: As a child, would you say you were raised as a born-again or evangelical Christian?", "type": "categorical"}, "CHIMPREL_A": {"description": "When you were growing up, how important was religion to you personally?", "type": "categorical"}, "CHIMPREL_B": {"description": "When you were growing up, how important was religion to your family?", "type": "categorical"}, "CHATTEND": {"description": "How often did you attend religious services in person when you were growing up?", "type": "categorical"}, "CHCONGRACE": {"description": "Thinking about the place where you most often attended religious services when you were growing up, what was the race/ethnicity of most of the other people attending?", "type": "categorical"}, "CHEDU1": {"description": "From kindergarten through 12th grade, how many years did you attend a private religious school?", "type": "integer"}, "CHEDU2": {"description": "Aside from any religious schools you might have attended, how many years did you attend Sunday School, CCD, or some other form of religious education?", "type": "integer"}, "LIFEDIR": {"description": "Over the course of your lifetime, have you generally become more religious, less religious, some of both, or stayed about the same religiously?", "type": "categorical"}, "LIFESPIR": {"description": "Over the course of your lifetime, have you generally become more spiritual, less spiritual, some of both, or stayed about the same spiritually?", "type": "categorical"}, "GTHGHT": {"description": "In recent years, how much have you thought about God and religion?", "type": "categorical"}, "MARITAL": {"description": "Current marital status", "type": "categorical"}, "SPREL": {"description": "Religion of respondent's spouse/partner (variable is only available in restricted use file)", "type": "categorical"}, "RELMATCH": {"description": "Religious intermarriage - indicator of whether respondent's religion in CURREL matches spouse's/partner's religion in SPREL", "type": "categorical"}, "SPBORNFINAL": {"description": "SPBORN based on those whose spouse/partner is Christian: Would your spouse/partner describe themself as a born-again or evangelical Christian? (variable is only available in restricted use file)", "type": "categorical"}, "SPRELIMP": {"description": "How important is religion in your spouse's/partner's life?", "type": "categorical"}, "SPRELTALK": {"description": "How often do you and your spouse/partner talk with each other about religion?", "type": "categorical"}, "SPRELSIM": {"description": "How similar are your own religious beliefs and your spouse's/partner's religious beliefs?", "type": "categorical"}, "MARWHENREC": {"description": "Decade in which respondent got married (based on current marriage of married respondents)", "type": "categorical"}, "CHILDREN": {"description": "Are you the parent or guardian of any children under 18 now living in your house", "type": "categorical"}, "KIDS4ANDUNDERREC": {"description": "Is respondent parent/guardian of at least one child in the household age 4 or under? (variable is only available in restricted use file)", "type": "categorical"}, "KIDS5TO12REC": {"description": "Is respondent parent/guardian of at least one child in the household between ages 5 and 12? (variable is only available in restricted use file)", "type": "categorical"}, "KIDS13TO17REC": {"description": "Is respondent parent/guardian of at least one child in the household between ages 13 and 17? (variable is only available in restricted use file)", "type": "categorical"}, "KIDACT_A": {"description": "Do you pray or read scripture with your child/any of your children?", "type": "categorical"}, "KIDACT_B": {"description": "Do you send your child/any of your children to Sunday school or another religious education program?", "type": "categorical"}, "KIDACT_C": {"description": "Do you homeschool or send your child/any of your children to a religious school instead of public school?", "type": "categorical"}, "RELINST_A": {"description": "Churches and other religious organizations focus too much on rules: agree or disagree?", "type": "categorical"}, "RELINST_B": {"description": "Churches and other religious organizations are too concerned with money and power: agree or disagree?", "type": "categorical"}, "RELINST_D": {"description": "Churches and other religious organizations are too involved with politics: agree or disagree?", "type": "categorical"}, "RELINST_E": {"description": "Churches and other religious organizations protect and strengthen morality in society: agree or disagree?", "type": "categorical"}, "RELINST_F": {"description": "Churches and other religious organizations bring people together and strengthen community bonds: agree or disagree?", "type": "categorical"}, "SCPRY1": {"description": "Allowing public school teachers to lead their classes in prayers that refer to Jesus: favor or oppose?", "type": "categorical"}, "SCPRY2": {"description": "Allowing public school teachers to lead their classes in prayers that refer to God but not to any specific religion: favor or oppose?", "type": "categorical"}, "RELDISP": {"description": "Allowing cities and towns in the U.S. to place religious symbols on public property: favor or oppose?", "type": "categorical"}, "CHRNAT": {"description": "The federal government declaring the U.S. a Christian nation: favor or oppose?", "type": "categorical"}, "BIRTHDECADE": {"description": "Decade in which respondent was born", "type": "categorical"}, "HISP": {"description": "Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban?", "type": "categorical"}, "RACECMB": {"description": "Race based on responses to RACEMOD_1-6 (CAWI/CATI) and Q94 (PAPI)", "type": "categorical"}, "AFROHISP": {"description": "Do you consider yourself Afro-Latino or Afro-Hispanic, or not?", "type": "categorical"}, "EDUCREC": {"description": "What is the highest degree or level of school you have completed?", "type": "categorical"}, "E2": {"description": "Are you now enrolled in school, either full time or part time?", "type": "categorical"}, "EMPLSIT": {"description": "What is your current work situation?", "type": "categorical"}, "USGEN": {"description": "Indicator of whether respondent is an immigrant to the U.S. or the child of immigrants", "type": "categorical"}, "MOVED": {"description": "Have you lived in or near the local community where you live now your entire life, or have you lived in other places?", "type": "categorical"}, "CITIZEN": {"description": "Are you a citizen of the United States? (variable is only available in restricted use file)", "type": "categorical"}, "REG": {"description": "Are you registered to vote at your current address?", "type": "categorical"}, "PARTY": {"description": "In politics today, do you consider yourself a...", "type": "categorical"}, "PARTYLN": {"description": "As of today do you lean more to...", "type": "categorical"}, "IDEO": {"description": "In general, would you describe your political views as...", "type": "categorical"}, "HH1REC": {"description": "How many people, including yourself, live in your household? (collapsed variable)", "type": "integer"}, "HH3REC": {"description": "How many people living in your household, including yourself, are adults? (collapsed variable)", "type": "integer"}, "INTFREQ": {"description": "About how often do you use the internet?", "type": "categorical"}, "INC_SDT1": {"description": "Last year, what was your total family income?", "type": "integer"}, "GENDER": {"description": "Do you describe yourself as a man, a woman or in some other way?", "type": "categorical"}, "FERTREC": {"description": "How many children have you ever had? (collapsed variable)", "type": "integer"}, "BRANCH": {"description": "Combined responses to BRANCH (CAWI/CATI) and Q28 (PAPI) (variable is only available in restricted use file)", "type": "categorical"}, "BIRTHHALFDECADE": {"description": "Respondent's year of birth (detailed) (variable is only available in restricted use file)", "type": "integer"}, "RESPONDENT_BIRTHREGION": {"description": "Region of respondent's birth (variable is only available in restricted use file)", "type": "categorical"}, "MOTHER_BIRTHREGION": {"description": "Region of respondent's mother's birth (variable is only available in restricted use file)", "type": "categorical"}, "FATHER_BIRTHREGION": {"description": "Region of respondent's father's birth (variable is only available in restricted use file)", "type": "categorical"}, "YEARSINUSREC": {"description": "Number of years respondent has lived in the United States (variable is only available in restricted use file)", "type": "integer"}, "ORIENTMOD": {"description": "Do you think of yourself as... (variable is only available in restricted use file)", "type": "categorical"}, "STATE": {"description": "State (abbreviated) (variable is only available in restricted use file)", "type": "categorical"}, "MSA": {"description": "Metropolitan Statistical Area where respondent resides (variable is only available in restricted use file)", "type": "categorical"}, "WEIGHT_MSA": {"description": "Raked weight for MSAs with 250+ interviews (variable is only available in restricted use file)", "type": "integer"}, "WEIGHT": {"description": "Full-sample raked weight", "type": "integer"}, "REPWT_036": {"description": "Replicate raked weight 36", "type": "integer"}, "REPWT_037": {"description": "Replicate raked weight 37", "type": "integer"}, "REPWT_039": {"description": "Replicate raked weight 39", "type": "integer"}, "REPWT_074": {"description": "Replicate raked weight 74", "type": "integer"}, "REPWT_108": {"description": "Replicate raked weight 108", "type": "integer"}, "REPWT_196": {"description": "Replicate raked weight 196", "type": "integer"}, "REPWT_236": {"description": "Replicate raked weight 236", "type": "integer"}, "REPWT_298": {"description": "Replicate raked weight 298", "type": "integer"}, "REPWT_309": {"description": "Replicate raked weight 309", "type": "integer"}, "REPWT_311": {"description": "Replicate raked weight 311", "type": "integer"}, "REPWT_399": {"description": "Replicate raked weight 399", "type": "integer"}}
+
+Based on this information, please add sentences discussing some of the key variables and how they can be used in the context of the dataset topic.
+Focus on variables that are particularly interesting, unique, or important for understanding the dataset, ignoring identifiers.
+
+Question: Based on the information above and the requirements, provide a dataset description in sentences. Use only natural, readable sentences without special formatting.
+
+Answer:
+
+Target length: approximately 200 words.
+
+**** Dataset Description ****
+ This dataset focuses on Religious Composition Analysis and includes a wide range of variables that capture various aspects of individuals' religious beliefs, practices, and demographics. Key variables include "HAPPY," which measures overall life satisfaction, and "SATIS_A" and "SATIS_B," which assess health and family life satisfaction, respectively. These variables can provide insights into how religious affiliation may correlate with personal well-being.
+
+The dataset also explores opinions on social changes, such as "CHNG_A," which addresses perceptions of immigration, and "GAYMARR," which gauges attitudes toward same-sex marriage. These variables are crucial for understanding the intersection of religion and social attitudes in contemporary society.
+
+Additionally, the dataset includes variables like "RELPER" and "SPIRPER," which measure the extent to which individuals identify as religious or spiritual. The "ATTNDPERRLS" variable captures attendance at religious services, while "GOD" and "HVN" assess beliefs in God and the afterlife, respectively. Together, these variables offer a comprehensive view of how religious beliefs and practices shape individuals' lives and societal perspectives. This dataset is valuable for researchers examining the dynamics of religious identity and its impact on various social issues.
+
+**** Search Prompt ****
+ You are given a dataset about the topic Religious Composition Analysis, with the following initial description:
+
+This dataset focuses on Religious Composition Analysis and includes a wide range of variables that capture various aspects of individuals' religious beliefs, practices, and demographics. Key variables include "HAPPY," which measures overall life satisfaction, and "SATIS_A" and "SATIS_B," which assess health and family life satisfaction, respectively. These variables can provide insights into how religious affiliation may correlate with personal well-being.
+
+The dataset also explores opinions on social changes, such as "CHNG_A," which addresses perceptions of immigration, and "GAYMARR," which gauges attitudes toward same-sex marriage. These variables are crucial for understanding the intersection of religion and social attitudes in contemporary society.
+
+Additionally, the dataset includes variables like "RELPER" and "SPIRPER," which measure the extent to which individuals identify as religious or spiritual. The "ATTNDPERRLS" variable captures attendance at religious services, while "GOD" and "HVN" assess beliefs in God and the afterlife, respectively. Together, these variables offer a comprehensive view of how religious beliefs and practices shape individuals' lives and societal perspectives. This dataset is valuable for researchers examining the dynamics of religious identity and its impact on various social issues.
+
+Please expand the description by including the exact topic. Additionally, add as many related concepts, synonyms, and relevant terms as possible based on the initial description and the topic.
+
+Unlike the initial description, which is focused on presentation and readability, the expanded description is intended to be indexed at the backend of a dataset search engine to improve searchability.
+
+Therefore, focus less on readability and more on including all relevant terms related to the topic. Make sure to include any variations of the key terms and concepts that could help improve retrieval in search results.
+
+Please follow the structure of the following example template:
+Dataset Overview:
+- Please keep the exact initial description of the dataset as shown in beginning the prompt.
+
+Key Themes or Topics:
+- Central focus on a broad area of interest (e.g., urban planning, socio-economic factors, environmental analysis).
+- Data spans multiple subtopics or related areas that contribute to a holistic understanding of the primary theme.
+Example:
+- theme1/topic1
+- theme2/topic2
+- theme3/topic3
+
+Applications and Use Cases:
+- Facilitates analysis for professionals, policymakers, researchers, or stakeholders.
+- Useful for specific applications, such as planning, engineering, policy formulation, or statistical modeling.
+- Enables insights into patterns, trends, and relationships relevant to the domain.
+Example:
+- application1/usecase1
+- application2/usecase2
+- application3/usecase3
+
+Concepts and Synonyms:
+- Includes related concepts, terms, and variations to ensure comprehensive coverage of the topic.
+- Synonyms and alternative phrases improve searchability and retrieval effectiveness.
+Example:
+- concept1/synonym1
+- concept2/synonym2
+- concept3/synonym3
+
+Keywords and Themes:
+- Lists relevant keywords and themes for indexing, categorization, and enhancing discoverability.
+- Keywords reflect the dataset's content, scope, and relevance to the domain.
+Example:
+- keyword1
+- keyword2
+- keyword3
+
+Additional Context:
+- Highlights the dataset's relevance to specific challenges or questions in the domain.
+- May emphasize its value for interdisciplinary applications or integration with related datasets.
+Example:
+- context1
+- context2
+- context3
+
+
+**** Search-Focused Description ****
+ Dataset Overview:
+- This dataset focuses on Religious Composition Analysis and includes a wide range of variables that capture various aspects of individuals' religious beliefs, practices, and demographics. Key variables include "HAPPY," which measures overall life satisfaction, and "SATIS_A" and "SATIS_B," which assess health and family life satisfaction, respectively. These variables can provide insights into how religious affiliation may correlate with personal well-being.
+
+The dataset also explores opinions on social changes, such as "CHNG_A," which addresses perceptions of immigration, and "GAYMARR," which gauges attitudes toward same-sex marriage. These variables are crucial for understanding the intersection of religion and social attitudes in contemporary society.
+
+Additionally, the dataset includes variables like "RELPER" and "SPIRPER," which measure the extent to which individuals identify as religious or spiritual. The "ATTNDPERRLS" variable captures attendance at religious services, while "GOD" and "HVN" assess beliefs in God and the afterlife, respectively. Together, these variables offer a comprehensive view of how religious beliefs and practices shape individuals' lives and societal perspectives. This dataset is valuable for researchers examining the dynamics of religious identity and its impact on various social issues.
+
+Key Themes or Topics:
+- Religious beliefs
+- Religious affiliation
+- Life satisfaction
+- Health satisfaction
+- Family life satisfaction
+- Social attitudes
+- Spirituality
+- Immigration perceptions
+- Attitudes toward same-sex marriage
+- Religious attendance
+- Belief in God
+- Belief in the afterlife
+
+Applications and Use Cases:
+- Analyzing correlations between religious belief and life satisfaction for researchers and sociologists.
+- Informing policymakers on the impacts of religion on social attitudes, such as immigration and marriage equality.
+- Understanding the role of spirituality in individual well-being for psychologists and mental health professionals.
+- Investigating the effects of religious attendance on social engagement for community planners.
+- Exploring demographic shifts in religious composition for demographers and market researchers.
+
+Concepts and Synonyms:
+- Religion/faith
+- Spirituality/faith-based belief
+- Life satisfaction/contentment
+- Health satisfaction/well-being
+- Family satisfaction/domestic happiness
+- Social change/societal progress
+- Immigration attitudes/perceptions
+- Same-sex marriage support/opposition
+- Religious participation/service attendance
+- God belief/deity belief
+- Afterlife concept/evolution of belief
+
+Keywords and Themes:
+- religious composition
+- religious affiliation
+- well-being analysis
+- life satisfaction metrics
+- demographic analysis
+- social attitudes measurement
+- spirituality assessment
+- immigration perceptions
+- same-sex marriage opinions
+- religious service attendance
+- belief systems
+- sociopolitical attitudes
+
+Additional Context:
+- This dataset is relevant for exploring contemporary religious influences on public opinion, particularly in diverse societies facing rapid cultural changes. Its interdisciplinary nature allows integration with studies on public health, sociology, economics, and cultural studies, making it valuable for comparative analysis of religious influence across different populations and time periods.
+
+**** Score of the General Description ****
+ Completeness: 8, Conciseness: 9, Readability: 9
+
+**** Score of the Search-Focused Description ****
+ Completeness: 9, Conciseness: 8, Readability: 9
