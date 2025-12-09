@@ -30,14 +30,20 @@ class CodebookParser:
         self._system_message = prompts["system_message"].strip()
         self._user_prompt = prompts["user_prompt"]
 
-    def parse_codebook(self, codebook_path: str, dataset_df: DataFrame) -> DataFrame:
-        """Extract and process the codebook in preparation for profiling"""
+    def parse_codebook(self, codebook_path: str, dataset_df: DataFrame | None) -> DataFrame:
+        """Extract and process the codebook in preparation for profiling.
+
+        dataset_df is optional to allow parsing standalone codebooks when a paired dataset
+        is not available; in that case, variables are not filtered by dataset columns.
+        """
 
         # Step 1: Extract the codebook table from the file into a DataFrame
         codebook_df = self._extract_table(codebook_path)
 
         # Step 2: Infer the codebook structure and get column mappings using an LLM
         column_mappings = self._analyze_codebook_structure(codebook_df)
+        if not column_mappings:
+            raise ValueError("Failed to infer codebook structure from the codebook sample.")
 
         # Step 3: Standardize column names and drop less relevant columns
         codebook_df = self._standardize_df_column_names(codebook_df, column_mappings)
@@ -47,8 +53,9 @@ class CodebookParser:
 
         # Step 5: Include only variables that were included in the dataset DataFrame
         # This ensures that if the dataset was sampled, we're only keeping relevant variables
-        dataset_columns = set(dataset_df.columns)
-        codebook_df = codebook_df[codebook_df['variable_name'].isin(dataset_columns)]
+        if dataset_df is not None:
+            dataset_columns = set(dataset_df.columns)
+            codebook_df = codebook_df[codebook_df['variable_name'].isin(dataset_columns)]
 
         return codebook_df
 
@@ -207,3 +214,4 @@ class CodebookParser:
         response_body += "}" * (open_braces - close_braces)
         response_body = re.sub(r",\s*}", "}", response_body)
         return response_body
+
