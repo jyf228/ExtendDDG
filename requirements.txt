@@ -4,7 +4,6 @@
 absl-py==2.3.1
 annotated-types==0.7.0
 anyio==4.11.0
-autoddg @ git+https://github.com/VIDA-NYU/AutoDDG@d70544301a6eba9463a759c7071c463efcba8e8e
 beartype==0.22.6
 bert-score==0.3.13
 certifi==2025.11.12
