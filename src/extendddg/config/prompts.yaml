@@ -1,4 +1,4 @@
-docu parser: 
+document parsing: 
   split_prompt: |
     You are an expert at splitting technical documentation into relevant sections.
     You will be given a list of topic name and some descrition about the topic.

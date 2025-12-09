@@ -79,20 +79,28 @@ class DocumentationParser:
         Split by common documentation headings.
         This helps isolate the useful parts like methodology or sampling.
         """
-        pattern = r"(Methodology|Sampling|Weighting|Limitations|Notes|Overview|Data Collection|Imputation Procedures|Survey Design)"
-        matches = re.split(pattern, text, flags=re.IGNORECASE)
+        # pattern = r"(Methodology|Sampling|Weighting|Limitations|Notes|Overview|Data Collection|Imputation Procedures|Survey Design)"
+        patterns =['methodology', 'sampling', 'weighting', 'limitations', 'Notes', 'overview', 'data collection', 'imputation procedures', 'survey Design']
+        alias_patterns = self._find_topic_aliases(patterns)
+            
+        
+        sections = dict()
+        if alias_patterns:
+            if len(alias_patterns) > 3:
+                reverse = {v: k for k, v in alias_patterns.items() if v}
+                regex_pattern = r"(" + "|".join(alias_patterns) + r")"
+                matches = re.split(regex_pattern, text, flags=re.IGNORECASE)
 
-        sections = {}
-
-        if len(matches) < 3:
-            sections["full_document"] = text
-            return sections
-
-        for i in range(1, len(matches) - 1, 2):
-            heading = matches[i].strip().lower()
-            body = matches[i + 1].strip()
-            sections[heading] = body
-
+                for i in range(1, len(matches) - 1, 2):
+                    heading = reverse[matches[i]]
+                    body = matches[i + 1].strip()
+                    sections[heading] = body
+                else:
+                    sections["full_document"] = text
+                    
+            else:
+                sections["full_document"] = text
+                
         return sections
     
     def _build_topic_prompt(self, topics: dict) -> str:
