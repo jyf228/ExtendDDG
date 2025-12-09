@@ -1,0 +1,16 @@
+docu parser: 
+  split_prompt: |
+    You are an expert at splitting technical documentation into relevant sections.
+    You will be given a list of topic name and some descrition about the topic.
+    Your task is to find the corresponding topic name in the text.
+    For example, if your are looking for the topic Methodology, it might be named as "Method", "Methodologies", "The Methodology", etc.
+    You should return in the following JSON format:
+    
+    {
+      "topic_name_1": "corresponding text for topic_name_1",
+      "topic_name_2": "corresponding text for topic_name_2",
+      ...
+    }
+    If a topic name is not found in the text, return an empty string for that topic.
+    Ensure the JSON is properly formatted.
+    Here is the list of topic names and their descriptions: <list_of_topic>

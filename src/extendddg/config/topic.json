@@ -1,0 +1,14 @@
+{
+  "purpose_scope": "what/why",
+  "provenance_source": "who published, version, date",
+  "data_collection_method": "survey/instrument/admin/web scrape",
+  "population_scope": "time window, geography, sample frame",
+  "variables_overview": "key variables/groups; not stats",
+  "methodology": "sampling, weights, cleaning/imputation",
+  "quality_limits_bias": "known issues, missingness, bias",
+  "update_frequency": "refresh cadence, last update",
+  "licensing_access": "license, restrictions, PII handling",
+  "usage_guidance": "intended uses, cautions",
+  "known_issues": "separate if needed",
+  "contact_citation": ""
+}

@@ -2,10 +2,10 @@
 from autoddg.utils import (
     get_log_time,
     get_various_descriptions,
-    load_prompts,
+    # load_prompts,
     log_print,
 )
-
+from .prompts import load_prompts
 from .sampling import get_sample
 
 __all__ = [

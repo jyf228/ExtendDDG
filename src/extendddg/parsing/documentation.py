@@ -1,8 +1,11 @@
 import re
 from pathlib import Path
 from typing import Dict, Optional
-
+import json
 from beartype import beartype
+from ..utils import load_prompts
+from typing import Any
+# from ..utils.prompts import load_prompts
 
 try:
     from PyPDF2 import PdfReader
@@ -17,8 +20,10 @@ class DocumentationParser:
     and produce a compact DocumentationProfile.
     """
 
-    def __init__(self) -> None:
-        pass
+    def __init__(self, client: Any, model_name: str = "gpt-4o-mini") -> None:
+        self.client = client
+        self.model_name = model_name
+        self.prompt = load_prompts().get("document_parsing", "")
 
     def parse(self, path: str) -> Dict[str, str]:
         """Main entry point for extracting and summarizing documentation."""
@@ -89,10 +94,55 @@ class DocumentationParser:
             sections[heading] = body
 
         return sections
+    
+    def _build_topic_prompt(self, topics: dict) -> str:
+        prompt = self.prompt.format(list_of_topic=str(topics))
+        return prompt
+
+    def _find_topic_aliases(self, heading: list) -> list[str]:
+        # Load topics from config
+        with open("../config/topic.json", "r") as f:
+            topics = json.load(f)
+            
+        prompt = self._build_topic_prompt(topics)
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "user", "content": prompt},
+            ],
+        )
+        response_text = response.choices[0].message.content
+        response_text = self._fix_json_response(response_text)
+        
+        try:
+            json.loads(json.dumps(response_text))
+            return response_text
+        except:
+            return None
+    
+    def _fix_json_response(self, response_text: str) -> str:
+        match = re.search(r"\{.*\}", response_text, re.DOTALL)
+        if not match:
+            return response_text
+
+        response_body = match.group()
+        open_braces = response_body.count("{")
+        close_braces = response_body.count("}")
+        response_body += "}" * (open_braces - close_braces)
+        response_body = re.sub(r",\s*}", "}", response_body)
+        return response_body
+    
+    
 
     # --------------------------
     # Relevance filtering
     # --------------------------
+    
+    
+    
+    
+    
+    
     def _select_relevant_sections(self, sections: Dict[str, str]) -> Dict[str, str]:
         """Keep only the sections most important for dataset description."""
         priority = [
