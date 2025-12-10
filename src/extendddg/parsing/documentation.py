@@ -1,23 +1,17 @@
 import re
 from pathlib import Path
 from typing import Dict, Optional
-from beartype import beartype
 
-try:
-    from PyPDF2 import PdfReader
-except ImportError:
-    PdfReader = None
+from beartype import beartype
+from pypdf import PdfReader
 
 
 @beartype
 class DocumentationParser:
-    """
-    Extract raw text from dataset documentation (PDF / TXT)
-    and split into generic sections for profiling.
-    """
+    """Extract raw text from dataset documentation (PDF or TXT) and split into generic sections for profiling"""
 
     def parse(self, path: str) -> Dict[str, str]:
-        """Main entry: extract text → split → filter → return dict."""
+        """Extracts text, splits into sections, and selects relevant sections in a dict"""
         text = self._extract(path)
         if not text:
             return {}
@@ -26,9 +20,6 @@ class DocumentationParser:
         relevant = self._select_relevant_sections(sections)
         return relevant
 
-    # ---------------------------------------------------------
-    # Extraction
-    # ---------------------------------------------------------
     def _extract(self, path: str) -> Optional[str]:
         ext = Path(path).suffix.lower()
 
@@ -58,9 +49,6 @@ class DocumentationParser:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
             return f.read()
 
-    # ---------------------------------------------------------
-    # Section splitting
-    # ---------------------------------------------------------
     def _split_into_sections(self, text: str) -> Dict[str, str]:
         pattern = (
             r"(Methodology|Sampling|Survey Design|Weighting|Limitations|"
@@ -81,9 +69,6 @@ class DocumentationParser:
 
         return sections
 
-    # ---------------------------------------------------------
-    # Filtering relevant sections
-    # ---------------------------------------------------------
     def _select_relevant_sections(self, sections: Dict[str, str]) -> Dict[str, str]:
         priority = [
             "methodology",

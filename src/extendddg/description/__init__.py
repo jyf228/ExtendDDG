@@ -1,7 +1,5 @@
-from .dataset_description import DatasetDescriptionGenerator
-from .search_description import SearchFocusedDescription
+from __future__ import annotations
 
-__all__ = [
-    "DatasetDescriptionGenerator",
-    "SearchFocusedDescription",
-]
+from .generator import DatasetDescriptionGenerator
+
+__all__ = ["DatasetDescriptionGenerator"]

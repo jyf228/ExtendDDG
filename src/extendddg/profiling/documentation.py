@@ -1,5 +1,5 @@
-from typing import Dict, Any
 import re
+from typing import Any, Dict
 
 from extendddg.parsing.documentation import DocumentationParser
 
@@ -7,7 +7,7 @@ from extendddg.parsing.documentation import DocumentationParser
 class DocumentationProfiler:
     """
     Convert raw extracted documentation sections into a structured,
-    universal documentation profile suitable for LLM-based description.
+    standardized documentation profile suitable for LLM-based description.
     """
 
     IMPORTANT_FIELDS = {
@@ -23,10 +23,11 @@ class DocumentationProfiler:
     }
 
     def __init__(self) -> None:
-        self.parser = DocumentationParser()
+        self.documentation_parser = DocumentationParser()
 
     def profile(self, path: str) -> Dict[str, Any]:
-        raw = self.parser.parse(path)
+        raw = self.documentation_parser.parse(path)
+        breakpoint()
         return self._build_profile(raw)
 
     def _build_profile(self, sections: Dict[str, str]) -> Dict[str, Any]:

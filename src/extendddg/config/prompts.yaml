@@ -1,0 +1,170 @@
+codebook_parser:
+  template: |
+    {
+      'variable_name': Index of the column that contains the variable names,
+      'description': Index of the column that contains the variable descriptions or human-readable labels,
+      'variable_type': Index of the column that contains the variable data types (if present),
+      'other_columns': List the indices of any remaining columns that do not correspond to the above two roles as an array.
+    }
+  response_example: |
+    {
+      "variable_name": 0,
+      "description": 1,
+      "variable_type": null,
+      "other_columns": [2, 3]
+    }
+  user_prompt: |
+    You are an expert in data documentation and codebook interpretation.
+    You will be given a sample of rows from a codebook or data dictionary in tabular form.
+    Your task is to analyze the structure of the table and determine which column indices correspond with each standardized role:
+      - "variable_name": The index of the column that contains the names of variables.
+      - "description": The index of the column that contains descriptions or labels for each variable.
+      - "variable_type": The index of the column that contains the data type information for each variable (if present).
+      - "other_columns": Any remaining columns that do not belong to the two roles above.
+    Please follow these rules:
+      1. Return your answer strictly as a JSON object following the template. It must be valid JSON.
+      2. All keys must appear in the output.
+      3. If a role does not exist in the codebook sample, set the value to null, e.g. "variable_type": null.
+      4. "other_columns" must always be a list, even if empty.
+      5. Use only column names present in the provided table.
+      6. There must be only one variable_name and one description column.
+      7. There must be no trailing commas.
+      8. Do not include any additional information or context in the response.
+      9. If you are unsure about a specific role, you can leave it as null.
+
+    Codebook sample: {codebook_sample}
+  system_message: |
+    You are a highly reliable assistant for identifying the structural roles of columns in messy, irregular, or multi-row codebooks.
+    You base your decision only on patterns in the provided table.
+
+codebook_profiler:
+  template: |
+    {'<variable_name>': {
+      'description': What is a brief definition or description of the variable?,
+      'type': What is the data type of this variable? Choose from the following: <'string', | 'number' | 'categorical' | 'boolean' | 'temporal', 'spatial', 'unknown'>"
+      }
+    }
+  response_example: |
+    {
+      "age": {
+        "description": "Age of the individual in years",
+        "type": "integer"
+      },
+      "BIRTHDECADE": {
+        "description": "Decade of birth of the individual",
+        "type": "categorical"
+      }
+  user_prompt: |
+    You are an expert in data documentation and codebook interpretation.
+    You will be given a codebook that has a column for variable names and a column for variable descriptions.
+    Based solely on the provided codebook table, extract the variable definitions and variable type for all variables in the codebook.
+    Please follow these rules:
+    1. The output must be a valid JSON object that can be directly loaded by json.loads. Example response is {response_example}
+    2. All keys from the template must be present in the response.
+    3. All keys and string values must be enclosed in double quotes.
+    4. There must be no trailing commas.
+    6. Do not include any additional information or context in the response.
+    7. Do not add variables that are not present in the codebook.
+    8. If you are unsure about a specific field, you can leave it as null.
+
+    Codebook: {codebook_table}
+  system_message: |
+    You are a helpful assistant skilled in dataset semantic analysis.
+
+semantic_profiler:
+  template: |
+    {'Temporal': {
+        'isTemporal': Does this column contain temporal information? Yes or No,
+        'resolution': If Yes, specify the resolution (Year, Month, Day, Hour, etc.).
+      },
+     'Spatial': {
+        'isSpatial': Does this column contain spatial information? Yes or No,
+        'resolution': If Yes, specify the resolution (Country, State, City, Coordinates, etc.).
+      },
+     'Entity Type': What kind of entity does the column describe? (e.g., Person, Location, Organization, Product, Event),
+     'Domain-Specific Types': What domain is this column from (e.g., Financial, Healthcare, E-commerce, Climate, Demographic),
+     'Function/Usage Context': How might the data be used (e.g., Identifier, Aggregation Key, Ranking/Scoring, Interaction Data, Measurement, Categorical Dimension).
+    }
+  response_example: |
+    {
+    "Domain-Specific Types": "General",
+    "Entity Type": "Temporal Entity",
+    "Function/Usage Context": "Aggregation Key",
+    "Spatial": {"isSpatial": false,
+                "resolution": ""},
+    "Temporal": {"isTemporal": true,
+                "resolution": "Year"}
+    }
+  user_prompt: |
+    You are a dataset semantic analyzer. Based on the column name, sample values, and codebook description (when available), classify the column into multiple semantic types.
+    If the codebook information is provided, you must use the codebook description as the primary source of semantic meaning.
+    The codebook description will follow the following format: <'description': '', 'type': ''>.
+    If there is not codebook information, rely only on the column name and sample values.
+    Please group the semantic types under the following categories:
+    'Temporal', 'Spatial', 'Entity Type', 'Data Format', 'Domain-Specific Types', 'Function/Usage Context'.
+    Following is the template {template}
+    Please follow these rules:
+    1. The output must be a valid JSON object that can be directly loaded by json.loads. Example response is {response_example}
+    2. All keys from the template must be present in the response.
+    3. All keys and string values must be enclosed in double quotes.
+    4. There must be no trailing commas.
+    5. Use booleans (true/false) and numbers without quotes.
+    6. Do not include any additional information or context in the response.
+    7. If you are unsure about a specific category, you can leave it as an empty string.
+
+    Column name: {column_name}
+    Sample values: {sample_values}
+    Codebook description: {codebook_description}
+  system_message: |
+    You are a helpful assistant skilled in dataset semantic analysis.
+
+dataset_description:
+  introduction: |
+    Answer the question using the following information.
+
+  dataset_sample_instruction: |
+    Consider the dataset sample:
+
+    {dataset_sample}
+  profile_instruction: |
+    The dataset profile is as follows:
+
+    {dataset_profile}
+
+    Based on this profile, please add sentence(s) to enrich the dataset description.
+  semantic_instruction: |
+    Furthermore, the semantic profile of the dataset columns is as follows:
+
+    {semantic_profile}
+
+    Based on this information, please add sentence(s) discussing the semantic profile in the description.
+  topic_instruction: |
+    Moreover, the dataset topic is: {data_topic}. Based on this topic, please add sentence(s) describing what this dataset can be used for.
+  documentation_instruction: |
+    The dataset is accompanied by the following supplemental information derived from external documentation sources such as methodology papers, READMEs, or official data collection descriptions:
+
+    {documentation_profile}
+
+    Based on this supplemental information, please add sentence(s) describing:
+    (1) how the data was collected (e.g., sampling strategy, instruments used, time period),
+    (2) any methodological details, limitations, or context that clarify the meaning or intended use of the dataset, and
+    (3) notable preprocessing, transformations, or construction steps if they are explained in the supplemental sources.
+
+    Integrate this information in a concise, factual, and readable way to improve faithfulness and completeness.
+  codebook_instruction: |
+    Furthermore, the dataset codebook information is as follows:
+
+    {codebook_profile}
+
+    Based on this information, please add sentences discussing some of the key variables and how they can be used in the context of the dataset topic.
+    Focus on variables that are particularly interesting, unique, or important for understanding the dataset, ignoring identifiers.
+  closing_instruction: |
+    Question: Based on the information above and the requirements, provide a dataset description in sentences. Use only natural, readable sentences without special formatting.
+
+    Answer:
+  system_message: |
+    You are an assistant for a dataset search engine. Your goal is to improve the readability of dataset descriptions for dataset search engine users.
+    The dataset may also include supplemental external information such as methodology papers, codebooks, or READMEs.
+    When this information is provided, your task is to incorporate relevant methodological details, variable definitions,
+    and data collection context into the description to produce a more accurate, complete, and trustworthy overview of the dataset.
+    Avoid speculation; use only the information explicitly given.

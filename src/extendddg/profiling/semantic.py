@@ -4,19 +4,17 @@ import json
 import re
 from typing import Any, Dict, Iterable, List
 
-from beartype import beartype
 from pandas import DataFrame
 
 from ..utils import load_prompts
 
 
-@beartype
 class SemanticProfiler:
     """Infer semantic information for each column using an LLM"""
 
     def __init__(self, client: Any, model_name: str = "gpt-4o-mini") -> None:
         self.client = client
-        self.model = model_name
+        self.model_name = model_name
         prompts = load_prompts()["semantic_profiler"]
         self._template = prompts["template"]
         self._response_example = prompts["response_example"]
@@ -35,20 +33,26 @@ class SemanticProfiler:
         response_body = re.sub(r",\s*}", "}", response_body)
         return response_body
 
-    def _build_prompt(self, column_name: str, sample_values: Iterable[str]) -> str:
+    def _build_prompt(
+        self,
+        column_name: str,
+        sample_values: Iterable[str],
+        codebook_description: str | None = None,
+    ) -> str:
         sample_text = ", ".join(sample_values)
         return self._user_prompt.format(
             template=self._template,
             response_example=self._response_example,
             column_name=column_name,
             sample_values=sample_text,
+            codebook_description=codebook_description if codebook_description else "None",
         )
 
     def get_semantic_type(
         self,
         column_name: str,
         sample_values: Iterable[str],
-        codebook: DataFrame | None = None,
+        codebook_profile: dict[str, dict[str, str]] | None = None
     ) -> Dict[str, Any] | None:
         """
         Return parsed semantic metadata for a column or None on parse failure
@@ -56,20 +60,20 @@ class SemanticProfiler:
         Args:
             column_name: Column name
             sample_values: Example values
+            codebook_profile: Codebook profile represented as a dictionary of variables, optional
 
         Returns:
             Semantic metadata dict or None
         """
 
-        # TODO: Look up the column name in the codebook dataframe if available
-        # If found, include all rows related to that column in the prompt for additional context
+        # Look up the column in the codebook profile
+        column_codebook_entry = {}
+        if codebook_profile and codebook_profile.get(column_name):
+            column_codebook_entry = json.dumps(codebook_profile[column_name])
 
-        # TODO: Update prompt to include codebook context if available
-        # TODO: Currently this is using AutoDDG's prompts--create load_prompts util for ExtendDDG so we can alter the prompts
-
-        prompt = self._build_prompt(column_name, sample_values)
+        prompt = self._build_prompt(column_name, sample_values, column_codebook_entry)
         response = self.client.chat.completions.create(
-            model=self.model,
+            model=self.model_name,
             messages=[
                 {"role": "system", "content": self._system_message},
                 {"role": "user", "content": prompt},
@@ -83,13 +87,16 @@ class SemanticProfiler:
         except json.JSONDecodeError:
             return None
 
-    def analyze_dataframe(self, dataframe: DataFrame, codebook: DataFrame | None) -> str:
+    def analyze_dataframe(
+        self, dataframe: DataFrame, codebook_profile: dict[str, dict[str, str]] | None = None
+    ) -> str:
         """
         Summarize detected semantics per column in plain English,
-        incorporating additional context from dataset codebooks if available.
+        incorporating additional context from the dataset codebook if provided.
 
         Args:
             dataframe: Input frame for tabular data
+            codebook_profile: Codebook profile represented as a dictionary of variables, optional
 
         Returns:
             Text summary of semantics
@@ -108,11 +115,7 @@ class SemanticProfiler:
             semantic_description: Dict[str, Any] | None = None
             retry_count = 0
             while semantic_description is None and retry_count < 3:
-                semantic_description = self.get_semantic_type(
-                    column,
-                    sample_values,
-                    codebook,
-                )
+                semantic_description = self.get_semantic_type(column, sample_values, codebook_profile)
                 retry_count += 1
             if semantic_description is None:
                 continue
