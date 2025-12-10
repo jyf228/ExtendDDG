@@ -29,6 +29,11 @@ class DatasetDescriptionGenerator:
             "profile_instruction": prompts["profile_instruction"],
             "semantic_instruction": prompts["semantic_instruction"],
             "topic_instruction": prompts["topic_instruction"],
+            # "documentation_instruction": prompts["documentation_instruction"],
+            "documentation_instruction": prompts.get(
+                "documentation_instruction",
+                "\nThe following external documentation may help:\n{documentation_profile}\n"   # TODO
+            ),
             "codebook_instruction": prompts["codebook_instruction"],
             "closing_instruction": prompts["closing_instruction"],
         }
@@ -43,6 +48,8 @@ class DatasetDescriptionGenerator:
         use_semantic_profile: bool = False,
         data_topic: str | None = None,
         use_topic: bool = False,
+        documentation_profile: str | None = None,
+        use_documentation_profile: bool = False,
         codebook_profile: str | None = None,
         use_codebook_profile: bool = False,
     ) -> str:
@@ -75,6 +82,13 @@ class DatasetDescriptionGenerator:
             prompt_parts.append(
                 self._prompt_segments["topic_instruction"].format(data_topic=data_topic)
             )
+        breakpoint()
+        if use_documentation_profile and documentation_profile:
+            prompt_parts.append(
+                self._prompt_segments["documentation_instruction"].format(
+                    documentation_profile=documentation_profile
+                )
+            )
 
         if use_codebook_profile and codebook_profile:
             prompt_parts.append(
@@ -101,6 +115,8 @@ class DatasetDescriptionGenerator:
         use_semantic_profile: bool = False,
         data_topic: str | None = None,
         use_topic: bool = False,
+        documentation_profile: str | None = None,
+        use_documentation_profile: bool = False,
         codebook_profile: str | None = None,
         use_codebook_profile: bool = False,
     ) -> Tuple[str, str]:
@@ -130,6 +146,8 @@ class DatasetDescriptionGenerator:
             use_semantic_profile=use_semantic_profile,
             data_topic=data_topic,
             use_topic=use_topic,
+            documentation_profile=documentation_profile,
+            use_documentation_profile=use_documentation_profile,
             codebook_profile=codebook_profile,
             use_codebook_profile=use_codebook_profile,
         )

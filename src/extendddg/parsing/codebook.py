@@ -30,12 +30,8 @@ class CodebookParser:
         self._system_message = prompts["system_message"].strip()
         self._user_prompt = prompts["user_prompt"]
 
-    def parse_codebook(self, codebook_path: str, dataset_df: DataFrame | None) -> DataFrame:
-        """Extract and process the codebook in preparation for profiling.
-
-        dataset_df is optional to allow parsing standalone codebooks when a paired dataset
-        is not available; in that case, variables are not filtered by dataset columns.
-        """
+    def parse_codebook(self, codebook_path: str, dataset_df: DataFrame) -> DataFrame:
+        """Extract and process the codebook in preparation for profiling."""
 
         # Step 1: Extract the codebook table from the file into a DataFrame
         codebook_df = self._extract_table(codebook_path)
@@ -214,4 +210,3 @@ class CodebookParser:
         response_body += "}" * (open_braces - close_braces)
         response_body = re.sub(r",\s*}", "}", response_body)
         return response_body
-

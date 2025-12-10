@@ -1,5 +1,5 @@
 import json
-from typing import Any, Tuple
+from typing import Any, Dict, Optional, Tuple
 
 from autoddg import AutoDDG, GPTEvaluator
 from beartype import beartype
@@ -8,7 +8,7 @@ from pandas import DataFrame
 from extendddg.evaluation.metrics import detailed_evaluate_description
 
 from .description import DatasetDescriptionGenerator
-from .profiling import CodebookProfiler, SemanticProfiler
+from .profiling import CodebookProfiler, DocumentationProfiler
 
 
 @beartype
@@ -43,7 +43,7 @@ class ExtendDDG:
         self.auto_ddg = AutoDDG(
             client=client,
             model_name=model_name,
-            description_words=description_words
+            description_words=description_words,
         )
         self.description_generator = DatasetDescriptionGenerator(
             client=client,
@@ -55,22 +55,23 @@ class ExtendDDG:
             client=self.client,
             model_name=codebook_model_name or model_name
         )
-        self.semantic_profiler = SemanticProfiler(
+        self.description_generator = DatasetDescriptionGenerator(
             client=client,
             model_name=semantic_model_name or model_name,
         )
+        self.documentation_profiler = DocumentationProfiler()
 
     def describe_dataset(
         self,
         dataset_sample: str,
-        dataset_profile: str | None = None,
+        dataset_profile: Optional[str] = None,
         use_profile: bool = False,
-        semantic_profile: str | None = None,
+        semantic_profile: Optional[str] = None,
         use_semantic_profile: bool = False,
-        data_topic: str | None = None,
+        data_topic: Optional[str] = None,
         use_topic: bool = False,
-        # documentation_profile: str | None = None,  # TODO
-        # use_documentation_profile: bool = False,  # TODO
+        documentation_profile: dict[str, Any] | None = None,
+        use_documentation_profile: bool = False,
         codebook_profile: dict[str, dict[str, str]] | None = None,
         use_codebook_profile: bool = False,
     ) -> Tuple[str, str]:
@@ -82,6 +83,8 @@ class ExtendDDG:
             use_semantic_profile=use_semantic_profile,
             data_topic=data_topic,
             use_topic=use_topic,
+            documentation_profile=json.dumps(documentation_profile) if documentation_profile else None,
+            use_documentation_profile=use_documentation_profile,
             codebook_profile=json.dumps(codebook_profile) if codebook_profile else None,
             use_codebook_profile=use_codebook_profile,
         )
@@ -98,26 +101,23 @@ class ExtendDDG:
         )
 
     def analyze_semantics(
-        self, dataframe: DataFrame, codebook_profile: dict[str, dict[str, str]] | None
+        self, dataframe: DataFrame, codebook_profile: dict[str, dict[str, str]] | None = None
     ) -> str:
         return self.semantic_profiler.analyze_dataframe(dataframe, codebook_profile)
 
-    def generate_topic(
-        self, title: str, original_description: str | None, dataset_sample: str
-    ) -> str:
-        return self.auto_ddg.generate_topic(
-            title=title,
-            original_description=original_description,
-            dataset_sample=dataset_sample,
-        )
+    def generate_topic(self, title: str, original_description: str, dataset_sample: str):
+        return self.auto_ddg.generate_topic(title, original_description, dataset_sample)
 
-    def expand_description_for_search(self, description: str, topic: str) -> Tuple[str, str]:
+    def profile_documentation(self, documentation_file: str) -> Dict[str, Any]:
+        return self.documentation_profiler.profile(documentation_file)
+
+    def expand_description_for_search(self, description: str, topic: str):
         return self.auto_ddg.expand_description_for_search(description, topic)
 
-    def evaluate_description(self, description: str) -> str:
+    def evaluate_description(self, description: str):
         return self.auto_ddg.evaluate_description(description)
 
-    def set_evaluator(self, evaluator: GPTEvaluator) -> None:
+    def set_evaluator(self, evaluator: GPTEvaluator):
         self.auto_ddg.set_evaluator(evaluator)
 
     # TODO: Temp placeholder while we figure out full ExtendDDG evaluation plans

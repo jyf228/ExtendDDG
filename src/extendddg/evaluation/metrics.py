@@ -325,7 +325,7 @@ def redundancy_verbosity_metrics(description: str) -> Dict[str, Any]:
     repeated_fact_rate = repeated / len(counts)
 
     tokens = re.findall(r"\w+", description.lower())
-    bigrams = list(zip(tokens, tokens[1:]))
+    bigrams = list(zip(tokens, tokens[1:], strict=False))
     bigram_counts = Counter(bigrams)
     repeated_bigram_total = sum(c for c in bigram_counts.values() if c > 1)
     bigram_redundancy = repeated_bigram_total / max(len(bigrams), 1)

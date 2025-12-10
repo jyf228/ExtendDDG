@@ -4,14 +4,13 @@ import os
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "src"))
-
 import pandas as pd
 from openai import OpenAI
 
 from extendddg.evaluation import evaluate_variable_alignment
 
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
 
 DESC_PATH = ROOT / "examples/test_outputs/rls_output_codebook.txt"
 CODEBOOK_PATH = ROOT / "examples/codebooks/rls_codebook.csv"
