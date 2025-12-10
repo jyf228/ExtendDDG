@@ -82,7 +82,6 @@ class DatasetDescriptionGenerator:
             prompt_parts.append(
                 self._prompt_segments["topic_instruction"].format(data_topic=data_topic)
             )
-        breakpoint()
         if use_documentation_profile and documentation_profile:
             prompt_parts.append(
                 self._prompt_segments["documentation_instruction"].format(
