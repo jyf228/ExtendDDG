@@ -8,7 +8,7 @@ from pandas import DataFrame
 from extendddg.evaluation.metrics import detailed_evaluate_description
 
 from .description import DatasetDescriptionGenerator
-from .profiling import CodebookProfiler, DocumentationProfiler, SemanticProfiler
+from .profiling import CodebookProfiler, DocumentationProfiler
 
 
 @beartype
@@ -55,7 +55,7 @@ class ExtendDDG:
             client=self.client,
             model_name=codebook_model_name or model_name
         )
-        self.semantic_profiler = SemanticProfiler(
+        self.description_generator = DatasetDescriptionGenerator(
             client=client,
             model_name=semantic_model_name or model_name,
         )

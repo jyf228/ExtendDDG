@@ -22,7 +22,6 @@ class DatasetDescriptionGenerator:
         self.model = model_name
         self.temperature = float(temperature)
         self.description_words = int(description_words)
-
         prompts = load_prompts()["dataset_description"]
         self._prompt_segments: Dict[str, str] = {
             "introduction": prompts["introduction"],
