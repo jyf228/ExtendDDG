@@ -14,6 +14,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from autoddg import AutoDDG, GPTEvaluator
 from autoddg.autoddg import SemanticProfiler as AutoSemanticProfiler
+from openai import OpenAI
+
 from extendddg import ExtendDDG
 from extendddg.evaluation.metrics import (
     detailed_evaluate_description,
@@ -21,8 +23,6 @@ from extendddg.evaluation.metrics import (
     unique_fact_ratio,
 )
 from extendddg.utils import get_sample
-from openai import OpenAI
-
 
 MODEL_NAME = "gpt-4o-mini"
 ROW_SAMPLE = 5_000

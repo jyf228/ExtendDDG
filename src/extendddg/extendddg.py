@@ -22,10 +22,6 @@ class ExtendDDG:
         description_words (int): Target word count for generated descriptions.
         codebook_model_name (str | None): Override model for codebook profiling.
         semantic_model_name (str | None): Override model for semantic profiling.
-        TODO: Add additional parameters.
-
-    Examples:
-        TODO: Add example usage.
     """
 
     def __init__(
@@ -124,7 +120,6 @@ class ExtendDDG:
     def set_evaluator(self, evaluator: GPTEvaluator):
         self.auto_ddg.set_evaluator(evaluator)
 
-    # TODO: Temp placeholder while we figure out full ExtendDDG evaluation plans
     def evaluation_metrics(self, generated_description: str, original_description: str) -> Any:
         metrics = detailed_evaluate_description(generated_description, original_description)
         return metrics
