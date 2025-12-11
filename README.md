@@ -1,5 +1,5 @@
-# ExtendDDG
-An extension of AutoDDG
+# ExtendDDG: Expanding Automated Dataset Description Generation with Supplemental Dataset Documentation
+ExtendDDG is an extension of [AutoDDG](https://github.com/VIDA-NYU/AutoDDG), developed by the NYU VIDA Lab, to supplement automated dataset description generation with a dataset's associated documentation, such as codebooks, methodology reports, and READMEs.
 
 ## Quick Start
 
