@@ -27,7 +27,6 @@ class DocumentationProfiler:
 
     def profile(self, path: str) -> Dict[str, Any]:
         raw = self.documentation_parser.parse(path)
-        breakpoint()
         return self._build_profile(raw)
 
     def _build_profile(self, sections: Dict[str, str]) -> Dict[str, Any]:

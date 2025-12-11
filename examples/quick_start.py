@@ -15,14 +15,23 @@ extend_ddg = ExtendDDG(client=client, model_name=model_name)
 # ---------------------------------------------------------
 dataset_file = "datasets/rls_dataset_example.csv"
 codebook_file = "docs/rls_codebook.csv"  # Set to None if not available
-documentation_file ="docs/rls_methodology_report.pdf" # Set to None if not available
+documentation_file = None # Set to None if not available
 
 # Set dataset title and original dataset description
 title = "2023-24 Religious Landscape Study (RLS) Dataset"
 original_description = (
-    "This Pew Research Center survey was conducted among a nationally representative "
-    "sample of adults to estimate the U.S. population’s religious composition, beliefs, "
-    "and practices."
+    "This Pew Research Center survey was conducted among a nationally representative sample of adults to provide estimates of the U.S. population’s religious composition, beliefs and practices.\n "
+    "Data access and use\n"
+    "Pew Research Center is releasing two versions of the dataset – a public-use file (PUF) and restricted-use file (RUF). Both datasets include information on all 36,908 of the survey’s respondents. "
+    "The PUF does not include any information about geography, and it excludes information on several other sensitive variables (including detailed variables about religious identity). These geographic "
+    "and other sensitive variables will be included only in the RUF, which we intend to make accessible at a future date via ICPSR with a data use agreement. "
+    "Refer to the enclosed readme file for additional details.\nTopics\n"
+    "The survey covers topics such as religious identity, religious beliefs and practices, spirituality, social and political values, and more.\n\n"
+    "Sample design\n"
+    "The survey is designed to be representative of the U.S. adult population, and of all 50 states and the District of Columbia. We used address-based sampling (ABS) and mailed invitation "
+    "letters to randomly sampled addresses from the United States Postal Service’s Computerized Delivery Sequence File. This approach gave nearly all U.S. adults a chance of being selected to "
+    "participate in the survey. People who received our invitation had the option of completing the survey online, on paper, or by calling a toll-free number and completing the survey by telephone "
+    "with an interviewer. The survey was conducted in two languages, English and Spanish. Responses were collected from July 17, 2023, to March 4, 2024."
 )
 
 # Read dataset
@@ -99,9 +108,7 @@ print("\n**** Data Topic ****\n", data_topic)
 documentation_profile = {}
 if documentation_file:
     documentation_profile = extend_ddg.profile_documentation(documentation_file)
-    breakpoint()
-
-print("\n**** Documentation Profile ****\n", documentation_profile)
+    print("\n**** Documentation Profile ****\n", documentation_profile)
 
 # ---------------------------------------------------------
 # 8. User-focused description
@@ -119,7 +126,7 @@ prompt, description = extend_ddg.describe_dataset(
     codebook_profile=codebook_profile,
     use_codebook_profile=True if codebook_file else False,
 )
-breakpoint()
+print("\n**** User-Focused Description ****\n", description)
 
 # ---------------------------------------------------------
 # 9. Search-focused description
@@ -128,6 +135,7 @@ search_prompt, search_focused_description = extend_ddg.expand_description_for_se
     description=description,
     topic=data_topic,
 )
+print("\n**** Search-Focused Description ****\n", search_focused_description)
 
 # ---------------------------------------------------------
 # 10. Evaluation
@@ -139,5 +147,3 @@ search_score = extend_ddg.evaluate_description(search_focused_description)
 
 print("\n**** Score of the General Description ****\n", general_score)
 print("\n**** Score of the Search-Focused Description ****\n", search_score)
-
-# evaluation_metrics = extend_ddg.evaluation_metrics(description, original_description)
